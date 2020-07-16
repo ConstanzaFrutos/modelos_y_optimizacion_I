@@ -1,0 +1,126 @@
+#Trabajo práctico
+#Frutos Ramos Constanza M 96728
+#Gamarra Eliana 100016
+
+# Conjuntos:
+set COMBIS;
+set PASAJEROS;
+set UBICACIONES;
+
+################################################################
+#Parámetros (o constantes):
+
+# Las distancias de ir de i a j, i tiene que ser distinto de j
+param DISTANCIAS{i in UBICACIONES, j in UBICACIONES : i<>j};
+
+# Los tiempos de ir de i a j, i tiene que ser distinto de j
+param TIEMPOS{i in UBICACIONES, j in UBICACIONES : i<>j and i<>0 and j<>0};
+
+# Costo de un kilometro
+param COSTOKM;
+
+# Costo de alquiler de una combi:
+param COSTOALQ;
+
+# Cantidad máxima de pasajeros que puede llevar una combi
+param MAXPASAJEROS;
+
+# Cantidad máxima de combis que se pueden usar
+param MAXCOMBIS;
+
+# Duración máxima del viaje
+param T;
+
+# Constante para acotar
+param M;
+
+################################################################
+#Variables:
+
+#YPci, bivalente que vale 1 si la combi c lleva al pasajero i
+var YP{c in COMBIS, i in PASAJEROS} >= 0, binary;
+
+#YRcij, bivalente que vale 1 si la combi c va desde la ubicación i hasta la j (i != j)
+var YR{c in COMBIS, i in UBICACIONES, j in UBICACIONES: i<>j} >= 0, binary;
+
+#Ui orden de secuencia en que la ubicación i es visitada (excluyendo el punto de partida que en este caso es la filial).
+var U{c in COMBIS, i in UBICACIONES: i<>'0'} >=0;
+
+#NCc, cantidad de pasajeros de la combi c.
+var NC{c in COMBIS} >= 0;
+
+#Nc, cantidad de pasajeros de la combi c.
+var N{c in COMBIS, i in UBICACIONES, j in UBICACIONES: i<>j and i<>0 and j<>0} >= 0;
+
+#C, variable que indica la cantidad de combis usadas
+var C >= 0;
+
+#YCc, bivalente que vale 1 si uso la combi c y 0 si no.
+var YC{c in COMBIS} >= 0, binary;
+
+#KCc, cantidad de kilómetros recorridos por la combi c.
+var KC{c in COMBIS} >= 0;
+
+#TCc, duración total del recorrido de la combi c desde la casa del primer empleado hasta que llega a la fábrica.
+var TC{c in COMBIS} >= 0;
+
+################################################################
+#Funcional:
+minimize z: COSTOALQ * C + COSTOKM * sum{i in COMBIS}KC[i];
+
+################################################################
+#Modelado
+
+# Capacidad máxima de una combi
+s.t. capMax{c in COMBIS}: NC[c] = sum{i in PASAJEROS}YP[c,i];
+s.t. capMaxPj{c in COMBIS}: sum{i in PASAJEROS}YP[c,i] <= MAXPASAJEROS;
+
+# El pasajero i solo en una combi
+s.t. unPjEnUnaCombi{i in PASAJEROS}: sum{c in COMBIS}YP[c,i] = 1;
+
+# A que pasajeros pasa a buscar la combi c
+s.t. pjPorCombi1{c in COMBIS, i in PASAJEROS}: YP[c,i] <= sum{j in PASAJEROS: i<>j}(YR[c,i,j] + YR[c,j,i]);
+s.t. pjPorCombi2{c in COMBIS, i in PASAJEROS}: sum{j in PASAJEROS: i<>j}(YR[c,i,j] + YR[c,j,i]) <= 2*YP[c,i];
+
+# Sale de la filial una sola vez con cada combi
+s.t. saleUnaVezDeFilial{c in COMBIS}: sum{j in PASAJEROS}YR[c,0,j] = YC[c];
+
+# Llega a la fábrica una sola vez con cada combi
+s.t. llegaUnaVezAFabrica{c in COMBIS}: sum{i in PASAJEROS}YR[c,i,21] = YC[c];
+
+# Llego una vez a j para cada combi c
+s.t. llegoUnaVez{c in COMBIS, j in PASAJEROS}: sum{i in PASAJEROS: i<>j}YR[c,i,j] <= YC[c];
+
+# Salgo una vez de i para cada combi c
+s.t. salgoUnaVez{c in COMBIS, i in PASAJEROS}: sum{j in PASAJEROS: i<>j}YR[c,i,j] <= YC[c];
+
+# Garantizo que no se corte el recorrido
+s.t. garantiaRecorrido{c in COMBIS, i in PASAJEROS}: sum{j in PASAJEROS: i<>j}(YR[c,i,j] - YR[c,j,i]) = 0;
+
+# Obtencion Nc:
+s.t. nc1{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= M * YR[c,i,j];
+s.t. nc2{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: -M * (1-YR[c,i,j]) + NC[c] <= N[c,i,j];
+s.t. nc3{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= NC[c] +M * (1-YR[c,i,j]);
+
+# Obtención de ordenes:
+s.t. ordenes{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: U[c,i] - U[c,j] + N[c,i,j] <= NC[c] - 1;
+
+# La fábrica se visita al final del recorrido
+s.t. fabricaFinal{c in COMBIS, i in PASAJEROS}: U[c,i] <= U[c, 21];
+
+# Kilometros recorridos por cada combi
+s.t. kmCombi{c in COMBIS}: KC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j}DISTANCIAS[i,j]*YR[c,i,j];
+
+# Máximo de combis
+s.t. cantCombis: C = sum{c in COMBIS}YC[c];
+s.t. maxCombis: C <= MAXCOMBIS;
+
+# Uso la combi c:
+s.t. usoCombiCotaMin{c in COMBIS}: YC[c] <= sum{i in PASAJEROS}YP[c,i];
+s.t. usoCombiCotaMax{c in COMBIS}: sum{i in PASAJEROS}YP[c,i] <= M*YC[c];
+
+# Duracion del viaje:
+s.t. calculoDuracion{c in COMBIS}: TC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j and i<>0 and j<>0}TIEMPOS[i,j]*YR[c,i,j];
+s.t. maxDuracion{c in COMBIS}: TC[c] <= T;
+
+end;
