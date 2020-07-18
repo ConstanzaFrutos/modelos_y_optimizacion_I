@@ -61,7 +61,7 @@ param TIEMPOS :
 
 
 # Número grande en el contexto del modelo
-param M := 10000;
+param M := 15;
 
 # Capacidad máxima de cada combi, en pasajeros
 param MAXPASAJEROS := 15;
