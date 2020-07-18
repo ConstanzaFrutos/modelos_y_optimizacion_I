@@ -85,8 +85,12 @@ s.t. pjPorCombi2{c in COMBIS, i in PASAJEROS}: sum{j in PASAJEROS: i<>j}(YR[c,i,
 # Sale de la filial una sola vez con cada combi
 s.t. saleUnaVezDeFilial{c in COMBIS}: sum{j in PASAJEROS}YR[c,0,j] = YC[c];
 
+s.t. saleUnaVezDeFilialALugarValido{c in COMBIS, j in PASAJEROS}: YR[c,0,j] <= sum{i in PASAJEROS: i<>j}YR[c,j,i];
+
 # Llega a la fábrica una sola vez con cada combi
 s.t. llegaUnaVezAFabrica{c in COMBIS}: sum{i in PASAJEROS}YR[c,i,21] = YC[c];
+
+s.t. llegaUnaVezAFabricaDeLugarValido{c in COMBIS, i in PASAJEROS}: YR[c,i,21] <= sum{j in PASAJEROS: i<>j}YR[c,j,i];
 
 # Llego una vez a j para cada combi c
 s.t. llegoUnaVez{c in COMBIS, j in PASAJEROS}: sum{i in PASAJEROS: i<>j}YR[c,i,j] <= YC[c];
@@ -94,13 +98,10 @@ s.t. llegoUnaVez{c in COMBIS, j in PASAJEROS}: sum{i in PASAJEROS: i<>j}YR[c,i,j
 # Salgo una vez de i para cada combi c
 s.t. salgoUnaVez{c in COMBIS, i in PASAJEROS}: sum{j in PASAJEROS: i<>j}YR[c,i,j] <= YC[c];
 
-# Garantizo que no se corte el recorrido
-s.t. garantiaRecorrido{c in COMBIS, i in PASAJEROS}: sum{j in PASAJEROS: i<>j}(YR[c,i,j] - YR[c,j,i]) = 0;
-
 # Obtencion Nc:
 s.t. nc1{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= M * YR[c,i,j];
 s.t. nc2{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: -M * (1-YR[c,i,j]) + NC[c] <= N[c,i,j];
-s.t. nc3{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= NC[c] +M * (1-YR[c,i,j]);
+s.t. nc3{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= NC[c] + M * (1-YR[c,i,j]);
 
 # Obtención de ordenes:
 s.t. ordenes{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: U[c,i] - U[c,j] + N[c,i,j] <= NC[c] - 1;
