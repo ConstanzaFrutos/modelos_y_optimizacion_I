@@ -98,6 +98,9 @@ s.t. llegoUnaVez{c in COMBIS, j in PASAJEROS}: sum{i in PASAJEROS: i<>j}YR[c,i,j
 # Salgo una vez de i para cada combi c
 s.t. salgoUnaVez{c in COMBIS, i in PASAJEROS}: sum{j in PASAJEROS: i<>j}YR[c,i,j] <= YC[c];
 
+# Si llego a j para la combi c, entonces tengo que salir de j para la combi c
+s.t. salgoYLlego{c in COMBIS, j in PASAJEROS}: sum{i in PASAJEROS: i<>j}YR[c,i,j] = sum{k in PASAJEROS: k<>j}YR[c,j,k];
+
 # Obtencion Nc:
 s.t. nc1{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= M * YR[c,i,j];
 s.t. nc2{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: -M * (1-YR[c,i,j]) + NC[c] <= N[c,i,j];
