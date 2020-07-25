@@ -32,15 +32,19 @@ COSTO_COMBI = 10
 ID_EMPLEADOS = {}
 POSICIONES_EMPLEADOS = {}
 POSICION_COMBI_INICIAL = 0
+POSICION_FABRICA = 21
 e = 0
 for f in range(len(DATA)):
     for c in range(len(DATA[0])):
-        if DATA[f][c] == 'E' or DATA[f][c] == 'F':
+        if DATA[f][c] == 'E':
             POSICIONES_EMPLEADOS[e] = (f, c)
             ID_EMPLEADOS[e] = chr(len(DATA) - 1 - f + ord('A')) + str(c + 1)
             e += 1
         elif DATA[f][c] == 'C':
             POSICION_COMBI_INICIAL = (f, c)
+        elif DATA[f][c] == 'F':
+            POSICION_FABRICA = (f, c)
+
 
 N_EMPLEADOS = len(POSICIONES_EMPLEADOS)
 
