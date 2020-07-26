@@ -3,10 +3,10 @@ data;
 # Combis disponibles
 set COMBIS := 1 2 3;
 
-# Empleados a recoger
+# Pasajeros
 set PASAJEROS := 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20;
 
-# Lugares a visitar, empleados (1, 2, ...) + empresa (0)
+# Ubicaciones incluyendo orígen y fábrica
 set UBICACIONES := 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21;
 
 param DISTANCIAS :    
@@ -62,7 +62,7 @@ param TIEMPOS :
 
 
 # Número grande en el contexto del modelo
-param M := 15;
+param M := 10000000;
 
 # Capacidad máxima de cada combi, en pasajeros
 param MAXPASAJEROS := 15;

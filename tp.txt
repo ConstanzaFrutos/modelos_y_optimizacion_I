@@ -44,13 +44,13 @@ var YP{c in COMBIS, i in PASAJEROS} >= 0, binary;
 var YR{c in COMBIS, i in UBICACIONES, j in UBICACIONES: i<>j} >= 0, binary;
 
 #Ui orden de secuencia en que la ubicación i es visitada (excluyendo el punto de partida que en este caso es la filial).
-var U{c in COMBIS, i in UBICACIONES: i<>'0'} >=0;
+var U{c in COMBIS, i in UBICACIONES: i<>'0'} >= 0;
 
 #NCc, cantidad de pasajeros de la combi c.
 var NC{c in COMBIS} >= 0;
 
 #Nc, cantidad de pasajeros de la combi c.
-var N{c in COMBIS, i in UBICACIONES, j in UBICACIONES: i<>j and i<>0 and j<>0} >= 0;
+var N{c in COMBIS, i in UBICACIONES, j in UBICACIONES: i<>j and i<>0 and i<>21 and j<>0} >= 0;
 
 #C, variable que indica la cantidad de combis usadas
 var C >= 0;
@@ -99,7 +99,8 @@ s.t. llegoUnaVez{c in COMBIS, j in PASAJEROS}: sum{i in PASAJEROS: i<>j}YR[c,i,j
 s.t. salgoUnaVez{c in COMBIS, i in PASAJEROS}: sum{j in PASAJEROS: i<>j}YR[c,i,j] <= YC[c];
 
 # Si llego a j para la combi c, entonces tengo que salir de j para la combi c
-s.t. salgoYLlego{c in COMBIS, j in PASAJEROS}: sum{i in PASAJEROS: i<>j}YR[c,i,j] = sum{k in PASAJEROS: k<>j}YR[c,j,k];
+s.t. llegoAjDeOrigenYSalgo{c in COMBIS, j in PASAJEROS}: YR[c,0,j] <= sum{k in PASAJEROS: k<>j}YR[c,j,k];
+s.t. salgoYLlego{c in COMBIS, j in UBICACIONES}: sum{i in UBICACIONES: i<>j and i<>21}YR[c,i,j] = sum{k in UBICACIONES: k<>j and k<>0}YR[c,j,k];
 
 # Obtencion Nc:
 s.t. nc1{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= M * YR[c,i,j];
@@ -113,7 +114,7 @@ s.t. ordenes{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: U[c,i] - U[c,j]
 s.t. fabricaFinal{c in COMBIS, i in PASAJEROS}: U[c,i] <= U[c, 21];
 
 # Kilometros recorridos por cada combi
-s.t. kmCombi{c in COMBIS}: KC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j}DISTANCIAS[i,j]*YR[c,i,j];
+s.t. kmCombi{c in COMBIS}: KC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j and i<>21 and j<>0}DISTANCIAS[i,j]*YR[c,i,j];
 
 # Máximo de combis
 s.t. cantCombis: C = sum{c in COMBIS}YC[c];
@@ -124,7 +125,7 @@ s.t. usoCombiCotaMin{c in COMBIS}: YC[c] <= sum{i in PASAJEROS}YP[c,i];
 s.t. usoCombiCotaMax{c in COMBIS}: sum{i in PASAJEROS}YP[c,i] <= M*YC[c];
 
 # Duracion del viaje:
-s.t. calculoDuracion{c in COMBIS}: TC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j and i<>0 and j<>0}TIEMPOS[i,j]*YR[c,i,j];
+s.t. calculoDuracion{c in COMBIS}: TC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j and i<>0 and j<>0 and i<>21}TIEMPOS[i,j]*YR[c,i,j];
 s.t. maxDuracion{c in COMBIS}: TC[c] <= T;
 
 end;
