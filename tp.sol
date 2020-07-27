@@ -2,7 +2,7 @@ Problem:    tp
 Rows:       5156
 Columns:    2659 (1446 integer, 1446 binary)
 Non-zeros:  30042
-Status:     INTEGER NON-OPTIMAL
+Status:     INTEGER OPTIMAL
 Objective:  z = 92 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
