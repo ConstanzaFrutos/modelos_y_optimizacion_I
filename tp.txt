@@ -114,7 +114,7 @@ s.t. ordenSiEnCombi{c in COMBIS, i in PASAJEROS}: U[c,i] <= M * YP[c,i];
 s.t. ordenes{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: U[c,i] - U[c,j] + N[c,i,j] <= NC[c] - 1;
 
 # La fábrica se visita al final del recorrido
-s.t. fabricaFinal{c in COMBIS, i in PASAJEROS}: U[c,i] <= U[c, 21];
+s.t. fabricaFinal{c in COMBIS, i in PASAJEROS}: U[c,i] + 1 <= U[c, 21];
 
 # Kilometros recorridos por cada combi
 s.t. kmCombi{c in COMBIS}: KC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j and i<>21 and j<>0}DISTANCIAS[i,j]*YR[c,i,j];
