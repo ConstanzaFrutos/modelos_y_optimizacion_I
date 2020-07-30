@@ -107,6 +107,9 @@ s.t. nc1{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= M * YR[
 s.t. nc2{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: -M * (1-YR[c,i,j]) + NC[c] <= N[c,i,j];
 s.t. nc3{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: N[c,i,j] <= NC[c] + M * (1-YR[c,i,j]);
 
+# Solo toma orden si va en la combi
+s.t. ordenSiEnCombi{c in COMBIS, i in PASAJEROS}: U[c,i] <= M * YP[c,i];
+
 # Obtención de ordenes:
 s.t. ordenes{c in COMBIS, i in PASAJEROS, j in PASAJEROS: i<>j}: U[c,i] - U[c,j] + N[c,i,j] <= NC[c] - 1;
 
