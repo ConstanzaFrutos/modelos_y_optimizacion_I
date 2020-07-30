@@ -14,7 +14,7 @@ set UBICACIONES;
 param DISTANCIAS{i in UBICACIONES, j in UBICACIONES : i<>j};
 
 # Los tiempos de ir de i a j, i tiene que ser distinto de j
-param TIEMPOS{i in UBICACIONES, j in UBICACIONES : i<>j and i<>0 and j<>0};
+param TIEMPOS{i in UBICACIONES, j in UBICACIONES : i<>j};
 
 # Costo de un kilometro
 param COSTOKM;
@@ -128,7 +128,7 @@ s.t. usoCombiCotaMin{c in COMBIS}: YC[c] <= sum{i in PASAJEROS}YP[c,i];
 s.t. usoCombiCotaMax{c in COMBIS}: sum{i in PASAJEROS}YP[c,i] <= M*YC[c];
 
 # Duracion del viaje:
-s.t. calculoDuracion{c in COMBIS}: TC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j and i<>0 and j<>0 and i<>21}TIEMPOS[i,j]*YR[c,i,j];
+s.t. calculoDuracion{c in COMBIS}: TC[c] = sum{i in UBICACIONES, j in UBICACIONES: i<>j and i<>21 and j<>0}TIEMPOS[i,j]*YR[c,i,j];
 s.t. maxDuracion{c in COMBIS}: TC[c] <= T;
 
 end;
