@@ -2,7 +2,7 @@ Problem:    tp
 Rows:       5111
 Columns:    2662 (1449 integer, 1449 binary)
 Non-zeros:  28461
-Status:     INTEGER NON-OPTIMAL
+Status:     INTEGER OPTIMAL
 Objective:  z = 3600 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
@@ -11,9 +11,9 @@ Objective:  z = 3600 (MINimum)
      2 capMax[1]                   0            -0             = 
      3 capMax[2]                   0            -0             = 
      4 capMax[3]                   0            -0             = 
-     5 capMaxPj[1]                 4                          15 
-     6 capMaxPj[2]                 7                          15 
-     7 capMaxPj[3]                 9                          15 
+     5 capMaxPj[1]                 7                          15 
+     6 capMaxPj[2]                 9                          15 
+     7 capMaxPj[3]                 4                          15 
      8 unPjEnUnaCombi[1]
                                    1             1             = 
      9 unPjEnUnaCombi[2]
@@ -59,9 +59,9 @@ Objective:  z = 3600 (MINimum)
     29 pjPorCombi1[1,2]
                                    0                          -0 
     30 pjPorCombi1[1,3]
-                                  -1                          -0 
+                                   0                          -0 
     31 pjPorCombi1[1,4]
-                                  -1                          -0 
+                                   0                          -0 
     32 pjPorCombi1[1,5]
                                    0                          -0 
     33 pjPorCombi1[1,6]
@@ -79,21 +79,21 @@ Objective:  z = 3600 (MINimum)
     39 pjPorCombi1[1,12]
                                    0                          -0 
     40 pjPorCombi1[1,13]
-                                   0                          -0 
+                                  -1                          -0 
     41 pjPorCombi1[1,14]
                                    0                          -0 
     42 pjPorCombi1[1,15]
-                                   0                          -0 
+                                  -1                          -0 
     43 pjPorCombi1[1,16]
-                                   0                          -0 
+                                  -1                          -0 
     44 pjPorCombi1[1,17]
                                    0                          -0 
     45 pjPorCombi1[1,18]
-                                   0                          -0 
+                                  -1                          -0 
     46 pjPorCombi1[1,19]
                                    0                          -0 
     47 pjPorCombi1[1,20]
-                                   0                          -0 
+                                  -1                          -0 
     48 pjPorCombi1[2,1]
                                    0                          -0 
     49 pjPorCombi1[2,2]
@@ -103,65 +103,65 @@ Objective:  z = 3600 (MINimum)
     51 pjPorCombi1[2,4]
                                    0                          -0 
     52 pjPorCombi1[2,5]
-                                   0                          -0 
+                                  -1                          -0 
     53 pjPorCombi1[2,6]
                                    0                          -0 
     54 pjPorCombi1[2,7]
-                                   0                          -0 
+                                  -1                          -0 
     55 pjPorCombi1[2,8]
-                                   0                          -0 
+                                  -1                          -0 
     56 pjPorCombi1[2,9]
-                                   0                          -0 
+                                  -1                          -0 
     57 pjPorCombi1[2,10]
-                                   0                          -0 
+                                  -1                          -0 
     58 pjPorCombi1[2,11]
                                    0                          -0 
     59 pjPorCombi1[2,12]
-                                   0                          -0 
+                                  -1                          -0 
     60 pjPorCombi1[2,13]
-                                  -1                          -0 
-    61 pjPorCombi1[2,14]
                                    0                          -0 
+    61 pjPorCombi1[2,14]
+                                  -1                          -0 
     62 pjPorCombi1[2,15]
-                                  -1                          -0 
+                                   0                          -0 
     63 pjPorCombi1[2,16]
-                                  -1                          -0 
+                                   0                          -0 
     64 pjPorCombi1[2,17]
                                    0                          -0 
     65 pjPorCombi1[2,18]
-                                  -1                          -0 
+                                   0                          -0 
     66 pjPorCombi1[2,19]
                                    0                          -0 
     67 pjPorCombi1[2,20]
-                                  -1                          -0 
+                                   0                          -0 
     68 pjPorCombi1[3,1]
                                    0                          -0 
     69 pjPorCombi1[3,2]
                                    0                          -0 
     70 pjPorCombi1[3,3]
-                                   0                          -0 
-    71 pjPorCombi1[3,4]
-                                   0                          -0 
-    72 pjPorCombi1[3,5]
                                   -1                          -0 
+    71 pjPorCombi1[3,4]
+                                  -1                          -0 
+    72 pjPorCombi1[3,5]
+                                   0                          -0 
     73 pjPorCombi1[3,6]
                                    0                          -0 
     74 pjPorCombi1[3,7]
-                                  -1                          -0 
+                                   0                          -0 
     75 pjPorCombi1[3,8]
-                                  -1                          -0 
+                                   0                          -0 
     76 pjPorCombi1[3,9]
-                                  -1                          -0 
+                                   0                          -0 
     77 pjPorCombi1[3,10]
-                                  -1                          -0 
+                                   0                          -0 
     78 pjPorCombi1[3,11]
                                    0                          -0 
     79 pjPorCombi1[3,12]
-                                  -1                          -0 
+                                   0                          -0 
     80 pjPorCombi1[3,13]
                                    0                          -0 
     81 pjPorCombi1[3,14]
-                                  -1                          -0 
+                                   0                          -0 
     82 pjPorCombi1[3,15]
                                    0                          -0 
     83 pjPorCombi1[3,16]
@@ -177,7 +177,7 @@ Objective:  z = 3600 (MINimum)
     88 pjPorCombi2[1,1]
                                    0                          -0 
     89 pjPorCombi2[1,2]
-                                  -1                          -0 
+                                   0                          -0 
     90 pjPorCombi2[1,3]
                                    0                          -0 
     91 pjPorCombi2[1,4]
@@ -185,7 +185,7 @@ Objective:  z = 3600 (MINimum)
     92 pjPorCombi2[1,5]
                                    0                          -0 
     93 pjPorCombi2[1,6]
-                                  -1                          -0 
+                                   0                          -0 
     94 pjPorCombi2[1,7]
                                    0                          -0 
     95 pjPorCombi2[1,8]
@@ -195,7 +195,7 @@ Objective:  z = 3600 (MINimum)
     97 pjPorCombi2[1,10]
                                    0                          -0 
     98 pjPorCombi2[1,11]
-                                   0                          -0 
+                                  -1                          -0 
     99 pjPorCombi2[1,12]
                                    0                          -0 
    100 pjPorCombi2[1,13]
@@ -211,11 +211,11 @@ Objective:  z = 3600 (MINimum)
    105 pjPorCombi2[1,18]
                                    0                          -0 
    106 pjPorCombi2[1,19]
-                                   0                          -0 
+                                  -1                          -0 
    107 pjPorCombi2[1,20]
                                    0                          -0 
    108 pjPorCombi2[2,1]
-                                   0                          -0 
+                                  -1                          -0 
    109 pjPorCombi2[2,2]
                                    0                          -0 
    110 pjPorCombi2[2,3]
@@ -235,7 +235,7 @@ Objective:  z = 3600 (MINimum)
    117 pjPorCombi2[2,10]
                                    0                          -0 
    118 pjPorCombi2[2,11]
-                                  -1                          -0 
+                                   0                          -0 
    119 pjPorCombi2[2,12]
                                    0                          -0 
    120 pjPorCombi2[2,13]
@@ -247,17 +247,17 @@ Objective:  z = 3600 (MINimum)
    123 pjPorCombi2[2,16]
                                    0                          -0 
    124 pjPorCombi2[2,17]
-                                   0                          -0 
+                                  -1                          -0 
    125 pjPorCombi2[2,18]
                                    0                          -0 
    126 pjPorCombi2[2,19]
-                                  -1                          -0 
+                                   0                          -0 
    127 pjPorCombi2[2,20]
                                    0                          -0 
    128 pjPorCombi2[3,1]
-                                  -1                          -0 
-   129 pjPorCombi2[3,2]
                                    0                          -0 
+   129 pjPorCombi2[3,2]
+                                  -1                          -0 
    130 pjPorCombi2[3,3]
                                    0                          -0 
    131 pjPorCombi2[3,4]
@@ -265,7 +265,7 @@ Objective:  z = 3600 (MINimum)
    132 pjPorCombi2[3,5]
                                    0                          -0 
    133 pjPorCombi2[3,6]
-                                   0                          -0 
+                                  -1                          -0 
    134 pjPorCombi2[3,7]
                                    0                          -0 
    135 pjPorCombi2[3,8]
@@ -287,7 +287,7 @@ Objective:  z = 3600 (MINimum)
    143 pjPorCombi2[3,16]
                                    0                          -0 
    144 pjPorCombi2[3,17]
-                                  -1                          -0 
+                                   0                          -0 
    145 pjPorCombi2[3,18]
                                    0                          -0 
    146 pjPorCombi2[3,19]
@@ -311,15 +311,15 @@ Objective:  z = 3600 (MINimum)
    155 llegoUnaVez[1,1]
                                   -1                          -0 
    156 llegoUnaVez[1,2]
-                                   0                          -0 
+                                  -1                          -0 
    157 llegoUnaVez[1,3]
-                                   0                          -0 
+                                  -1                          -0 
    158 llegoUnaVez[1,4]
-                                   0                          -0 
+                                  -1                          -0 
    159 llegoUnaVez[1,5]
                                   -1                          -0 
    160 llegoUnaVez[1,6]
-                                   0                          -0 
+                                  -1                          -0 
    161 llegoUnaVez[1,7]
                                   -1                          -0 
    162 llegoUnaVez[1,8]
@@ -329,31 +329,31 @@ Objective:  z = 3600 (MINimum)
    164 llegoUnaVez[1,10]
                                   -1                          -0 
    165 llegoUnaVez[1,11]
-                                  -1                          -0 
+                                   0                          -0 
    166 llegoUnaVez[1,12]
                                   -1                          -0 
    167 llegoUnaVez[1,13]
-                                  -1                          -0 
+                                   0                          -0 
    168 llegoUnaVez[1,14]
                                   -1                          -0 
    169 llegoUnaVez[1,15]
-                                  -1                          -0 
+                                   0                          -0 
    170 llegoUnaVez[1,16]
-                                  -1                          -0 
+                                   0                          -0 
    171 llegoUnaVez[1,17]
                                   -1                          -0 
    172 llegoUnaVez[1,18]
-                                  -1                          -0 
+                                   0                          -0 
    173 llegoUnaVez[1,19]
-                                  -1                          -0 
+                                   0                          -0 
    174 llegoUnaVez[1,20]
-                                  -1                          -0 
+                                   0                          -0 
    175 llegoUnaVez[1,21]
                                    0                          -0 
    176 llegoUnaVez[2,0]
                                    0                          -0 
    177 llegoUnaVez[2,1]
-                                  -1                          -0 
+                                   0                          -0 
    178 llegoUnaVez[2,2]
                                   -1                          -0 
    179 llegoUnaVez[2,3]
@@ -361,75 +361,75 @@ Objective:  z = 3600 (MINimum)
    180 llegoUnaVez[2,4]
                                   -1                          -0 
    181 llegoUnaVez[2,5]
-                                  -1                          -0 
+                                   0                          -0 
    182 llegoUnaVez[2,6]
                                   -1                          -0 
    183 llegoUnaVez[2,7]
-                                  -1                          -0 
+                                   0                          -0 
    184 llegoUnaVez[2,8]
-                                  -1                          -0 
+                                   0                          -0 
    185 llegoUnaVez[2,9]
-                                  -1                          -0 
+                                   0                          -0 
    186 llegoUnaVez[2,10]
-                                  -1                          -0 
+                                   0                          -0 
    187 llegoUnaVez[2,11]
-                                   0                          -0 
+                                  -1                          -0 
    188 llegoUnaVez[2,12]
-                                  -1                          -0 
+                                   0                          -0 
    189 llegoUnaVez[2,13]
-                                   0                          -0 
+                                  -1                          -0 
    190 llegoUnaVez[2,14]
-                                  -1                          -0 
+                                   0                          -0 
    191 llegoUnaVez[2,15]
-                                   0                          -0 
-   192 llegoUnaVez[2,16]
-                                   0                          -0 
-   193 llegoUnaVez[2,17]
                                   -1                          -0 
+   192 llegoUnaVez[2,16]
+                                  -1                          -0 
+   193 llegoUnaVez[2,17]
+                                   0                          -0 
    194 llegoUnaVez[2,18]
-                                   0                          -0 
+                                  -1                          -0 
    195 llegoUnaVez[2,19]
-                                   0                          -0 
+                                  -1                          -0 
    196 llegoUnaVez[2,20]
-                                   0                          -0 
+                                  -1                          -0 
    197 llegoUnaVez[2,21]
                                    0                          -0 
    198 llegoUnaVez[3,0]
                                    0                          -0 
    199 llegoUnaVez[3,1]
-                                   0                          -0 
+                                  -1                          -0 
    200 llegoUnaVez[3,2]
-                                  -1                          -0 
+                                   0                          -0 
    201 llegoUnaVez[3,3]
-                                  -1                          -0 
+                                   0                          -0 
    202 llegoUnaVez[3,4]
-                                  -1                          -0 
+                                   0                          -0 
    203 llegoUnaVez[3,5]
-                                   0                          -0 
-   204 llegoUnaVez[3,6]
                                   -1                          -0 
+   204 llegoUnaVez[3,6]
+                                   0                          -0 
    205 llegoUnaVez[3,7]
-                                   0                          -0 
+                                  -1                          -0 
    206 llegoUnaVez[3,8]
-                                   0                          -0 
+                                  -1                          -0 
    207 llegoUnaVez[3,9]
-                                   0                          -0 
+                                  -1                          -0 
    208 llegoUnaVez[3,10]
-                                   0                          -0 
+                                  -1                          -0 
    209 llegoUnaVez[3,11]
                                   -1                          -0 
    210 llegoUnaVez[3,12]
-                                   0                          -0 
+                                  -1                          -0 
    211 llegoUnaVez[3,13]
                                   -1                          -0 
    212 llegoUnaVez[3,14]
-                                   0                          -0 
+                                  -1                          -0 
    213 llegoUnaVez[3,15]
                                   -1                          -0 
    214 llegoUnaVez[3,16]
                                   -1                          -0 
    215 llegoUnaVez[3,17]
-                                   0                          -0 
+                                  -1                          -0 
    216 llegoUnaVez[3,18]
                                   -1                          -0 
    217 llegoUnaVez[3,19]
@@ -443,15 +443,15 @@ Objective:  z = 3600 (MINimum)
    221 salgoUnaVez[1,1]
                                   -1                          -0 
    222 salgoUnaVez[1,2]
-                                   0                          -0 
+                                  -1                          -0 
    223 salgoUnaVez[1,3]
-                                   0                          -0 
+                                  -1                          -0 
    224 salgoUnaVez[1,4]
-                                   0                          -0 
+                                  -1                          -0 
    225 salgoUnaVez[1,5]
                                   -1                          -0 
    226 salgoUnaVez[1,6]
-                                   0                          -0 
+                                  -1                          -0 
    227 salgoUnaVez[1,7]
                                   -1                          -0 
    228 salgoUnaVez[1,8]
@@ -461,31 +461,31 @@ Objective:  z = 3600 (MINimum)
    230 salgoUnaVez[1,10]
                                   -1                          -0 
    231 salgoUnaVez[1,11]
-                                  -1                          -0 
+                                   0                          -0 
    232 salgoUnaVez[1,12]
                                   -1                          -0 
    233 salgoUnaVez[1,13]
-                                  -1                          -0 
+                                   0                          -0 
    234 salgoUnaVez[1,14]
                                   -1                          -0 
    235 salgoUnaVez[1,15]
-                                  -1                          -0 
+                                   0                          -0 
    236 salgoUnaVez[1,16]
-                                  -1                          -0 
+                                   0                          -0 
    237 salgoUnaVez[1,17]
                                   -1                          -0 
    238 salgoUnaVez[1,18]
-                                  -1                          -0 
+                                   0                          -0 
    239 salgoUnaVez[1,19]
-                                  -1                          -0 
+                                   0                          -0 
    240 salgoUnaVez[1,20]
-                                  -1                          -0 
+                                   0                          -0 
    241 salgoUnaVez[1,21]
                                    0                          -0 
    242 salgoUnaVez[2,0]
                                    0                          -0 
    243 salgoUnaVez[2,1]
-                                  -1                          -0 
+                                   0                          -0 
    244 salgoUnaVez[2,2]
                                   -1                          -0 
    245 salgoUnaVez[2,3]
@@ -493,75 +493,75 @@ Objective:  z = 3600 (MINimum)
    246 salgoUnaVez[2,4]
                                   -1                          -0 
    247 salgoUnaVez[2,5]
-                                  -1                          -0 
+                                   0                          -0 
    248 salgoUnaVez[2,6]
                                   -1                          -0 
    249 salgoUnaVez[2,7]
-                                  -1                          -0 
+                                   0                          -0 
    250 salgoUnaVez[2,8]
-                                  -1                          -0 
+                                   0                          -0 
    251 salgoUnaVez[2,9]
-                                  -1                          -0 
+                                   0                          -0 
    252 salgoUnaVez[2,10]
-                                  -1                          -0 
+                                   0                          -0 
    253 salgoUnaVez[2,11]
-                                   0                          -0 
+                                  -1                          -0 
    254 salgoUnaVez[2,12]
-                                  -1                          -0 
+                                   0                          -0 
    255 salgoUnaVez[2,13]
-                                   0                          -0 
+                                  -1                          -0 
    256 salgoUnaVez[2,14]
-                                  -1                          -0 
+                                   0                          -0 
    257 salgoUnaVez[2,15]
-                                   0                          -0 
-   258 salgoUnaVez[2,16]
-                                   0                          -0 
-   259 salgoUnaVez[2,17]
                                   -1                          -0 
+   258 salgoUnaVez[2,16]
+                                  -1                          -0 
+   259 salgoUnaVez[2,17]
+                                   0                          -0 
    260 salgoUnaVez[2,18]
-                                   0                          -0 
+                                  -1                          -0 
    261 salgoUnaVez[2,19]
-                                   0                          -0 
+                                  -1                          -0 
    262 salgoUnaVez[2,20]
-                                   0                          -0 
+                                  -1                          -0 
    263 salgoUnaVez[2,21]
                                    0                          -0 
    264 salgoUnaVez[3,0]
                                    0                          -0 
    265 salgoUnaVez[3,1]
-                                   0                          -0 
+                                  -1                          -0 
    266 salgoUnaVez[3,2]
-                                  -1                          -0 
+                                   0                          -0 
    267 salgoUnaVez[3,3]
-                                  -1                          -0 
+                                   0                          -0 
    268 salgoUnaVez[3,4]
-                                  -1                          -0 
+                                   0                          -0 
    269 salgoUnaVez[3,5]
-                                   0                          -0 
-   270 salgoUnaVez[3,6]
                                   -1                          -0 
+   270 salgoUnaVez[3,6]
+                                   0                          -0 
    271 salgoUnaVez[3,7]
-                                   0                          -0 
+                                  -1                          -0 
    272 salgoUnaVez[3,8]
-                                   0                          -0 
+                                  -1                          -0 
    273 salgoUnaVez[3,9]
-                                   0                          -0 
+                                  -1                          -0 
    274 salgoUnaVez[3,10]
-                                   0                          -0 
+                                  -1                          -0 
    275 salgoUnaVez[3,11]
                                   -1                          -0 
    276 salgoUnaVez[3,12]
-                                   0                          -0 
+                                  -1                          -0 
    277 salgoUnaVez[3,13]
                                   -1                          -0 
    278 salgoUnaVez[3,14]
-                                   0                          -0 
+                                  -1                          -0 
    279 salgoUnaVez[3,15]
                                   -1                          -0 
    280 salgoUnaVez[3,16]
                                   -1                          -0 
    281 salgoUnaVez[3,17]
-                                   0                          -0 
+                                  -1                          -0 
    282 salgoUnaVez[3,18]
                                   -1                          -0 
    283 salgoUnaVez[3,19]
@@ -575,9 +575,9 @@ Objective:  z = 3600 (MINimum)
    287 llegoAjDeOrigenYSalgo[1,2]
                                    0                          -0 
    288 llegoAjDeOrigenYSalgo[1,3]
-                                  -1                          -0 
+                                   0                          -0 
    289 llegoAjDeOrigenYSalgo[1,4]
-                                  -1                          -0 
+                                   0                          -0 
    290 llegoAjDeOrigenYSalgo[1,5]
                                    0                          -0 
    291 llegoAjDeOrigenYSalgo[1,6]
@@ -595,21 +595,21 @@ Objective:  z = 3600 (MINimum)
    297 llegoAjDeOrigenYSalgo[1,12]
                                    0                          -0 
    298 llegoAjDeOrigenYSalgo[1,13]
-                                   0                          -0 
+                                  -1                          -0 
    299 llegoAjDeOrigenYSalgo[1,14]
                                    0                          -0 
    300 llegoAjDeOrigenYSalgo[1,15]
-                                   0                          -0 
+                                  -1                          -0 
    301 llegoAjDeOrigenYSalgo[1,16]
-                                   0                          -0 
+                                  -1                          -0 
    302 llegoAjDeOrigenYSalgo[1,17]
                                    0                          -0 
    303 llegoAjDeOrigenYSalgo[1,18]
-                                   0                          -0 
+                                  -1                          -0 
    304 llegoAjDeOrigenYSalgo[1,19]
                                    0                          -0 
    305 llegoAjDeOrigenYSalgo[1,20]
-                                   0                          -0 
+                                  -1                          -0 
    306 llegoAjDeOrigenYSalgo[2,1]
                                    0                          -0 
    307 llegoAjDeOrigenYSalgo[2,2]
@@ -619,65 +619,65 @@ Objective:  z = 3600 (MINimum)
    309 llegoAjDeOrigenYSalgo[2,4]
                                    0                          -0 
    310 llegoAjDeOrigenYSalgo[2,5]
-                                   0                          -0 
+                                  -1                          -0 
    311 llegoAjDeOrigenYSalgo[2,6]
                                    0                          -0 
    312 llegoAjDeOrigenYSalgo[2,7]
-                                   0                          -0 
+                                  -1                          -0 
    313 llegoAjDeOrigenYSalgo[2,8]
-                                   0                          -0 
+                                  -1                          -0 
    314 llegoAjDeOrigenYSalgo[2,9]
-                                   0                          -0 
+                                  -1                          -0 
    315 llegoAjDeOrigenYSalgo[2,10]
-                                   0                          -0 
+                                  -1                          -0 
    316 llegoAjDeOrigenYSalgo[2,11]
                                    0                          -0 
    317 llegoAjDeOrigenYSalgo[2,12]
-                                   0                          -0 
+                                  -1                          -0 
    318 llegoAjDeOrigenYSalgo[2,13]
-                                  -1                          -0 
-   319 llegoAjDeOrigenYSalgo[2,14]
                                    0                          -0 
+   319 llegoAjDeOrigenYSalgo[2,14]
+                                  -1                          -0 
    320 llegoAjDeOrigenYSalgo[2,15]
-                                  -1                          -0 
+                                   0                          -0 
    321 llegoAjDeOrigenYSalgo[2,16]
-                                  -1                          -0 
+                                   0                          -0 
    322 llegoAjDeOrigenYSalgo[2,17]
                                    0                          -0 
    323 llegoAjDeOrigenYSalgo[2,18]
-                                  -1                          -0 
+                                   0                          -0 
    324 llegoAjDeOrigenYSalgo[2,19]
                                    0                          -0 
    325 llegoAjDeOrigenYSalgo[2,20]
-                                  -1                          -0 
+                                   0                          -0 
    326 llegoAjDeOrigenYSalgo[3,1]
                                    0                          -0 
    327 llegoAjDeOrigenYSalgo[3,2]
                                    0                          -0 
    328 llegoAjDeOrigenYSalgo[3,3]
-                                   0                          -0 
-   329 llegoAjDeOrigenYSalgo[3,4]
-                                   0                          -0 
-   330 llegoAjDeOrigenYSalgo[3,5]
                                   -1                          -0 
+   329 llegoAjDeOrigenYSalgo[3,4]
+                                  -1                          -0 
+   330 llegoAjDeOrigenYSalgo[3,5]
+                                   0                          -0 
    331 llegoAjDeOrigenYSalgo[3,6]
                                    0                          -0 
    332 llegoAjDeOrigenYSalgo[3,7]
-                                  -1                          -0 
+                                   0                          -0 
    333 llegoAjDeOrigenYSalgo[3,8]
-                                  -1                          -0 
+                                   0                          -0 
    334 llegoAjDeOrigenYSalgo[3,9]
-                                  -1                          -0 
+                                   0                          -0 
    335 llegoAjDeOrigenYSalgo[3,10]
-                                  -1                          -0 
+                                   0                          -0 
    336 llegoAjDeOrigenYSalgo[3,11]
                                    0                          -0 
    337 llegoAjDeOrigenYSalgo[3,12]
-                                  -1                          -0 
+                                   0                          -0 
    338 llegoAjDeOrigenYSalgo[3,13]
                                    0                          -0 
    339 llegoAjDeOrigenYSalgo[3,14]
-                                  -1                          -0 
+                                   0                          -0 
    340 llegoAjDeOrigenYSalgo[3,15]
                                    0                          -0 
    341 llegoAjDeOrigenYSalgo[3,16]
@@ -848,7 +848,7 @@ Objective:  z = 3600 (MINimum)
    432 nc1[1,1,19]                 0                          -0 
    433 nc1[1,1,20]                 0                          -0 
    434 nc1[1,2,1]                  0                          -0 
-   435 nc1[1,2,3]            -999996                          -0 
+   435 nc1[1,2,3]                  0                          -0 
    436 nc1[1,2,4]                  0                          -0 
    437 nc1[1,2,5]                  0                          -0 
    438 nc1[1,2,6]                  0                          -0 
@@ -868,7 +868,7 @@ Objective:  z = 3600 (MINimum)
    452 nc1[1,2,20]                 0                          -0 
    453 nc1[1,3,1]                  0                          -0 
    454 nc1[1,3,2]                  0                          -0 
-   455 nc1[1,3,4]            -999996                          -0 
+   455 nc1[1,3,4]                  0                          -0 
    456 nc1[1,3,5]                  0                          -0 
    457 nc1[1,3,6]                  0                          -0 
    458 nc1[1,3,7]                  0                          -0 
@@ -889,7 +889,7 @@ Objective:  z = 3600 (MINimum)
    473 nc1[1,4,2]                  0                          -0 
    474 nc1[1,4,3]                  0                          -0 
    475 nc1[1,4,5]                  0                          -0 
-   476 nc1[1,4,6]            -999996                          -0 
+   476 nc1[1,4,6]                  0                          -0 
    477 nc1[1,4,7]                  0                          -0 
    478 nc1[1,4,8]                  0                          -0 
    479 nc1[1,4,9]                  0                          -0 
@@ -1029,7 +1029,7 @@ Objective:  z = 3600 (MINimum)
    613 nc1[1,11,9]                 0                          -0 
    614 nc1[1,11,10]                0                          -0 
    615 nc1[1,11,12]                0                          -0 
-   616 nc1[1,11,13]                0                          -0 
+   616 nc1[1,11,13]          -999993                          -0 
    617 nc1[1,11,14]                0                          -0 
    618 nc1[1,11,15]                0                          -0 
    619 nc1[1,11,16]                0                          -0 
@@ -1074,7 +1074,7 @@ Objective:  z = 3600 (MINimum)
    658 nc1[1,13,17]                0                          -0 
    659 nc1[1,13,18]                0                          -0 
    660 nc1[1,13,19]                0                          -0 
-   661 nc1[1,13,20]                0                          -0 
+   661 nc1[1,13,20]          -999993                          -0 
    662 nc1[1,14,1]                 0                          -0 
    663 nc1[1,14,2]                 0                          -0 
    664 nc1[1,14,3]                 0                          -0 
@@ -1108,7 +1108,7 @@ Objective:  z = 3600 (MINimum)
    692 nc1[1,15,12]                0                          -0 
    693 nc1[1,15,13]                0                          -0 
    694 nc1[1,15,14]                0                          -0 
-   695 nc1[1,15,16]                0                          -0 
+   695 nc1[1,15,16]          -999993                          -0 
    696 nc1[1,15,17]                0                          -0 
    697 nc1[1,15,18]                0                          -0 
    698 nc1[1,15,19]                0                          -0 
@@ -1130,7 +1130,7 @@ Objective:  z = 3600 (MINimum)
    714 nc1[1,16,15]                0                          -0 
    715 nc1[1,16,17]                0                          -0 
    716 nc1[1,16,18]                0                          -0 
-   717 nc1[1,16,19]                0                          -0 
+   717 nc1[1,16,19]          -999993                          -0 
    718 nc1[1,16,20]                0                          -0 
    719 nc1[1,17,1]                 0                          -0 
    720 nc1[1,17,2]                 0                          -0 
@@ -1165,7 +1165,7 @@ Objective:  z = 3600 (MINimum)
    749 nc1[1,18,12]                0                          -0 
    750 nc1[1,18,13]                0                          -0 
    751 nc1[1,18,14]                0                          -0 
-   752 nc1[1,18,15]                0                          -0 
+   752 nc1[1,18,15]          -999993                          -0 
    753 nc1[1,18,16]                0                          -0 
    754 nc1[1,18,17]                0                          -0 
    755 nc1[1,18,19]                0                          -0 
@@ -1206,12 +1206,12 @@ Objective:  z = 3600 (MINimum)
    790 nc1[1,20,15]                0                          -0 
    791 nc1[1,20,16]                0                          -0 
    792 nc1[1,20,17]                0                          -0 
-   793 nc1[1,20,18]                0                          -0 
+   793 nc1[1,20,18]          -999993                          -0 
    794 nc1[1,20,19]                0                          -0 
    795 nc1[2,1,2]                  0                          -0 
    796 nc1[2,1,3]                  0                          -0 
    797 nc1[2,1,4]                  0                          -0 
-   798 nc1[2,1,5]                  0                          -0 
+   798 nc1[2,1,5]            -999991                          -0 
    799 nc1[2,1,6]                  0                          -0 
    800 nc1[2,1,7]                  0                          -0 
    801 nc1[2,1,8]                  0                          -0 
@@ -1289,7 +1289,7 @@ Objective:  z = 3600 (MINimum)
    873 nc1[2,5,3]                  0                          -0 
    874 nc1[2,5,4]                  0                          -0 
    875 nc1[2,5,6]                  0                          -0 
-   876 nc1[2,5,7]                  0                          -0 
+   876 nc1[2,5,7]            -999991                          -0 
    877 nc1[2,5,8]                  0                          -0 
    878 nc1[2,5,9]                  0                          -0 
    879 nc1[2,5,10]                 0                          -0 
@@ -1328,7 +1328,7 @@ Objective:  z = 3600 (MINimum)
    912 nc1[2,7,4]                  0                          -0 
    913 nc1[2,7,5]                  0                          -0 
    914 nc1[2,7,6]                  0                          -0 
-   915 nc1[2,7,8]                  0                          -0 
+   915 nc1[2,7,8]            -999991                          -0 
    916 nc1[2,7,9]                  0                          -0 
    917 nc1[2,7,10]                 0                          -0 
    918 nc1[2,7,11]                 0                          -0 
@@ -1351,7 +1351,7 @@ Objective:  z = 3600 (MINimum)
    935 nc1[2,8,9]                  0                          -0 
    936 nc1[2,8,10]                 0                          -0 
    937 nc1[2,8,11]                 0                          -0 
-   938 nc1[2,8,12]                 0                          -0 
+   938 nc1[2,8,12]           -999991                          -0 
    939 nc1[2,8,13]                 0                          -0 
    940 nc1[2,8,14]                 0                          -0 
    941 nc1[2,8,15]                 0                          -0 
@@ -1368,7 +1368,7 @@ Objective:  z = 3600 (MINimum)
    952 nc1[2,9,6]                  0                          -0 
    953 nc1[2,9,7]                  0                          -0 
    954 nc1[2,9,8]                  0                          -0 
-   955 nc1[2,9,10]                 0                          -0 
+   955 nc1[2,9,10]           -999991                          -0 
    956 nc1[2,9,11]                 0                          -0 
    957 nc1[2,9,12]                 0                          -0 
    958 nc1[2,9,13]                 0                          -0 
@@ -1391,7 +1391,7 @@ Objective:  z = 3600 (MINimum)
    975 nc1[2,10,11]                0                          -0 
    976 nc1[2,10,12]                0                          -0 
    977 nc1[2,10,13]                0                          -0 
-   978 nc1[2,10,14]                0                          -0 
+   978 nc1[2,10,14]          -999991                          -0 
    979 nc1[2,10,15]                0                          -0 
    980 nc1[2,10,16]                0                          -0 
    981 nc1[2,10,17]                0                          -0 
@@ -1409,7 +1409,7 @@ Objective:  z = 3600 (MINimum)
    993 nc1[2,11,9]                 0                          -0 
    994 nc1[2,11,10]                0                          -0 
    995 nc1[2,11,12]                0                          -0 
-   996 nc1[2,11,13]          -999993                          -0 
+   996 nc1[2,11,13]                0                          -0 
    997 nc1[2,11,14]                0                          -0 
    998 nc1[2,11,15]                0                          -0 
    999 nc1[2,11,16]                0                          -0 
@@ -1425,7 +1425,7 @@ Objective:  z = 3600 (MINimum)
   1009 nc1[2,12,6]                 0                          -0 
   1010 nc1[2,12,7]                 0                          -0 
   1011 nc1[2,12,8]                 0                          -0 
-  1012 nc1[2,12,9]                 0                          -0 
+  1012 nc1[2,12,9]           -999991                          -0 
   1013 nc1[2,12,10]                0                          -0 
   1014 nc1[2,12,11]                0                          -0 
   1015 nc1[2,12,13]                0                          -0 
@@ -1454,7 +1454,7 @@ Objective:  z = 3600 (MINimum)
   1038 nc1[2,13,17]                0                          -0 
   1039 nc1[2,13,18]                0                          -0 
   1040 nc1[2,13,19]                0                          -0 
-  1041 nc1[2,13,20]          -999993                          -0 
+  1041 nc1[2,13,20]                0                          -0 
   1042 nc1[2,14,1]                 0                          -0 
   1043 nc1[2,14,2]                 0                          -0 
   1044 nc1[2,14,3]                 0                          -0 
@@ -1470,7 +1470,7 @@ Objective:  z = 3600 (MINimum)
   1054 nc1[2,14,13]                0                          -0 
   1055 nc1[2,14,15]                0                          -0 
   1056 nc1[2,14,16]                0                          -0 
-  1057 nc1[2,14,17]                0                          -0 
+  1057 nc1[2,14,17]          -999991                          -0 
   1058 nc1[2,14,18]                0                          -0 
   1059 nc1[2,14,19]                0                          -0 
   1060 nc1[2,14,20]                0                          -0 
@@ -1488,7 +1488,7 @@ Objective:  z = 3600 (MINimum)
   1072 nc1[2,15,12]                0                          -0 
   1073 nc1[2,15,13]                0                          -0 
   1074 nc1[2,15,14]                0                          -0 
-  1075 nc1[2,15,16]          -999993                          -0 
+  1075 nc1[2,15,16]                0                          -0 
   1076 nc1[2,15,17]                0                          -0 
   1077 nc1[2,15,18]                0                          -0 
   1078 nc1[2,15,19]                0                          -0 
@@ -1510,7 +1510,7 @@ Objective:  z = 3600 (MINimum)
   1094 nc1[2,16,15]                0                          -0 
   1095 nc1[2,16,17]                0                          -0 
   1096 nc1[2,16,18]                0                          -0 
-  1097 nc1[2,16,19]          -999993                          -0 
+  1097 nc1[2,16,19]                0                          -0 
   1098 nc1[2,16,20]                0                          -0 
   1099 nc1[2,17,1]                 0                          -0 
   1100 nc1[2,17,2]                 0                          -0 
@@ -1545,7 +1545,7 @@ Objective:  z = 3600 (MINimum)
   1129 nc1[2,18,12]                0                          -0 
   1130 nc1[2,18,13]                0                          -0 
   1131 nc1[2,18,14]                0                          -0 
-  1132 nc1[2,18,15]          -999993                          -0 
+  1132 nc1[2,18,15]                0                          -0 
   1133 nc1[2,18,16]                0                          -0 
   1134 nc1[2,18,17]                0                          -0 
   1135 nc1[2,18,19]                0                          -0 
@@ -1586,12 +1586,12 @@ Objective:  z = 3600 (MINimum)
   1170 nc1[2,20,15]                0                          -0 
   1171 nc1[2,20,16]                0                          -0 
   1172 nc1[2,20,17]                0                          -0 
-  1173 nc1[2,20,18]          -999993                          -0 
+  1173 nc1[2,20,18]                0                          -0 
   1174 nc1[2,20,19]                0                          -0 
   1175 nc1[3,1,2]                  0                          -0 
   1176 nc1[3,1,3]                  0                          -0 
   1177 nc1[3,1,4]                  0                          -0 
-  1178 nc1[3,1,5]            -999991                          -0 
+  1178 nc1[3,1,5]                  0                          -0 
   1179 nc1[3,1,6]                  0                          -0 
   1180 nc1[3,1,7]                  0                          -0 
   1181 nc1[3,1,8]                  0                          -0 
@@ -1608,7 +1608,7 @@ Objective:  z = 3600 (MINimum)
   1192 nc1[3,1,19]                 0                          -0 
   1193 nc1[3,1,20]                 0                          -0 
   1194 nc1[3,2,1]                  0                          -0 
-  1195 nc1[3,2,3]                  0                          -0 
+  1195 nc1[3,2,3]            -999996                          -0 
   1196 nc1[3,2,4]                  0                          -0 
   1197 nc1[3,2,5]                  0                          -0 
   1198 nc1[3,2,6]                  0                          -0 
@@ -1628,7 +1628,7 @@ Objective:  z = 3600 (MINimum)
   1212 nc1[3,2,20]                 0                          -0 
   1213 nc1[3,3,1]                  0                          -0 
   1214 nc1[3,3,2]                  0                          -0 
-  1215 nc1[3,3,4]                  0                          -0 
+  1215 nc1[3,3,4]            -999996                          -0 
   1216 nc1[3,3,5]                  0                          -0 
   1217 nc1[3,3,6]                  0                          -0 
   1218 nc1[3,3,7]                  0                          -0 
@@ -1649,7 +1649,7 @@ Objective:  z = 3600 (MINimum)
   1233 nc1[3,4,2]                  0                          -0 
   1234 nc1[3,4,3]                  0                          -0 
   1235 nc1[3,4,5]                  0                          -0 
-  1236 nc1[3,4,6]                  0                          -0 
+  1236 nc1[3,4,6]            -999996                          -0 
   1237 nc1[3,4,7]                  0                          -0 
   1238 nc1[3,4,8]                  0                          -0 
   1239 nc1[3,4,9]                  0                          -0 
@@ -1669,7 +1669,7 @@ Objective:  z = 3600 (MINimum)
   1253 nc1[3,5,3]                  0                          -0 
   1254 nc1[3,5,4]                  0                          -0 
   1255 nc1[3,5,6]                  0                          -0 
-  1256 nc1[3,5,7]            -999991                          -0 
+  1256 nc1[3,5,7]                  0                          -0 
   1257 nc1[3,5,8]                  0                          -0 
   1258 nc1[3,5,9]                  0                          -0 
   1259 nc1[3,5,10]                 0                          -0 
@@ -1708,7 +1708,7 @@ Objective:  z = 3600 (MINimum)
   1292 nc1[3,7,4]                  0                          -0 
   1293 nc1[3,7,5]                  0                          -0 
   1294 nc1[3,7,6]                  0                          -0 
-  1295 nc1[3,7,8]            -999991                          -0 
+  1295 nc1[3,7,8]                  0                          -0 
   1296 nc1[3,7,9]                  0                          -0 
   1297 nc1[3,7,10]                 0                          -0 
   1298 nc1[3,7,11]                 0                          -0 
@@ -1731,7 +1731,7 @@ Objective:  z = 3600 (MINimum)
   1315 nc1[3,8,9]                  0                          -0 
   1316 nc1[3,8,10]                 0                          -0 
   1317 nc1[3,8,11]                 0                          -0 
-  1318 nc1[3,8,12]           -999991                          -0 
+  1318 nc1[3,8,12]                 0                          -0 
   1319 nc1[3,8,13]                 0                          -0 
   1320 nc1[3,8,14]                 0                          -0 
   1321 nc1[3,8,15]                 0                          -0 
@@ -1748,7 +1748,7 @@ Objective:  z = 3600 (MINimum)
   1332 nc1[3,9,6]                  0                          -0 
   1333 nc1[3,9,7]                  0                          -0 
   1334 nc1[3,9,8]                  0                          -0 
-  1335 nc1[3,9,10]           -999991                          -0 
+  1335 nc1[3,9,10]                 0                          -0 
   1336 nc1[3,9,11]                 0                          -0 
   1337 nc1[3,9,12]                 0                          -0 
   1338 nc1[3,9,13]                 0                          -0 
@@ -1771,7 +1771,7 @@ Objective:  z = 3600 (MINimum)
   1355 nc1[3,10,11]                0                          -0 
   1356 nc1[3,10,12]                0                          -0 
   1357 nc1[3,10,13]                0                          -0 
-  1358 nc1[3,10,14]          -999991                          -0 
+  1358 nc1[3,10,14]                0                          -0 
   1359 nc1[3,10,15]                0                          -0 
   1360 nc1[3,10,16]                0                          -0 
   1361 nc1[3,10,17]                0                          -0 
@@ -1805,7 +1805,7 @@ Objective:  z = 3600 (MINimum)
   1389 nc1[3,12,6]                 0                          -0 
   1390 nc1[3,12,7]                 0                          -0 
   1391 nc1[3,12,8]                 0                          -0 
-  1392 nc1[3,12,9]           -999991                          -0 
+  1392 nc1[3,12,9]                 0                          -0 
   1393 nc1[3,12,10]                0                          -0 
   1394 nc1[3,12,11]                0                          -0 
   1395 nc1[3,12,13]                0                          -0 
@@ -1850,7 +1850,7 @@ Objective:  z = 3600 (MINimum)
   1434 nc1[3,14,13]                0                          -0 
   1435 nc1[3,14,15]                0                          -0 
   1436 nc1[3,14,16]                0                          -0 
-  1437 nc1[3,14,17]          -999991                          -0 
+  1437 nc1[3,14,17]                0                          -0 
   1438 nc1[3,14,18]                0                          -0 
   1439 nc1[3,14,19]                0                          -0 
   1440 nc1[3,14,20]                0                          -0 
@@ -1968,2298 +1968,2298 @@ Objective:  z = 3600 (MINimum)
   1552 nc1[3,20,17]                0                          -0 
   1553 nc1[3,20,18]                0                          -0 
   1554 nc1[3,20,19]                0                          -0 
-  1555 nc2[1,1,2]                  4                       1e+06 
-  1556 nc2[1,1,3]                  4                       1e+06 
-  1557 nc2[1,1,4]                  4                       1e+06 
-  1558 nc2[1,1,5]                  4                       1e+06 
-  1559 nc2[1,1,6]                  4                       1e+06 
-  1560 nc2[1,1,7]                  4                       1e+06 
-  1561 nc2[1,1,8]                  4                       1e+06 
-  1562 nc2[1,1,9]                  4                       1e+06 
-  1563 nc2[1,1,10]                 4                       1e+06 
-  1564 nc2[1,1,11]                 4                       1e+06 
-  1565 nc2[1,1,12]                 4                       1e+06 
-  1566 nc2[1,1,13]                 4                       1e+06 
-  1567 nc2[1,1,14]                 4                       1e+06 
-  1568 nc2[1,1,15]                 4                       1e+06 
-  1569 nc2[1,1,16]                 4                       1e+06 
-  1570 nc2[1,1,17]                 4                       1e+06 
-  1571 nc2[1,1,18]                 4                       1e+06 
-  1572 nc2[1,1,19]                 4                       1e+06 
-  1573 nc2[1,1,20]                 4                       1e+06 
-  1574 nc2[1,2,1]                  4                       1e+06 
-  1575 nc2[1,2,3]              1e+06                       1e+06 
-  1576 nc2[1,2,4]                  4                       1e+06 
-  1577 nc2[1,2,5]                  4                       1e+06 
-  1578 nc2[1,2,6]                  4                       1e+06 
-  1579 nc2[1,2,7]                  4                       1e+06 
-  1580 nc2[1,2,8]                  4                       1e+06 
-  1581 nc2[1,2,9]                  4                       1e+06 
-  1582 nc2[1,2,10]                 4                       1e+06 
-  1583 nc2[1,2,11]                 4                       1e+06 
-  1584 nc2[1,2,12]                 4                       1e+06 
-  1585 nc2[1,2,13]                 4                       1e+06 
-  1586 nc2[1,2,14]                 4                       1e+06 
-  1587 nc2[1,2,15]                 4                       1e+06 
-  1588 nc2[1,2,16]                 4                       1e+06 
-  1589 nc2[1,2,17]                 4                       1e+06 
-  1590 nc2[1,2,18]                 4                       1e+06 
-  1591 nc2[1,2,19]                 4                       1e+06 
-  1592 nc2[1,2,20]                 4                       1e+06 
-  1593 nc2[1,3,1]                  4                       1e+06 
-  1594 nc2[1,3,2]                  4                       1e+06 
-  1595 nc2[1,3,4]              1e+06                       1e+06 
-  1596 nc2[1,3,5]                  4                       1e+06 
-  1597 nc2[1,3,6]                  4                       1e+06 
-  1598 nc2[1,3,7]                  4                       1e+06 
-  1599 nc2[1,3,8]                  4                       1e+06 
-  1600 nc2[1,3,9]                  4                       1e+06 
-  1601 nc2[1,3,10]                 4                       1e+06 
-  1602 nc2[1,3,11]                 4                       1e+06 
-  1603 nc2[1,3,12]                 4                       1e+06 
-  1604 nc2[1,3,13]                 4                       1e+06 
-  1605 nc2[1,3,14]                 4                       1e+06 
-  1606 nc2[1,3,15]                 4                       1e+06 
-  1607 nc2[1,3,16]                 4                       1e+06 
-  1608 nc2[1,3,17]                 4                       1e+06 
-  1609 nc2[1,3,18]                 4                       1e+06 
-  1610 nc2[1,3,19]                 4                       1e+06 
-  1611 nc2[1,3,20]                 4                       1e+06 
-  1612 nc2[1,4,1]                  4                       1e+06 
-  1613 nc2[1,4,2]                  4                       1e+06 
-  1614 nc2[1,4,3]                  4                       1e+06 
-  1615 nc2[1,4,5]                  4                       1e+06 
-  1616 nc2[1,4,6]              1e+06                       1e+06 
-  1617 nc2[1,4,7]                  4                       1e+06 
-  1618 nc2[1,4,8]                  4                       1e+06 
-  1619 nc2[1,4,9]                  4                       1e+06 
-  1620 nc2[1,4,10]                 4                       1e+06 
-  1621 nc2[1,4,11]                 4                       1e+06 
-  1622 nc2[1,4,12]                 4                       1e+06 
-  1623 nc2[1,4,13]                 4                       1e+06 
-  1624 nc2[1,4,14]                 4                       1e+06 
-  1625 nc2[1,4,15]                 4                       1e+06 
-  1626 nc2[1,4,16]                 4                       1e+06 
-  1627 nc2[1,4,17]                 4                       1e+06 
-  1628 nc2[1,4,18]                 4                       1e+06 
-  1629 nc2[1,4,19]                 4                       1e+06 
-  1630 nc2[1,4,20]                 4                       1e+06 
-  1631 nc2[1,5,1]                  4                       1e+06 
-  1632 nc2[1,5,2]                  4                       1e+06 
-  1633 nc2[1,5,3]                  4                       1e+06 
-  1634 nc2[1,5,4]                  4                       1e+06 
-  1635 nc2[1,5,6]                  4                       1e+06 
-  1636 nc2[1,5,7]                  4                       1e+06 
-  1637 nc2[1,5,8]                  4                       1e+06 
-  1638 nc2[1,5,9]                  4                       1e+06 
-  1639 nc2[1,5,10]                 4                       1e+06 
-  1640 nc2[1,5,11]                 4                       1e+06 
-  1641 nc2[1,5,12]                 4                       1e+06 
-  1642 nc2[1,5,13]                 4                       1e+06 
-  1643 nc2[1,5,14]                 4                       1e+06 
-  1644 nc2[1,5,15]                 4                       1e+06 
-  1645 nc2[1,5,16]                 4                       1e+06 
-  1646 nc2[1,5,17]                 4                       1e+06 
-  1647 nc2[1,5,18]                 4                       1e+06 
-  1648 nc2[1,5,19]                 4                       1e+06 
-  1649 nc2[1,5,20]                 4                       1e+06 
-  1650 nc2[1,6,1]                  4                       1e+06 
-  1651 nc2[1,6,2]                  4                       1e+06 
-  1652 nc2[1,6,3]                  4                       1e+06 
-  1653 nc2[1,6,4]                  4                       1e+06 
-  1654 nc2[1,6,5]                  4                       1e+06 
-  1655 nc2[1,6,7]                  4                       1e+06 
-  1656 nc2[1,6,8]                  4                       1e+06 
-  1657 nc2[1,6,9]                  4                       1e+06 
-  1658 nc2[1,6,10]                 4                       1e+06 
-  1659 nc2[1,6,11]                 4                       1e+06 
-  1660 nc2[1,6,12]                 4                       1e+06 
-  1661 nc2[1,6,13]                 4                       1e+06 
-  1662 nc2[1,6,14]                 4                       1e+06 
-  1663 nc2[1,6,15]                 4                       1e+06 
-  1664 nc2[1,6,16]                 4                       1e+06 
-  1665 nc2[1,6,17]                 4                       1e+06 
-  1666 nc2[1,6,18]                 4                       1e+06 
-  1667 nc2[1,6,19]                 4                       1e+06 
-  1668 nc2[1,6,20]                 4                       1e+06 
-  1669 nc2[1,7,1]                  4                       1e+06 
-  1670 nc2[1,7,2]                  4                       1e+06 
-  1671 nc2[1,7,3]                  4                       1e+06 
-  1672 nc2[1,7,4]                  4                       1e+06 
-  1673 nc2[1,7,5]                  4                       1e+06 
-  1674 nc2[1,7,6]                  4                       1e+06 
-  1675 nc2[1,7,8]                  4                       1e+06 
-  1676 nc2[1,7,9]                  4                       1e+06 
-  1677 nc2[1,7,10]                 4                       1e+06 
-  1678 nc2[1,7,11]                 4                       1e+06 
-  1679 nc2[1,7,12]                 4                       1e+06 
-  1680 nc2[1,7,13]                 4                       1e+06 
-  1681 nc2[1,7,14]                 4                       1e+06 
-  1682 nc2[1,7,15]                 4                       1e+06 
-  1683 nc2[1,7,16]                 4                       1e+06 
-  1684 nc2[1,7,17]                 4                       1e+06 
-  1685 nc2[1,7,18]                 4                       1e+06 
-  1686 nc2[1,7,19]                 4                       1e+06 
-  1687 nc2[1,7,20]                 4                       1e+06 
-  1688 nc2[1,8,1]                  4                       1e+06 
-  1689 nc2[1,8,2]                  4                       1e+06 
-  1690 nc2[1,8,3]                  4                       1e+06 
-  1691 nc2[1,8,4]                  4                       1e+06 
-  1692 nc2[1,8,5]                  4                       1e+06 
-  1693 nc2[1,8,6]                  4                       1e+06 
-  1694 nc2[1,8,7]                  4                       1e+06 
-  1695 nc2[1,8,9]                  4                       1e+06 
-  1696 nc2[1,8,10]                 4                       1e+06 
-  1697 nc2[1,8,11]                 4                       1e+06 
-  1698 nc2[1,8,12]                 4                       1e+06 
-  1699 nc2[1,8,13]                 4                       1e+06 
-  1700 nc2[1,8,14]                 4                       1e+06 
-  1701 nc2[1,8,15]                 4                       1e+06 
-  1702 nc2[1,8,16]                 4                       1e+06 
-  1703 nc2[1,8,17]                 4                       1e+06 
-  1704 nc2[1,8,18]                 4                       1e+06 
-  1705 nc2[1,8,19]                 4                       1e+06 
-  1706 nc2[1,8,20]                 4                       1e+06 
-  1707 nc2[1,9,1]                  4                       1e+06 
-  1708 nc2[1,9,2]                  4                       1e+06 
-  1709 nc2[1,9,3]                  4                       1e+06 
-  1710 nc2[1,9,4]                  4                       1e+06 
-  1711 nc2[1,9,5]                  4                       1e+06 
-  1712 nc2[1,9,6]                  4                       1e+06 
-  1713 nc2[1,9,7]                  4                       1e+06 
-  1714 nc2[1,9,8]                  4                       1e+06 
-  1715 nc2[1,9,10]                 4                       1e+06 
-  1716 nc2[1,9,11]                 4                       1e+06 
-  1717 nc2[1,9,12]                 4                       1e+06 
-  1718 nc2[1,9,13]                 4                       1e+06 
-  1719 nc2[1,9,14]                 4                       1e+06 
-  1720 nc2[1,9,15]                 4                       1e+06 
-  1721 nc2[1,9,16]                 4                       1e+06 
-  1722 nc2[1,9,17]                 4                       1e+06 
-  1723 nc2[1,9,18]                 4                       1e+06 
-  1724 nc2[1,9,19]                 4                       1e+06 
-  1725 nc2[1,9,20]                 4                       1e+06 
-  1726 nc2[1,10,1]                 4                       1e+06 
-  1727 nc2[1,10,2]                 4                       1e+06 
-  1728 nc2[1,10,3]                 4                       1e+06 
-  1729 nc2[1,10,4]                 4                       1e+06 
-  1730 nc2[1,10,5]                 4                       1e+06 
-  1731 nc2[1,10,6]                 4                       1e+06 
-  1732 nc2[1,10,7]                 4                       1e+06 
-  1733 nc2[1,10,8]                 4                       1e+06 
-  1734 nc2[1,10,9]                 4                       1e+06 
-  1735 nc2[1,10,11]                4                       1e+06 
-  1736 nc2[1,10,12]                4                       1e+06 
-  1737 nc2[1,10,13]                4                       1e+06 
-  1738 nc2[1,10,14]                4                       1e+06 
-  1739 nc2[1,10,15]                4                       1e+06 
-  1740 nc2[1,10,16]                4                       1e+06 
-  1741 nc2[1,10,17]                4                       1e+06 
-  1742 nc2[1,10,18]                4                       1e+06 
-  1743 nc2[1,10,19]                4                       1e+06 
-  1744 nc2[1,10,20]                4                       1e+06 
-  1745 nc2[1,11,1]                 4                       1e+06 
-  1746 nc2[1,11,2]                 4                       1e+06 
-  1747 nc2[1,11,3]                 4                       1e+06 
-  1748 nc2[1,11,4]                 4                       1e+06 
-  1749 nc2[1,11,5]                 4                       1e+06 
-  1750 nc2[1,11,6]                 4                       1e+06 
-  1751 nc2[1,11,7]                 4                       1e+06 
-  1752 nc2[1,11,8]                 4                       1e+06 
-  1753 nc2[1,11,9]                 4                       1e+06 
-  1754 nc2[1,11,10]                4                       1e+06 
-  1755 nc2[1,11,12]                4                       1e+06 
-  1756 nc2[1,11,13]                4                       1e+06 
-  1757 nc2[1,11,14]                4                       1e+06 
-  1758 nc2[1,11,15]                4                       1e+06 
-  1759 nc2[1,11,16]                4                       1e+06 
-  1760 nc2[1,11,17]                4                       1e+06 
-  1761 nc2[1,11,18]                4                       1e+06 
-  1762 nc2[1,11,19]                4                       1e+06 
-  1763 nc2[1,11,20]                4                       1e+06 
-  1764 nc2[1,12,1]                 4                       1e+06 
-  1765 nc2[1,12,2]                 4                       1e+06 
-  1766 nc2[1,12,3]                 4                       1e+06 
-  1767 nc2[1,12,4]                 4                       1e+06 
-  1768 nc2[1,12,5]                 4                       1e+06 
-  1769 nc2[1,12,6]                 4                       1e+06 
-  1770 nc2[1,12,7]                 4                       1e+06 
-  1771 nc2[1,12,8]                 4                       1e+06 
-  1772 nc2[1,12,9]                 4                       1e+06 
-  1773 nc2[1,12,10]                4                       1e+06 
-  1774 nc2[1,12,11]                4                       1e+06 
-  1775 nc2[1,12,13]                4                       1e+06 
-  1776 nc2[1,12,14]                4                       1e+06 
-  1777 nc2[1,12,15]                4                       1e+06 
-  1778 nc2[1,12,16]                4                       1e+06 
-  1779 nc2[1,12,17]                4                       1e+06 
-  1780 nc2[1,12,18]                4                       1e+06 
-  1781 nc2[1,12,19]                4                       1e+06 
-  1782 nc2[1,12,20]                4                       1e+06 
-  1783 nc2[1,13,1]                 4                       1e+06 
-  1784 nc2[1,13,2]                 4                       1e+06 
-  1785 nc2[1,13,3]                 4                       1e+06 
-  1786 nc2[1,13,4]                 4                       1e+06 
-  1787 nc2[1,13,5]                 4                       1e+06 
-  1788 nc2[1,13,6]                 4                       1e+06 
-  1789 nc2[1,13,7]                 4                       1e+06 
-  1790 nc2[1,13,8]                 4                       1e+06 
-  1791 nc2[1,13,9]                 4                       1e+06 
-  1792 nc2[1,13,10]                4                       1e+06 
-  1793 nc2[1,13,11]                4                       1e+06 
-  1794 nc2[1,13,12]                4                       1e+06 
-  1795 nc2[1,13,14]                4                       1e+06 
-  1796 nc2[1,13,15]                4                       1e+06 
-  1797 nc2[1,13,16]                4                       1e+06 
-  1798 nc2[1,13,17]                4                       1e+06 
-  1799 nc2[1,13,18]                4                       1e+06 
-  1800 nc2[1,13,19]                4                       1e+06 
-  1801 nc2[1,13,20]                4                       1e+06 
-  1802 nc2[1,14,1]                 4                       1e+06 
-  1803 nc2[1,14,2]                 4                       1e+06 
-  1804 nc2[1,14,3]                 4                       1e+06 
-  1805 nc2[1,14,4]                 4                       1e+06 
-  1806 nc2[1,14,5]                 4                       1e+06 
-  1807 nc2[1,14,6]                 4                       1e+06 
-  1808 nc2[1,14,7]                 4                       1e+06 
-  1809 nc2[1,14,8]                 4                       1e+06 
-  1810 nc2[1,14,9]                 4                       1e+06 
-  1811 nc2[1,14,10]                4                       1e+06 
-  1812 nc2[1,14,11]                4                       1e+06 
-  1813 nc2[1,14,12]                4                       1e+06 
-  1814 nc2[1,14,13]                4                       1e+06 
-  1815 nc2[1,14,15]                4                       1e+06 
-  1816 nc2[1,14,16]                4                       1e+06 
-  1817 nc2[1,14,17]                4                       1e+06 
-  1818 nc2[1,14,18]                4                       1e+06 
-  1819 nc2[1,14,19]                4                       1e+06 
-  1820 nc2[1,14,20]                4                       1e+06 
-  1821 nc2[1,15,1]                 4                       1e+06 
-  1822 nc2[1,15,2]                 4                       1e+06 
-  1823 nc2[1,15,3]                 4                       1e+06 
-  1824 nc2[1,15,4]                 4                       1e+06 
-  1825 nc2[1,15,5]                 4                       1e+06 
-  1826 nc2[1,15,6]                 4                       1e+06 
-  1827 nc2[1,15,7]                 4                       1e+06 
-  1828 nc2[1,15,8]                 4                       1e+06 
-  1829 nc2[1,15,9]                 4                       1e+06 
-  1830 nc2[1,15,10]                4                       1e+06 
-  1831 nc2[1,15,11]                4                       1e+06 
-  1832 nc2[1,15,12]                4                       1e+06 
-  1833 nc2[1,15,13]                4                       1e+06 
-  1834 nc2[1,15,14]                4                       1e+06 
-  1835 nc2[1,15,16]                4                       1e+06 
-  1836 nc2[1,15,17]                4                       1e+06 
-  1837 nc2[1,15,18]                4                       1e+06 
-  1838 nc2[1,15,19]                4                       1e+06 
-  1839 nc2[1,15,20]                4                       1e+06 
-  1840 nc2[1,16,1]                 4                       1e+06 
-  1841 nc2[1,16,2]                 4                       1e+06 
-  1842 nc2[1,16,3]                 4                       1e+06 
-  1843 nc2[1,16,4]                 4                       1e+06 
-  1844 nc2[1,16,5]                 4                       1e+06 
-  1845 nc2[1,16,6]                 4                       1e+06 
-  1846 nc2[1,16,7]                 4                       1e+06 
-  1847 nc2[1,16,8]                 4                       1e+06 
-  1848 nc2[1,16,9]                 4                       1e+06 
-  1849 nc2[1,16,10]                4                       1e+06 
-  1850 nc2[1,16,11]                4                       1e+06 
-  1851 nc2[1,16,12]                4                       1e+06 
-  1852 nc2[1,16,13]                4                       1e+06 
-  1853 nc2[1,16,14]                4                       1e+06 
-  1854 nc2[1,16,15]                4                       1e+06 
-  1855 nc2[1,16,17]                4                       1e+06 
-  1856 nc2[1,16,18]                4                       1e+06 
-  1857 nc2[1,16,19]                4                       1e+06 
-  1858 nc2[1,16,20]                4                       1e+06 
-  1859 nc2[1,17,1]                 4                       1e+06 
-  1860 nc2[1,17,2]                 4                       1e+06 
-  1861 nc2[1,17,3]                 4                       1e+06 
-  1862 nc2[1,17,4]                 4                       1e+06 
-  1863 nc2[1,17,5]                 4                       1e+06 
-  1864 nc2[1,17,6]                 4                       1e+06 
-  1865 nc2[1,17,7]                 4                       1e+06 
-  1866 nc2[1,17,8]                 4                       1e+06 
-  1867 nc2[1,17,9]                 4                       1e+06 
-  1868 nc2[1,17,10]                4                       1e+06 
-  1869 nc2[1,17,11]                4                       1e+06 
-  1870 nc2[1,17,12]                4                       1e+06 
-  1871 nc2[1,17,13]                4                       1e+06 
-  1872 nc2[1,17,14]                4                       1e+06 
-  1873 nc2[1,17,15]                4                       1e+06 
-  1874 nc2[1,17,16]                4                       1e+06 
-  1875 nc2[1,17,18]                4                       1e+06 
-  1876 nc2[1,17,19]                4                       1e+06 
-  1877 nc2[1,17,20]                4                       1e+06 
-  1878 nc2[1,18,1]                 4                       1e+06 
-  1879 nc2[1,18,2]                 4                       1e+06 
-  1880 nc2[1,18,3]                 4                       1e+06 
-  1881 nc2[1,18,4]                 4                       1e+06 
-  1882 nc2[1,18,5]                 4                       1e+06 
-  1883 nc2[1,18,6]                 4                       1e+06 
-  1884 nc2[1,18,7]                 4                       1e+06 
-  1885 nc2[1,18,8]                 4                       1e+06 
-  1886 nc2[1,18,9]                 4                       1e+06 
-  1887 nc2[1,18,10]                4                       1e+06 
-  1888 nc2[1,18,11]                4                       1e+06 
-  1889 nc2[1,18,12]                4                       1e+06 
-  1890 nc2[1,18,13]                4                       1e+06 
-  1891 nc2[1,18,14]                4                       1e+06 
-  1892 nc2[1,18,15]                4                       1e+06 
-  1893 nc2[1,18,16]                4                       1e+06 
-  1894 nc2[1,18,17]                4                       1e+06 
-  1895 nc2[1,18,19]                4                       1e+06 
-  1896 nc2[1,18,20]                4                       1e+06 
-  1897 nc2[1,19,1]                 4                       1e+06 
-  1898 nc2[1,19,2]                 4                       1e+06 
-  1899 nc2[1,19,3]                 4                       1e+06 
-  1900 nc2[1,19,4]                 4                       1e+06 
-  1901 nc2[1,19,5]                 4                       1e+06 
-  1902 nc2[1,19,6]                 4                       1e+06 
-  1903 nc2[1,19,7]                 4                       1e+06 
-  1904 nc2[1,19,8]                 4                       1e+06 
-  1905 nc2[1,19,9]                 4                       1e+06 
-  1906 nc2[1,19,10]                4                       1e+06 
-  1907 nc2[1,19,11]                4                       1e+06 
-  1908 nc2[1,19,12]                4                       1e+06 
-  1909 nc2[1,19,13]                4                       1e+06 
-  1910 nc2[1,19,14]                4                       1e+06 
-  1911 nc2[1,19,15]                4                       1e+06 
-  1912 nc2[1,19,16]                4                       1e+06 
-  1913 nc2[1,19,17]                4                       1e+06 
-  1914 nc2[1,19,18]                4                       1e+06 
-  1915 nc2[1,19,20]                4                       1e+06 
-  1916 nc2[1,20,1]                 4                       1e+06 
-  1917 nc2[1,20,2]                 4                       1e+06 
-  1918 nc2[1,20,3]                 4                       1e+06 
-  1919 nc2[1,20,4]                 4                       1e+06 
-  1920 nc2[1,20,5]                 4                       1e+06 
-  1921 nc2[1,20,6]                 4                       1e+06 
-  1922 nc2[1,20,7]                 4                       1e+06 
-  1923 nc2[1,20,8]                 4                       1e+06 
-  1924 nc2[1,20,9]                 4                       1e+06 
-  1925 nc2[1,20,10]                4                       1e+06 
-  1926 nc2[1,20,11]                4                       1e+06 
-  1927 nc2[1,20,12]                4                       1e+06 
-  1928 nc2[1,20,13]                4                       1e+06 
-  1929 nc2[1,20,14]                4                       1e+06 
-  1930 nc2[1,20,15]                4                       1e+06 
-  1931 nc2[1,20,16]                4                       1e+06 
-  1932 nc2[1,20,17]                4                       1e+06 
-  1933 nc2[1,20,18]                4                       1e+06 
-  1934 nc2[1,20,19]                4                       1e+06 
-  1935 nc2[2,1,2]                  7                       1e+06 
-  1936 nc2[2,1,3]                  7                       1e+06 
-  1937 nc2[2,1,4]                  7                       1e+06 
-  1938 nc2[2,1,5]                  7                       1e+06 
-  1939 nc2[2,1,6]                  7                       1e+06 
-  1940 nc2[2,1,7]                  7                       1e+06 
-  1941 nc2[2,1,8]                  7                       1e+06 
-  1942 nc2[2,1,9]                  7                       1e+06 
-  1943 nc2[2,1,10]                 7                       1e+06 
-  1944 nc2[2,1,11]                 7                       1e+06 
-  1945 nc2[2,1,12]                 7                       1e+06 
-  1946 nc2[2,1,13]                 7                       1e+06 
-  1947 nc2[2,1,14]                 7                       1e+06 
-  1948 nc2[2,1,15]                 7                       1e+06 
-  1949 nc2[2,1,16]                 7                       1e+06 
-  1950 nc2[2,1,17]                 7                       1e+06 
-  1951 nc2[2,1,18]                 7                       1e+06 
-  1952 nc2[2,1,19]                 7                       1e+06 
-  1953 nc2[2,1,20]                 7                       1e+06 
-  1954 nc2[2,2,1]                  7                       1e+06 
-  1955 nc2[2,2,3]                  7                       1e+06 
-  1956 nc2[2,2,4]                  7                       1e+06 
-  1957 nc2[2,2,5]                  7                       1e+06 
-  1958 nc2[2,2,6]                  7                       1e+06 
-  1959 nc2[2,2,7]                  7                       1e+06 
-  1960 nc2[2,2,8]                  7                       1e+06 
-  1961 nc2[2,2,9]                  7                       1e+06 
-  1962 nc2[2,2,10]                 7                       1e+06 
-  1963 nc2[2,2,11]                 7                       1e+06 
-  1964 nc2[2,2,12]                 7                       1e+06 
-  1965 nc2[2,2,13]                 7                       1e+06 
-  1966 nc2[2,2,14]                 7                       1e+06 
-  1967 nc2[2,2,15]                 7                       1e+06 
-  1968 nc2[2,2,16]                 7                       1e+06 
-  1969 nc2[2,2,17]                 7                       1e+06 
-  1970 nc2[2,2,18]                 7                       1e+06 
-  1971 nc2[2,2,19]                 7                       1e+06 
-  1972 nc2[2,2,20]                 7                       1e+06 
-  1973 nc2[2,3,1]                  7                       1e+06 
-  1974 nc2[2,3,2]                  7                       1e+06 
-  1975 nc2[2,3,4]                  7                       1e+06 
-  1976 nc2[2,3,5]                  7                       1e+06 
-  1977 nc2[2,3,6]                  7                       1e+06 
-  1978 nc2[2,3,7]                  7                       1e+06 
-  1979 nc2[2,3,8]                  7                       1e+06 
-  1980 nc2[2,3,9]                  7                       1e+06 
-  1981 nc2[2,3,10]                 7                       1e+06 
-  1982 nc2[2,3,11]                 7                       1e+06 
-  1983 nc2[2,3,12]                 7                       1e+06 
-  1984 nc2[2,3,13]                 7                       1e+06 
-  1985 nc2[2,3,14]                 7                       1e+06 
-  1986 nc2[2,3,15]                 7                       1e+06 
-  1987 nc2[2,3,16]                 7                       1e+06 
-  1988 nc2[2,3,17]                 7                       1e+06 
-  1989 nc2[2,3,18]                 7                       1e+06 
-  1990 nc2[2,3,19]                 7                       1e+06 
-  1991 nc2[2,3,20]                 7                       1e+06 
-  1992 nc2[2,4,1]                  7                       1e+06 
-  1993 nc2[2,4,2]                  7                       1e+06 
-  1994 nc2[2,4,3]                  7                       1e+06 
-  1995 nc2[2,4,5]                  7                       1e+06 
-  1996 nc2[2,4,6]                  7                       1e+06 
-  1997 nc2[2,4,7]                  7                       1e+06 
-  1998 nc2[2,4,8]                  7                       1e+06 
-  1999 nc2[2,4,9]                  7                       1e+06 
-  2000 nc2[2,4,10]                 7                       1e+06 
-  2001 nc2[2,4,11]                 7                       1e+06 
-  2002 nc2[2,4,12]                 7                       1e+06 
-  2003 nc2[2,4,13]                 7                       1e+06 
-  2004 nc2[2,4,14]                 7                       1e+06 
-  2005 nc2[2,4,15]                 7                       1e+06 
-  2006 nc2[2,4,16]                 7                       1e+06 
-  2007 nc2[2,4,17]                 7                       1e+06 
-  2008 nc2[2,4,18]                 7                       1e+06 
-  2009 nc2[2,4,19]                 7                       1e+06 
-  2010 nc2[2,4,20]                 7                       1e+06 
-  2011 nc2[2,5,1]                  7                       1e+06 
-  2012 nc2[2,5,2]                  7                       1e+06 
-  2013 nc2[2,5,3]                  7                       1e+06 
-  2014 nc2[2,5,4]                  7                       1e+06 
-  2015 nc2[2,5,6]                  7                       1e+06 
-  2016 nc2[2,5,7]                  7                       1e+06 
-  2017 nc2[2,5,8]                  7                       1e+06 
-  2018 nc2[2,5,9]                  7                       1e+06 
-  2019 nc2[2,5,10]                 7                       1e+06 
-  2020 nc2[2,5,11]                 7                       1e+06 
-  2021 nc2[2,5,12]                 7                       1e+06 
-  2022 nc2[2,5,13]                 7                       1e+06 
-  2023 nc2[2,5,14]                 7                       1e+06 
-  2024 nc2[2,5,15]                 7                       1e+06 
-  2025 nc2[2,5,16]                 7                       1e+06 
-  2026 nc2[2,5,17]                 7                       1e+06 
-  2027 nc2[2,5,18]                 7                       1e+06 
-  2028 nc2[2,5,19]                 7                       1e+06 
-  2029 nc2[2,5,20]                 7                       1e+06 
-  2030 nc2[2,6,1]                  7                       1e+06 
-  2031 nc2[2,6,2]                  7                       1e+06 
-  2032 nc2[2,6,3]                  7                       1e+06 
-  2033 nc2[2,6,4]                  7                       1e+06 
-  2034 nc2[2,6,5]                  7                       1e+06 
-  2035 nc2[2,6,7]                  7                       1e+06 
-  2036 nc2[2,6,8]                  7                       1e+06 
-  2037 nc2[2,6,9]                  7                       1e+06 
-  2038 nc2[2,6,10]                 7                       1e+06 
-  2039 nc2[2,6,11]                 7                       1e+06 
-  2040 nc2[2,6,12]                 7                       1e+06 
-  2041 nc2[2,6,13]                 7                       1e+06 
-  2042 nc2[2,6,14]                 7                       1e+06 
-  2043 nc2[2,6,15]                 7                       1e+06 
-  2044 nc2[2,6,16]                 7                       1e+06 
-  2045 nc2[2,6,17]                 7                       1e+06 
-  2046 nc2[2,6,18]                 7                       1e+06 
-  2047 nc2[2,6,19]                 7                       1e+06 
-  2048 nc2[2,6,20]                 7                       1e+06 
-  2049 nc2[2,7,1]                  7                       1e+06 
-  2050 nc2[2,7,2]                  7                       1e+06 
-  2051 nc2[2,7,3]                  7                       1e+06 
-  2052 nc2[2,7,4]                  7                       1e+06 
-  2053 nc2[2,7,5]                  7                       1e+06 
-  2054 nc2[2,7,6]                  7                       1e+06 
-  2055 nc2[2,7,8]                  7                       1e+06 
-  2056 nc2[2,7,9]                  7                       1e+06 
-  2057 nc2[2,7,10]                 7                       1e+06 
-  2058 nc2[2,7,11]                 7                       1e+06 
-  2059 nc2[2,7,12]                 7                       1e+06 
-  2060 nc2[2,7,13]                 7                       1e+06 
-  2061 nc2[2,7,14]                 7                       1e+06 
-  2062 nc2[2,7,15]                 7                       1e+06 
-  2063 nc2[2,7,16]                 7                       1e+06 
-  2064 nc2[2,7,17]                 7                       1e+06 
-  2065 nc2[2,7,18]                 7                       1e+06 
-  2066 nc2[2,7,19]                 7                       1e+06 
-  2067 nc2[2,7,20]                 7                       1e+06 
-  2068 nc2[2,8,1]                  7                       1e+06 
-  2069 nc2[2,8,2]                  7                       1e+06 
-  2070 nc2[2,8,3]                  7                       1e+06 
-  2071 nc2[2,8,4]                  7                       1e+06 
-  2072 nc2[2,8,5]                  7                       1e+06 
-  2073 nc2[2,8,6]                  7                       1e+06 
-  2074 nc2[2,8,7]                  7                       1e+06 
-  2075 nc2[2,8,9]                  7                       1e+06 
-  2076 nc2[2,8,10]                 7                       1e+06 
-  2077 nc2[2,8,11]                 7                       1e+06 
-  2078 nc2[2,8,12]                 7                       1e+06 
-  2079 nc2[2,8,13]                 7                       1e+06 
-  2080 nc2[2,8,14]                 7                       1e+06 
-  2081 nc2[2,8,15]                 7                       1e+06 
-  2082 nc2[2,8,16]                 7                       1e+06 
-  2083 nc2[2,8,17]                 7                       1e+06 
-  2084 nc2[2,8,18]                 7                       1e+06 
-  2085 nc2[2,8,19]                 7                       1e+06 
-  2086 nc2[2,8,20]                 7                       1e+06 
-  2087 nc2[2,9,1]                  7                       1e+06 
-  2088 nc2[2,9,2]                  7                       1e+06 
-  2089 nc2[2,9,3]                  7                       1e+06 
-  2090 nc2[2,9,4]                  7                       1e+06 
-  2091 nc2[2,9,5]                  7                       1e+06 
-  2092 nc2[2,9,6]                  7                       1e+06 
-  2093 nc2[2,9,7]                  7                       1e+06 
-  2094 nc2[2,9,8]                  7                       1e+06 
-  2095 nc2[2,9,10]                 7                       1e+06 
-  2096 nc2[2,9,11]                 7                       1e+06 
-  2097 nc2[2,9,12]                 7                       1e+06 
-  2098 nc2[2,9,13]                 7                       1e+06 
-  2099 nc2[2,9,14]                 7                       1e+06 
-  2100 nc2[2,9,15]                 7                       1e+06 
-  2101 nc2[2,9,16]                 7                       1e+06 
-  2102 nc2[2,9,17]                 7                       1e+06 
-  2103 nc2[2,9,18]                 7                       1e+06 
-  2104 nc2[2,9,19]                 7                       1e+06 
-  2105 nc2[2,9,20]                 7                       1e+06 
-  2106 nc2[2,10,1]                 7                       1e+06 
-  2107 nc2[2,10,2]                 7                       1e+06 
-  2108 nc2[2,10,3]                 7                       1e+06 
-  2109 nc2[2,10,4]                 7                       1e+06 
-  2110 nc2[2,10,5]                 7                       1e+06 
-  2111 nc2[2,10,6]                 7                       1e+06 
-  2112 nc2[2,10,7]                 7                       1e+06 
-  2113 nc2[2,10,8]                 7                       1e+06 
-  2114 nc2[2,10,9]                 7                       1e+06 
-  2115 nc2[2,10,11]                7                       1e+06 
-  2116 nc2[2,10,12]                7                       1e+06 
-  2117 nc2[2,10,13]                7                       1e+06 
-  2118 nc2[2,10,14]                7                       1e+06 
-  2119 nc2[2,10,15]                7                       1e+06 
-  2120 nc2[2,10,16]                7                       1e+06 
-  2121 nc2[2,10,17]                7                       1e+06 
-  2122 nc2[2,10,18]                7                       1e+06 
-  2123 nc2[2,10,19]                7                       1e+06 
-  2124 nc2[2,10,20]                7                       1e+06 
-  2125 nc2[2,11,1]                 7                       1e+06 
-  2126 nc2[2,11,2]                 7                       1e+06 
-  2127 nc2[2,11,3]                 7                       1e+06 
-  2128 nc2[2,11,4]                 7                       1e+06 
-  2129 nc2[2,11,5]                 7                       1e+06 
-  2130 nc2[2,11,6]                 7                       1e+06 
-  2131 nc2[2,11,7]                 7                       1e+06 
-  2132 nc2[2,11,8]                 7                       1e+06 
-  2133 nc2[2,11,9]                 7                       1e+06 
-  2134 nc2[2,11,10]                7                       1e+06 
-  2135 nc2[2,11,12]                7                       1e+06 
-  2136 nc2[2,11,13]            1e+06                       1e+06 
-  2137 nc2[2,11,14]                7                       1e+06 
-  2138 nc2[2,11,15]                7                       1e+06 
-  2139 nc2[2,11,16]                7                       1e+06 
-  2140 nc2[2,11,17]                7                       1e+06 
-  2141 nc2[2,11,18]                7                       1e+06 
-  2142 nc2[2,11,19]                7                       1e+06 
-  2143 nc2[2,11,20]                7                       1e+06 
-  2144 nc2[2,12,1]                 7                       1e+06 
-  2145 nc2[2,12,2]                 7                       1e+06 
-  2146 nc2[2,12,3]                 7                       1e+06 
-  2147 nc2[2,12,4]                 7                       1e+06 
-  2148 nc2[2,12,5]                 7                       1e+06 
-  2149 nc2[2,12,6]                 7                       1e+06 
-  2150 nc2[2,12,7]                 7                       1e+06 
-  2151 nc2[2,12,8]                 7                       1e+06 
-  2152 nc2[2,12,9]                 7                       1e+06 
-  2153 nc2[2,12,10]                7                       1e+06 
-  2154 nc2[2,12,11]                7                       1e+06 
-  2155 nc2[2,12,13]                7                       1e+06 
-  2156 nc2[2,12,14]                7                       1e+06 
-  2157 nc2[2,12,15]                7                       1e+06 
-  2158 nc2[2,12,16]                7                       1e+06 
-  2159 nc2[2,12,17]                7                       1e+06 
-  2160 nc2[2,12,18]                7                       1e+06 
-  2161 nc2[2,12,19]                7                       1e+06 
-  2162 nc2[2,12,20]                7                       1e+06 
-  2163 nc2[2,13,1]                 7                       1e+06 
-  2164 nc2[2,13,2]                 7                       1e+06 
-  2165 nc2[2,13,3]                 7                       1e+06 
-  2166 nc2[2,13,4]                 7                       1e+06 
-  2167 nc2[2,13,5]                 7                       1e+06 
-  2168 nc2[2,13,6]                 7                       1e+06 
-  2169 nc2[2,13,7]                 7                       1e+06 
-  2170 nc2[2,13,8]                 7                       1e+06 
-  2171 nc2[2,13,9]                 7                       1e+06 
-  2172 nc2[2,13,10]                7                       1e+06 
-  2173 nc2[2,13,11]                7                       1e+06 
-  2174 nc2[2,13,12]                7                       1e+06 
-  2175 nc2[2,13,14]                7                       1e+06 
-  2176 nc2[2,13,15]                7                       1e+06 
-  2177 nc2[2,13,16]                7                       1e+06 
-  2178 nc2[2,13,17]                7                       1e+06 
-  2179 nc2[2,13,18]                7                       1e+06 
-  2180 nc2[2,13,19]                7                       1e+06 
-  2181 nc2[2,13,20]            1e+06                       1e+06 
-  2182 nc2[2,14,1]                 7                       1e+06 
-  2183 nc2[2,14,2]                 7                       1e+06 
-  2184 nc2[2,14,3]                 7                       1e+06 
-  2185 nc2[2,14,4]                 7                       1e+06 
-  2186 nc2[2,14,5]                 7                       1e+06 
-  2187 nc2[2,14,6]                 7                       1e+06 
-  2188 nc2[2,14,7]                 7                       1e+06 
-  2189 nc2[2,14,8]                 7                       1e+06 
-  2190 nc2[2,14,9]                 7                       1e+06 
-  2191 nc2[2,14,10]                7                       1e+06 
-  2192 nc2[2,14,11]                7                       1e+06 
-  2193 nc2[2,14,12]                7                       1e+06 
-  2194 nc2[2,14,13]                7                       1e+06 
-  2195 nc2[2,14,15]                7                       1e+06 
-  2196 nc2[2,14,16]                7                       1e+06 
-  2197 nc2[2,14,17]                7                       1e+06 
-  2198 nc2[2,14,18]                7                       1e+06 
-  2199 nc2[2,14,19]                7                       1e+06 
-  2200 nc2[2,14,20]                7                       1e+06 
-  2201 nc2[2,15,1]                 7                       1e+06 
-  2202 nc2[2,15,2]                 7                       1e+06 
-  2203 nc2[2,15,3]                 7                       1e+06 
-  2204 nc2[2,15,4]                 7                       1e+06 
-  2205 nc2[2,15,5]                 7                       1e+06 
-  2206 nc2[2,15,6]                 7                       1e+06 
-  2207 nc2[2,15,7]                 7                       1e+06 
-  2208 nc2[2,15,8]                 7                       1e+06 
-  2209 nc2[2,15,9]                 7                       1e+06 
-  2210 nc2[2,15,10]                7                       1e+06 
-  2211 nc2[2,15,11]                7                       1e+06 
-  2212 nc2[2,15,12]                7                       1e+06 
-  2213 nc2[2,15,13]                7                       1e+06 
-  2214 nc2[2,15,14]                7                       1e+06 
-  2215 nc2[2,15,16]            1e+06                       1e+06 
-  2216 nc2[2,15,17]                7                       1e+06 
-  2217 nc2[2,15,18]                7                       1e+06 
-  2218 nc2[2,15,19]                7                       1e+06 
-  2219 nc2[2,15,20]                7                       1e+06 
-  2220 nc2[2,16,1]                 7                       1e+06 
-  2221 nc2[2,16,2]                 7                       1e+06 
-  2222 nc2[2,16,3]                 7                       1e+06 
-  2223 nc2[2,16,4]                 7                       1e+06 
-  2224 nc2[2,16,5]                 7                       1e+06 
-  2225 nc2[2,16,6]                 7                       1e+06 
-  2226 nc2[2,16,7]                 7                       1e+06 
-  2227 nc2[2,16,8]                 7                       1e+06 
-  2228 nc2[2,16,9]                 7                       1e+06 
-  2229 nc2[2,16,10]                7                       1e+06 
-  2230 nc2[2,16,11]                7                       1e+06 
-  2231 nc2[2,16,12]                7                       1e+06 
-  2232 nc2[2,16,13]                7                       1e+06 
-  2233 nc2[2,16,14]                7                       1e+06 
-  2234 nc2[2,16,15]                7                       1e+06 
-  2235 nc2[2,16,17]                7                       1e+06 
-  2236 nc2[2,16,18]                7                       1e+06 
-  2237 nc2[2,16,19]            1e+06                       1e+06 
-  2238 nc2[2,16,20]                7                       1e+06 
-  2239 nc2[2,17,1]                 7                       1e+06 
-  2240 nc2[2,17,2]                 7                       1e+06 
-  2241 nc2[2,17,3]                 7                       1e+06 
-  2242 nc2[2,17,4]                 7                       1e+06 
-  2243 nc2[2,17,5]                 7                       1e+06 
-  2244 nc2[2,17,6]                 7                       1e+06 
-  2245 nc2[2,17,7]                 7                       1e+06 
-  2246 nc2[2,17,8]                 7                       1e+06 
-  2247 nc2[2,17,9]                 7                       1e+06 
-  2248 nc2[2,17,10]                7                       1e+06 
-  2249 nc2[2,17,11]                7                       1e+06 
-  2250 nc2[2,17,12]                7                       1e+06 
-  2251 nc2[2,17,13]                7                       1e+06 
-  2252 nc2[2,17,14]                7                       1e+06 
-  2253 nc2[2,17,15]                7                       1e+06 
-  2254 nc2[2,17,16]                7                       1e+06 
-  2255 nc2[2,17,18]                7                       1e+06 
-  2256 nc2[2,17,19]                7                       1e+06 
-  2257 nc2[2,17,20]                7                       1e+06 
-  2258 nc2[2,18,1]                 7                       1e+06 
-  2259 nc2[2,18,2]                 7                       1e+06 
-  2260 nc2[2,18,3]                 7                       1e+06 
-  2261 nc2[2,18,4]                 7                       1e+06 
-  2262 nc2[2,18,5]                 7                       1e+06 
-  2263 nc2[2,18,6]                 7                       1e+06 
-  2264 nc2[2,18,7]                 7                       1e+06 
-  2265 nc2[2,18,8]                 7                       1e+06 
-  2266 nc2[2,18,9]                 7                       1e+06 
-  2267 nc2[2,18,10]                7                       1e+06 
-  2268 nc2[2,18,11]                7                       1e+06 
-  2269 nc2[2,18,12]                7                       1e+06 
-  2270 nc2[2,18,13]                7                       1e+06 
-  2271 nc2[2,18,14]                7                       1e+06 
-  2272 nc2[2,18,15]            1e+06                       1e+06 
-  2273 nc2[2,18,16]                7                       1e+06 
-  2274 nc2[2,18,17]                7                       1e+06 
-  2275 nc2[2,18,19]                7                       1e+06 
-  2276 nc2[2,18,20]                7                       1e+06 
-  2277 nc2[2,19,1]                 7                       1e+06 
-  2278 nc2[2,19,2]                 7                       1e+06 
-  2279 nc2[2,19,3]                 7                       1e+06 
-  2280 nc2[2,19,4]                 7                       1e+06 
-  2281 nc2[2,19,5]                 7                       1e+06 
-  2282 nc2[2,19,6]                 7                       1e+06 
-  2283 nc2[2,19,7]                 7                       1e+06 
-  2284 nc2[2,19,8]                 7                       1e+06 
-  2285 nc2[2,19,9]                 7                       1e+06 
-  2286 nc2[2,19,10]                7                       1e+06 
-  2287 nc2[2,19,11]                7                       1e+06 
-  2288 nc2[2,19,12]                7                       1e+06 
-  2289 nc2[2,19,13]                7                       1e+06 
-  2290 nc2[2,19,14]                7                       1e+06 
-  2291 nc2[2,19,15]                7                       1e+06 
-  2292 nc2[2,19,16]                7                       1e+06 
-  2293 nc2[2,19,17]                7                       1e+06 
-  2294 nc2[2,19,18]                7                       1e+06 
-  2295 nc2[2,19,20]                7                       1e+06 
-  2296 nc2[2,20,1]                 7                       1e+06 
-  2297 nc2[2,20,2]                 7                       1e+06 
-  2298 nc2[2,20,3]                 7                       1e+06 
-  2299 nc2[2,20,4]                 7                       1e+06 
-  2300 nc2[2,20,5]                 7                       1e+06 
-  2301 nc2[2,20,6]                 7                       1e+06 
-  2302 nc2[2,20,7]                 7                       1e+06 
-  2303 nc2[2,20,8]                 7                       1e+06 
-  2304 nc2[2,20,9]                 7                       1e+06 
-  2305 nc2[2,20,10]                7                       1e+06 
-  2306 nc2[2,20,11]                7                       1e+06 
-  2307 nc2[2,20,12]                7                       1e+06 
-  2308 nc2[2,20,13]                7                       1e+06 
-  2309 nc2[2,20,14]                7                       1e+06 
-  2310 nc2[2,20,15]                7                       1e+06 
-  2311 nc2[2,20,16]                7                       1e+06 
-  2312 nc2[2,20,17]                7                       1e+06 
-  2313 nc2[2,20,18]            1e+06                       1e+06 
-  2314 nc2[2,20,19]                7                       1e+06 
-  2315 nc2[3,1,2]                  9                       1e+06 
-  2316 nc2[3,1,3]                  9                       1e+06 
-  2317 nc2[3,1,4]                  9                       1e+06 
-  2318 nc2[3,1,5]              1e+06                       1e+06 
-  2319 nc2[3,1,6]                  9                       1e+06 
-  2320 nc2[3,1,7]                  9                       1e+06 
-  2321 nc2[3,1,8]                  9                       1e+06 
-  2322 nc2[3,1,9]                  9                       1e+06 
-  2323 nc2[3,1,10]                 9                       1e+06 
-  2324 nc2[3,1,11]                 9                       1e+06 
-  2325 nc2[3,1,12]                 9                       1e+06 
-  2326 nc2[3,1,13]                 9                       1e+06 
-  2327 nc2[3,1,14]                 9                       1e+06 
-  2328 nc2[3,1,15]                 9                       1e+06 
-  2329 nc2[3,1,16]                 9                       1e+06 
-  2330 nc2[3,1,17]                 9                       1e+06 
-  2331 nc2[3,1,18]                 9                       1e+06 
-  2332 nc2[3,1,19]                 9                       1e+06 
-  2333 nc2[3,1,20]                 9                       1e+06 
-  2334 nc2[3,2,1]                  9                       1e+06 
-  2335 nc2[3,2,3]                  9                       1e+06 
-  2336 nc2[3,2,4]                  9                       1e+06 
-  2337 nc2[3,2,5]                  9                       1e+06 
-  2338 nc2[3,2,6]                  9                       1e+06 
-  2339 nc2[3,2,7]                  9                       1e+06 
-  2340 nc2[3,2,8]                  9                       1e+06 
-  2341 nc2[3,2,9]                  9                       1e+06 
-  2342 nc2[3,2,10]                 9                       1e+06 
-  2343 nc2[3,2,11]                 9                       1e+06 
-  2344 nc2[3,2,12]                 9                       1e+06 
-  2345 nc2[3,2,13]                 9                       1e+06 
-  2346 nc2[3,2,14]                 9                       1e+06 
-  2347 nc2[3,2,15]                 9                       1e+06 
-  2348 nc2[3,2,16]                 9                       1e+06 
-  2349 nc2[3,2,17]                 9                       1e+06 
-  2350 nc2[3,2,18]                 9                       1e+06 
-  2351 nc2[3,2,19]                 9                       1e+06 
-  2352 nc2[3,2,20]                 9                       1e+06 
-  2353 nc2[3,3,1]                  9                       1e+06 
-  2354 nc2[3,3,2]                  9                       1e+06 
-  2355 nc2[3,3,4]                  9                       1e+06 
-  2356 nc2[3,3,5]                  9                       1e+06 
-  2357 nc2[3,3,6]                  9                       1e+06 
-  2358 nc2[3,3,7]                  9                       1e+06 
-  2359 nc2[3,3,8]                  9                       1e+06 
-  2360 nc2[3,3,9]                  9                       1e+06 
-  2361 nc2[3,3,10]                 9                       1e+06 
-  2362 nc2[3,3,11]                 9                       1e+06 
-  2363 nc2[3,3,12]                 9                       1e+06 
-  2364 nc2[3,3,13]                 9                       1e+06 
-  2365 nc2[3,3,14]                 9                       1e+06 
-  2366 nc2[3,3,15]                 9                       1e+06 
-  2367 nc2[3,3,16]                 9                       1e+06 
-  2368 nc2[3,3,17]                 9                       1e+06 
-  2369 nc2[3,3,18]                 9                       1e+06 
-  2370 nc2[3,3,19]                 9                       1e+06 
-  2371 nc2[3,3,20]                 9                       1e+06 
-  2372 nc2[3,4,1]                  9                       1e+06 
-  2373 nc2[3,4,2]                  9                       1e+06 
-  2374 nc2[3,4,3]                  9                       1e+06 
-  2375 nc2[3,4,5]                  9                       1e+06 
-  2376 nc2[3,4,6]                  9                       1e+06 
-  2377 nc2[3,4,7]                  9                       1e+06 
-  2378 nc2[3,4,8]                  9                       1e+06 
-  2379 nc2[3,4,9]                  9                       1e+06 
-  2380 nc2[3,4,10]                 9                       1e+06 
-  2381 nc2[3,4,11]                 9                       1e+06 
-  2382 nc2[3,4,12]                 9                       1e+06 
-  2383 nc2[3,4,13]                 9                       1e+06 
-  2384 nc2[3,4,14]                 9                       1e+06 
-  2385 nc2[3,4,15]                 9                       1e+06 
-  2386 nc2[3,4,16]                 9                       1e+06 
-  2387 nc2[3,4,17]                 9                       1e+06 
-  2388 nc2[3,4,18]                 9                       1e+06 
-  2389 nc2[3,4,19]                 9                       1e+06 
-  2390 nc2[3,4,20]                 9                       1e+06 
-  2391 nc2[3,5,1]                  9                       1e+06 
-  2392 nc2[3,5,2]                  9                       1e+06 
-  2393 nc2[3,5,3]                  9                       1e+06 
-  2394 nc2[3,5,4]                  9                       1e+06 
-  2395 nc2[3,5,6]                  9                       1e+06 
-  2396 nc2[3,5,7]              1e+06                       1e+06 
-  2397 nc2[3,5,8]                  9                       1e+06 
-  2398 nc2[3,5,9]                  9                       1e+06 
-  2399 nc2[3,5,10]                 9                       1e+06 
-  2400 nc2[3,5,11]                 9                       1e+06 
-  2401 nc2[3,5,12]                 9                       1e+06 
-  2402 nc2[3,5,13]                 9                       1e+06 
-  2403 nc2[3,5,14]                 9                       1e+06 
-  2404 nc2[3,5,15]                 9                       1e+06 
-  2405 nc2[3,5,16]                 9                       1e+06 
-  2406 nc2[3,5,17]                 9                       1e+06 
-  2407 nc2[3,5,18]                 9                       1e+06 
-  2408 nc2[3,5,19]                 9                       1e+06 
-  2409 nc2[3,5,20]                 9                       1e+06 
-  2410 nc2[3,6,1]                  9                       1e+06 
-  2411 nc2[3,6,2]                  9                       1e+06 
-  2412 nc2[3,6,3]                  9                       1e+06 
-  2413 nc2[3,6,4]                  9                       1e+06 
-  2414 nc2[3,6,5]                  9                       1e+06 
-  2415 nc2[3,6,7]                  9                       1e+06 
-  2416 nc2[3,6,8]                  9                       1e+06 
-  2417 nc2[3,6,9]                  9                       1e+06 
-  2418 nc2[3,6,10]                 9                       1e+06 
-  2419 nc2[3,6,11]                 9                       1e+06 
-  2420 nc2[3,6,12]                 9                       1e+06 
-  2421 nc2[3,6,13]                 9                       1e+06 
-  2422 nc2[3,6,14]                 9                       1e+06 
-  2423 nc2[3,6,15]                 9                       1e+06 
-  2424 nc2[3,6,16]                 9                       1e+06 
-  2425 nc2[3,6,17]                 9                       1e+06 
-  2426 nc2[3,6,18]                 9                       1e+06 
-  2427 nc2[3,6,19]                 9                       1e+06 
-  2428 nc2[3,6,20]                 9                       1e+06 
-  2429 nc2[3,7,1]                  9                       1e+06 
-  2430 nc2[3,7,2]                  9                       1e+06 
-  2431 nc2[3,7,3]                  9                       1e+06 
-  2432 nc2[3,7,4]                  9                       1e+06 
-  2433 nc2[3,7,5]                  9                       1e+06 
-  2434 nc2[3,7,6]                  9                       1e+06 
-  2435 nc2[3,7,8]              1e+06                       1e+06 
-  2436 nc2[3,7,9]                  9                       1e+06 
-  2437 nc2[3,7,10]                 9                       1e+06 
-  2438 nc2[3,7,11]                 9                       1e+06 
-  2439 nc2[3,7,12]                 9                       1e+06 
-  2440 nc2[3,7,13]                 9                       1e+06 
-  2441 nc2[3,7,14]                 9                       1e+06 
-  2442 nc2[3,7,15]                 9                       1e+06 
-  2443 nc2[3,7,16]                 9                       1e+06 
-  2444 nc2[3,7,17]                 9                       1e+06 
-  2445 nc2[3,7,18]                 9                       1e+06 
-  2446 nc2[3,7,19]                 9                       1e+06 
-  2447 nc2[3,7,20]                 9                       1e+06 
-  2448 nc2[3,8,1]                  9                       1e+06 
-  2449 nc2[3,8,2]                  9                       1e+06 
-  2450 nc2[3,8,3]                  9                       1e+06 
-  2451 nc2[3,8,4]                  9                       1e+06 
-  2452 nc2[3,8,5]                  9                       1e+06 
-  2453 nc2[3,8,6]                  9                       1e+06 
-  2454 nc2[3,8,7]                  9                       1e+06 
-  2455 nc2[3,8,9]                  9                       1e+06 
-  2456 nc2[3,8,10]                 9                       1e+06 
-  2457 nc2[3,8,11]                 9                       1e+06 
-  2458 nc2[3,8,12]             1e+06                       1e+06 
-  2459 nc2[3,8,13]                 9                       1e+06 
-  2460 nc2[3,8,14]                 9                       1e+06 
-  2461 nc2[3,8,15]                 9                       1e+06 
-  2462 nc2[3,8,16]                 9                       1e+06 
-  2463 nc2[3,8,17]                 9                       1e+06 
-  2464 nc2[3,8,18]                 9                       1e+06 
-  2465 nc2[3,8,19]                 9                       1e+06 
-  2466 nc2[3,8,20]                 9                       1e+06 
-  2467 nc2[3,9,1]                  9                       1e+06 
-  2468 nc2[3,9,2]                  9                       1e+06 
-  2469 nc2[3,9,3]                  9                       1e+06 
-  2470 nc2[3,9,4]                  9                       1e+06 
-  2471 nc2[3,9,5]                  9                       1e+06 
-  2472 nc2[3,9,6]                  9                       1e+06 
-  2473 nc2[3,9,7]                  9                       1e+06 
-  2474 nc2[3,9,8]                  9                       1e+06 
-  2475 nc2[3,9,10]             1e+06                       1e+06 
-  2476 nc2[3,9,11]                 9                       1e+06 
-  2477 nc2[3,9,12]                 9                       1e+06 
-  2478 nc2[3,9,13]                 9                       1e+06 
-  2479 nc2[3,9,14]                 9                       1e+06 
-  2480 nc2[3,9,15]                 9                       1e+06 
-  2481 nc2[3,9,16]                 9                       1e+06 
-  2482 nc2[3,9,17]                 9                       1e+06 
-  2483 nc2[3,9,18]                 9                       1e+06 
-  2484 nc2[3,9,19]                 9                       1e+06 
-  2485 nc2[3,9,20]                 9                       1e+06 
-  2486 nc2[3,10,1]                 9                       1e+06 
-  2487 nc2[3,10,2]                 9                       1e+06 
-  2488 nc2[3,10,3]                 9                       1e+06 
-  2489 nc2[3,10,4]                 9                       1e+06 
-  2490 nc2[3,10,5]                 9                       1e+06 
-  2491 nc2[3,10,6]                 9                       1e+06 
-  2492 nc2[3,10,7]                 9                       1e+06 
-  2493 nc2[3,10,8]                 9                       1e+06 
-  2494 nc2[3,10,9]                 9                       1e+06 
-  2495 nc2[3,10,11]                9                       1e+06 
-  2496 nc2[3,10,12]                9                       1e+06 
-  2497 nc2[3,10,13]                9                       1e+06 
-  2498 nc2[3,10,14]            1e+06                       1e+06 
-  2499 nc2[3,10,15]                9                       1e+06 
-  2500 nc2[3,10,16]                9                       1e+06 
-  2501 nc2[3,10,17]                9                       1e+06 
-  2502 nc2[3,10,18]                9                       1e+06 
-  2503 nc2[3,10,19]                9                       1e+06 
-  2504 nc2[3,10,20]                9                       1e+06 
-  2505 nc2[3,11,1]                 9                       1e+06 
-  2506 nc2[3,11,2]                 9                       1e+06 
-  2507 nc2[3,11,3]                 9                       1e+06 
-  2508 nc2[3,11,4]                 9                       1e+06 
-  2509 nc2[3,11,5]                 9                       1e+06 
-  2510 nc2[3,11,6]                 9                       1e+06 
-  2511 nc2[3,11,7]                 9                       1e+06 
-  2512 nc2[3,11,8]                 9                       1e+06 
-  2513 nc2[3,11,9]                 9                       1e+06 
-  2514 nc2[3,11,10]                9                       1e+06 
-  2515 nc2[3,11,12]                9                       1e+06 
-  2516 nc2[3,11,13]                9                       1e+06 
-  2517 nc2[3,11,14]                9                       1e+06 
-  2518 nc2[3,11,15]                9                       1e+06 
-  2519 nc2[3,11,16]                9                       1e+06 
-  2520 nc2[3,11,17]                9                       1e+06 
-  2521 nc2[3,11,18]                9                       1e+06 
-  2522 nc2[3,11,19]                9                       1e+06 
-  2523 nc2[3,11,20]                9                       1e+06 
-  2524 nc2[3,12,1]                 9                       1e+06 
-  2525 nc2[3,12,2]                 9                       1e+06 
-  2526 nc2[3,12,3]                 9                       1e+06 
-  2527 nc2[3,12,4]                 9                       1e+06 
-  2528 nc2[3,12,5]                 9                       1e+06 
-  2529 nc2[3,12,6]                 9                       1e+06 
-  2530 nc2[3,12,7]                 9                       1e+06 
-  2531 nc2[3,12,8]                 9                       1e+06 
-  2532 nc2[3,12,9]             1e+06                       1e+06 
-  2533 nc2[3,12,10]                9                       1e+06 
-  2534 nc2[3,12,11]                9                       1e+06 
-  2535 nc2[3,12,13]                9                       1e+06 
-  2536 nc2[3,12,14]                9                       1e+06 
-  2537 nc2[3,12,15]                9                       1e+06 
-  2538 nc2[3,12,16]                9                       1e+06 
-  2539 nc2[3,12,17]                9                       1e+06 
-  2540 nc2[3,12,18]                9                       1e+06 
-  2541 nc2[3,12,19]                9                       1e+06 
-  2542 nc2[3,12,20]                9                       1e+06 
-  2543 nc2[3,13,1]                 9                       1e+06 
-  2544 nc2[3,13,2]                 9                       1e+06 
-  2545 nc2[3,13,3]                 9                       1e+06 
-  2546 nc2[3,13,4]                 9                       1e+06 
-  2547 nc2[3,13,5]                 9                       1e+06 
-  2548 nc2[3,13,6]                 9                       1e+06 
-  2549 nc2[3,13,7]                 9                       1e+06 
-  2550 nc2[3,13,8]                 9                       1e+06 
-  2551 nc2[3,13,9]                 9                       1e+06 
-  2552 nc2[3,13,10]                9                       1e+06 
-  2553 nc2[3,13,11]                9                       1e+06 
-  2554 nc2[3,13,12]                9                       1e+06 
-  2555 nc2[3,13,14]                9                       1e+06 
-  2556 nc2[3,13,15]                9                       1e+06 
-  2557 nc2[3,13,16]                9                       1e+06 
-  2558 nc2[3,13,17]                9                       1e+06 
-  2559 nc2[3,13,18]                9                       1e+06 
-  2560 nc2[3,13,19]                9                       1e+06 
-  2561 nc2[3,13,20]                9                       1e+06 
-  2562 nc2[3,14,1]                 9                       1e+06 
-  2563 nc2[3,14,2]                 9                       1e+06 
-  2564 nc2[3,14,3]                 9                       1e+06 
-  2565 nc2[3,14,4]                 9                       1e+06 
-  2566 nc2[3,14,5]                 9                       1e+06 
-  2567 nc2[3,14,6]                 9                       1e+06 
-  2568 nc2[3,14,7]                 9                       1e+06 
-  2569 nc2[3,14,8]                 9                       1e+06 
-  2570 nc2[3,14,9]                 9                       1e+06 
-  2571 nc2[3,14,10]                9                       1e+06 
-  2572 nc2[3,14,11]                9                       1e+06 
-  2573 nc2[3,14,12]                9                       1e+06 
-  2574 nc2[3,14,13]                9                       1e+06 
-  2575 nc2[3,14,15]                9                       1e+06 
-  2576 nc2[3,14,16]                9                       1e+06 
-  2577 nc2[3,14,17]            1e+06                       1e+06 
-  2578 nc2[3,14,18]                9                       1e+06 
-  2579 nc2[3,14,19]                9                       1e+06 
-  2580 nc2[3,14,20]                9                       1e+06 
-  2581 nc2[3,15,1]                 9                       1e+06 
-  2582 nc2[3,15,2]                 9                       1e+06 
-  2583 nc2[3,15,3]                 9                       1e+06 
-  2584 nc2[3,15,4]                 9                       1e+06 
-  2585 nc2[3,15,5]                 9                       1e+06 
-  2586 nc2[3,15,6]                 9                       1e+06 
-  2587 nc2[3,15,7]                 9                       1e+06 
-  2588 nc2[3,15,8]                 9                       1e+06 
-  2589 nc2[3,15,9]                 9                       1e+06 
-  2590 nc2[3,15,10]                9                       1e+06 
-  2591 nc2[3,15,11]                9                       1e+06 
-  2592 nc2[3,15,12]                9                       1e+06 
-  2593 nc2[3,15,13]                9                       1e+06 
-  2594 nc2[3,15,14]                9                       1e+06 
-  2595 nc2[3,15,16]                9                       1e+06 
-  2596 nc2[3,15,17]                9                       1e+06 
-  2597 nc2[3,15,18]                9                       1e+06 
-  2598 nc2[3,15,19]                9                       1e+06 
-  2599 nc2[3,15,20]                9                       1e+06 
-  2600 nc2[3,16,1]                 9                       1e+06 
-  2601 nc2[3,16,2]                 9                       1e+06 
-  2602 nc2[3,16,3]                 9                       1e+06 
-  2603 nc2[3,16,4]                 9                       1e+06 
-  2604 nc2[3,16,5]                 9                       1e+06 
-  2605 nc2[3,16,6]                 9                       1e+06 
-  2606 nc2[3,16,7]                 9                       1e+06 
-  2607 nc2[3,16,8]                 9                       1e+06 
-  2608 nc2[3,16,9]                 9                       1e+06 
-  2609 nc2[3,16,10]                9                       1e+06 
-  2610 nc2[3,16,11]                9                       1e+06 
-  2611 nc2[3,16,12]                9                       1e+06 
-  2612 nc2[3,16,13]                9                       1e+06 
-  2613 nc2[3,16,14]                9                       1e+06 
-  2614 nc2[3,16,15]                9                       1e+06 
-  2615 nc2[3,16,17]                9                       1e+06 
-  2616 nc2[3,16,18]                9                       1e+06 
-  2617 nc2[3,16,19]                9                       1e+06 
-  2618 nc2[3,16,20]                9                       1e+06 
-  2619 nc2[3,17,1]                 9                       1e+06 
-  2620 nc2[3,17,2]                 9                       1e+06 
-  2621 nc2[3,17,3]                 9                       1e+06 
-  2622 nc2[3,17,4]                 9                       1e+06 
-  2623 nc2[3,17,5]                 9                       1e+06 
-  2624 nc2[3,17,6]                 9                       1e+06 
-  2625 nc2[3,17,7]                 9                       1e+06 
-  2626 nc2[3,17,8]                 9                       1e+06 
-  2627 nc2[3,17,9]                 9                       1e+06 
-  2628 nc2[3,17,10]                9                       1e+06 
-  2629 nc2[3,17,11]                9                       1e+06 
-  2630 nc2[3,17,12]                9                       1e+06 
-  2631 nc2[3,17,13]                9                       1e+06 
-  2632 nc2[3,17,14]                9                       1e+06 
-  2633 nc2[3,17,15]                9                       1e+06 
-  2634 nc2[3,17,16]                9                       1e+06 
-  2635 nc2[3,17,18]                9                       1e+06 
-  2636 nc2[3,17,19]                9                       1e+06 
-  2637 nc2[3,17,20]                9                       1e+06 
-  2638 nc2[3,18,1]                 9                       1e+06 
-  2639 nc2[3,18,2]                 9                       1e+06 
-  2640 nc2[3,18,3]                 9                       1e+06 
-  2641 nc2[3,18,4]                 9                       1e+06 
-  2642 nc2[3,18,5]                 9                       1e+06 
-  2643 nc2[3,18,6]                 9                       1e+06 
-  2644 nc2[3,18,7]                 9                       1e+06 
-  2645 nc2[3,18,8]                 9                       1e+06 
-  2646 nc2[3,18,9]                 9                       1e+06 
-  2647 nc2[3,18,10]                9                       1e+06 
-  2648 nc2[3,18,11]                9                       1e+06 
-  2649 nc2[3,18,12]                9                       1e+06 
-  2650 nc2[3,18,13]                9                       1e+06 
-  2651 nc2[3,18,14]                9                       1e+06 
-  2652 nc2[3,18,15]                9                       1e+06 
-  2653 nc2[3,18,16]                9                       1e+06 
-  2654 nc2[3,18,17]                9                       1e+06 
-  2655 nc2[3,18,19]                9                       1e+06 
-  2656 nc2[3,18,20]                9                       1e+06 
-  2657 nc2[3,19,1]                 9                       1e+06 
-  2658 nc2[3,19,2]                 9                       1e+06 
-  2659 nc2[3,19,3]                 9                       1e+06 
-  2660 nc2[3,19,4]                 9                       1e+06 
-  2661 nc2[3,19,5]                 9                       1e+06 
-  2662 nc2[3,19,6]                 9                       1e+06 
-  2663 nc2[3,19,7]                 9                       1e+06 
-  2664 nc2[3,19,8]                 9                       1e+06 
-  2665 nc2[3,19,9]                 9                       1e+06 
-  2666 nc2[3,19,10]                9                       1e+06 
-  2667 nc2[3,19,11]                9                       1e+06 
-  2668 nc2[3,19,12]                9                       1e+06 
-  2669 nc2[3,19,13]                9                       1e+06 
-  2670 nc2[3,19,14]                9                       1e+06 
-  2671 nc2[3,19,15]                9                       1e+06 
-  2672 nc2[3,19,16]                9                       1e+06 
-  2673 nc2[3,19,17]                9                       1e+06 
-  2674 nc2[3,19,18]                9                       1e+06 
-  2675 nc2[3,19,20]                9                       1e+06 
-  2676 nc2[3,20,1]                 9                       1e+06 
-  2677 nc2[3,20,2]                 9                       1e+06 
-  2678 nc2[3,20,3]                 9                       1e+06 
-  2679 nc2[3,20,4]                 9                       1e+06 
-  2680 nc2[3,20,5]                 9                       1e+06 
-  2681 nc2[3,20,6]                 9                       1e+06 
-  2682 nc2[3,20,7]                 9                       1e+06 
-  2683 nc2[3,20,8]                 9                       1e+06 
-  2684 nc2[3,20,9]                 9                       1e+06 
-  2685 nc2[3,20,10]                9                       1e+06 
-  2686 nc2[3,20,11]                9                       1e+06 
-  2687 nc2[3,20,12]                9                       1e+06 
-  2688 nc2[3,20,13]                9                       1e+06 
-  2689 nc2[3,20,14]                9                       1e+06 
-  2690 nc2[3,20,15]                9                       1e+06 
-  2691 nc2[3,20,16]                9                       1e+06 
-  2692 nc2[3,20,17]                9                       1e+06 
-  2693 nc2[3,20,18]                9                       1e+06 
-  2694 nc2[3,20,19]                9                       1e+06 
-  2695 nc3[1,1,2]                 -4                       1e+06 
-  2696 nc3[1,1,3]                 -4                       1e+06 
-  2697 nc3[1,1,4]                 -4                       1e+06 
-  2698 nc3[1,1,5]                 -4                       1e+06 
-  2699 nc3[1,1,6]                 -4                       1e+06 
-  2700 nc3[1,1,7]                 -4                       1e+06 
-  2701 nc3[1,1,8]                 -4                       1e+06 
-  2702 nc3[1,1,9]                 -4                       1e+06 
-  2703 nc3[1,1,10]                -4                       1e+06 
-  2704 nc3[1,1,11]                -4                       1e+06 
-  2705 nc3[1,1,12]                -4                       1e+06 
-  2706 nc3[1,1,13]                -4                       1e+06 
-  2707 nc3[1,1,14]                -4                       1e+06 
-  2708 nc3[1,1,15]                -4                       1e+06 
-  2709 nc3[1,1,16]                -4                       1e+06 
-  2710 nc3[1,1,17]                -4                       1e+06 
-  2711 nc3[1,1,18]                -4                       1e+06 
-  2712 nc3[1,1,19]                -4                       1e+06 
-  2713 nc3[1,1,20]                -4                       1e+06 
-  2714 nc3[1,2,1]                 -4                       1e+06 
-  2715 nc3[1,2,3]              1e+06                       1e+06 
-  2716 nc3[1,2,4]                 -4                       1e+06 
-  2717 nc3[1,2,5]                 -4                       1e+06 
-  2718 nc3[1,2,6]                 -4                       1e+06 
-  2719 nc3[1,2,7]                 -4                       1e+06 
-  2720 nc3[1,2,8]                 -4                       1e+06 
-  2721 nc3[1,2,9]                 -4                       1e+06 
-  2722 nc3[1,2,10]                -4                       1e+06 
-  2723 nc3[1,2,11]                -4                       1e+06 
-  2724 nc3[1,2,12]                -4                       1e+06 
-  2725 nc3[1,2,13]                -4                       1e+06 
-  2726 nc3[1,2,14]                -4                       1e+06 
-  2727 nc3[1,2,15]                -4                       1e+06 
-  2728 nc3[1,2,16]                -4                       1e+06 
-  2729 nc3[1,2,17]                -4                       1e+06 
-  2730 nc3[1,2,18]                -4                       1e+06 
-  2731 nc3[1,2,19]                -4                       1e+06 
-  2732 nc3[1,2,20]                -4                       1e+06 
-  2733 nc3[1,3,1]                 -4                       1e+06 
-  2734 nc3[1,3,2]                 -4                       1e+06 
-  2735 nc3[1,3,4]              1e+06                       1e+06 
-  2736 nc3[1,3,5]                 -4                       1e+06 
-  2737 nc3[1,3,6]                 -4                       1e+06 
-  2738 nc3[1,3,7]                 -4                       1e+06 
-  2739 nc3[1,3,8]                 -4                       1e+06 
-  2740 nc3[1,3,9]                 -4                       1e+06 
-  2741 nc3[1,3,10]                -4                       1e+06 
-  2742 nc3[1,3,11]                -4                       1e+06 
-  2743 nc3[1,3,12]                -4                       1e+06 
-  2744 nc3[1,3,13]                -4                       1e+06 
-  2745 nc3[1,3,14]                -4                       1e+06 
-  2746 nc3[1,3,15]                -4                       1e+06 
-  2747 nc3[1,3,16]                -4                       1e+06 
-  2748 nc3[1,3,17]                -4                       1e+06 
-  2749 nc3[1,3,18]                -4                       1e+06 
-  2750 nc3[1,3,19]                -4                       1e+06 
-  2751 nc3[1,3,20]                -4                       1e+06 
-  2752 nc3[1,4,1]                 -4                       1e+06 
-  2753 nc3[1,4,2]                 -4                       1e+06 
-  2754 nc3[1,4,3]                 -4                       1e+06 
-  2755 nc3[1,4,5]                 -4                       1e+06 
-  2756 nc3[1,4,6]              1e+06                       1e+06 
-  2757 nc3[1,4,7]                 -4                       1e+06 
-  2758 nc3[1,4,8]                 -4                       1e+06 
-  2759 nc3[1,4,9]                 -4                       1e+06 
-  2760 nc3[1,4,10]                -4                       1e+06 
-  2761 nc3[1,4,11]                -4                       1e+06 
-  2762 nc3[1,4,12]                -4                       1e+06 
-  2763 nc3[1,4,13]                -4                       1e+06 
-  2764 nc3[1,4,14]                -4                       1e+06 
-  2765 nc3[1,4,15]                -4                       1e+06 
-  2766 nc3[1,4,16]                -4                       1e+06 
-  2767 nc3[1,4,17]                -4                       1e+06 
-  2768 nc3[1,4,18]                -4                       1e+06 
-  2769 nc3[1,4,19]                -4                       1e+06 
-  2770 nc3[1,4,20]                -4                       1e+06 
-  2771 nc3[1,5,1]                 -4                       1e+06 
-  2772 nc3[1,5,2]                 -4                       1e+06 
-  2773 nc3[1,5,3]                 -4                       1e+06 
-  2774 nc3[1,5,4]                 -4                       1e+06 
-  2775 nc3[1,5,6]                 -4                       1e+06 
-  2776 nc3[1,5,7]                 -4                       1e+06 
-  2777 nc3[1,5,8]                 -4                       1e+06 
-  2778 nc3[1,5,9]                 -4                       1e+06 
-  2779 nc3[1,5,10]                -4                       1e+06 
-  2780 nc3[1,5,11]                -4                       1e+06 
-  2781 nc3[1,5,12]                -4                       1e+06 
-  2782 nc3[1,5,13]                -4                       1e+06 
-  2783 nc3[1,5,14]                -4                       1e+06 
-  2784 nc3[1,5,15]                -4                       1e+06 
-  2785 nc3[1,5,16]                -4                       1e+06 
-  2786 nc3[1,5,17]                -4                       1e+06 
-  2787 nc3[1,5,18]                -4                       1e+06 
-  2788 nc3[1,5,19]                -4                       1e+06 
-  2789 nc3[1,5,20]                -4                       1e+06 
-  2790 nc3[1,6,1]                 -4                       1e+06 
-  2791 nc3[1,6,2]                 -4                       1e+06 
-  2792 nc3[1,6,3]                 -4                       1e+06 
-  2793 nc3[1,6,4]                 -4                       1e+06 
-  2794 nc3[1,6,5]                 -4                       1e+06 
-  2795 nc3[1,6,7]                 -4                       1e+06 
-  2796 nc3[1,6,8]                 -4                       1e+06 
-  2797 nc3[1,6,9]                 -4                       1e+06 
-  2798 nc3[1,6,10]                -4                       1e+06 
-  2799 nc3[1,6,11]                -4                       1e+06 
-  2800 nc3[1,6,12]                -4                       1e+06 
-  2801 nc3[1,6,13]                -4                       1e+06 
-  2802 nc3[1,6,14]                -4                       1e+06 
-  2803 nc3[1,6,15]                -4                       1e+06 
-  2804 nc3[1,6,16]                -4                       1e+06 
-  2805 nc3[1,6,17]                -4                       1e+06 
-  2806 nc3[1,6,18]                -4                       1e+06 
-  2807 nc3[1,6,19]                -4                       1e+06 
-  2808 nc3[1,6,20]                -4                       1e+06 
-  2809 nc3[1,7,1]                 -4                       1e+06 
-  2810 nc3[1,7,2]                 -4                       1e+06 
-  2811 nc3[1,7,3]                 -4                       1e+06 
-  2812 nc3[1,7,4]                 -4                       1e+06 
-  2813 nc3[1,7,5]                 -4                       1e+06 
-  2814 nc3[1,7,6]                 -4                       1e+06 
-  2815 nc3[1,7,8]                 -4                       1e+06 
-  2816 nc3[1,7,9]                 -4                       1e+06 
-  2817 nc3[1,7,10]                -4                       1e+06 
-  2818 nc3[1,7,11]                -4                       1e+06 
-  2819 nc3[1,7,12]                -4                       1e+06 
-  2820 nc3[1,7,13]                -4                       1e+06 
-  2821 nc3[1,7,14]                -4                       1e+06 
-  2822 nc3[1,7,15]                -4                       1e+06 
-  2823 nc3[1,7,16]                -4                       1e+06 
-  2824 nc3[1,7,17]                -4                       1e+06 
-  2825 nc3[1,7,18]                -4                       1e+06 
-  2826 nc3[1,7,19]                -4                       1e+06 
-  2827 nc3[1,7,20]                -4                       1e+06 
-  2828 nc3[1,8,1]                 -4                       1e+06 
-  2829 nc3[1,8,2]                 -4                       1e+06 
-  2830 nc3[1,8,3]                 -4                       1e+06 
-  2831 nc3[1,8,4]                 -4                       1e+06 
-  2832 nc3[1,8,5]                 -4                       1e+06 
-  2833 nc3[1,8,6]                 -4                       1e+06 
-  2834 nc3[1,8,7]                 -4                       1e+06 
-  2835 nc3[1,8,9]                 -4                       1e+06 
-  2836 nc3[1,8,10]                -4                       1e+06 
-  2837 nc3[1,8,11]                -4                       1e+06 
-  2838 nc3[1,8,12]                -4                       1e+06 
-  2839 nc3[1,8,13]                -4                       1e+06 
-  2840 nc3[1,8,14]                -4                       1e+06 
-  2841 nc3[1,8,15]                -4                       1e+06 
-  2842 nc3[1,8,16]                -4                       1e+06 
-  2843 nc3[1,8,17]                -4                       1e+06 
-  2844 nc3[1,8,18]                -4                       1e+06 
-  2845 nc3[1,8,19]                -4                       1e+06 
-  2846 nc3[1,8,20]                -4                       1e+06 
-  2847 nc3[1,9,1]                 -4                       1e+06 
-  2848 nc3[1,9,2]                 -4                       1e+06 
-  2849 nc3[1,9,3]                 -4                       1e+06 
-  2850 nc3[1,9,4]                 -4                       1e+06 
-  2851 nc3[1,9,5]                 -4                       1e+06 
-  2852 nc3[1,9,6]                 -4                       1e+06 
-  2853 nc3[1,9,7]                 -4                       1e+06 
-  2854 nc3[1,9,8]                 -4                       1e+06 
-  2855 nc3[1,9,10]                -4                       1e+06 
-  2856 nc3[1,9,11]                -4                       1e+06 
-  2857 nc3[1,9,12]                -4                       1e+06 
-  2858 nc3[1,9,13]                -4                       1e+06 
-  2859 nc3[1,9,14]                -4                       1e+06 
-  2860 nc3[1,9,15]                -4                       1e+06 
-  2861 nc3[1,9,16]                -4                       1e+06 
-  2862 nc3[1,9,17]                -4                       1e+06 
-  2863 nc3[1,9,18]                -4                       1e+06 
-  2864 nc3[1,9,19]                -4                       1e+06 
-  2865 nc3[1,9,20]                -4                       1e+06 
-  2866 nc3[1,10,1]                -4                       1e+06 
-  2867 nc3[1,10,2]                -4                       1e+06 
-  2868 nc3[1,10,3]                -4                       1e+06 
-  2869 nc3[1,10,4]                -4                       1e+06 
-  2870 nc3[1,10,5]                -4                       1e+06 
-  2871 nc3[1,10,6]                -4                       1e+06 
-  2872 nc3[1,10,7]                -4                       1e+06 
-  2873 nc3[1,10,8]                -4                       1e+06 
-  2874 nc3[1,10,9]                -4                       1e+06 
-  2875 nc3[1,10,11]               -4                       1e+06 
-  2876 nc3[1,10,12]               -4                       1e+06 
-  2877 nc3[1,10,13]               -4                       1e+06 
-  2878 nc3[1,10,14]               -4                       1e+06 
-  2879 nc3[1,10,15]               -4                       1e+06 
-  2880 nc3[1,10,16]               -4                       1e+06 
-  2881 nc3[1,10,17]               -4                       1e+06 
-  2882 nc3[1,10,18]               -4                       1e+06 
-  2883 nc3[1,10,19]               -4                       1e+06 
-  2884 nc3[1,10,20]               -4                       1e+06 
-  2885 nc3[1,11,1]                -4                       1e+06 
-  2886 nc3[1,11,2]                -4                       1e+06 
-  2887 nc3[1,11,3]                -4                       1e+06 
-  2888 nc3[1,11,4]                -4                       1e+06 
-  2889 nc3[1,11,5]                -4                       1e+06 
-  2890 nc3[1,11,6]                -4                       1e+06 
-  2891 nc3[1,11,7]                -4                       1e+06 
-  2892 nc3[1,11,8]                -4                       1e+06 
-  2893 nc3[1,11,9]                -4                       1e+06 
-  2894 nc3[1,11,10]               -4                       1e+06 
-  2895 nc3[1,11,12]               -4                       1e+06 
-  2896 nc3[1,11,13]               -4                       1e+06 
-  2897 nc3[1,11,14]               -4                       1e+06 
-  2898 nc3[1,11,15]               -4                       1e+06 
-  2899 nc3[1,11,16]               -4                       1e+06 
-  2900 nc3[1,11,17]               -4                       1e+06 
-  2901 nc3[1,11,18]               -4                       1e+06 
-  2902 nc3[1,11,19]               -4                       1e+06 
-  2903 nc3[1,11,20]               -4                       1e+06 
-  2904 nc3[1,12,1]                -4                       1e+06 
-  2905 nc3[1,12,2]                -4                       1e+06 
-  2906 nc3[1,12,3]                -4                       1e+06 
-  2907 nc3[1,12,4]                -4                       1e+06 
-  2908 nc3[1,12,5]                -4                       1e+06 
-  2909 nc3[1,12,6]                -4                       1e+06 
-  2910 nc3[1,12,7]                -4                       1e+06 
-  2911 nc3[1,12,8]                -4                       1e+06 
-  2912 nc3[1,12,9]                -4                       1e+06 
-  2913 nc3[1,12,10]               -4                       1e+06 
-  2914 nc3[1,12,11]               -4                       1e+06 
-  2915 nc3[1,12,13]               -4                       1e+06 
-  2916 nc3[1,12,14]               -4                       1e+06 
-  2917 nc3[1,12,15]               -4                       1e+06 
-  2918 nc3[1,12,16]               -4                       1e+06 
-  2919 nc3[1,12,17]               -4                       1e+06 
-  2920 nc3[1,12,18]               -4                       1e+06 
-  2921 nc3[1,12,19]               -4                       1e+06 
-  2922 nc3[1,12,20]               -4                       1e+06 
-  2923 nc3[1,13,1]                -4                       1e+06 
-  2924 nc3[1,13,2]                -4                       1e+06 
-  2925 nc3[1,13,3]                -4                       1e+06 
-  2926 nc3[1,13,4]                -4                       1e+06 
-  2927 nc3[1,13,5]                -4                       1e+06 
-  2928 nc3[1,13,6]                -4                       1e+06 
-  2929 nc3[1,13,7]                -4                       1e+06 
-  2930 nc3[1,13,8]                -4                       1e+06 
-  2931 nc3[1,13,9]                -4                       1e+06 
-  2932 nc3[1,13,10]               -4                       1e+06 
-  2933 nc3[1,13,11]               -4                       1e+06 
-  2934 nc3[1,13,12]               -4                       1e+06 
-  2935 nc3[1,13,14]               -4                       1e+06 
-  2936 nc3[1,13,15]               -4                       1e+06 
-  2937 nc3[1,13,16]               -4                       1e+06 
-  2938 nc3[1,13,17]               -4                       1e+06 
-  2939 nc3[1,13,18]               -4                       1e+06 
-  2940 nc3[1,13,19]               -4                       1e+06 
-  2941 nc3[1,13,20]               -4                       1e+06 
-  2942 nc3[1,14,1]                -4                       1e+06 
-  2943 nc3[1,14,2]                -4                       1e+06 
-  2944 nc3[1,14,3]                -4                       1e+06 
-  2945 nc3[1,14,4]                -4                       1e+06 
-  2946 nc3[1,14,5]                -4                       1e+06 
-  2947 nc3[1,14,6]                -4                       1e+06 
-  2948 nc3[1,14,7]                -4                       1e+06 
-  2949 nc3[1,14,8]                -4                       1e+06 
-  2950 nc3[1,14,9]                -4                       1e+06 
-  2951 nc3[1,14,10]               -4                       1e+06 
-  2952 nc3[1,14,11]               -4                       1e+06 
-  2953 nc3[1,14,12]               -4                       1e+06 
-  2954 nc3[1,14,13]               -4                       1e+06 
-  2955 nc3[1,14,15]               -4                       1e+06 
-  2956 nc3[1,14,16]               -4                       1e+06 
-  2957 nc3[1,14,17]               -4                       1e+06 
-  2958 nc3[1,14,18]               -4                       1e+06 
-  2959 nc3[1,14,19]               -4                       1e+06 
-  2960 nc3[1,14,20]               -4                       1e+06 
-  2961 nc3[1,15,1]                -4                       1e+06 
-  2962 nc3[1,15,2]                -4                       1e+06 
-  2963 nc3[1,15,3]                -4                       1e+06 
-  2964 nc3[1,15,4]                -4                       1e+06 
-  2965 nc3[1,15,5]                -4                       1e+06 
-  2966 nc3[1,15,6]                -4                       1e+06 
-  2967 nc3[1,15,7]                -4                       1e+06 
-  2968 nc3[1,15,8]                -4                       1e+06 
-  2969 nc3[1,15,9]                -4                       1e+06 
-  2970 nc3[1,15,10]               -4                       1e+06 
-  2971 nc3[1,15,11]               -4                       1e+06 
-  2972 nc3[1,15,12]               -4                       1e+06 
-  2973 nc3[1,15,13]               -4                       1e+06 
-  2974 nc3[1,15,14]               -4                       1e+06 
-  2975 nc3[1,15,16]               -4                       1e+06 
-  2976 nc3[1,15,17]               -4                       1e+06 
-  2977 nc3[1,15,18]               -4                       1e+06 
-  2978 nc3[1,15,19]               -4                       1e+06 
-  2979 nc3[1,15,20]               -4                       1e+06 
-  2980 nc3[1,16,1]                -4                       1e+06 
-  2981 nc3[1,16,2]                -4                       1e+06 
-  2982 nc3[1,16,3]                -4                       1e+06 
-  2983 nc3[1,16,4]                -4                       1e+06 
-  2984 nc3[1,16,5]                -4                       1e+06 
-  2985 nc3[1,16,6]                -4                       1e+06 
-  2986 nc3[1,16,7]                -4                       1e+06 
-  2987 nc3[1,16,8]                -4                       1e+06 
-  2988 nc3[1,16,9]                -4                       1e+06 
-  2989 nc3[1,16,10]               -4                       1e+06 
-  2990 nc3[1,16,11]               -4                       1e+06 
-  2991 nc3[1,16,12]               -4                       1e+06 
-  2992 nc3[1,16,13]               -4                       1e+06 
-  2993 nc3[1,16,14]               -4                       1e+06 
-  2994 nc3[1,16,15]               -4                       1e+06 
-  2995 nc3[1,16,17]               -4                       1e+06 
-  2996 nc3[1,16,18]               -4                       1e+06 
-  2997 nc3[1,16,19]               -4                       1e+06 
-  2998 nc3[1,16,20]               -4                       1e+06 
-  2999 nc3[1,17,1]                -4                       1e+06 
-  3000 nc3[1,17,2]                -4                       1e+06 
-  3001 nc3[1,17,3]                -4                       1e+06 
-  3002 nc3[1,17,4]                -4                       1e+06 
-  3003 nc3[1,17,5]                -4                       1e+06 
-  3004 nc3[1,17,6]                -4                       1e+06 
-  3005 nc3[1,17,7]                -4                       1e+06 
-  3006 nc3[1,17,8]                -4                       1e+06 
-  3007 nc3[1,17,9]                -4                       1e+06 
-  3008 nc3[1,17,10]               -4                       1e+06 
-  3009 nc3[1,17,11]               -4                       1e+06 
-  3010 nc3[1,17,12]               -4                       1e+06 
-  3011 nc3[1,17,13]               -4                       1e+06 
-  3012 nc3[1,17,14]               -4                       1e+06 
-  3013 nc3[1,17,15]               -4                       1e+06 
-  3014 nc3[1,17,16]               -4                       1e+06 
-  3015 nc3[1,17,18]               -4                       1e+06 
-  3016 nc3[1,17,19]               -4                       1e+06 
-  3017 nc3[1,17,20]               -4                       1e+06 
-  3018 nc3[1,18,1]                -4                       1e+06 
-  3019 nc3[1,18,2]                -4                       1e+06 
-  3020 nc3[1,18,3]                -4                       1e+06 
-  3021 nc3[1,18,4]                -4                       1e+06 
-  3022 nc3[1,18,5]                -4                       1e+06 
-  3023 nc3[1,18,6]                -4                       1e+06 
-  3024 nc3[1,18,7]                -4                       1e+06 
-  3025 nc3[1,18,8]                -4                       1e+06 
-  3026 nc3[1,18,9]                -4                       1e+06 
-  3027 nc3[1,18,10]               -4                       1e+06 
-  3028 nc3[1,18,11]               -4                       1e+06 
-  3029 nc3[1,18,12]               -4                       1e+06 
-  3030 nc3[1,18,13]               -4                       1e+06 
-  3031 nc3[1,18,14]               -4                       1e+06 
-  3032 nc3[1,18,15]               -4                       1e+06 
-  3033 nc3[1,18,16]               -4                       1e+06 
-  3034 nc3[1,18,17]               -4                       1e+06 
-  3035 nc3[1,18,19]               -4                       1e+06 
-  3036 nc3[1,18,20]               -4                       1e+06 
-  3037 nc3[1,19,1]                -4                       1e+06 
-  3038 nc3[1,19,2]                -4                       1e+06 
-  3039 nc3[1,19,3]                -4                       1e+06 
-  3040 nc3[1,19,4]                -4                       1e+06 
-  3041 nc3[1,19,5]                -4                       1e+06 
-  3042 nc3[1,19,6]                -4                       1e+06 
-  3043 nc3[1,19,7]                -4                       1e+06 
-  3044 nc3[1,19,8]                -4                       1e+06 
-  3045 nc3[1,19,9]                -4                       1e+06 
-  3046 nc3[1,19,10]               -4                       1e+06 
-  3047 nc3[1,19,11]               -4                       1e+06 
-  3048 nc3[1,19,12]               -4                       1e+06 
-  3049 nc3[1,19,13]               -4                       1e+06 
-  3050 nc3[1,19,14]               -4                       1e+06 
-  3051 nc3[1,19,15]               -4                       1e+06 
-  3052 nc3[1,19,16]               -4                       1e+06 
-  3053 nc3[1,19,17]               -4                       1e+06 
-  3054 nc3[1,19,18]               -4                       1e+06 
-  3055 nc3[1,19,20]               -4                       1e+06 
-  3056 nc3[1,20,1]                -4                       1e+06 
-  3057 nc3[1,20,2]                -4                       1e+06 
-  3058 nc3[1,20,3]                -4                       1e+06 
-  3059 nc3[1,20,4]                -4                       1e+06 
-  3060 nc3[1,20,5]                -4                       1e+06 
-  3061 nc3[1,20,6]                -4                       1e+06 
-  3062 nc3[1,20,7]                -4                       1e+06 
-  3063 nc3[1,20,8]                -4                       1e+06 
-  3064 nc3[1,20,9]                -4                       1e+06 
-  3065 nc3[1,20,10]               -4                       1e+06 
-  3066 nc3[1,20,11]               -4                       1e+06 
-  3067 nc3[1,20,12]               -4                       1e+06 
-  3068 nc3[1,20,13]               -4                       1e+06 
-  3069 nc3[1,20,14]               -4                       1e+06 
-  3070 nc3[1,20,15]               -4                       1e+06 
-  3071 nc3[1,20,16]               -4                       1e+06 
-  3072 nc3[1,20,17]               -4                       1e+06 
-  3073 nc3[1,20,18]               -4                       1e+06 
-  3074 nc3[1,20,19]               -4                       1e+06 
-  3075 nc3[2,1,2]                 -7                       1e+06 
-  3076 nc3[2,1,3]                 -7                       1e+06 
-  3077 nc3[2,1,4]                 -7                       1e+06 
-  3078 nc3[2,1,5]                 -7                       1e+06 
-  3079 nc3[2,1,6]                 -7                       1e+06 
-  3080 nc3[2,1,7]                 -7                       1e+06 
-  3081 nc3[2,1,8]                 -7                       1e+06 
-  3082 nc3[2,1,9]                 -7                       1e+06 
-  3083 nc3[2,1,10]                -7                       1e+06 
-  3084 nc3[2,1,11]                -7                       1e+06 
-  3085 nc3[2,1,12]                -7                       1e+06 
-  3086 nc3[2,1,13]                -7                       1e+06 
-  3087 nc3[2,1,14]                -7                       1e+06 
-  3088 nc3[2,1,15]                -7                       1e+06 
-  3089 nc3[2,1,16]                -7                       1e+06 
-  3090 nc3[2,1,17]                -7                       1e+06 
-  3091 nc3[2,1,18]                -7                       1e+06 
-  3092 nc3[2,1,19]                -7                       1e+06 
-  3093 nc3[2,1,20]                -7                       1e+06 
-  3094 nc3[2,2,1]                 -7                       1e+06 
-  3095 nc3[2,2,3]                 -7                       1e+06 
-  3096 nc3[2,2,4]                 -7                       1e+06 
-  3097 nc3[2,2,5]                 -7                       1e+06 
-  3098 nc3[2,2,6]                 -7                       1e+06 
-  3099 nc3[2,2,7]                 -7                       1e+06 
-  3100 nc3[2,2,8]                 -7                       1e+06 
-  3101 nc3[2,2,9]                 -7                       1e+06 
-  3102 nc3[2,2,10]                -7                       1e+06 
-  3103 nc3[2,2,11]                -7                       1e+06 
-  3104 nc3[2,2,12]                -7                       1e+06 
-  3105 nc3[2,2,13]                -7                       1e+06 
-  3106 nc3[2,2,14]                -7                       1e+06 
-  3107 nc3[2,2,15]                -7                       1e+06 
-  3108 nc3[2,2,16]                -7                       1e+06 
-  3109 nc3[2,2,17]                -7                       1e+06 
-  3110 nc3[2,2,18]                -7                       1e+06 
-  3111 nc3[2,2,19]                -7                       1e+06 
-  3112 nc3[2,2,20]                -7                       1e+06 
-  3113 nc3[2,3,1]                 -7                       1e+06 
-  3114 nc3[2,3,2]                 -7                       1e+06 
-  3115 nc3[2,3,4]                 -7                       1e+06 
-  3116 nc3[2,3,5]                 -7                       1e+06 
-  3117 nc3[2,3,6]                 -7                       1e+06 
-  3118 nc3[2,3,7]                 -7                       1e+06 
-  3119 nc3[2,3,8]                 -7                       1e+06 
-  3120 nc3[2,3,9]                 -7                       1e+06 
-  3121 nc3[2,3,10]                -7                       1e+06 
-  3122 nc3[2,3,11]                -7                       1e+06 
-  3123 nc3[2,3,12]                -7                       1e+06 
-  3124 nc3[2,3,13]                -7                       1e+06 
-  3125 nc3[2,3,14]                -7                       1e+06 
-  3126 nc3[2,3,15]                -7                       1e+06 
-  3127 nc3[2,3,16]                -7                       1e+06 
-  3128 nc3[2,3,17]                -7                       1e+06 
-  3129 nc3[2,3,18]                -7                       1e+06 
-  3130 nc3[2,3,19]                -7                       1e+06 
-  3131 nc3[2,3,20]                -7                       1e+06 
-  3132 nc3[2,4,1]                 -7                       1e+06 
-  3133 nc3[2,4,2]                 -7                       1e+06 
-  3134 nc3[2,4,3]                 -7                       1e+06 
-  3135 nc3[2,4,5]                 -7                       1e+06 
-  3136 nc3[2,4,6]                 -7                       1e+06 
-  3137 nc3[2,4,7]                 -7                       1e+06 
-  3138 nc3[2,4,8]                 -7                       1e+06 
-  3139 nc3[2,4,9]                 -7                       1e+06 
-  3140 nc3[2,4,10]                -7                       1e+06 
-  3141 nc3[2,4,11]                -7                       1e+06 
-  3142 nc3[2,4,12]                -7                       1e+06 
-  3143 nc3[2,4,13]                -7                       1e+06 
-  3144 nc3[2,4,14]                -7                       1e+06 
-  3145 nc3[2,4,15]                -7                       1e+06 
-  3146 nc3[2,4,16]                -7                       1e+06 
-  3147 nc3[2,4,17]                -7                       1e+06 
-  3148 nc3[2,4,18]                -7                       1e+06 
-  3149 nc3[2,4,19]                -7                       1e+06 
-  3150 nc3[2,4,20]                -7                       1e+06 
-  3151 nc3[2,5,1]                 -7                       1e+06 
-  3152 nc3[2,5,2]                 -7                       1e+06 
-  3153 nc3[2,5,3]                 -7                       1e+06 
-  3154 nc3[2,5,4]                 -7                       1e+06 
-  3155 nc3[2,5,6]                 -7                       1e+06 
-  3156 nc3[2,5,7]                 -7                       1e+06 
-  3157 nc3[2,5,8]                 -7                       1e+06 
-  3158 nc3[2,5,9]                 -7                       1e+06 
-  3159 nc3[2,5,10]                -7                       1e+06 
-  3160 nc3[2,5,11]                -7                       1e+06 
-  3161 nc3[2,5,12]                -7                       1e+06 
-  3162 nc3[2,5,13]                -7                       1e+06 
-  3163 nc3[2,5,14]                -7                       1e+06 
-  3164 nc3[2,5,15]                -7                       1e+06 
-  3165 nc3[2,5,16]                -7                       1e+06 
-  3166 nc3[2,5,17]                -7                       1e+06 
-  3167 nc3[2,5,18]                -7                       1e+06 
-  3168 nc3[2,5,19]                -7                       1e+06 
-  3169 nc3[2,5,20]                -7                       1e+06 
-  3170 nc3[2,6,1]                 -7                       1e+06 
-  3171 nc3[2,6,2]                 -7                       1e+06 
-  3172 nc3[2,6,3]                 -7                       1e+06 
-  3173 nc3[2,6,4]                 -7                       1e+06 
-  3174 nc3[2,6,5]                 -7                       1e+06 
-  3175 nc3[2,6,7]                 -7                       1e+06 
-  3176 nc3[2,6,8]                 -7                       1e+06 
-  3177 nc3[2,6,9]                 -7                       1e+06 
-  3178 nc3[2,6,10]                -7                       1e+06 
-  3179 nc3[2,6,11]                -7                       1e+06 
-  3180 nc3[2,6,12]                -7                       1e+06 
-  3181 nc3[2,6,13]                -7                       1e+06 
-  3182 nc3[2,6,14]                -7                       1e+06 
-  3183 nc3[2,6,15]                -7                       1e+06 
-  3184 nc3[2,6,16]                -7                       1e+06 
-  3185 nc3[2,6,17]                -7                       1e+06 
-  3186 nc3[2,6,18]                -7                       1e+06 
-  3187 nc3[2,6,19]                -7                       1e+06 
-  3188 nc3[2,6,20]                -7                       1e+06 
-  3189 nc3[2,7,1]                 -7                       1e+06 
-  3190 nc3[2,7,2]                 -7                       1e+06 
-  3191 nc3[2,7,3]                 -7                       1e+06 
-  3192 nc3[2,7,4]                 -7                       1e+06 
-  3193 nc3[2,7,5]                 -7                       1e+06 
-  3194 nc3[2,7,6]                 -7                       1e+06 
-  3195 nc3[2,7,8]                 -7                       1e+06 
-  3196 nc3[2,7,9]                 -7                       1e+06 
-  3197 nc3[2,7,10]                -7                       1e+06 
-  3198 nc3[2,7,11]                -7                       1e+06 
-  3199 nc3[2,7,12]                -7                       1e+06 
-  3200 nc3[2,7,13]                -7                       1e+06 
-  3201 nc3[2,7,14]                -7                       1e+06 
-  3202 nc3[2,7,15]                -7                       1e+06 
-  3203 nc3[2,7,16]                -7                       1e+06 
-  3204 nc3[2,7,17]                -7                       1e+06 
-  3205 nc3[2,7,18]                -7                       1e+06 
-  3206 nc3[2,7,19]                -7                       1e+06 
-  3207 nc3[2,7,20]                -7                       1e+06 
-  3208 nc3[2,8,1]                 -7                       1e+06 
-  3209 nc3[2,8,2]                 -7                       1e+06 
-  3210 nc3[2,8,3]                 -7                       1e+06 
-  3211 nc3[2,8,4]                 -7                       1e+06 
-  3212 nc3[2,8,5]                 -7                       1e+06 
-  3213 nc3[2,8,6]                 -7                       1e+06 
-  3214 nc3[2,8,7]                 -7                       1e+06 
-  3215 nc3[2,8,9]                 -7                       1e+06 
-  3216 nc3[2,8,10]                -7                       1e+06 
-  3217 nc3[2,8,11]                -7                       1e+06 
-  3218 nc3[2,8,12]                -7                       1e+06 
-  3219 nc3[2,8,13]                -7                       1e+06 
-  3220 nc3[2,8,14]                -7                       1e+06 
-  3221 nc3[2,8,15]                -7                       1e+06 
-  3222 nc3[2,8,16]                -7                       1e+06 
-  3223 nc3[2,8,17]                -7                       1e+06 
-  3224 nc3[2,8,18]                -7                       1e+06 
-  3225 nc3[2,8,19]                -7                       1e+06 
-  3226 nc3[2,8,20]                -7                       1e+06 
-  3227 nc3[2,9,1]                 -7                       1e+06 
-  3228 nc3[2,9,2]                 -7                       1e+06 
-  3229 nc3[2,9,3]                 -7                       1e+06 
-  3230 nc3[2,9,4]                 -7                       1e+06 
-  3231 nc3[2,9,5]                 -7                       1e+06 
-  3232 nc3[2,9,6]                 -7                       1e+06 
-  3233 nc3[2,9,7]                 -7                       1e+06 
-  3234 nc3[2,9,8]                 -7                       1e+06 
-  3235 nc3[2,9,10]                -7                       1e+06 
-  3236 nc3[2,9,11]                -7                       1e+06 
-  3237 nc3[2,9,12]                -7                       1e+06 
-  3238 nc3[2,9,13]                -7                       1e+06 
-  3239 nc3[2,9,14]                -7                       1e+06 
-  3240 nc3[2,9,15]                -7                       1e+06 
-  3241 nc3[2,9,16]                -7                       1e+06 
-  3242 nc3[2,9,17]                -7                       1e+06 
-  3243 nc3[2,9,18]                -7                       1e+06 
-  3244 nc3[2,9,19]                -7                       1e+06 
-  3245 nc3[2,9,20]                -7                       1e+06 
-  3246 nc3[2,10,1]                -7                       1e+06 
-  3247 nc3[2,10,2]                -7                       1e+06 
-  3248 nc3[2,10,3]                -7                       1e+06 
-  3249 nc3[2,10,4]                -7                       1e+06 
-  3250 nc3[2,10,5]                -7                       1e+06 
-  3251 nc3[2,10,6]                -7                       1e+06 
-  3252 nc3[2,10,7]                -7                       1e+06 
-  3253 nc3[2,10,8]                -7                       1e+06 
-  3254 nc3[2,10,9]                -7                       1e+06 
-  3255 nc3[2,10,11]               -7                       1e+06 
-  3256 nc3[2,10,12]               -7                       1e+06 
-  3257 nc3[2,10,13]               -7                       1e+06 
-  3258 nc3[2,10,14]               -7                       1e+06 
-  3259 nc3[2,10,15]               -7                       1e+06 
-  3260 nc3[2,10,16]               -7                       1e+06 
-  3261 nc3[2,10,17]               -7                       1e+06 
-  3262 nc3[2,10,18]               -7                       1e+06 
-  3263 nc3[2,10,19]               -7                       1e+06 
-  3264 nc3[2,10,20]               -7                       1e+06 
-  3265 nc3[2,11,1]                -7                       1e+06 
-  3266 nc3[2,11,2]                -7                       1e+06 
-  3267 nc3[2,11,3]                -7                       1e+06 
-  3268 nc3[2,11,4]                -7                       1e+06 
-  3269 nc3[2,11,5]                -7                       1e+06 
-  3270 nc3[2,11,6]                -7                       1e+06 
-  3271 nc3[2,11,7]                -7                       1e+06 
-  3272 nc3[2,11,8]                -7                       1e+06 
-  3273 nc3[2,11,9]                -7                       1e+06 
-  3274 nc3[2,11,10]               -7                       1e+06 
-  3275 nc3[2,11,12]               -7                       1e+06 
-  3276 nc3[2,11,13]            1e+06                       1e+06 
-  3277 nc3[2,11,14]               -7                       1e+06 
-  3278 nc3[2,11,15]               -7                       1e+06 
-  3279 nc3[2,11,16]               -7                       1e+06 
-  3280 nc3[2,11,17]               -7                       1e+06 
-  3281 nc3[2,11,18]               -7                       1e+06 
-  3282 nc3[2,11,19]               -7                       1e+06 
-  3283 nc3[2,11,20]               -7                       1e+06 
-  3284 nc3[2,12,1]                -7                       1e+06 
-  3285 nc3[2,12,2]                -7                       1e+06 
-  3286 nc3[2,12,3]                -7                       1e+06 
-  3287 nc3[2,12,4]                -7                       1e+06 
-  3288 nc3[2,12,5]                -7                       1e+06 
-  3289 nc3[2,12,6]                -7                       1e+06 
-  3290 nc3[2,12,7]                -7                       1e+06 
-  3291 nc3[2,12,8]                -7                       1e+06 
-  3292 nc3[2,12,9]                -7                       1e+06 
-  3293 nc3[2,12,10]               -7                       1e+06 
-  3294 nc3[2,12,11]               -7                       1e+06 
-  3295 nc3[2,12,13]               -7                       1e+06 
-  3296 nc3[2,12,14]               -7                       1e+06 
-  3297 nc3[2,12,15]               -7                       1e+06 
-  3298 nc3[2,12,16]               -7                       1e+06 
-  3299 nc3[2,12,17]               -7                       1e+06 
-  3300 nc3[2,12,18]               -7                       1e+06 
-  3301 nc3[2,12,19]               -7                       1e+06 
-  3302 nc3[2,12,20]               -7                       1e+06 
-  3303 nc3[2,13,1]                -7                       1e+06 
-  3304 nc3[2,13,2]                -7                       1e+06 
-  3305 nc3[2,13,3]                -7                       1e+06 
-  3306 nc3[2,13,4]                -7                       1e+06 
-  3307 nc3[2,13,5]                -7                       1e+06 
-  3308 nc3[2,13,6]                -7                       1e+06 
-  3309 nc3[2,13,7]                -7                       1e+06 
-  3310 nc3[2,13,8]                -7                       1e+06 
-  3311 nc3[2,13,9]                -7                       1e+06 
-  3312 nc3[2,13,10]               -7                       1e+06 
-  3313 nc3[2,13,11]               -7                       1e+06 
-  3314 nc3[2,13,12]               -7                       1e+06 
-  3315 nc3[2,13,14]               -7                       1e+06 
-  3316 nc3[2,13,15]               -7                       1e+06 
-  3317 nc3[2,13,16]               -7                       1e+06 
-  3318 nc3[2,13,17]               -7                       1e+06 
-  3319 nc3[2,13,18]               -7                       1e+06 
-  3320 nc3[2,13,19]               -7                       1e+06 
-  3321 nc3[2,13,20]            1e+06                       1e+06 
-  3322 nc3[2,14,1]                -7                       1e+06 
-  3323 nc3[2,14,2]                -7                       1e+06 
-  3324 nc3[2,14,3]                -7                       1e+06 
-  3325 nc3[2,14,4]                -7                       1e+06 
-  3326 nc3[2,14,5]                -7                       1e+06 
-  3327 nc3[2,14,6]                -7                       1e+06 
-  3328 nc3[2,14,7]                -7                       1e+06 
-  3329 nc3[2,14,8]                -7                       1e+06 
-  3330 nc3[2,14,9]                -7                       1e+06 
-  3331 nc3[2,14,10]               -7                       1e+06 
-  3332 nc3[2,14,11]               -7                       1e+06 
-  3333 nc3[2,14,12]               -7                       1e+06 
-  3334 nc3[2,14,13]               -7                       1e+06 
-  3335 nc3[2,14,15]               -7                       1e+06 
-  3336 nc3[2,14,16]               -7                       1e+06 
-  3337 nc3[2,14,17]               -7                       1e+06 
-  3338 nc3[2,14,18]               -7                       1e+06 
-  3339 nc3[2,14,19]               -7                       1e+06 
-  3340 nc3[2,14,20]               -7                       1e+06 
-  3341 nc3[2,15,1]                -7                       1e+06 
-  3342 nc3[2,15,2]                -7                       1e+06 
-  3343 nc3[2,15,3]                -7                       1e+06 
-  3344 nc3[2,15,4]                -7                       1e+06 
-  3345 nc3[2,15,5]                -7                       1e+06 
-  3346 nc3[2,15,6]                -7                       1e+06 
-  3347 nc3[2,15,7]                -7                       1e+06 
-  3348 nc3[2,15,8]                -7                       1e+06 
-  3349 nc3[2,15,9]                -7                       1e+06 
-  3350 nc3[2,15,10]               -7                       1e+06 
-  3351 nc3[2,15,11]               -7                       1e+06 
-  3352 nc3[2,15,12]               -7                       1e+06 
-  3353 nc3[2,15,13]               -7                       1e+06 
-  3354 nc3[2,15,14]               -7                       1e+06 
-  3355 nc3[2,15,16]            1e+06                       1e+06 
-  3356 nc3[2,15,17]               -7                       1e+06 
-  3357 nc3[2,15,18]               -7                       1e+06 
-  3358 nc3[2,15,19]               -7                       1e+06 
-  3359 nc3[2,15,20]               -7                       1e+06 
-  3360 nc3[2,16,1]                -7                       1e+06 
-  3361 nc3[2,16,2]                -7                       1e+06 
-  3362 nc3[2,16,3]                -7                       1e+06 
-  3363 nc3[2,16,4]                -7                       1e+06 
-  3364 nc3[2,16,5]                -7                       1e+06 
-  3365 nc3[2,16,6]                -7                       1e+06 
-  3366 nc3[2,16,7]                -7                       1e+06 
-  3367 nc3[2,16,8]                -7                       1e+06 
-  3368 nc3[2,16,9]                -7                       1e+06 
-  3369 nc3[2,16,10]               -7                       1e+06 
-  3370 nc3[2,16,11]               -7                       1e+06 
-  3371 nc3[2,16,12]               -7                       1e+06 
-  3372 nc3[2,16,13]               -7                       1e+06 
-  3373 nc3[2,16,14]               -7                       1e+06 
-  3374 nc3[2,16,15]               -7                       1e+06 
-  3375 nc3[2,16,17]               -7                       1e+06 
-  3376 nc3[2,16,18]               -7                       1e+06 
-  3377 nc3[2,16,19]            1e+06                       1e+06 
-  3378 nc3[2,16,20]               -7                       1e+06 
-  3379 nc3[2,17,1]                -7                       1e+06 
-  3380 nc3[2,17,2]                -7                       1e+06 
-  3381 nc3[2,17,3]                -7                       1e+06 
-  3382 nc3[2,17,4]                -7                       1e+06 
-  3383 nc3[2,17,5]                -7                       1e+06 
-  3384 nc3[2,17,6]                -7                       1e+06 
-  3385 nc3[2,17,7]                -7                       1e+06 
-  3386 nc3[2,17,8]                -7                       1e+06 
-  3387 nc3[2,17,9]                -7                       1e+06 
-  3388 nc3[2,17,10]               -7                       1e+06 
-  3389 nc3[2,17,11]               -7                       1e+06 
-  3390 nc3[2,17,12]               -7                       1e+06 
-  3391 nc3[2,17,13]               -7                       1e+06 
-  3392 nc3[2,17,14]               -7                       1e+06 
-  3393 nc3[2,17,15]               -7                       1e+06 
-  3394 nc3[2,17,16]               -7                       1e+06 
-  3395 nc3[2,17,18]               -7                       1e+06 
-  3396 nc3[2,17,19]               -7                       1e+06 
-  3397 nc3[2,17,20]               -7                       1e+06 
-  3398 nc3[2,18,1]                -7                       1e+06 
-  3399 nc3[2,18,2]                -7                       1e+06 
-  3400 nc3[2,18,3]                -7                       1e+06 
-  3401 nc3[2,18,4]                -7                       1e+06 
-  3402 nc3[2,18,5]                -7                       1e+06 
-  3403 nc3[2,18,6]                -7                       1e+06 
-  3404 nc3[2,18,7]                -7                       1e+06 
-  3405 nc3[2,18,8]                -7                       1e+06 
-  3406 nc3[2,18,9]                -7                       1e+06 
-  3407 nc3[2,18,10]               -7                       1e+06 
-  3408 nc3[2,18,11]               -7                       1e+06 
-  3409 nc3[2,18,12]               -7                       1e+06 
-  3410 nc3[2,18,13]               -7                       1e+06 
-  3411 nc3[2,18,14]               -7                       1e+06 
-  3412 nc3[2,18,15]            1e+06                       1e+06 
-  3413 nc3[2,18,16]               -7                       1e+06 
-  3414 nc3[2,18,17]               -7                       1e+06 
-  3415 nc3[2,18,19]               -7                       1e+06 
-  3416 nc3[2,18,20]               -7                       1e+06 
-  3417 nc3[2,19,1]                -7                       1e+06 
-  3418 nc3[2,19,2]                -7                       1e+06 
-  3419 nc3[2,19,3]                -7                       1e+06 
-  3420 nc3[2,19,4]                -7                       1e+06 
-  3421 nc3[2,19,5]                -7                       1e+06 
-  3422 nc3[2,19,6]                -7                       1e+06 
-  3423 nc3[2,19,7]                -7                       1e+06 
-  3424 nc3[2,19,8]                -7                       1e+06 
-  3425 nc3[2,19,9]                -7                       1e+06 
-  3426 nc3[2,19,10]               -7                       1e+06 
-  3427 nc3[2,19,11]               -7                       1e+06 
-  3428 nc3[2,19,12]               -7                       1e+06 
-  3429 nc3[2,19,13]               -7                       1e+06 
-  3430 nc3[2,19,14]               -7                       1e+06 
-  3431 nc3[2,19,15]               -7                       1e+06 
-  3432 nc3[2,19,16]               -7                       1e+06 
-  3433 nc3[2,19,17]               -7                       1e+06 
-  3434 nc3[2,19,18]               -7                       1e+06 
-  3435 nc3[2,19,20]               -7                       1e+06 
-  3436 nc3[2,20,1]                -7                       1e+06 
-  3437 nc3[2,20,2]                -7                       1e+06 
-  3438 nc3[2,20,3]                -7                       1e+06 
-  3439 nc3[2,20,4]                -7                       1e+06 
-  3440 nc3[2,20,5]                -7                       1e+06 
-  3441 nc3[2,20,6]                -7                       1e+06 
-  3442 nc3[2,20,7]                -7                       1e+06 
-  3443 nc3[2,20,8]                -7                       1e+06 
-  3444 nc3[2,20,9]                -7                       1e+06 
-  3445 nc3[2,20,10]               -7                       1e+06 
-  3446 nc3[2,20,11]               -7                       1e+06 
-  3447 nc3[2,20,12]               -7                       1e+06 
-  3448 nc3[2,20,13]               -7                       1e+06 
-  3449 nc3[2,20,14]               -7                       1e+06 
-  3450 nc3[2,20,15]               -7                       1e+06 
-  3451 nc3[2,20,16]               -7                       1e+06 
-  3452 nc3[2,20,17]               -7                       1e+06 
-  3453 nc3[2,20,18]            1e+06                       1e+06 
-  3454 nc3[2,20,19]               -7                       1e+06 
-  3455 nc3[3,1,2]                 -9                       1e+06 
-  3456 nc3[3,1,3]                 -9                       1e+06 
-  3457 nc3[3,1,4]                 -9                       1e+06 
-  3458 nc3[3,1,5]              1e+06                       1e+06 
-  3459 nc3[3,1,6]                 -9                       1e+06 
-  3460 nc3[3,1,7]                 -9                       1e+06 
-  3461 nc3[3,1,8]                 -9                       1e+06 
-  3462 nc3[3,1,9]                 -9                       1e+06 
-  3463 nc3[3,1,10]                -9                       1e+06 
-  3464 nc3[3,1,11]                -9                       1e+06 
-  3465 nc3[3,1,12]                -9                       1e+06 
-  3466 nc3[3,1,13]                -9                       1e+06 
-  3467 nc3[3,1,14]                -9                       1e+06 
-  3468 nc3[3,1,15]                -9                       1e+06 
-  3469 nc3[3,1,16]                -9                       1e+06 
-  3470 nc3[3,1,17]                -9                       1e+06 
-  3471 nc3[3,1,18]                -9                       1e+06 
-  3472 nc3[3,1,19]                -9                       1e+06 
-  3473 nc3[3,1,20]                -9                       1e+06 
-  3474 nc3[3,2,1]                 -9                       1e+06 
-  3475 nc3[3,2,3]                 -9                       1e+06 
-  3476 nc3[3,2,4]                 -9                       1e+06 
-  3477 nc3[3,2,5]                 -9                       1e+06 
-  3478 nc3[3,2,6]                 -9                       1e+06 
-  3479 nc3[3,2,7]                 -9                       1e+06 
-  3480 nc3[3,2,8]                 -9                       1e+06 
-  3481 nc3[3,2,9]                 -9                       1e+06 
-  3482 nc3[3,2,10]                -9                       1e+06 
-  3483 nc3[3,2,11]                -9                       1e+06 
-  3484 nc3[3,2,12]                -9                       1e+06 
-  3485 nc3[3,2,13]                -9                       1e+06 
-  3486 nc3[3,2,14]                -9                       1e+06 
-  3487 nc3[3,2,15]                -9                       1e+06 
-  3488 nc3[3,2,16]                -9                       1e+06 
-  3489 nc3[3,2,17]                -9                       1e+06 
-  3490 nc3[3,2,18]                -9                       1e+06 
-  3491 nc3[3,2,19]                -9                       1e+06 
-  3492 nc3[3,2,20]                -9                       1e+06 
-  3493 nc3[3,3,1]                 -9                       1e+06 
-  3494 nc3[3,3,2]                 -9                       1e+06 
-  3495 nc3[3,3,4]                 -9                       1e+06 
-  3496 nc3[3,3,5]                 -9                       1e+06 
-  3497 nc3[3,3,6]                 -9                       1e+06 
-  3498 nc3[3,3,7]                 -9                       1e+06 
-  3499 nc3[3,3,8]                 -9                       1e+06 
-  3500 nc3[3,3,9]                 -9                       1e+06 
-  3501 nc3[3,3,10]                -9                       1e+06 
-  3502 nc3[3,3,11]                -9                       1e+06 
-  3503 nc3[3,3,12]                -9                       1e+06 
-  3504 nc3[3,3,13]                -9                       1e+06 
-  3505 nc3[3,3,14]                -9                       1e+06 
-  3506 nc3[3,3,15]                -9                       1e+06 
-  3507 nc3[3,3,16]                -9                       1e+06 
-  3508 nc3[3,3,17]                -9                       1e+06 
-  3509 nc3[3,3,18]                -9                       1e+06 
-  3510 nc3[3,3,19]                -9                       1e+06 
-  3511 nc3[3,3,20]                -9                       1e+06 
-  3512 nc3[3,4,1]                 -9                       1e+06 
-  3513 nc3[3,4,2]                 -9                       1e+06 
-  3514 nc3[3,4,3]                 -9                       1e+06 
-  3515 nc3[3,4,5]                 -9                       1e+06 
-  3516 nc3[3,4,6]                 -9                       1e+06 
-  3517 nc3[3,4,7]                 -9                       1e+06 
-  3518 nc3[3,4,8]                 -9                       1e+06 
-  3519 nc3[3,4,9]                 -9                       1e+06 
-  3520 nc3[3,4,10]                -9                       1e+06 
-  3521 nc3[3,4,11]                -9                       1e+06 
-  3522 nc3[3,4,12]                -9                       1e+06 
-  3523 nc3[3,4,13]                -9                       1e+06 
-  3524 nc3[3,4,14]                -9                       1e+06 
-  3525 nc3[3,4,15]                -9                       1e+06 
-  3526 nc3[3,4,16]                -9                       1e+06 
-  3527 nc3[3,4,17]                -9                       1e+06 
-  3528 nc3[3,4,18]                -9                       1e+06 
-  3529 nc3[3,4,19]                -9                       1e+06 
-  3530 nc3[3,4,20]                -9                       1e+06 
-  3531 nc3[3,5,1]                 -9                       1e+06 
-  3532 nc3[3,5,2]                 -9                       1e+06 
-  3533 nc3[3,5,3]                 -9                       1e+06 
-  3534 nc3[3,5,4]                 -9                       1e+06 
-  3535 nc3[3,5,6]                 -9                       1e+06 
-  3536 nc3[3,5,7]              1e+06                       1e+06 
-  3537 nc3[3,5,8]                 -9                       1e+06 
-  3538 nc3[3,5,9]                 -9                       1e+06 
-  3539 nc3[3,5,10]                -9                       1e+06 
-  3540 nc3[3,5,11]                -9                       1e+06 
-  3541 nc3[3,5,12]                -9                       1e+06 
-  3542 nc3[3,5,13]                -9                       1e+06 
-  3543 nc3[3,5,14]                -9                       1e+06 
-  3544 nc3[3,5,15]                -9                       1e+06 
-  3545 nc3[3,5,16]                -9                       1e+06 
-  3546 nc3[3,5,17]                -9                       1e+06 
-  3547 nc3[3,5,18]                -9                       1e+06 
-  3548 nc3[3,5,19]                -9                       1e+06 
-  3549 nc3[3,5,20]                -9                       1e+06 
-  3550 nc3[3,6,1]                 -9                       1e+06 
-  3551 nc3[3,6,2]                 -9                       1e+06 
-  3552 nc3[3,6,3]                 -9                       1e+06 
-  3553 nc3[3,6,4]                 -9                       1e+06 
-  3554 nc3[3,6,5]                 -9                       1e+06 
-  3555 nc3[3,6,7]                 -9                       1e+06 
-  3556 nc3[3,6,8]                 -9                       1e+06 
-  3557 nc3[3,6,9]                 -9                       1e+06 
-  3558 nc3[3,6,10]                -9                       1e+06 
-  3559 nc3[3,6,11]                -9                       1e+06 
-  3560 nc3[3,6,12]                -9                       1e+06 
-  3561 nc3[3,6,13]                -9                       1e+06 
-  3562 nc3[3,6,14]                -9                       1e+06 
-  3563 nc3[3,6,15]                -9                       1e+06 
-  3564 nc3[3,6,16]                -9                       1e+06 
-  3565 nc3[3,6,17]                -9                       1e+06 
-  3566 nc3[3,6,18]                -9                       1e+06 
-  3567 nc3[3,6,19]                -9                       1e+06 
-  3568 nc3[3,6,20]                -9                       1e+06 
-  3569 nc3[3,7,1]                 -9                       1e+06 
-  3570 nc3[3,7,2]                 -9                       1e+06 
-  3571 nc3[3,7,3]                 -9                       1e+06 
-  3572 nc3[3,7,4]                 -9                       1e+06 
-  3573 nc3[3,7,5]                 -9                       1e+06 
-  3574 nc3[3,7,6]                 -9                       1e+06 
-  3575 nc3[3,7,8]              1e+06                       1e+06 
-  3576 nc3[3,7,9]                 -9                       1e+06 
-  3577 nc3[3,7,10]                -9                       1e+06 
-  3578 nc3[3,7,11]                -9                       1e+06 
-  3579 nc3[3,7,12]                -9                       1e+06 
-  3580 nc3[3,7,13]                -9                       1e+06 
-  3581 nc3[3,7,14]                -9                       1e+06 
-  3582 nc3[3,7,15]                -9                       1e+06 
-  3583 nc3[3,7,16]                -9                       1e+06 
-  3584 nc3[3,7,17]                -9                       1e+06 
-  3585 nc3[3,7,18]                -9                       1e+06 
-  3586 nc3[3,7,19]                -9                       1e+06 
-  3587 nc3[3,7,20]                -9                       1e+06 
-  3588 nc3[3,8,1]                 -9                       1e+06 
-  3589 nc3[3,8,2]                 -9                       1e+06 
-  3590 nc3[3,8,3]                 -9                       1e+06 
-  3591 nc3[3,8,4]                 -9                       1e+06 
-  3592 nc3[3,8,5]                 -9                       1e+06 
-  3593 nc3[3,8,6]                 -9                       1e+06 
-  3594 nc3[3,8,7]                 -9                       1e+06 
-  3595 nc3[3,8,9]                 -9                       1e+06 
-  3596 nc3[3,8,10]                -9                       1e+06 
-  3597 nc3[3,8,11]                -9                       1e+06 
-  3598 nc3[3,8,12]             1e+06                       1e+06 
-  3599 nc3[3,8,13]                -9                       1e+06 
-  3600 nc3[3,8,14]                -9                       1e+06 
-  3601 nc3[3,8,15]                -9                       1e+06 
-  3602 nc3[3,8,16]                -9                       1e+06 
-  3603 nc3[3,8,17]                -9                       1e+06 
-  3604 nc3[3,8,18]                -9                       1e+06 
-  3605 nc3[3,8,19]                -9                       1e+06 
-  3606 nc3[3,8,20]                -9                       1e+06 
-  3607 nc3[3,9,1]                 -9                       1e+06 
-  3608 nc3[3,9,2]                 -9                       1e+06 
-  3609 nc3[3,9,3]                 -9                       1e+06 
-  3610 nc3[3,9,4]                 -9                       1e+06 
-  3611 nc3[3,9,5]                 -9                       1e+06 
-  3612 nc3[3,9,6]                 -9                       1e+06 
-  3613 nc3[3,9,7]                 -9                       1e+06 
-  3614 nc3[3,9,8]                 -9                       1e+06 
-  3615 nc3[3,9,10]             1e+06                       1e+06 
-  3616 nc3[3,9,11]                -9                       1e+06 
-  3617 nc3[3,9,12]                -9                       1e+06 
-  3618 nc3[3,9,13]                -9                       1e+06 
-  3619 nc3[3,9,14]                -9                       1e+06 
-  3620 nc3[3,9,15]                -9                       1e+06 
-  3621 nc3[3,9,16]                -9                       1e+06 
-  3622 nc3[3,9,17]                -9                       1e+06 
-  3623 nc3[3,9,18]                -9                       1e+06 
-  3624 nc3[3,9,19]                -9                       1e+06 
-  3625 nc3[3,9,20]                -9                       1e+06 
-  3626 nc3[3,10,1]                -9                       1e+06 
-  3627 nc3[3,10,2]                -9                       1e+06 
-  3628 nc3[3,10,3]                -9                       1e+06 
-  3629 nc3[3,10,4]                -9                       1e+06 
-  3630 nc3[3,10,5]                -9                       1e+06 
-  3631 nc3[3,10,6]                -9                       1e+06 
-  3632 nc3[3,10,7]                -9                       1e+06 
-  3633 nc3[3,10,8]                -9                       1e+06 
-  3634 nc3[3,10,9]                -9                       1e+06 
-  3635 nc3[3,10,11]               -9                       1e+06 
-  3636 nc3[3,10,12]               -9                       1e+06 
-  3637 nc3[3,10,13]               -9                       1e+06 
-  3638 nc3[3,10,14]            1e+06                       1e+06 
-  3639 nc3[3,10,15]               -9                       1e+06 
-  3640 nc3[3,10,16]               -9                       1e+06 
-  3641 nc3[3,10,17]               -9                       1e+06 
-  3642 nc3[3,10,18]               -9                       1e+06 
-  3643 nc3[3,10,19]               -9                       1e+06 
-  3644 nc3[3,10,20]               -9                       1e+06 
-  3645 nc3[3,11,1]                -9                       1e+06 
-  3646 nc3[3,11,2]                -9                       1e+06 
-  3647 nc3[3,11,3]                -9                       1e+06 
-  3648 nc3[3,11,4]                -9                       1e+06 
-  3649 nc3[3,11,5]                -9                       1e+06 
-  3650 nc3[3,11,6]                -9                       1e+06 
-  3651 nc3[3,11,7]                -9                       1e+06 
-  3652 nc3[3,11,8]                -9                       1e+06 
-  3653 nc3[3,11,9]                -9                       1e+06 
-  3654 nc3[3,11,10]               -9                       1e+06 
-  3655 nc3[3,11,12]               -9                       1e+06 
-  3656 nc3[3,11,13]               -9                       1e+06 
-  3657 nc3[3,11,14]               -9                       1e+06 
-  3658 nc3[3,11,15]               -9                       1e+06 
-  3659 nc3[3,11,16]               -9                       1e+06 
-  3660 nc3[3,11,17]               -9                       1e+06 
-  3661 nc3[3,11,18]               -9                       1e+06 
-  3662 nc3[3,11,19]               -9                       1e+06 
-  3663 nc3[3,11,20]               -9                       1e+06 
-  3664 nc3[3,12,1]                -9                       1e+06 
-  3665 nc3[3,12,2]                -9                       1e+06 
-  3666 nc3[3,12,3]                -9                       1e+06 
-  3667 nc3[3,12,4]                -9                       1e+06 
-  3668 nc3[3,12,5]                -9                       1e+06 
-  3669 nc3[3,12,6]                -9                       1e+06 
-  3670 nc3[3,12,7]                -9                       1e+06 
-  3671 nc3[3,12,8]                -9                       1e+06 
-  3672 nc3[3,12,9]             1e+06                       1e+06 
-  3673 nc3[3,12,10]               -9                       1e+06 
-  3674 nc3[3,12,11]               -9                       1e+06 
-  3675 nc3[3,12,13]               -9                       1e+06 
-  3676 nc3[3,12,14]               -9                       1e+06 
-  3677 nc3[3,12,15]               -9                       1e+06 
-  3678 nc3[3,12,16]               -9                       1e+06 
-  3679 nc3[3,12,17]               -9                       1e+06 
-  3680 nc3[3,12,18]               -9                       1e+06 
-  3681 nc3[3,12,19]               -9                       1e+06 
-  3682 nc3[3,12,20]               -9                       1e+06 
-  3683 nc3[3,13,1]                -9                       1e+06 
-  3684 nc3[3,13,2]                -9                       1e+06 
-  3685 nc3[3,13,3]                -9                       1e+06 
-  3686 nc3[3,13,4]                -9                       1e+06 
-  3687 nc3[3,13,5]                -9                       1e+06 
-  3688 nc3[3,13,6]                -9                       1e+06 
-  3689 nc3[3,13,7]                -9                       1e+06 
-  3690 nc3[3,13,8]                -9                       1e+06 
-  3691 nc3[3,13,9]                -9                       1e+06 
-  3692 nc3[3,13,10]               -9                       1e+06 
-  3693 nc3[3,13,11]               -9                       1e+06 
-  3694 nc3[3,13,12]               -9                       1e+06 
-  3695 nc3[3,13,14]               -9                       1e+06 
-  3696 nc3[3,13,15]               -9                       1e+06 
-  3697 nc3[3,13,16]               -9                       1e+06 
-  3698 nc3[3,13,17]               -9                       1e+06 
-  3699 nc3[3,13,18]               -9                       1e+06 
-  3700 nc3[3,13,19]               -9                       1e+06 
-  3701 nc3[3,13,20]               -9                       1e+06 
-  3702 nc3[3,14,1]                -9                       1e+06 
-  3703 nc3[3,14,2]                -9                       1e+06 
-  3704 nc3[3,14,3]                -9                       1e+06 
-  3705 nc3[3,14,4]                -9                       1e+06 
-  3706 nc3[3,14,5]                -9                       1e+06 
-  3707 nc3[3,14,6]                -9                       1e+06 
-  3708 nc3[3,14,7]                -9                       1e+06 
-  3709 nc3[3,14,8]                -9                       1e+06 
-  3710 nc3[3,14,9]                -9                       1e+06 
-  3711 nc3[3,14,10]               -9                       1e+06 
-  3712 nc3[3,14,11]               -9                       1e+06 
-  3713 nc3[3,14,12]               -9                       1e+06 
-  3714 nc3[3,14,13]               -9                       1e+06 
-  3715 nc3[3,14,15]               -9                       1e+06 
-  3716 nc3[3,14,16]               -9                       1e+06 
-  3717 nc3[3,14,17]            1e+06                       1e+06 
-  3718 nc3[3,14,18]               -9                       1e+06 
-  3719 nc3[3,14,19]               -9                       1e+06 
-  3720 nc3[3,14,20]               -9                       1e+06 
-  3721 nc3[3,15,1]                -9                       1e+06 
-  3722 nc3[3,15,2]                -9                       1e+06 
-  3723 nc3[3,15,3]                -9                       1e+06 
-  3724 nc3[3,15,4]                -9                       1e+06 
-  3725 nc3[3,15,5]                -9                       1e+06 
-  3726 nc3[3,15,6]                -9                       1e+06 
-  3727 nc3[3,15,7]                -9                       1e+06 
-  3728 nc3[3,15,8]                -9                       1e+06 
-  3729 nc3[3,15,9]                -9                       1e+06 
-  3730 nc3[3,15,10]               -9                       1e+06 
-  3731 nc3[3,15,11]               -9                       1e+06 
-  3732 nc3[3,15,12]               -9                       1e+06 
-  3733 nc3[3,15,13]               -9                       1e+06 
-  3734 nc3[3,15,14]               -9                       1e+06 
-  3735 nc3[3,15,16]               -9                       1e+06 
-  3736 nc3[3,15,17]               -9                       1e+06 
-  3737 nc3[3,15,18]               -9                       1e+06 
-  3738 nc3[3,15,19]               -9                       1e+06 
-  3739 nc3[3,15,20]               -9                       1e+06 
-  3740 nc3[3,16,1]                -9                       1e+06 
-  3741 nc3[3,16,2]                -9                       1e+06 
-  3742 nc3[3,16,3]                -9                       1e+06 
-  3743 nc3[3,16,4]                -9                       1e+06 
-  3744 nc3[3,16,5]                -9                       1e+06 
-  3745 nc3[3,16,6]                -9                       1e+06 
-  3746 nc3[3,16,7]                -9                       1e+06 
-  3747 nc3[3,16,8]                -9                       1e+06 
-  3748 nc3[3,16,9]                -9                       1e+06 
-  3749 nc3[3,16,10]               -9                       1e+06 
-  3750 nc3[3,16,11]               -9                       1e+06 
-  3751 nc3[3,16,12]               -9                       1e+06 
-  3752 nc3[3,16,13]               -9                       1e+06 
-  3753 nc3[3,16,14]               -9                       1e+06 
-  3754 nc3[3,16,15]               -9                       1e+06 
-  3755 nc3[3,16,17]               -9                       1e+06 
-  3756 nc3[3,16,18]               -9                       1e+06 
-  3757 nc3[3,16,19]               -9                       1e+06 
-  3758 nc3[3,16,20]               -9                       1e+06 
-  3759 nc3[3,17,1]                -9                       1e+06 
-  3760 nc3[3,17,2]                -9                       1e+06 
-  3761 nc3[3,17,3]                -9                       1e+06 
-  3762 nc3[3,17,4]                -9                       1e+06 
-  3763 nc3[3,17,5]                -9                       1e+06 
-  3764 nc3[3,17,6]                -9                       1e+06 
-  3765 nc3[3,17,7]                -9                       1e+06 
-  3766 nc3[3,17,8]                -9                       1e+06 
-  3767 nc3[3,17,9]                -9                       1e+06 
-  3768 nc3[3,17,10]               -9                       1e+06 
-  3769 nc3[3,17,11]               -9                       1e+06 
-  3770 nc3[3,17,12]               -9                       1e+06 
-  3771 nc3[3,17,13]               -9                       1e+06 
-  3772 nc3[3,17,14]               -9                       1e+06 
-  3773 nc3[3,17,15]               -9                       1e+06 
-  3774 nc3[3,17,16]               -9                       1e+06 
-  3775 nc3[3,17,18]               -9                       1e+06 
-  3776 nc3[3,17,19]               -9                       1e+06 
-  3777 nc3[3,17,20]               -9                       1e+06 
-  3778 nc3[3,18,1]                -9                       1e+06 
-  3779 nc3[3,18,2]                -9                       1e+06 
-  3780 nc3[3,18,3]                -9                       1e+06 
-  3781 nc3[3,18,4]                -9                       1e+06 
-  3782 nc3[3,18,5]                -9                       1e+06 
-  3783 nc3[3,18,6]                -9                       1e+06 
-  3784 nc3[3,18,7]                -9                       1e+06 
-  3785 nc3[3,18,8]                -9                       1e+06 
-  3786 nc3[3,18,9]                -9                       1e+06 
-  3787 nc3[3,18,10]               -9                       1e+06 
-  3788 nc3[3,18,11]               -9                       1e+06 
-  3789 nc3[3,18,12]               -9                       1e+06 
-  3790 nc3[3,18,13]               -9                       1e+06 
-  3791 nc3[3,18,14]               -9                       1e+06 
-  3792 nc3[3,18,15]               -9                       1e+06 
-  3793 nc3[3,18,16]               -9                       1e+06 
-  3794 nc3[3,18,17]               -9                       1e+06 
-  3795 nc3[3,18,19]               -9                       1e+06 
-  3796 nc3[3,18,20]               -9                       1e+06 
-  3797 nc3[3,19,1]                -9                       1e+06 
-  3798 nc3[3,19,2]                -9                       1e+06 
-  3799 nc3[3,19,3]                -9                       1e+06 
-  3800 nc3[3,19,4]                -9                       1e+06 
-  3801 nc3[3,19,5]                -9                       1e+06 
-  3802 nc3[3,19,6]                -9                       1e+06 
-  3803 nc3[3,19,7]                -9                       1e+06 
-  3804 nc3[3,19,8]                -9                       1e+06 
-  3805 nc3[3,19,9]                -9                       1e+06 
-  3806 nc3[3,19,10]               -9                       1e+06 
-  3807 nc3[3,19,11]               -9                       1e+06 
-  3808 nc3[3,19,12]               -9                       1e+06 
-  3809 nc3[3,19,13]               -9                       1e+06 
-  3810 nc3[3,19,14]               -9                       1e+06 
-  3811 nc3[3,19,15]               -9                       1e+06 
-  3812 nc3[3,19,16]               -9                       1e+06 
-  3813 nc3[3,19,17]               -9                       1e+06 
-  3814 nc3[3,19,18]               -9                       1e+06 
-  3815 nc3[3,19,20]               -9                       1e+06 
-  3816 nc3[3,20,1]                -9                       1e+06 
-  3817 nc3[3,20,2]                -9                       1e+06 
-  3818 nc3[3,20,3]                -9                       1e+06 
-  3819 nc3[3,20,4]                -9                       1e+06 
-  3820 nc3[3,20,5]                -9                       1e+06 
-  3821 nc3[3,20,6]                -9                       1e+06 
-  3822 nc3[3,20,7]                -9                       1e+06 
-  3823 nc3[3,20,8]                -9                       1e+06 
-  3824 nc3[3,20,9]                -9                       1e+06 
-  3825 nc3[3,20,10]               -9                       1e+06 
-  3826 nc3[3,20,11]               -9                       1e+06 
-  3827 nc3[3,20,12]               -9                       1e+06 
-  3828 nc3[3,20,13]               -9                       1e+06 
-  3829 nc3[3,20,14]               -9                       1e+06 
-  3830 nc3[3,20,15]               -9                       1e+06 
-  3831 nc3[3,20,16]               -9                       1e+06 
-  3832 nc3[3,20,17]               -9                       1e+06 
-  3833 nc3[3,20,18]               -9                       1e+06 
-  3834 nc3[3,20,19]               -9                       1e+06 
+  1555 nc2[1,1,2]                  7                       1e+06 
+  1556 nc2[1,1,3]                  7                       1e+06 
+  1557 nc2[1,1,4]                  7                       1e+06 
+  1558 nc2[1,1,5]                  7                       1e+06 
+  1559 nc2[1,1,6]                  7                       1e+06 
+  1560 nc2[1,1,7]                  7                       1e+06 
+  1561 nc2[1,1,8]                  7                       1e+06 
+  1562 nc2[1,1,9]                  7                       1e+06 
+  1563 nc2[1,1,10]                 7                       1e+06 
+  1564 nc2[1,1,11]                 7                       1e+06 
+  1565 nc2[1,1,12]                 7                       1e+06 
+  1566 nc2[1,1,13]                 7                       1e+06 
+  1567 nc2[1,1,14]                 7                       1e+06 
+  1568 nc2[1,1,15]                 7                       1e+06 
+  1569 nc2[1,1,16]                 7                       1e+06 
+  1570 nc2[1,1,17]                 7                       1e+06 
+  1571 nc2[1,1,18]                 7                       1e+06 
+  1572 nc2[1,1,19]                 7                       1e+06 
+  1573 nc2[1,1,20]                 7                       1e+06 
+  1574 nc2[1,2,1]                  7                       1e+06 
+  1575 nc2[1,2,3]                  7                       1e+06 
+  1576 nc2[1,2,4]                  7                       1e+06 
+  1577 nc2[1,2,5]                  7                       1e+06 
+  1578 nc2[1,2,6]                  7                       1e+06 
+  1579 nc2[1,2,7]                  7                       1e+06 
+  1580 nc2[1,2,8]                  7                       1e+06 
+  1581 nc2[1,2,9]                  7                       1e+06 
+  1582 nc2[1,2,10]                 7                       1e+06 
+  1583 nc2[1,2,11]                 7                       1e+06 
+  1584 nc2[1,2,12]                 7                       1e+06 
+  1585 nc2[1,2,13]                 7                       1e+06 
+  1586 nc2[1,2,14]                 7                       1e+06 
+  1587 nc2[1,2,15]                 7                       1e+06 
+  1588 nc2[1,2,16]                 7                       1e+06 
+  1589 nc2[1,2,17]                 7                       1e+06 
+  1590 nc2[1,2,18]                 7                       1e+06 
+  1591 nc2[1,2,19]                 7                       1e+06 
+  1592 nc2[1,2,20]                 7                       1e+06 
+  1593 nc2[1,3,1]                  7                       1e+06 
+  1594 nc2[1,3,2]                  7                       1e+06 
+  1595 nc2[1,3,4]                  7                       1e+06 
+  1596 nc2[1,3,5]                  7                       1e+06 
+  1597 nc2[1,3,6]                  7                       1e+06 
+  1598 nc2[1,3,7]                  7                       1e+06 
+  1599 nc2[1,3,8]                  7                       1e+06 
+  1600 nc2[1,3,9]                  7                       1e+06 
+  1601 nc2[1,3,10]                 7                       1e+06 
+  1602 nc2[1,3,11]                 7                       1e+06 
+  1603 nc2[1,3,12]                 7                       1e+06 
+  1604 nc2[1,3,13]                 7                       1e+06 
+  1605 nc2[1,3,14]                 7                       1e+06 
+  1606 nc2[1,3,15]                 7                       1e+06 
+  1607 nc2[1,3,16]                 7                       1e+06 
+  1608 nc2[1,3,17]                 7                       1e+06 
+  1609 nc2[1,3,18]                 7                       1e+06 
+  1610 nc2[1,3,19]                 7                       1e+06 
+  1611 nc2[1,3,20]                 7                       1e+06 
+  1612 nc2[1,4,1]                  7                       1e+06 
+  1613 nc2[1,4,2]                  7                       1e+06 
+  1614 nc2[1,4,3]                  7                       1e+06 
+  1615 nc2[1,4,5]                  7                       1e+06 
+  1616 nc2[1,4,6]                  7                       1e+06 
+  1617 nc2[1,4,7]                  7                       1e+06 
+  1618 nc2[1,4,8]                  7                       1e+06 
+  1619 nc2[1,4,9]                  7                       1e+06 
+  1620 nc2[1,4,10]                 7                       1e+06 
+  1621 nc2[1,4,11]                 7                       1e+06 
+  1622 nc2[1,4,12]                 7                       1e+06 
+  1623 nc2[1,4,13]                 7                       1e+06 
+  1624 nc2[1,4,14]                 7                       1e+06 
+  1625 nc2[1,4,15]                 7                       1e+06 
+  1626 nc2[1,4,16]                 7                       1e+06 
+  1627 nc2[1,4,17]                 7                       1e+06 
+  1628 nc2[1,4,18]                 7                       1e+06 
+  1629 nc2[1,4,19]                 7                       1e+06 
+  1630 nc2[1,4,20]                 7                       1e+06 
+  1631 nc2[1,5,1]                  7                       1e+06 
+  1632 nc2[1,5,2]                  7                       1e+06 
+  1633 nc2[1,5,3]                  7                       1e+06 
+  1634 nc2[1,5,4]                  7                       1e+06 
+  1635 nc2[1,5,6]                  7                       1e+06 
+  1636 nc2[1,5,7]                  7                       1e+06 
+  1637 nc2[1,5,8]                  7                       1e+06 
+  1638 nc2[1,5,9]                  7                       1e+06 
+  1639 nc2[1,5,10]                 7                       1e+06 
+  1640 nc2[1,5,11]                 7                       1e+06 
+  1641 nc2[1,5,12]                 7                       1e+06 
+  1642 nc2[1,5,13]                 7                       1e+06 
+  1643 nc2[1,5,14]                 7                       1e+06 
+  1644 nc2[1,5,15]                 7                       1e+06 
+  1645 nc2[1,5,16]                 7                       1e+06 
+  1646 nc2[1,5,17]                 7                       1e+06 
+  1647 nc2[1,5,18]                 7                       1e+06 
+  1648 nc2[1,5,19]                 7                       1e+06 
+  1649 nc2[1,5,20]                 7                       1e+06 
+  1650 nc2[1,6,1]                  7                       1e+06 
+  1651 nc2[1,6,2]                  7                       1e+06 
+  1652 nc2[1,6,3]                  7                       1e+06 
+  1653 nc2[1,6,4]                  7                       1e+06 
+  1654 nc2[1,6,5]                  7                       1e+06 
+  1655 nc2[1,6,7]                  7                       1e+06 
+  1656 nc2[1,6,8]                  7                       1e+06 
+  1657 nc2[1,6,9]                  7                       1e+06 
+  1658 nc2[1,6,10]                 7                       1e+06 
+  1659 nc2[1,6,11]                 7                       1e+06 
+  1660 nc2[1,6,12]                 7                       1e+06 
+  1661 nc2[1,6,13]                 7                       1e+06 
+  1662 nc2[1,6,14]                 7                       1e+06 
+  1663 nc2[1,6,15]                 7                       1e+06 
+  1664 nc2[1,6,16]                 7                       1e+06 
+  1665 nc2[1,6,17]                 7                       1e+06 
+  1666 nc2[1,6,18]                 7                       1e+06 
+  1667 nc2[1,6,19]                 7                       1e+06 
+  1668 nc2[1,6,20]                 7                       1e+06 
+  1669 nc2[1,7,1]                  7                       1e+06 
+  1670 nc2[1,7,2]                  7                       1e+06 
+  1671 nc2[1,7,3]                  7                       1e+06 
+  1672 nc2[1,7,4]                  7                       1e+06 
+  1673 nc2[1,7,5]                  7                       1e+06 
+  1674 nc2[1,7,6]                  7                       1e+06 
+  1675 nc2[1,7,8]                  7                       1e+06 
+  1676 nc2[1,7,9]                  7                       1e+06 
+  1677 nc2[1,7,10]                 7                       1e+06 
+  1678 nc2[1,7,11]                 7                       1e+06 
+  1679 nc2[1,7,12]                 7                       1e+06 
+  1680 nc2[1,7,13]                 7                       1e+06 
+  1681 nc2[1,7,14]                 7                       1e+06 
+  1682 nc2[1,7,15]                 7                       1e+06 
+  1683 nc2[1,7,16]                 7                       1e+06 
+  1684 nc2[1,7,17]                 7                       1e+06 
+  1685 nc2[1,7,18]                 7                       1e+06 
+  1686 nc2[1,7,19]                 7                       1e+06 
+  1687 nc2[1,7,20]                 7                       1e+06 
+  1688 nc2[1,8,1]                  7                       1e+06 
+  1689 nc2[1,8,2]                  7                       1e+06 
+  1690 nc2[1,8,3]                  7                       1e+06 
+  1691 nc2[1,8,4]                  7                       1e+06 
+  1692 nc2[1,8,5]                  7                       1e+06 
+  1693 nc2[1,8,6]                  7                       1e+06 
+  1694 nc2[1,8,7]                  7                       1e+06 
+  1695 nc2[1,8,9]                  7                       1e+06 
+  1696 nc2[1,8,10]                 7                       1e+06 
+  1697 nc2[1,8,11]                 7                       1e+06 
+  1698 nc2[1,8,12]                 7                       1e+06 
+  1699 nc2[1,8,13]                 7                       1e+06 
+  1700 nc2[1,8,14]                 7                       1e+06 
+  1701 nc2[1,8,15]                 7                       1e+06 
+  1702 nc2[1,8,16]                 7                       1e+06 
+  1703 nc2[1,8,17]                 7                       1e+06 
+  1704 nc2[1,8,18]                 7                       1e+06 
+  1705 nc2[1,8,19]                 7                       1e+06 
+  1706 nc2[1,8,20]                 7                       1e+06 
+  1707 nc2[1,9,1]                  7                       1e+06 
+  1708 nc2[1,9,2]                  7                       1e+06 
+  1709 nc2[1,9,3]                  7                       1e+06 
+  1710 nc2[1,9,4]                  7                       1e+06 
+  1711 nc2[1,9,5]                  7                       1e+06 
+  1712 nc2[1,9,6]                  7                       1e+06 
+  1713 nc2[1,9,7]                  7                       1e+06 
+  1714 nc2[1,9,8]                  7                       1e+06 
+  1715 nc2[1,9,10]                 7                       1e+06 
+  1716 nc2[1,9,11]                 7                       1e+06 
+  1717 nc2[1,9,12]                 7                       1e+06 
+  1718 nc2[1,9,13]                 7                       1e+06 
+  1719 nc2[1,9,14]                 7                       1e+06 
+  1720 nc2[1,9,15]                 7                       1e+06 
+  1721 nc2[1,9,16]                 7                       1e+06 
+  1722 nc2[1,9,17]                 7                       1e+06 
+  1723 nc2[1,9,18]                 7                       1e+06 
+  1724 nc2[1,9,19]                 7                       1e+06 
+  1725 nc2[1,9,20]                 7                       1e+06 
+  1726 nc2[1,10,1]                 7                       1e+06 
+  1727 nc2[1,10,2]                 7                       1e+06 
+  1728 nc2[1,10,3]                 7                       1e+06 
+  1729 nc2[1,10,4]                 7                       1e+06 
+  1730 nc2[1,10,5]                 7                       1e+06 
+  1731 nc2[1,10,6]                 7                       1e+06 
+  1732 nc2[1,10,7]                 7                       1e+06 
+  1733 nc2[1,10,8]                 7                       1e+06 
+  1734 nc2[1,10,9]                 7                       1e+06 
+  1735 nc2[1,10,11]                7                       1e+06 
+  1736 nc2[1,10,12]                7                       1e+06 
+  1737 nc2[1,10,13]                7                       1e+06 
+  1738 nc2[1,10,14]                7                       1e+06 
+  1739 nc2[1,10,15]                7                       1e+06 
+  1740 nc2[1,10,16]                7                       1e+06 
+  1741 nc2[1,10,17]                7                       1e+06 
+  1742 nc2[1,10,18]                7                       1e+06 
+  1743 nc2[1,10,19]                7                       1e+06 
+  1744 nc2[1,10,20]                7                       1e+06 
+  1745 nc2[1,11,1]                 7                       1e+06 
+  1746 nc2[1,11,2]                 7                       1e+06 
+  1747 nc2[1,11,3]                 7                       1e+06 
+  1748 nc2[1,11,4]                 7                       1e+06 
+  1749 nc2[1,11,5]                 7                       1e+06 
+  1750 nc2[1,11,6]                 7                       1e+06 
+  1751 nc2[1,11,7]                 7                       1e+06 
+  1752 nc2[1,11,8]                 7                       1e+06 
+  1753 nc2[1,11,9]                 7                       1e+06 
+  1754 nc2[1,11,10]                7                       1e+06 
+  1755 nc2[1,11,12]                7                       1e+06 
+  1756 nc2[1,11,13]            1e+06                       1e+06 
+  1757 nc2[1,11,14]                7                       1e+06 
+  1758 nc2[1,11,15]                7                       1e+06 
+  1759 nc2[1,11,16]                7                       1e+06 
+  1760 nc2[1,11,17]                7                       1e+06 
+  1761 nc2[1,11,18]                7                       1e+06 
+  1762 nc2[1,11,19]                7                       1e+06 
+  1763 nc2[1,11,20]                7                       1e+06 
+  1764 nc2[1,12,1]                 7                       1e+06 
+  1765 nc2[1,12,2]                 7                       1e+06 
+  1766 nc2[1,12,3]                 7                       1e+06 
+  1767 nc2[1,12,4]                 7                       1e+06 
+  1768 nc2[1,12,5]                 7                       1e+06 
+  1769 nc2[1,12,6]                 7                       1e+06 
+  1770 nc2[1,12,7]                 7                       1e+06 
+  1771 nc2[1,12,8]                 7                       1e+06 
+  1772 nc2[1,12,9]                 7                       1e+06 
+  1773 nc2[1,12,10]                7                       1e+06 
+  1774 nc2[1,12,11]                7                       1e+06 
+  1775 nc2[1,12,13]                7                       1e+06 
+  1776 nc2[1,12,14]                7                       1e+06 
+  1777 nc2[1,12,15]                7                       1e+06 
+  1778 nc2[1,12,16]                7                       1e+06 
+  1779 nc2[1,12,17]                7                       1e+06 
+  1780 nc2[1,12,18]                7                       1e+06 
+  1781 nc2[1,12,19]                7                       1e+06 
+  1782 nc2[1,12,20]                7                       1e+06 
+  1783 nc2[1,13,1]                 7                       1e+06 
+  1784 nc2[1,13,2]                 7                       1e+06 
+  1785 nc2[1,13,3]                 7                       1e+06 
+  1786 nc2[1,13,4]                 7                       1e+06 
+  1787 nc2[1,13,5]                 7                       1e+06 
+  1788 nc2[1,13,6]                 7                       1e+06 
+  1789 nc2[1,13,7]                 7                       1e+06 
+  1790 nc2[1,13,8]                 7                       1e+06 
+  1791 nc2[1,13,9]                 7                       1e+06 
+  1792 nc2[1,13,10]                7                       1e+06 
+  1793 nc2[1,13,11]                7                       1e+06 
+  1794 nc2[1,13,12]                7                       1e+06 
+  1795 nc2[1,13,14]                7                       1e+06 
+  1796 nc2[1,13,15]                7                       1e+06 
+  1797 nc2[1,13,16]                7                       1e+06 
+  1798 nc2[1,13,17]                7                       1e+06 
+  1799 nc2[1,13,18]                7                       1e+06 
+  1800 nc2[1,13,19]                7                       1e+06 
+  1801 nc2[1,13,20]            1e+06                       1e+06 
+  1802 nc2[1,14,1]                 7                       1e+06 
+  1803 nc2[1,14,2]                 7                       1e+06 
+  1804 nc2[1,14,3]                 7                       1e+06 
+  1805 nc2[1,14,4]                 7                       1e+06 
+  1806 nc2[1,14,5]                 7                       1e+06 
+  1807 nc2[1,14,6]                 7                       1e+06 
+  1808 nc2[1,14,7]                 7                       1e+06 
+  1809 nc2[1,14,8]                 7                       1e+06 
+  1810 nc2[1,14,9]                 7                       1e+06 
+  1811 nc2[1,14,10]                7                       1e+06 
+  1812 nc2[1,14,11]                7                       1e+06 
+  1813 nc2[1,14,12]                7                       1e+06 
+  1814 nc2[1,14,13]                7                       1e+06 
+  1815 nc2[1,14,15]                7                       1e+06 
+  1816 nc2[1,14,16]                7                       1e+06 
+  1817 nc2[1,14,17]                7                       1e+06 
+  1818 nc2[1,14,18]                7                       1e+06 
+  1819 nc2[1,14,19]                7                       1e+06 
+  1820 nc2[1,14,20]                7                       1e+06 
+  1821 nc2[1,15,1]                 7                       1e+06 
+  1822 nc2[1,15,2]                 7                       1e+06 
+  1823 nc2[1,15,3]                 7                       1e+06 
+  1824 nc2[1,15,4]                 7                       1e+06 
+  1825 nc2[1,15,5]                 7                       1e+06 
+  1826 nc2[1,15,6]                 7                       1e+06 
+  1827 nc2[1,15,7]                 7                       1e+06 
+  1828 nc2[1,15,8]                 7                       1e+06 
+  1829 nc2[1,15,9]                 7                       1e+06 
+  1830 nc2[1,15,10]                7                       1e+06 
+  1831 nc2[1,15,11]                7                       1e+06 
+  1832 nc2[1,15,12]                7                       1e+06 
+  1833 nc2[1,15,13]                7                       1e+06 
+  1834 nc2[1,15,14]                7                       1e+06 
+  1835 nc2[1,15,16]            1e+06                       1e+06 
+  1836 nc2[1,15,17]                7                       1e+06 
+  1837 nc2[1,15,18]                7                       1e+06 
+  1838 nc2[1,15,19]                7                       1e+06 
+  1839 nc2[1,15,20]                7                       1e+06 
+  1840 nc2[1,16,1]                 7                       1e+06 
+  1841 nc2[1,16,2]                 7                       1e+06 
+  1842 nc2[1,16,3]                 7                       1e+06 
+  1843 nc2[1,16,4]                 7                       1e+06 
+  1844 nc2[1,16,5]                 7                       1e+06 
+  1845 nc2[1,16,6]                 7                       1e+06 
+  1846 nc2[1,16,7]                 7                       1e+06 
+  1847 nc2[1,16,8]                 7                       1e+06 
+  1848 nc2[1,16,9]                 7                       1e+06 
+  1849 nc2[1,16,10]                7                       1e+06 
+  1850 nc2[1,16,11]                7                       1e+06 
+  1851 nc2[1,16,12]                7                       1e+06 
+  1852 nc2[1,16,13]                7                       1e+06 
+  1853 nc2[1,16,14]                7                       1e+06 
+  1854 nc2[1,16,15]                7                       1e+06 
+  1855 nc2[1,16,17]                7                       1e+06 
+  1856 nc2[1,16,18]                7                       1e+06 
+  1857 nc2[1,16,19]            1e+06                       1e+06 
+  1858 nc2[1,16,20]                7                       1e+06 
+  1859 nc2[1,17,1]                 7                       1e+06 
+  1860 nc2[1,17,2]                 7                       1e+06 
+  1861 nc2[1,17,3]                 7                       1e+06 
+  1862 nc2[1,17,4]                 7                       1e+06 
+  1863 nc2[1,17,5]                 7                       1e+06 
+  1864 nc2[1,17,6]                 7                       1e+06 
+  1865 nc2[1,17,7]                 7                       1e+06 
+  1866 nc2[1,17,8]                 7                       1e+06 
+  1867 nc2[1,17,9]                 7                       1e+06 
+  1868 nc2[1,17,10]                7                       1e+06 
+  1869 nc2[1,17,11]                7                       1e+06 
+  1870 nc2[1,17,12]                7                       1e+06 
+  1871 nc2[1,17,13]                7                       1e+06 
+  1872 nc2[1,17,14]                7                       1e+06 
+  1873 nc2[1,17,15]                7                       1e+06 
+  1874 nc2[1,17,16]                7                       1e+06 
+  1875 nc2[1,17,18]                7                       1e+06 
+  1876 nc2[1,17,19]                7                       1e+06 
+  1877 nc2[1,17,20]                7                       1e+06 
+  1878 nc2[1,18,1]                 7                       1e+06 
+  1879 nc2[1,18,2]                 7                       1e+06 
+  1880 nc2[1,18,3]                 7                       1e+06 
+  1881 nc2[1,18,4]                 7                       1e+06 
+  1882 nc2[1,18,5]                 7                       1e+06 
+  1883 nc2[1,18,6]                 7                       1e+06 
+  1884 nc2[1,18,7]                 7                       1e+06 
+  1885 nc2[1,18,8]                 7                       1e+06 
+  1886 nc2[1,18,9]                 7                       1e+06 
+  1887 nc2[1,18,10]                7                       1e+06 
+  1888 nc2[1,18,11]                7                       1e+06 
+  1889 nc2[1,18,12]                7                       1e+06 
+  1890 nc2[1,18,13]                7                       1e+06 
+  1891 nc2[1,18,14]                7                       1e+06 
+  1892 nc2[1,18,15]            1e+06                       1e+06 
+  1893 nc2[1,18,16]                7                       1e+06 
+  1894 nc2[1,18,17]                7                       1e+06 
+  1895 nc2[1,18,19]                7                       1e+06 
+  1896 nc2[1,18,20]                7                       1e+06 
+  1897 nc2[1,19,1]                 7                       1e+06 
+  1898 nc2[1,19,2]                 7                       1e+06 
+  1899 nc2[1,19,3]                 7                       1e+06 
+  1900 nc2[1,19,4]                 7                       1e+06 
+  1901 nc2[1,19,5]                 7                       1e+06 
+  1902 nc2[1,19,6]                 7                       1e+06 
+  1903 nc2[1,19,7]                 7                       1e+06 
+  1904 nc2[1,19,8]                 7                       1e+06 
+  1905 nc2[1,19,9]                 7                       1e+06 
+  1906 nc2[1,19,10]                7                       1e+06 
+  1907 nc2[1,19,11]                7                       1e+06 
+  1908 nc2[1,19,12]                7                       1e+06 
+  1909 nc2[1,19,13]                7                       1e+06 
+  1910 nc2[1,19,14]                7                       1e+06 
+  1911 nc2[1,19,15]                7                       1e+06 
+  1912 nc2[1,19,16]                7                       1e+06 
+  1913 nc2[1,19,17]                7                       1e+06 
+  1914 nc2[1,19,18]                7                       1e+06 
+  1915 nc2[1,19,20]                7                       1e+06 
+  1916 nc2[1,20,1]                 7                       1e+06 
+  1917 nc2[1,20,2]                 7                       1e+06 
+  1918 nc2[1,20,3]                 7                       1e+06 
+  1919 nc2[1,20,4]                 7                       1e+06 
+  1920 nc2[1,20,5]                 7                       1e+06 
+  1921 nc2[1,20,6]                 7                       1e+06 
+  1922 nc2[1,20,7]                 7                       1e+06 
+  1923 nc2[1,20,8]                 7                       1e+06 
+  1924 nc2[1,20,9]                 7                       1e+06 
+  1925 nc2[1,20,10]                7                       1e+06 
+  1926 nc2[1,20,11]                7                       1e+06 
+  1927 nc2[1,20,12]                7                       1e+06 
+  1928 nc2[1,20,13]                7                       1e+06 
+  1929 nc2[1,20,14]                7                       1e+06 
+  1930 nc2[1,20,15]                7                       1e+06 
+  1931 nc2[1,20,16]                7                       1e+06 
+  1932 nc2[1,20,17]                7                       1e+06 
+  1933 nc2[1,20,18]            1e+06                       1e+06 
+  1934 nc2[1,20,19]                7                       1e+06 
+  1935 nc2[2,1,2]                  9                       1e+06 
+  1936 nc2[2,1,3]                  9                       1e+06 
+  1937 nc2[2,1,4]                  9                       1e+06 
+  1938 nc2[2,1,5]              1e+06                       1e+06 
+  1939 nc2[2,1,6]                  9                       1e+06 
+  1940 nc2[2,1,7]                  9                       1e+06 
+  1941 nc2[2,1,8]                  9                       1e+06 
+  1942 nc2[2,1,9]                  9                       1e+06 
+  1943 nc2[2,1,10]                 9                       1e+06 
+  1944 nc2[2,1,11]                 9                       1e+06 
+  1945 nc2[2,1,12]                 9                       1e+06 
+  1946 nc2[2,1,13]                 9                       1e+06 
+  1947 nc2[2,1,14]                 9                       1e+06 
+  1948 nc2[2,1,15]                 9                       1e+06 
+  1949 nc2[2,1,16]                 9                       1e+06 
+  1950 nc2[2,1,17]                 9                       1e+06 
+  1951 nc2[2,1,18]                 9                       1e+06 
+  1952 nc2[2,1,19]                 9                       1e+06 
+  1953 nc2[2,1,20]                 9                       1e+06 
+  1954 nc2[2,2,1]                  9                       1e+06 
+  1955 nc2[2,2,3]                  9                       1e+06 
+  1956 nc2[2,2,4]                  9                       1e+06 
+  1957 nc2[2,2,5]                  9                       1e+06 
+  1958 nc2[2,2,6]                  9                       1e+06 
+  1959 nc2[2,2,7]                  9                       1e+06 
+  1960 nc2[2,2,8]                  9                       1e+06 
+  1961 nc2[2,2,9]                  9                       1e+06 
+  1962 nc2[2,2,10]                 9                       1e+06 
+  1963 nc2[2,2,11]                 9                       1e+06 
+  1964 nc2[2,2,12]                 9                       1e+06 
+  1965 nc2[2,2,13]                 9                       1e+06 
+  1966 nc2[2,2,14]                 9                       1e+06 
+  1967 nc2[2,2,15]                 9                       1e+06 
+  1968 nc2[2,2,16]                 9                       1e+06 
+  1969 nc2[2,2,17]                 9                       1e+06 
+  1970 nc2[2,2,18]                 9                       1e+06 
+  1971 nc2[2,2,19]                 9                       1e+06 
+  1972 nc2[2,2,20]                 9                       1e+06 
+  1973 nc2[2,3,1]                  9                       1e+06 
+  1974 nc2[2,3,2]                  9                       1e+06 
+  1975 nc2[2,3,4]                  9                       1e+06 
+  1976 nc2[2,3,5]                  9                       1e+06 
+  1977 nc2[2,3,6]                  9                       1e+06 
+  1978 nc2[2,3,7]                  9                       1e+06 
+  1979 nc2[2,3,8]                  9                       1e+06 
+  1980 nc2[2,3,9]                  9                       1e+06 
+  1981 nc2[2,3,10]                 9                       1e+06 
+  1982 nc2[2,3,11]                 9                       1e+06 
+  1983 nc2[2,3,12]                 9                       1e+06 
+  1984 nc2[2,3,13]                 9                       1e+06 
+  1985 nc2[2,3,14]                 9                       1e+06 
+  1986 nc2[2,3,15]                 9                       1e+06 
+  1987 nc2[2,3,16]                 9                       1e+06 
+  1988 nc2[2,3,17]                 9                       1e+06 
+  1989 nc2[2,3,18]                 9                       1e+06 
+  1990 nc2[2,3,19]                 9                       1e+06 
+  1991 nc2[2,3,20]                 9                       1e+06 
+  1992 nc2[2,4,1]                  9                       1e+06 
+  1993 nc2[2,4,2]                  9                       1e+06 
+  1994 nc2[2,4,3]                  9                       1e+06 
+  1995 nc2[2,4,5]                  9                       1e+06 
+  1996 nc2[2,4,6]                  9                       1e+06 
+  1997 nc2[2,4,7]                  9                       1e+06 
+  1998 nc2[2,4,8]                  9                       1e+06 
+  1999 nc2[2,4,9]                  9                       1e+06 
+  2000 nc2[2,4,10]                 9                       1e+06 
+  2001 nc2[2,4,11]                 9                       1e+06 
+  2002 nc2[2,4,12]                 9                       1e+06 
+  2003 nc2[2,4,13]                 9                       1e+06 
+  2004 nc2[2,4,14]                 9                       1e+06 
+  2005 nc2[2,4,15]                 9                       1e+06 
+  2006 nc2[2,4,16]                 9                       1e+06 
+  2007 nc2[2,4,17]                 9                       1e+06 
+  2008 nc2[2,4,18]                 9                       1e+06 
+  2009 nc2[2,4,19]                 9                       1e+06 
+  2010 nc2[2,4,20]                 9                       1e+06 
+  2011 nc2[2,5,1]                  9                       1e+06 
+  2012 nc2[2,5,2]                  9                       1e+06 
+  2013 nc2[2,5,3]                  9                       1e+06 
+  2014 nc2[2,5,4]                  9                       1e+06 
+  2015 nc2[2,5,6]                  9                       1e+06 
+  2016 nc2[2,5,7]              1e+06                       1e+06 
+  2017 nc2[2,5,8]                  9                       1e+06 
+  2018 nc2[2,5,9]                  9                       1e+06 
+  2019 nc2[2,5,10]                 9                       1e+06 
+  2020 nc2[2,5,11]                 9                       1e+06 
+  2021 nc2[2,5,12]                 9                       1e+06 
+  2022 nc2[2,5,13]                 9                       1e+06 
+  2023 nc2[2,5,14]                 9                       1e+06 
+  2024 nc2[2,5,15]                 9                       1e+06 
+  2025 nc2[2,5,16]                 9                       1e+06 
+  2026 nc2[2,5,17]                 9                       1e+06 
+  2027 nc2[2,5,18]                 9                       1e+06 
+  2028 nc2[2,5,19]                 9                       1e+06 
+  2029 nc2[2,5,20]                 9                       1e+06 
+  2030 nc2[2,6,1]                  9                       1e+06 
+  2031 nc2[2,6,2]                  9                       1e+06 
+  2032 nc2[2,6,3]                  9                       1e+06 
+  2033 nc2[2,6,4]                  9                       1e+06 
+  2034 nc2[2,6,5]                  9                       1e+06 
+  2035 nc2[2,6,7]                  9                       1e+06 
+  2036 nc2[2,6,8]                  9                       1e+06 
+  2037 nc2[2,6,9]                  9                       1e+06 
+  2038 nc2[2,6,10]                 9                       1e+06 
+  2039 nc2[2,6,11]                 9                       1e+06 
+  2040 nc2[2,6,12]                 9                       1e+06 
+  2041 nc2[2,6,13]                 9                       1e+06 
+  2042 nc2[2,6,14]                 9                       1e+06 
+  2043 nc2[2,6,15]                 9                       1e+06 
+  2044 nc2[2,6,16]                 9                       1e+06 
+  2045 nc2[2,6,17]                 9                       1e+06 
+  2046 nc2[2,6,18]                 9                       1e+06 
+  2047 nc2[2,6,19]                 9                       1e+06 
+  2048 nc2[2,6,20]                 9                       1e+06 
+  2049 nc2[2,7,1]                  9                       1e+06 
+  2050 nc2[2,7,2]                  9                       1e+06 
+  2051 nc2[2,7,3]                  9                       1e+06 
+  2052 nc2[2,7,4]                  9                       1e+06 
+  2053 nc2[2,7,5]                  9                       1e+06 
+  2054 nc2[2,7,6]                  9                       1e+06 
+  2055 nc2[2,7,8]              1e+06                       1e+06 
+  2056 nc2[2,7,9]                  9                       1e+06 
+  2057 nc2[2,7,10]                 9                       1e+06 
+  2058 nc2[2,7,11]                 9                       1e+06 
+  2059 nc2[2,7,12]                 9                       1e+06 
+  2060 nc2[2,7,13]                 9                       1e+06 
+  2061 nc2[2,7,14]                 9                       1e+06 
+  2062 nc2[2,7,15]                 9                       1e+06 
+  2063 nc2[2,7,16]                 9                       1e+06 
+  2064 nc2[2,7,17]                 9                       1e+06 
+  2065 nc2[2,7,18]                 9                       1e+06 
+  2066 nc2[2,7,19]                 9                       1e+06 
+  2067 nc2[2,7,20]                 9                       1e+06 
+  2068 nc2[2,8,1]                  9                       1e+06 
+  2069 nc2[2,8,2]                  9                       1e+06 
+  2070 nc2[2,8,3]                  9                       1e+06 
+  2071 nc2[2,8,4]                  9                       1e+06 
+  2072 nc2[2,8,5]                  9                       1e+06 
+  2073 nc2[2,8,6]                  9                       1e+06 
+  2074 nc2[2,8,7]                  9                       1e+06 
+  2075 nc2[2,8,9]                  9                       1e+06 
+  2076 nc2[2,8,10]                 9                       1e+06 
+  2077 nc2[2,8,11]                 9                       1e+06 
+  2078 nc2[2,8,12]             1e+06                       1e+06 
+  2079 nc2[2,8,13]                 9                       1e+06 
+  2080 nc2[2,8,14]                 9                       1e+06 
+  2081 nc2[2,8,15]                 9                       1e+06 
+  2082 nc2[2,8,16]                 9                       1e+06 
+  2083 nc2[2,8,17]                 9                       1e+06 
+  2084 nc2[2,8,18]                 9                       1e+06 
+  2085 nc2[2,8,19]                 9                       1e+06 
+  2086 nc2[2,8,20]                 9                       1e+06 
+  2087 nc2[2,9,1]                  9                       1e+06 
+  2088 nc2[2,9,2]                  9                       1e+06 
+  2089 nc2[2,9,3]                  9                       1e+06 
+  2090 nc2[2,9,4]                  9                       1e+06 
+  2091 nc2[2,9,5]                  9                       1e+06 
+  2092 nc2[2,9,6]                  9                       1e+06 
+  2093 nc2[2,9,7]                  9                       1e+06 
+  2094 nc2[2,9,8]                  9                       1e+06 
+  2095 nc2[2,9,10]             1e+06                       1e+06 
+  2096 nc2[2,9,11]                 9                       1e+06 
+  2097 nc2[2,9,12]                 9                       1e+06 
+  2098 nc2[2,9,13]                 9                       1e+06 
+  2099 nc2[2,9,14]                 9                       1e+06 
+  2100 nc2[2,9,15]                 9                       1e+06 
+  2101 nc2[2,9,16]                 9                       1e+06 
+  2102 nc2[2,9,17]                 9                       1e+06 
+  2103 nc2[2,9,18]                 9                       1e+06 
+  2104 nc2[2,9,19]                 9                       1e+06 
+  2105 nc2[2,9,20]                 9                       1e+06 
+  2106 nc2[2,10,1]                 9                       1e+06 
+  2107 nc2[2,10,2]                 9                       1e+06 
+  2108 nc2[2,10,3]                 9                       1e+06 
+  2109 nc2[2,10,4]                 9                       1e+06 
+  2110 nc2[2,10,5]                 9                       1e+06 
+  2111 nc2[2,10,6]                 9                       1e+06 
+  2112 nc2[2,10,7]                 9                       1e+06 
+  2113 nc2[2,10,8]                 9                       1e+06 
+  2114 nc2[2,10,9]                 9                       1e+06 
+  2115 nc2[2,10,11]                9                       1e+06 
+  2116 nc2[2,10,12]                9                       1e+06 
+  2117 nc2[2,10,13]                9                       1e+06 
+  2118 nc2[2,10,14]            1e+06                       1e+06 
+  2119 nc2[2,10,15]                9                       1e+06 
+  2120 nc2[2,10,16]                9                       1e+06 
+  2121 nc2[2,10,17]                9                       1e+06 
+  2122 nc2[2,10,18]                9                       1e+06 
+  2123 nc2[2,10,19]                9                       1e+06 
+  2124 nc2[2,10,20]                9                       1e+06 
+  2125 nc2[2,11,1]                 9                       1e+06 
+  2126 nc2[2,11,2]                 9                       1e+06 
+  2127 nc2[2,11,3]                 9                       1e+06 
+  2128 nc2[2,11,4]                 9                       1e+06 
+  2129 nc2[2,11,5]                 9                       1e+06 
+  2130 nc2[2,11,6]                 9                       1e+06 
+  2131 nc2[2,11,7]                 9                       1e+06 
+  2132 nc2[2,11,8]                 9                       1e+06 
+  2133 nc2[2,11,9]                 9                       1e+06 
+  2134 nc2[2,11,10]                9                       1e+06 
+  2135 nc2[2,11,12]                9                       1e+06 
+  2136 nc2[2,11,13]                9                       1e+06 
+  2137 nc2[2,11,14]                9                       1e+06 
+  2138 nc2[2,11,15]                9                       1e+06 
+  2139 nc2[2,11,16]                9                       1e+06 
+  2140 nc2[2,11,17]                9                       1e+06 
+  2141 nc2[2,11,18]                9                       1e+06 
+  2142 nc2[2,11,19]                9                       1e+06 
+  2143 nc2[2,11,20]                9                       1e+06 
+  2144 nc2[2,12,1]                 9                       1e+06 
+  2145 nc2[2,12,2]                 9                       1e+06 
+  2146 nc2[2,12,3]                 9                       1e+06 
+  2147 nc2[2,12,4]                 9                       1e+06 
+  2148 nc2[2,12,5]                 9                       1e+06 
+  2149 nc2[2,12,6]                 9                       1e+06 
+  2150 nc2[2,12,7]                 9                       1e+06 
+  2151 nc2[2,12,8]                 9                       1e+06 
+  2152 nc2[2,12,9]             1e+06                       1e+06 
+  2153 nc2[2,12,10]                9                       1e+06 
+  2154 nc2[2,12,11]                9                       1e+06 
+  2155 nc2[2,12,13]                9                       1e+06 
+  2156 nc2[2,12,14]                9                       1e+06 
+  2157 nc2[2,12,15]                9                       1e+06 
+  2158 nc2[2,12,16]                9                       1e+06 
+  2159 nc2[2,12,17]                9                       1e+06 
+  2160 nc2[2,12,18]                9                       1e+06 
+  2161 nc2[2,12,19]                9                       1e+06 
+  2162 nc2[2,12,20]                9                       1e+06 
+  2163 nc2[2,13,1]                 9                       1e+06 
+  2164 nc2[2,13,2]                 9                       1e+06 
+  2165 nc2[2,13,3]                 9                       1e+06 
+  2166 nc2[2,13,4]                 9                       1e+06 
+  2167 nc2[2,13,5]                 9                       1e+06 
+  2168 nc2[2,13,6]                 9                       1e+06 
+  2169 nc2[2,13,7]                 9                       1e+06 
+  2170 nc2[2,13,8]                 9                       1e+06 
+  2171 nc2[2,13,9]                 9                       1e+06 
+  2172 nc2[2,13,10]                9                       1e+06 
+  2173 nc2[2,13,11]                9                       1e+06 
+  2174 nc2[2,13,12]                9                       1e+06 
+  2175 nc2[2,13,14]                9                       1e+06 
+  2176 nc2[2,13,15]                9                       1e+06 
+  2177 nc2[2,13,16]                9                       1e+06 
+  2178 nc2[2,13,17]                9                       1e+06 
+  2179 nc2[2,13,18]                9                       1e+06 
+  2180 nc2[2,13,19]                9                       1e+06 
+  2181 nc2[2,13,20]                9                       1e+06 
+  2182 nc2[2,14,1]                 9                       1e+06 
+  2183 nc2[2,14,2]                 9                       1e+06 
+  2184 nc2[2,14,3]                 9                       1e+06 
+  2185 nc2[2,14,4]                 9                       1e+06 
+  2186 nc2[2,14,5]                 9                       1e+06 
+  2187 nc2[2,14,6]                 9                       1e+06 
+  2188 nc2[2,14,7]                 9                       1e+06 
+  2189 nc2[2,14,8]                 9                       1e+06 
+  2190 nc2[2,14,9]                 9                       1e+06 
+  2191 nc2[2,14,10]                9                       1e+06 
+  2192 nc2[2,14,11]                9                       1e+06 
+  2193 nc2[2,14,12]                9                       1e+06 
+  2194 nc2[2,14,13]                9                       1e+06 
+  2195 nc2[2,14,15]                9                       1e+06 
+  2196 nc2[2,14,16]                9                       1e+06 
+  2197 nc2[2,14,17]            1e+06                       1e+06 
+  2198 nc2[2,14,18]                9                       1e+06 
+  2199 nc2[2,14,19]                9                       1e+06 
+  2200 nc2[2,14,20]                9                       1e+06 
+  2201 nc2[2,15,1]                 9                       1e+06 
+  2202 nc2[2,15,2]                 9                       1e+06 
+  2203 nc2[2,15,3]                 9                       1e+06 
+  2204 nc2[2,15,4]                 9                       1e+06 
+  2205 nc2[2,15,5]                 9                       1e+06 
+  2206 nc2[2,15,6]                 9                       1e+06 
+  2207 nc2[2,15,7]                 9                       1e+06 
+  2208 nc2[2,15,8]                 9                       1e+06 
+  2209 nc2[2,15,9]                 9                       1e+06 
+  2210 nc2[2,15,10]                9                       1e+06 
+  2211 nc2[2,15,11]                9                       1e+06 
+  2212 nc2[2,15,12]                9                       1e+06 
+  2213 nc2[2,15,13]                9                       1e+06 
+  2214 nc2[2,15,14]                9                       1e+06 
+  2215 nc2[2,15,16]                9                       1e+06 
+  2216 nc2[2,15,17]                9                       1e+06 
+  2217 nc2[2,15,18]                9                       1e+06 
+  2218 nc2[2,15,19]                9                       1e+06 
+  2219 nc2[2,15,20]                9                       1e+06 
+  2220 nc2[2,16,1]                 9                       1e+06 
+  2221 nc2[2,16,2]                 9                       1e+06 
+  2222 nc2[2,16,3]                 9                       1e+06 
+  2223 nc2[2,16,4]                 9                       1e+06 
+  2224 nc2[2,16,5]                 9                       1e+06 
+  2225 nc2[2,16,6]                 9                       1e+06 
+  2226 nc2[2,16,7]                 9                       1e+06 
+  2227 nc2[2,16,8]                 9                       1e+06 
+  2228 nc2[2,16,9]                 9                       1e+06 
+  2229 nc2[2,16,10]                9                       1e+06 
+  2230 nc2[2,16,11]                9                       1e+06 
+  2231 nc2[2,16,12]                9                       1e+06 
+  2232 nc2[2,16,13]                9                       1e+06 
+  2233 nc2[2,16,14]                9                       1e+06 
+  2234 nc2[2,16,15]                9                       1e+06 
+  2235 nc2[2,16,17]                9                       1e+06 
+  2236 nc2[2,16,18]                9                       1e+06 
+  2237 nc2[2,16,19]                9                       1e+06 
+  2238 nc2[2,16,20]                9                       1e+06 
+  2239 nc2[2,17,1]                 9                       1e+06 
+  2240 nc2[2,17,2]                 9                       1e+06 
+  2241 nc2[2,17,3]                 9                       1e+06 
+  2242 nc2[2,17,4]                 9                       1e+06 
+  2243 nc2[2,17,5]                 9                       1e+06 
+  2244 nc2[2,17,6]                 9                       1e+06 
+  2245 nc2[2,17,7]                 9                       1e+06 
+  2246 nc2[2,17,8]                 9                       1e+06 
+  2247 nc2[2,17,9]                 9                       1e+06 
+  2248 nc2[2,17,10]                9                       1e+06 
+  2249 nc2[2,17,11]                9                       1e+06 
+  2250 nc2[2,17,12]                9                       1e+06 
+  2251 nc2[2,17,13]                9                       1e+06 
+  2252 nc2[2,17,14]                9                       1e+06 
+  2253 nc2[2,17,15]                9                       1e+06 
+  2254 nc2[2,17,16]                9                       1e+06 
+  2255 nc2[2,17,18]                9                       1e+06 
+  2256 nc2[2,17,19]                9                       1e+06 
+  2257 nc2[2,17,20]                9                       1e+06 
+  2258 nc2[2,18,1]                 9                       1e+06 
+  2259 nc2[2,18,2]                 9                       1e+06 
+  2260 nc2[2,18,3]                 9                       1e+06 
+  2261 nc2[2,18,4]                 9                       1e+06 
+  2262 nc2[2,18,5]                 9                       1e+06 
+  2263 nc2[2,18,6]                 9                       1e+06 
+  2264 nc2[2,18,7]                 9                       1e+06 
+  2265 nc2[2,18,8]                 9                       1e+06 
+  2266 nc2[2,18,9]                 9                       1e+06 
+  2267 nc2[2,18,10]                9                       1e+06 
+  2268 nc2[2,18,11]                9                       1e+06 
+  2269 nc2[2,18,12]                9                       1e+06 
+  2270 nc2[2,18,13]                9                       1e+06 
+  2271 nc2[2,18,14]                9                       1e+06 
+  2272 nc2[2,18,15]                9                       1e+06 
+  2273 nc2[2,18,16]                9                       1e+06 
+  2274 nc2[2,18,17]                9                       1e+06 
+  2275 nc2[2,18,19]                9                       1e+06 
+  2276 nc2[2,18,20]                9                       1e+06 
+  2277 nc2[2,19,1]                 9                       1e+06 
+  2278 nc2[2,19,2]                 9                       1e+06 
+  2279 nc2[2,19,3]                 9                       1e+06 
+  2280 nc2[2,19,4]                 9                       1e+06 
+  2281 nc2[2,19,5]                 9                       1e+06 
+  2282 nc2[2,19,6]                 9                       1e+06 
+  2283 nc2[2,19,7]                 9                       1e+06 
+  2284 nc2[2,19,8]                 9                       1e+06 
+  2285 nc2[2,19,9]                 9                       1e+06 
+  2286 nc2[2,19,10]                9                       1e+06 
+  2287 nc2[2,19,11]                9                       1e+06 
+  2288 nc2[2,19,12]                9                       1e+06 
+  2289 nc2[2,19,13]                9                       1e+06 
+  2290 nc2[2,19,14]                9                       1e+06 
+  2291 nc2[2,19,15]                9                       1e+06 
+  2292 nc2[2,19,16]                9                       1e+06 
+  2293 nc2[2,19,17]                9                       1e+06 
+  2294 nc2[2,19,18]                9                       1e+06 
+  2295 nc2[2,19,20]                9                       1e+06 
+  2296 nc2[2,20,1]                 9                       1e+06 
+  2297 nc2[2,20,2]                 9                       1e+06 
+  2298 nc2[2,20,3]                 9                       1e+06 
+  2299 nc2[2,20,4]                 9                       1e+06 
+  2300 nc2[2,20,5]                 9                       1e+06 
+  2301 nc2[2,20,6]                 9                       1e+06 
+  2302 nc2[2,20,7]                 9                       1e+06 
+  2303 nc2[2,20,8]                 9                       1e+06 
+  2304 nc2[2,20,9]                 9                       1e+06 
+  2305 nc2[2,20,10]                9                       1e+06 
+  2306 nc2[2,20,11]                9                       1e+06 
+  2307 nc2[2,20,12]                9                       1e+06 
+  2308 nc2[2,20,13]                9                       1e+06 
+  2309 nc2[2,20,14]                9                       1e+06 
+  2310 nc2[2,20,15]                9                       1e+06 
+  2311 nc2[2,20,16]                9                       1e+06 
+  2312 nc2[2,20,17]                9                       1e+06 
+  2313 nc2[2,20,18]                9                       1e+06 
+  2314 nc2[2,20,19]                9                       1e+06 
+  2315 nc2[3,1,2]                  4                       1e+06 
+  2316 nc2[3,1,3]                  4                       1e+06 
+  2317 nc2[3,1,4]                  4                       1e+06 
+  2318 nc2[3,1,5]                  4                       1e+06 
+  2319 nc2[3,1,6]                  4                       1e+06 
+  2320 nc2[3,1,7]                  4                       1e+06 
+  2321 nc2[3,1,8]                  4                       1e+06 
+  2322 nc2[3,1,9]                  4                       1e+06 
+  2323 nc2[3,1,10]                 4                       1e+06 
+  2324 nc2[3,1,11]                 4                       1e+06 
+  2325 nc2[3,1,12]                 4                       1e+06 
+  2326 nc2[3,1,13]                 4                       1e+06 
+  2327 nc2[3,1,14]                 4                       1e+06 
+  2328 nc2[3,1,15]                 4                       1e+06 
+  2329 nc2[3,1,16]                 4                       1e+06 
+  2330 nc2[3,1,17]                 4                       1e+06 
+  2331 nc2[3,1,18]                 4                       1e+06 
+  2332 nc2[3,1,19]                 4                       1e+06 
+  2333 nc2[3,1,20]                 4                       1e+06 
+  2334 nc2[3,2,1]                  4                       1e+06 
+  2335 nc2[3,2,3]              1e+06                       1e+06 
+  2336 nc2[3,2,4]                  4                       1e+06 
+  2337 nc2[3,2,5]                  4                       1e+06 
+  2338 nc2[3,2,6]                  4                       1e+06 
+  2339 nc2[3,2,7]                  4                       1e+06 
+  2340 nc2[3,2,8]                  4                       1e+06 
+  2341 nc2[3,2,9]                  4                       1e+06 
+  2342 nc2[3,2,10]                 4                       1e+06 
+  2343 nc2[3,2,11]                 4                       1e+06 
+  2344 nc2[3,2,12]                 4                       1e+06 
+  2345 nc2[3,2,13]                 4                       1e+06 
+  2346 nc2[3,2,14]                 4                       1e+06 
+  2347 nc2[3,2,15]                 4                       1e+06 
+  2348 nc2[3,2,16]                 4                       1e+06 
+  2349 nc2[3,2,17]                 4                       1e+06 
+  2350 nc2[3,2,18]                 4                       1e+06 
+  2351 nc2[3,2,19]                 4                       1e+06 
+  2352 nc2[3,2,20]                 4                       1e+06 
+  2353 nc2[3,3,1]                  4                       1e+06 
+  2354 nc2[3,3,2]                  4                       1e+06 
+  2355 nc2[3,3,4]              1e+06                       1e+06 
+  2356 nc2[3,3,5]                  4                       1e+06 
+  2357 nc2[3,3,6]                  4                       1e+06 
+  2358 nc2[3,3,7]                  4                       1e+06 
+  2359 nc2[3,3,8]                  4                       1e+06 
+  2360 nc2[3,3,9]                  4                       1e+06 
+  2361 nc2[3,3,10]                 4                       1e+06 
+  2362 nc2[3,3,11]                 4                       1e+06 
+  2363 nc2[3,3,12]                 4                       1e+06 
+  2364 nc2[3,3,13]                 4                       1e+06 
+  2365 nc2[3,3,14]                 4                       1e+06 
+  2366 nc2[3,3,15]                 4                       1e+06 
+  2367 nc2[3,3,16]                 4                       1e+06 
+  2368 nc2[3,3,17]                 4                       1e+06 
+  2369 nc2[3,3,18]                 4                       1e+06 
+  2370 nc2[3,3,19]                 4                       1e+06 
+  2371 nc2[3,3,20]                 4                       1e+06 
+  2372 nc2[3,4,1]                  4                       1e+06 
+  2373 nc2[3,4,2]                  4                       1e+06 
+  2374 nc2[3,4,3]                  4                       1e+06 
+  2375 nc2[3,4,5]                  4                       1e+06 
+  2376 nc2[3,4,6]              1e+06                       1e+06 
+  2377 nc2[3,4,7]                  4                       1e+06 
+  2378 nc2[3,4,8]                  4                       1e+06 
+  2379 nc2[3,4,9]                  4                       1e+06 
+  2380 nc2[3,4,10]                 4                       1e+06 
+  2381 nc2[3,4,11]                 4                       1e+06 
+  2382 nc2[3,4,12]                 4                       1e+06 
+  2383 nc2[3,4,13]                 4                       1e+06 
+  2384 nc2[3,4,14]                 4                       1e+06 
+  2385 nc2[3,4,15]                 4                       1e+06 
+  2386 nc2[3,4,16]                 4                       1e+06 
+  2387 nc2[3,4,17]                 4                       1e+06 
+  2388 nc2[3,4,18]                 4                       1e+06 
+  2389 nc2[3,4,19]                 4                       1e+06 
+  2390 nc2[3,4,20]                 4                       1e+06 
+  2391 nc2[3,5,1]                  4                       1e+06 
+  2392 nc2[3,5,2]                  4                       1e+06 
+  2393 nc2[3,5,3]                  4                       1e+06 
+  2394 nc2[3,5,4]                  4                       1e+06 
+  2395 nc2[3,5,6]                  4                       1e+06 
+  2396 nc2[3,5,7]                  4                       1e+06 
+  2397 nc2[3,5,8]                  4                       1e+06 
+  2398 nc2[3,5,9]                  4                       1e+06 
+  2399 nc2[3,5,10]                 4                       1e+06 
+  2400 nc2[3,5,11]                 4                       1e+06 
+  2401 nc2[3,5,12]                 4                       1e+06 
+  2402 nc2[3,5,13]                 4                       1e+06 
+  2403 nc2[3,5,14]                 4                       1e+06 
+  2404 nc2[3,5,15]                 4                       1e+06 
+  2405 nc2[3,5,16]                 4                       1e+06 
+  2406 nc2[3,5,17]                 4                       1e+06 
+  2407 nc2[3,5,18]                 4                       1e+06 
+  2408 nc2[3,5,19]                 4                       1e+06 
+  2409 nc2[3,5,20]                 4                       1e+06 
+  2410 nc2[3,6,1]                  4                       1e+06 
+  2411 nc2[3,6,2]                  4                       1e+06 
+  2412 nc2[3,6,3]                  4                       1e+06 
+  2413 nc2[3,6,4]                  4                       1e+06 
+  2414 nc2[3,6,5]                  4                       1e+06 
+  2415 nc2[3,6,7]                  4                       1e+06 
+  2416 nc2[3,6,8]                  4                       1e+06 
+  2417 nc2[3,6,9]                  4                       1e+06 
+  2418 nc2[3,6,10]                 4                       1e+06 
+  2419 nc2[3,6,11]                 4                       1e+06 
+  2420 nc2[3,6,12]                 4                       1e+06 
+  2421 nc2[3,6,13]                 4                       1e+06 
+  2422 nc2[3,6,14]                 4                       1e+06 
+  2423 nc2[3,6,15]                 4                       1e+06 
+  2424 nc2[3,6,16]                 4                       1e+06 
+  2425 nc2[3,6,17]                 4                       1e+06 
+  2426 nc2[3,6,18]                 4                       1e+06 
+  2427 nc2[3,6,19]                 4                       1e+06 
+  2428 nc2[3,6,20]                 4                       1e+06 
+  2429 nc2[3,7,1]                  4                       1e+06 
+  2430 nc2[3,7,2]                  4                       1e+06 
+  2431 nc2[3,7,3]                  4                       1e+06 
+  2432 nc2[3,7,4]                  4                       1e+06 
+  2433 nc2[3,7,5]                  4                       1e+06 
+  2434 nc2[3,7,6]                  4                       1e+06 
+  2435 nc2[3,7,8]                  4                       1e+06 
+  2436 nc2[3,7,9]                  4                       1e+06 
+  2437 nc2[3,7,10]                 4                       1e+06 
+  2438 nc2[3,7,11]                 4                       1e+06 
+  2439 nc2[3,7,12]                 4                       1e+06 
+  2440 nc2[3,7,13]                 4                       1e+06 
+  2441 nc2[3,7,14]                 4                       1e+06 
+  2442 nc2[3,7,15]                 4                       1e+06 
+  2443 nc2[3,7,16]                 4                       1e+06 
+  2444 nc2[3,7,17]                 4                       1e+06 
+  2445 nc2[3,7,18]                 4                       1e+06 
+  2446 nc2[3,7,19]                 4                       1e+06 
+  2447 nc2[3,7,20]                 4                       1e+06 
+  2448 nc2[3,8,1]                  4                       1e+06 
+  2449 nc2[3,8,2]                  4                       1e+06 
+  2450 nc2[3,8,3]                  4                       1e+06 
+  2451 nc2[3,8,4]                  4                       1e+06 
+  2452 nc2[3,8,5]                  4                       1e+06 
+  2453 nc2[3,8,6]                  4                       1e+06 
+  2454 nc2[3,8,7]                  4                       1e+06 
+  2455 nc2[3,8,9]                  4                       1e+06 
+  2456 nc2[3,8,10]                 4                       1e+06 
+  2457 nc2[3,8,11]                 4                       1e+06 
+  2458 nc2[3,8,12]                 4                       1e+06 
+  2459 nc2[3,8,13]                 4                       1e+06 
+  2460 nc2[3,8,14]                 4                       1e+06 
+  2461 nc2[3,8,15]                 4                       1e+06 
+  2462 nc2[3,8,16]                 4                       1e+06 
+  2463 nc2[3,8,17]                 4                       1e+06 
+  2464 nc2[3,8,18]                 4                       1e+06 
+  2465 nc2[3,8,19]                 4                       1e+06 
+  2466 nc2[3,8,20]                 4                       1e+06 
+  2467 nc2[3,9,1]                  4                       1e+06 
+  2468 nc2[3,9,2]                  4                       1e+06 
+  2469 nc2[3,9,3]                  4                       1e+06 
+  2470 nc2[3,9,4]                  4                       1e+06 
+  2471 nc2[3,9,5]                  4                       1e+06 
+  2472 nc2[3,9,6]                  4                       1e+06 
+  2473 nc2[3,9,7]                  4                       1e+06 
+  2474 nc2[3,9,8]                  4                       1e+06 
+  2475 nc2[3,9,10]                 4                       1e+06 
+  2476 nc2[3,9,11]                 4                       1e+06 
+  2477 nc2[3,9,12]                 4                       1e+06 
+  2478 nc2[3,9,13]                 4                       1e+06 
+  2479 nc2[3,9,14]                 4                       1e+06 
+  2480 nc2[3,9,15]                 4                       1e+06 
+  2481 nc2[3,9,16]                 4                       1e+06 
+  2482 nc2[3,9,17]                 4                       1e+06 
+  2483 nc2[3,9,18]                 4                       1e+06 
+  2484 nc2[3,9,19]                 4                       1e+06 
+  2485 nc2[3,9,20]                 4                       1e+06 
+  2486 nc2[3,10,1]                 4                       1e+06 
+  2487 nc2[3,10,2]                 4                       1e+06 
+  2488 nc2[3,10,3]                 4                       1e+06 
+  2489 nc2[3,10,4]                 4                       1e+06 
+  2490 nc2[3,10,5]                 4                       1e+06 
+  2491 nc2[3,10,6]                 4                       1e+06 
+  2492 nc2[3,10,7]                 4                       1e+06 
+  2493 nc2[3,10,8]                 4                       1e+06 
+  2494 nc2[3,10,9]                 4                       1e+06 
+  2495 nc2[3,10,11]                4                       1e+06 
+  2496 nc2[3,10,12]                4                       1e+06 
+  2497 nc2[3,10,13]                4                       1e+06 
+  2498 nc2[3,10,14]                4                       1e+06 
+  2499 nc2[3,10,15]                4                       1e+06 
+  2500 nc2[3,10,16]                4                       1e+06 
+  2501 nc2[3,10,17]                4                       1e+06 
+  2502 nc2[3,10,18]                4                       1e+06 
+  2503 nc2[3,10,19]                4                       1e+06 
+  2504 nc2[3,10,20]                4                       1e+06 
+  2505 nc2[3,11,1]                 4                       1e+06 
+  2506 nc2[3,11,2]                 4                       1e+06 
+  2507 nc2[3,11,3]                 4                       1e+06 
+  2508 nc2[3,11,4]                 4                       1e+06 
+  2509 nc2[3,11,5]                 4                       1e+06 
+  2510 nc2[3,11,6]                 4                       1e+06 
+  2511 nc2[3,11,7]                 4                       1e+06 
+  2512 nc2[3,11,8]                 4                       1e+06 
+  2513 nc2[3,11,9]                 4                       1e+06 
+  2514 nc2[3,11,10]                4                       1e+06 
+  2515 nc2[3,11,12]                4                       1e+06 
+  2516 nc2[3,11,13]                4                       1e+06 
+  2517 nc2[3,11,14]                4                       1e+06 
+  2518 nc2[3,11,15]                4                       1e+06 
+  2519 nc2[3,11,16]                4                       1e+06 
+  2520 nc2[3,11,17]                4                       1e+06 
+  2521 nc2[3,11,18]                4                       1e+06 
+  2522 nc2[3,11,19]                4                       1e+06 
+  2523 nc2[3,11,20]                4                       1e+06 
+  2524 nc2[3,12,1]                 4                       1e+06 
+  2525 nc2[3,12,2]                 4                       1e+06 
+  2526 nc2[3,12,3]                 4                       1e+06 
+  2527 nc2[3,12,4]                 4                       1e+06 
+  2528 nc2[3,12,5]                 4                       1e+06 
+  2529 nc2[3,12,6]                 4                       1e+06 
+  2530 nc2[3,12,7]                 4                       1e+06 
+  2531 nc2[3,12,8]                 4                       1e+06 
+  2532 nc2[3,12,9]                 4                       1e+06 
+  2533 nc2[3,12,10]                4                       1e+06 
+  2534 nc2[3,12,11]                4                       1e+06 
+  2535 nc2[3,12,13]                4                       1e+06 
+  2536 nc2[3,12,14]                4                       1e+06 
+  2537 nc2[3,12,15]                4                       1e+06 
+  2538 nc2[3,12,16]                4                       1e+06 
+  2539 nc2[3,12,17]                4                       1e+06 
+  2540 nc2[3,12,18]                4                       1e+06 
+  2541 nc2[3,12,19]                4                       1e+06 
+  2542 nc2[3,12,20]                4                       1e+06 
+  2543 nc2[3,13,1]                 4                       1e+06 
+  2544 nc2[3,13,2]                 4                       1e+06 
+  2545 nc2[3,13,3]                 4                       1e+06 
+  2546 nc2[3,13,4]                 4                       1e+06 
+  2547 nc2[3,13,5]                 4                       1e+06 
+  2548 nc2[3,13,6]                 4                       1e+06 
+  2549 nc2[3,13,7]                 4                       1e+06 
+  2550 nc2[3,13,8]                 4                       1e+06 
+  2551 nc2[3,13,9]                 4                       1e+06 
+  2552 nc2[3,13,10]                4                       1e+06 
+  2553 nc2[3,13,11]                4                       1e+06 
+  2554 nc2[3,13,12]                4                       1e+06 
+  2555 nc2[3,13,14]                4                       1e+06 
+  2556 nc2[3,13,15]                4                       1e+06 
+  2557 nc2[3,13,16]                4                       1e+06 
+  2558 nc2[3,13,17]                4                       1e+06 
+  2559 nc2[3,13,18]                4                       1e+06 
+  2560 nc2[3,13,19]                4                       1e+06 
+  2561 nc2[3,13,20]                4                       1e+06 
+  2562 nc2[3,14,1]                 4                       1e+06 
+  2563 nc2[3,14,2]                 4                       1e+06 
+  2564 nc2[3,14,3]                 4                       1e+06 
+  2565 nc2[3,14,4]                 4                       1e+06 
+  2566 nc2[3,14,5]                 4                       1e+06 
+  2567 nc2[3,14,6]                 4                       1e+06 
+  2568 nc2[3,14,7]                 4                       1e+06 
+  2569 nc2[3,14,8]                 4                       1e+06 
+  2570 nc2[3,14,9]                 4                       1e+06 
+  2571 nc2[3,14,10]                4                       1e+06 
+  2572 nc2[3,14,11]                4                       1e+06 
+  2573 nc2[3,14,12]                4                       1e+06 
+  2574 nc2[3,14,13]                4                       1e+06 
+  2575 nc2[3,14,15]                4                       1e+06 
+  2576 nc2[3,14,16]                4                       1e+06 
+  2577 nc2[3,14,17]                4                       1e+06 
+  2578 nc2[3,14,18]                4                       1e+06 
+  2579 nc2[3,14,19]                4                       1e+06 
+  2580 nc2[3,14,20]                4                       1e+06 
+  2581 nc2[3,15,1]                 4                       1e+06 
+  2582 nc2[3,15,2]                 4                       1e+06 
+  2583 nc2[3,15,3]                 4                       1e+06 
+  2584 nc2[3,15,4]                 4                       1e+06 
+  2585 nc2[3,15,5]                 4                       1e+06 
+  2586 nc2[3,15,6]                 4                       1e+06 
+  2587 nc2[3,15,7]                 4                       1e+06 
+  2588 nc2[3,15,8]                 4                       1e+06 
+  2589 nc2[3,15,9]                 4                       1e+06 
+  2590 nc2[3,15,10]                4                       1e+06 
+  2591 nc2[3,15,11]                4                       1e+06 
+  2592 nc2[3,15,12]                4                       1e+06 
+  2593 nc2[3,15,13]                4                       1e+06 
+  2594 nc2[3,15,14]                4                       1e+06 
+  2595 nc2[3,15,16]                4                       1e+06 
+  2596 nc2[3,15,17]                4                       1e+06 
+  2597 nc2[3,15,18]                4                       1e+06 
+  2598 nc2[3,15,19]                4                       1e+06 
+  2599 nc2[3,15,20]                4                       1e+06 
+  2600 nc2[3,16,1]                 4                       1e+06 
+  2601 nc2[3,16,2]                 4                       1e+06 
+  2602 nc2[3,16,3]                 4                       1e+06 
+  2603 nc2[3,16,4]                 4                       1e+06 
+  2604 nc2[3,16,5]                 4                       1e+06 
+  2605 nc2[3,16,6]                 4                       1e+06 
+  2606 nc2[3,16,7]                 4                       1e+06 
+  2607 nc2[3,16,8]                 4                       1e+06 
+  2608 nc2[3,16,9]                 4                       1e+06 
+  2609 nc2[3,16,10]                4                       1e+06 
+  2610 nc2[3,16,11]                4                       1e+06 
+  2611 nc2[3,16,12]                4                       1e+06 
+  2612 nc2[3,16,13]                4                       1e+06 
+  2613 nc2[3,16,14]                4                       1e+06 
+  2614 nc2[3,16,15]                4                       1e+06 
+  2615 nc2[3,16,17]                4                       1e+06 
+  2616 nc2[3,16,18]                4                       1e+06 
+  2617 nc2[3,16,19]                4                       1e+06 
+  2618 nc2[3,16,20]                4                       1e+06 
+  2619 nc2[3,17,1]                 4                       1e+06 
+  2620 nc2[3,17,2]                 4                       1e+06 
+  2621 nc2[3,17,3]                 4                       1e+06 
+  2622 nc2[3,17,4]                 4                       1e+06 
+  2623 nc2[3,17,5]                 4                       1e+06 
+  2624 nc2[3,17,6]                 4                       1e+06 
+  2625 nc2[3,17,7]                 4                       1e+06 
+  2626 nc2[3,17,8]                 4                       1e+06 
+  2627 nc2[3,17,9]                 4                       1e+06 
+  2628 nc2[3,17,10]                4                       1e+06 
+  2629 nc2[3,17,11]                4                       1e+06 
+  2630 nc2[3,17,12]                4                       1e+06 
+  2631 nc2[3,17,13]                4                       1e+06 
+  2632 nc2[3,17,14]                4                       1e+06 
+  2633 nc2[3,17,15]                4                       1e+06 
+  2634 nc2[3,17,16]                4                       1e+06 
+  2635 nc2[3,17,18]                4                       1e+06 
+  2636 nc2[3,17,19]                4                       1e+06 
+  2637 nc2[3,17,20]                4                       1e+06 
+  2638 nc2[3,18,1]                 4                       1e+06 
+  2639 nc2[3,18,2]                 4                       1e+06 
+  2640 nc2[3,18,3]                 4                       1e+06 
+  2641 nc2[3,18,4]                 4                       1e+06 
+  2642 nc2[3,18,5]                 4                       1e+06 
+  2643 nc2[3,18,6]                 4                       1e+06 
+  2644 nc2[3,18,7]                 4                       1e+06 
+  2645 nc2[3,18,8]                 4                       1e+06 
+  2646 nc2[3,18,9]                 4                       1e+06 
+  2647 nc2[3,18,10]                4                       1e+06 
+  2648 nc2[3,18,11]                4                       1e+06 
+  2649 nc2[3,18,12]                4                       1e+06 
+  2650 nc2[3,18,13]                4                       1e+06 
+  2651 nc2[3,18,14]                4                       1e+06 
+  2652 nc2[3,18,15]                4                       1e+06 
+  2653 nc2[3,18,16]                4                       1e+06 
+  2654 nc2[3,18,17]                4                       1e+06 
+  2655 nc2[3,18,19]                4                       1e+06 
+  2656 nc2[3,18,20]                4                       1e+06 
+  2657 nc2[3,19,1]                 4                       1e+06 
+  2658 nc2[3,19,2]                 4                       1e+06 
+  2659 nc2[3,19,3]                 4                       1e+06 
+  2660 nc2[3,19,4]                 4                       1e+06 
+  2661 nc2[3,19,5]                 4                       1e+06 
+  2662 nc2[3,19,6]                 4                       1e+06 
+  2663 nc2[3,19,7]                 4                       1e+06 
+  2664 nc2[3,19,8]                 4                       1e+06 
+  2665 nc2[3,19,9]                 4                       1e+06 
+  2666 nc2[3,19,10]                4                       1e+06 
+  2667 nc2[3,19,11]                4                       1e+06 
+  2668 nc2[3,19,12]                4                       1e+06 
+  2669 nc2[3,19,13]                4                       1e+06 
+  2670 nc2[3,19,14]                4                       1e+06 
+  2671 nc2[3,19,15]                4                       1e+06 
+  2672 nc2[3,19,16]                4                       1e+06 
+  2673 nc2[3,19,17]                4                       1e+06 
+  2674 nc2[3,19,18]                4                       1e+06 
+  2675 nc2[3,19,20]                4                       1e+06 
+  2676 nc2[3,20,1]                 4                       1e+06 
+  2677 nc2[3,20,2]                 4                       1e+06 
+  2678 nc2[3,20,3]                 4                       1e+06 
+  2679 nc2[3,20,4]                 4                       1e+06 
+  2680 nc2[3,20,5]                 4                       1e+06 
+  2681 nc2[3,20,6]                 4                       1e+06 
+  2682 nc2[3,20,7]                 4                       1e+06 
+  2683 nc2[3,20,8]                 4                       1e+06 
+  2684 nc2[3,20,9]                 4                       1e+06 
+  2685 nc2[3,20,10]                4                       1e+06 
+  2686 nc2[3,20,11]                4                       1e+06 
+  2687 nc2[3,20,12]                4                       1e+06 
+  2688 nc2[3,20,13]                4                       1e+06 
+  2689 nc2[3,20,14]                4                       1e+06 
+  2690 nc2[3,20,15]                4                       1e+06 
+  2691 nc2[3,20,16]                4                       1e+06 
+  2692 nc2[3,20,17]                4                       1e+06 
+  2693 nc2[3,20,18]                4                       1e+06 
+  2694 nc2[3,20,19]                4                       1e+06 
+  2695 nc3[1,1,2]                 -7                       1e+06 
+  2696 nc3[1,1,3]                 -7                       1e+06 
+  2697 nc3[1,1,4]                 -7                       1e+06 
+  2698 nc3[1,1,5]                 -7                       1e+06 
+  2699 nc3[1,1,6]                 -7                       1e+06 
+  2700 nc3[1,1,7]                 -7                       1e+06 
+  2701 nc3[1,1,8]                 -7                       1e+06 
+  2702 nc3[1,1,9]                 -7                       1e+06 
+  2703 nc3[1,1,10]                -7                       1e+06 
+  2704 nc3[1,1,11]                -7                       1e+06 
+  2705 nc3[1,1,12]                -7                       1e+06 
+  2706 nc3[1,1,13]                -7                       1e+06 
+  2707 nc3[1,1,14]                -7                       1e+06 
+  2708 nc3[1,1,15]                -7                       1e+06 
+  2709 nc3[1,1,16]                -7                       1e+06 
+  2710 nc3[1,1,17]                -7                       1e+06 
+  2711 nc3[1,1,18]                -7                       1e+06 
+  2712 nc3[1,1,19]                -7                       1e+06 
+  2713 nc3[1,1,20]                -7                       1e+06 
+  2714 nc3[1,2,1]                 -7                       1e+06 
+  2715 nc3[1,2,3]                 -7                       1e+06 
+  2716 nc3[1,2,4]                 -7                       1e+06 
+  2717 nc3[1,2,5]                 -7                       1e+06 
+  2718 nc3[1,2,6]                 -7                       1e+06 
+  2719 nc3[1,2,7]                 -7                       1e+06 
+  2720 nc3[1,2,8]                 -7                       1e+06 
+  2721 nc3[1,2,9]                 -7                       1e+06 
+  2722 nc3[1,2,10]                -7                       1e+06 
+  2723 nc3[1,2,11]                -7                       1e+06 
+  2724 nc3[1,2,12]                -7                       1e+06 
+  2725 nc3[1,2,13]                -7                       1e+06 
+  2726 nc3[1,2,14]                -7                       1e+06 
+  2727 nc3[1,2,15]                -7                       1e+06 
+  2728 nc3[1,2,16]                -7                       1e+06 
+  2729 nc3[1,2,17]                -7                       1e+06 
+  2730 nc3[1,2,18]                -7                       1e+06 
+  2731 nc3[1,2,19]                -7                       1e+06 
+  2732 nc3[1,2,20]                -7                       1e+06 
+  2733 nc3[1,3,1]                 -7                       1e+06 
+  2734 nc3[1,3,2]                 -7                       1e+06 
+  2735 nc3[1,3,4]                 -7                       1e+06 
+  2736 nc3[1,3,5]                 -7                       1e+06 
+  2737 nc3[1,3,6]                 -7                       1e+06 
+  2738 nc3[1,3,7]                 -7                       1e+06 
+  2739 nc3[1,3,8]                 -7                       1e+06 
+  2740 nc3[1,3,9]                 -7                       1e+06 
+  2741 nc3[1,3,10]                -7                       1e+06 
+  2742 nc3[1,3,11]                -7                       1e+06 
+  2743 nc3[1,3,12]                -7                       1e+06 
+  2744 nc3[1,3,13]                -7                       1e+06 
+  2745 nc3[1,3,14]                -7                       1e+06 
+  2746 nc3[1,3,15]                -7                       1e+06 
+  2747 nc3[1,3,16]                -7                       1e+06 
+  2748 nc3[1,3,17]                -7                       1e+06 
+  2749 nc3[1,3,18]                -7                       1e+06 
+  2750 nc3[1,3,19]                -7                       1e+06 
+  2751 nc3[1,3,20]                -7                       1e+06 
+  2752 nc3[1,4,1]                 -7                       1e+06 
+  2753 nc3[1,4,2]                 -7                       1e+06 
+  2754 nc3[1,4,3]                 -7                       1e+06 
+  2755 nc3[1,4,5]                 -7                       1e+06 
+  2756 nc3[1,4,6]                 -7                       1e+06 
+  2757 nc3[1,4,7]                 -7                       1e+06 
+  2758 nc3[1,4,8]                 -7                       1e+06 
+  2759 nc3[1,4,9]                 -7                       1e+06 
+  2760 nc3[1,4,10]                -7                       1e+06 
+  2761 nc3[1,4,11]                -7                       1e+06 
+  2762 nc3[1,4,12]                -7                       1e+06 
+  2763 nc3[1,4,13]                -7                       1e+06 
+  2764 nc3[1,4,14]                -7                       1e+06 
+  2765 nc3[1,4,15]                -7                       1e+06 
+  2766 nc3[1,4,16]                -7                       1e+06 
+  2767 nc3[1,4,17]                -7                       1e+06 
+  2768 nc3[1,4,18]                -7                       1e+06 
+  2769 nc3[1,4,19]                -7                       1e+06 
+  2770 nc3[1,4,20]                -7                       1e+06 
+  2771 nc3[1,5,1]                 -7                       1e+06 
+  2772 nc3[1,5,2]                 -7                       1e+06 
+  2773 nc3[1,5,3]                 -7                       1e+06 
+  2774 nc3[1,5,4]                 -7                       1e+06 
+  2775 nc3[1,5,6]                 -7                       1e+06 
+  2776 nc3[1,5,7]                 -7                       1e+06 
+  2777 nc3[1,5,8]                 -7                       1e+06 
+  2778 nc3[1,5,9]                 -7                       1e+06 
+  2779 nc3[1,5,10]                -7                       1e+06 
+  2780 nc3[1,5,11]                -7                       1e+06 
+  2781 nc3[1,5,12]                -7                       1e+06 
+  2782 nc3[1,5,13]                -7                       1e+06 
+  2783 nc3[1,5,14]                -7                       1e+06 
+  2784 nc3[1,5,15]                -7                       1e+06 
+  2785 nc3[1,5,16]                -7                       1e+06 
+  2786 nc3[1,5,17]                -7                       1e+06 
+  2787 nc3[1,5,18]                -7                       1e+06 
+  2788 nc3[1,5,19]                -7                       1e+06 
+  2789 nc3[1,5,20]                -7                       1e+06 
+  2790 nc3[1,6,1]                 -7                       1e+06 
+  2791 nc3[1,6,2]                 -7                       1e+06 
+  2792 nc3[1,6,3]                 -7                       1e+06 
+  2793 nc3[1,6,4]                 -7                       1e+06 
+  2794 nc3[1,6,5]                 -7                       1e+06 
+  2795 nc3[1,6,7]                 -7                       1e+06 
+  2796 nc3[1,6,8]                 -7                       1e+06 
+  2797 nc3[1,6,9]                 -7                       1e+06 
+  2798 nc3[1,6,10]                -7                       1e+06 
+  2799 nc3[1,6,11]                -7                       1e+06 
+  2800 nc3[1,6,12]                -7                       1e+06 
+  2801 nc3[1,6,13]                -7                       1e+06 
+  2802 nc3[1,6,14]                -7                       1e+06 
+  2803 nc3[1,6,15]                -7                       1e+06 
+  2804 nc3[1,6,16]                -7                       1e+06 
+  2805 nc3[1,6,17]                -7                       1e+06 
+  2806 nc3[1,6,18]                -7                       1e+06 
+  2807 nc3[1,6,19]                -7                       1e+06 
+  2808 nc3[1,6,20]                -7                       1e+06 
+  2809 nc3[1,7,1]                 -7                       1e+06 
+  2810 nc3[1,7,2]                 -7                       1e+06 
+  2811 nc3[1,7,3]                 -7                       1e+06 
+  2812 nc3[1,7,4]                 -7                       1e+06 
+  2813 nc3[1,7,5]                 -7                       1e+06 
+  2814 nc3[1,7,6]                 -7                       1e+06 
+  2815 nc3[1,7,8]                 -7                       1e+06 
+  2816 nc3[1,7,9]                 -7                       1e+06 
+  2817 nc3[1,7,10]                -7                       1e+06 
+  2818 nc3[1,7,11]                -7                       1e+06 
+  2819 nc3[1,7,12]                -7                       1e+06 
+  2820 nc3[1,7,13]                -7                       1e+06 
+  2821 nc3[1,7,14]                -7                       1e+06 
+  2822 nc3[1,7,15]                -7                       1e+06 
+  2823 nc3[1,7,16]                -7                       1e+06 
+  2824 nc3[1,7,17]                -7                       1e+06 
+  2825 nc3[1,7,18]                -7                       1e+06 
+  2826 nc3[1,7,19]                -7                       1e+06 
+  2827 nc3[1,7,20]                -7                       1e+06 
+  2828 nc3[1,8,1]                 -7                       1e+06 
+  2829 nc3[1,8,2]                 -7                       1e+06 
+  2830 nc3[1,8,3]                 -7                       1e+06 
+  2831 nc3[1,8,4]                 -7                       1e+06 
+  2832 nc3[1,8,5]                 -7                       1e+06 
+  2833 nc3[1,8,6]                 -7                       1e+06 
+  2834 nc3[1,8,7]                 -7                       1e+06 
+  2835 nc3[1,8,9]                 -7                       1e+06 
+  2836 nc3[1,8,10]                -7                       1e+06 
+  2837 nc3[1,8,11]                -7                       1e+06 
+  2838 nc3[1,8,12]                -7                       1e+06 
+  2839 nc3[1,8,13]                -7                       1e+06 
+  2840 nc3[1,8,14]                -7                       1e+06 
+  2841 nc3[1,8,15]                -7                       1e+06 
+  2842 nc3[1,8,16]                -7                       1e+06 
+  2843 nc3[1,8,17]                -7                       1e+06 
+  2844 nc3[1,8,18]                -7                       1e+06 
+  2845 nc3[1,8,19]                -7                       1e+06 
+  2846 nc3[1,8,20]                -7                       1e+06 
+  2847 nc3[1,9,1]                 -7                       1e+06 
+  2848 nc3[1,9,2]                 -7                       1e+06 
+  2849 nc3[1,9,3]                 -7                       1e+06 
+  2850 nc3[1,9,4]                 -7                       1e+06 
+  2851 nc3[1,9,5]                 -7                       1e+06 
+  2852 nc3[1,9,6]                 -7                       1e+06 
+  2853 nc3[1,9,7]                 -7                       1e+06 
+  2854 nc3[1,9,8]                 -7                       1e+06 
+  2855 nc3[1,9,10]                -7                       1e+06 
+  2856 nc3[1,9,11]                -7                       1e+06 
+  2857 nc3[1,9,12]                -7                       1e+06 
+  2858 nc3[1,9,13]                -7                       1e+06 
+  2859 nc3[1,9,14]                -7                       1e+06 
+  2860 nc3[1,9,15]                -7                       1e+06 
+  2861 nc3[1,9,16]                -7                       1e+06 
+  2862 nc3[1,9,17]                -7                       1e+06 
+  2863 nc3[1,9,18]                -7                       1e+06 
+  2864 nc3[1,9,19]                -7                       1e+06 
+  2865 nc3[1,9,20]                -7                       1e+06 
+  2866 nc3[1,10,1]                -7                       1e+06 
+  2867 nc3[1,10,2]                -7                       1e+06 
+  2868 nc3[1,10,3]                -7                       1e+06 
+  2869 nc3[1,10,4]                -7                       1e+06 
+  2870 nc3[1,10,5]                -7                       1e+06 
+  2871 nc3[1,10,6]                -7                       1e+06 
+  2872 nc3[1,10,7]                -7                       1e+06 
+  2873 nc3[1,10,8]                -7                       1e+06 
+  2874 nc3[1,10,9]                -7                       1e+06 
+  2875 nc3[1,10,11]               -7                       1e+06 
+  2876 nc3[1,10,12]               -7                       1e+06 
+  2877 nc3[1,10,13]               -7                       1e+06 
+  2878 nc3[1,10,14]               -7                       1e+06 
+  2879 nc3[1,10,15]               -7                       1e+06 
+  2880 nc3[1,10,16]               -7                       1e+06 
+  2881 nc3[1,10,17]               -7                       1e+06 
+  2882 nc3[1,10,18]               -7                       1e+06 
+  2883 nc3[1,10,19]               -7                       1e+06 
+  2884 nc3[1,10,20]               -7                       1e+06 
+  2885 nc3[1,11,1]                -7                       1e+06 
+  2886 nc3[1,11,2]                -7                       1e+06 
+  2887 nc3[1,11,3]                -7                       1e+06 
+  2888 nc3[1,11,4]                -7                       1e+06 
+  2889 nc3[1,11,5]                -7                       1e+06 
+  2890 nc3[1,11,6]                -7                       1e+06 
+  2891 nc3[1,11,7]                -7                       1e+06 
+  2892 nc3[1,11,8]                -7                       1e+06 
+  2893 nc3[1,11,9]                -7                       1e+06 
+  2894 nc3[1,11,10]               -7                       1e+06 
+  2895 nc3[1,11,12]               -7                       1e+06 
+  2896 nc3[1,11,13]            1e+06                       1e+06 
+  2897 nc3[1,11,14]               -7                       1e+06 
+  2898 nc3[1,11,15]               -7                       1e+06 
+  2899 nc3[1,11,16]               -7                       1e+06 
+  2900 nc3[1,11,17]               -7                       1e+06 
+  2901 nc3[1,11,18]               -7                       1e+06 
+  2902 nc3[1,11,19]               -7                       1e+06 
+  2903 nc3[1,11,20]               -7                       1e+06 
+  2904 nc3[1,12,1]                -7                       1e+06 
+  2905 nc3[1,12,2]                -7                       1e+06 
+  2906 nc3[1,12,3]                -7                       1e+06 
+  2907 nc3[1,12,4]                -7                       1e+06 
+  2908 nc3[1,12,5]                -7                       1e+06 
+  2909 nc3[1,12,6]                -7                       1e+06 
+  2910 nc3[1,12,7]                -7                       1e+06 
+  2911 nc3[1,12,8]                -7                       1e+06 
+  2912 nc3[1,12,9]                -7                       1e+06 
+  2913 nc3[1,12,10]               -7                       1e+06 
+  2914 nc3[1,12,11]               -7                       1e+06 
+  2915 nc3[1,12,13]               -7                       1e+06 
+  2916 nc3[1,12,14]               -7                       1e+06 
+  2917 nc3[1,12,15]               -7                       1e+06 
+  2918 nc3[1,12,16]               -7                       1e+06 
+  2919 nc3[1,12,17]               -7                       1e+06 
+  2920 nc3[1,12,18]               -7                       1e+06 
+  2921 nc3[1,12,19]               -7                       1e+06 
+  2922 nc3[1,12,20]               -7                       1e+06 
+  2923 nc3[1,13,1]                -7                       1e+06 
+  2924 nc3[1,13,2]                -7                       1e+06 
+  2925 nc3[1,13,3]                -7                       1e+06 
+  2926 nc3[1,13,4]                -7                       1e+06 
+  2927 nc3[1,13,5]                -7                       1e+06 
+  2928 nc3[1,13,6]                -7                       1e+06 
+  2929 nc3[1,13,7]                -7                       1e+06 
+  2930 nc3[1,13,8]                -7                       1e+06 
+  2931 nc3[1,13,9]                -7                       1e+06 
+  2932 nc3[1,13,10]               -7                       1e+06 
+  2933 nc3[1,13,11]               -7                       1e+06 
+  2934 nc3[1,13,12]               -7                       1e+06 
+  2935 nc3[1,13,14]               -7                       1e+06 
+  2936 nc3[1,13,15]               -7                       1e+06 
+  2937 nc3[1,13,16]               -7                       1e+06 
+  2938 nc3[1,13,17]               -7                       1e+06 
+  2939 nc3[1,13,18]               -7                       1e+06 
+  2940 nc3[1,13,19]               -7                       1e+06 
+  2941 nc3[1,13,20]            1e+06                       1e+06 
+  2942 nc3[1,14,1]                -7                       1e+06 
+  2943 nc3[1,14,2]                -7                       1e+06 
+  2944 nc3[1,14,3]                -7                       1e+06 
+  2945 nc3[1,14,4]                -7                       1e+06 
+  2946 nc3[1,14,5]                -7                       1e+06 
+  2947 nc3[1,14,6]                -7                       1e+06 
+  2948 nc3[1,14,7]                -7                       1e+06 
+  2949 nc3[1,14,8]                -7                       1e+06 
+  2950 nc3[1,14,9]                -7                       1e+06 
+  2951 nc3[1,14,10]               -7                       1e+06 
+  2952 nc3[1,14,11]               -7                       1e+06 
+  2953 nc3[1,14,12]               -7                       1e+06 
+  2954 nc3[1,14,13]               -7                       1e+06 
+  2955 nc3[1,14,15]               -7                       1e+06 
+  2956 nc3[1,14,16]               -7                       1e+06 
+  2957 nc3[1,14,17]               -7                       1e+06 
+  2958 nc3[1,14,18]               -7                       1e+06 
+  2959 nc3[1,14,19]               -7                       1e+06 
+  2960 nc3[1,14,20]               -7                       1e+06 
+  2961 nc3[1,15,1]                -7                       1e+06 
+  2962 nc3[1,15,2]                -7                       1e+06 
+  2963 nc3[1,15,3]                -7                       1e+06 
+  2964 nc3[1,15,4]                -7                       1e+06 
+  2965 nc3[1,15,5]                -7                       1e+06 
+  2966 nc3[1,15,6]                -7                       1e+06 
+  2967 nc3[1,15,7]                -7                       1e+06 
+  2968 nc3[1,15,8]                -7                       1e+06 
+  2969 nc3[1,15,9]                -7                       1e+06 
+  2970 nc3[1,15,10]               -7                       1e+06 
+  2971 nc3[1,15,11]               -7                       1e+06 
+  2972 nc3[1,15,12]               -7                       1e+06 
+  2973 nc3[1,15,13]               -7                       1e+06 
+  2974 nc3[1,15,14]               -7                       1e+06 
+  2975 nc3[1,15,16]            1e+06                       1e+06 
+  2976 nc3[1,15,17]               -7                       1e+06 
+  2977 nc3[1,15,18]               -7                       1e+06 
+  2978 nc3[1,15,19]               -7                       1e+06 
+  2979 nc3[1,15,20]               -7                       1e+06 
+  2980 nc3[1,16,1]                -7                       1e+06 
+  2981 nc3[1,16,2]                -7                       1e+06 
+  2982 nc3[1,16,3]                -7                       1e+06 
+  2983 nc3[1,16,4]                -7                       1e+06 
+  2984 nc3[1,16,5]                -7                       1e+06 
+  2985 nc3[1,16,6]                -7                       1e+06 
+  2986 nc3[1,16,7]                -7                       1e+06 
+  2987 nc3[1,16,8]                -7                       1e+06 
+  2988 nc3[1,16,9]                -7                       1e+06 
+  2989 nc3[1,16,10]               -7                       1e+06 
+  2990 nc3[1,16,11]               -7                       1e+06 
+  2991 nc3[1,16,12]               -7                       1e+06 
+  2992 nc3[1,16,13]               -7                       1e+06 
+  2993 nc3[1,16,14]               -7                       1e+06 
+  2994 nc3[1,16,15]               -7                       1e+06 
+  2995 nc3[1,16,17]               -7                       1e+06 
+  2996 nc3[1,16,18]               -7                       1e+06 
+  2997 nc3[1,16,19]            1e+06                       1e+06 
+  2998 nc3[1,16,20]               -7                       1e+06 
+  2999 nc3[1,17,1]                -7                       1e+06 
+  3000 nc3[1,17,2]                -7                       1e+06 
+  3001 nc3[1,17,3]                -7                       1e+06 
+  3002 nc3[1,17,4]                -7                       1e+06 
+  3003 nc3[1,17,5]                -7                       1e+06 
+  3004 nc3[1,17,6]                -7                       1e+06 
+  3005 nc3[1,17,7]                -7                       1e+06 
+  3006 nc3[1,17,8]                -7                       1e+06 
+  3007 nc3[1,17,9]                -7                       1e+06 
+  3008 nc3[1,17,10]               -7                       1e+06 
+  3009 nc3[1,17,11]               -7                       1e+06 
+  3010 nc3[1,17,12]               -7                       1e+06 
+  3011 nc3[1,17,13]               -7                       1e+06 
+  3012 nc3[1,17,14]               -7                       1e+06 
+  3013 nc3[1,17,15]               -7                       1e+06 
+  3014 nc3[1,17,16]               -7                       1e+06 
+  3015 nc3[1,17,18]               -7                       1e+06 
+  3016 nc3[1,17,19]               -7                       1e+06 
+  3017 nc3[1,17,20]               -7                       1e+06 
+  3018 nc3[1,18,1]                -7                       1e+06 
+  3019 nc3[1,18,2]                -7                       1e+06 
+  3020 nc3[1,18,3]                -7                       1e+06 
+  3021 nc3[1,18,4]                -7                       1e+06 
+  3022 nc3[1,18,5]                -7                       1e+06 
+  3023 nc3[1,18,6]                -7                       1e+06 
+  3024 nc3[1,18,7]                -7                       1e+06 
+  3025 nc3[1,18,8]                -7                       1e+06 
+  3026 nc3[1,18,9]                -7                       1e+06 
+  3027 nc3[1,18,10]               -7                       1e+06 
+  3028 nc3[1,18,11]               -7                       1e+06 
+  3029 nc3[1,18,12]               -7                       1e+06 
+  3030 nc3[1,18,13]               -7                       1e+06 
+  3031 nc3[1,18,14]               -7                       1e+06 
+  3032 nc3[1,18,15]            1e+06                       1e+06 
+  3033 nc3[1,18,16]               -7                       1e+06 
+  3034 nc3[1,18,17]               -7                       1e+06 
+  3035 nc3[1,18,19]               -7                       1e+06 
+  3036 nc3[1,18,20]               -7                       1e+06 
+  3037 nc3[1,19,1]                -7                       1e+06 
+  3038 nc3[1,19,2]                -7                       1e+06 
+  3039 nc3[1,19,3]                -7                       1e+06 
+  3040 nc3[1,19,4]                -7                       1e+06 
+  3041 nc3[1,19,5]                -7                       1e+06 
+  3042 nc3[1,19,6]                -7                       1e+06 
+  3043 nc3[1,19,7]                -7                       1e+06 
+  3044 nc3[1,19,8]                -7                       1e+06 
+  3045 nc3[1,19,9]                -7                       1e+06 
+  3046 nc3[1,19,10]               -7                       1e+06 
+  3047 nc3[1,19,11]               -7                       1e+06 
+  3048 nc3[1,19,12]               -7                       1e+06 
+  3049 nc3[1,19,13]               -7                       1e+06 
+  3050 nc3[1,19,14]               -7                       1e+06 
+  3051 nc3[1,19,15]               -7                       1e+06 
+  3052 nc3[1,19,16]               -7                       1e+06 
+  3053 nc3[1,19,17]               -7                       1e+06 
+  3054 nc3[1,19,18]               -7                       1e+06 
+  3055 nc3[1,19,20]               -7                       1e+06 
+  3056 nc3[1,20,1]                -7                       1e+06 
+  3057 nc3[1,20,2]                -7                       1e+06 
+  3058 nc3[1,20,3]                -7                       1e+06 
+  3059 nc3[1,20,4]                -7                       1e+06 
+  3060 nc3[1,20,5]                -7                       1e+06 
+  3061 nc3[1,20,6]                -7                       1e+06 
+  3062 nc3[1,20,7]                -7                       1e+06 
+  3063 nc3[1,20,8]                -7                       1e+06 
+  3064 nc3[1,20,9]                -7                       1e+06 
+  3065 nc3[1,20,10]               -7                       1e+06 
+  3066 nc3[1,20,11]               -7                       1e+06 
+  3067 nc3[1,20,12]               -7                       1e+06 
+  3068 nc3[1,20,13]               -7                       1e+06 
+  3069 nc3[1,20,14]               -7                       1e+06 
+  3070 nc3[1,20,15]               -7                       1e+06 
+  3071 nc3[1,20,16]               -7                       1e+06 
+  3072 nc3[1,20,17]               -7                       1e+06 
+  3073 nc3[1,20,18]            1e+06                       1e+06 
+  3074 nc3[1,20,19]               -7                       1e+06 
+  3075 nc3[2,1,2]                 -9                       1e+06 
+  3076 nc3[2,1,3]                 -9                       1e+06 
+  3077 nc3[2,1,4]                 -9                       1e+06 
+  3078 nc3[2,1,5]              1e+06                       1e+06 
+  3079 nc3[2,1,6]                 -9                       1e+06 
+  3080 nc3[2,1,7]                 -9                       1e+06 
+  3081 nc3[2,1,8]                 -9                       1e+06 
+  3082 nc3[2,1,9]                 -9                       1e+06 
+  3083 nc3[2,1,10]                -9                       1e+06 
+  3084 nc3[2,1,11]                -9                       1e+06 
+  3085 nc3[2,1,12]                -9                       1e+06 
+  3086 nc3[2,1,13]                -9                       1e+06 
+  3087 nc3[2,1,14]                -9                       1e+06 
+  3088 nc3[2,1,15]                -9                       1e+06 
+  3089 nc3[2,1,16]                -9                       1e+06 
+  3090 nc3[2,1,17]                -9                       1e+06 
+  3091 nc3[2,1,18]                -9                       1e+06 
+  3092 nc3[2,1,19]                -9                       1e+06 
+  3093 nc3[2,1,20]                -9                       1e+06 
+  3094 nc3[2,2,1]                 -9                       1e+06 
+  3095 nc3[2,2,3]                 -9                       1e+06 
+  3096 nc3[2,2,4]                 -9                       1e+06 
+  3097 nc3[2,2,5]                 -9                       1e+06 
+  3098 nc3[2,2,6]                 -9                       1e+06 
+  3099 nc3[2,2,7]                 -9                       1e+06 
+  3100 nc3[2,2,8]                 -9                       1e+06 
+  3101 nc3[2,2,9]                 -9                       1e+06 
+  3102 nc3[2,2,10]                -9                       1e+06 
+  3103 nc3[2,2,11]                -9                       1e+06 
+  3104 nc3[2,2,12]                -9                       1e+06 
+  3105 nc3[2,2,13]                -9                       1e+06 
+  3106 nc3[2,2,14]                -9                       1e+06 
+  3107 nc3[2,2,15]                -9                       1e+06 
+  3108 nc3[2,2,16]                -9                       1e+06 
+  3109 nc3[2,2,17]                -9                       1e+06 
+  3110 nc3[2,2,18]                -9                       1e+06 
+  3111 nc3[2,2,19]                -9                       1e+06 
+  3112 nc3[2,2,20]                -9                       1e+06 
+  3113 nc3[2,3,1]                 -9                       1e+06 
+  3114 nc3[2,3,2]                 -9                       1e+06 
+  3115 nc3[2,3,4]                 -9                       1e+06 
+  3116 nc3[2,3,5]                 -9                       1e+06 
+  3117 nc3[2,3,6]                 -9                       1e+06 
+  3118 nc3[2,3,7]                 -9                       1e+06 
+  3119 nc3[2,3,8]                 -9                       1e+06 
+  3120 nc3[2,3,9]                 -9                       1e+06 
+  3121 nc3[2,3,10]                -9                       1e+06 
+  3122 nc3[2,3,11]                -9                       1e+06 
+  3123 nc3[2,3,12]                -9                       1e+06 
+  3124 nc3[2,3,13]                -9                       1e+06 
+  3125 nc3[2,3,14]                -9                       1e+06 
+  3126 nc3[2,3,15]                -9                       1e+06 
+  3127 nc3[2,3,16]                -9                       1e+06 
+  3128 nc3[2,3,17]                -9                       1e+06 
+  3129 nc3[2,3,18]                -9                       1e+06 
+  3130 nc3[2,3,19]                -9                       1e+06 
+  3131 nc3[2,3,20]                -9                       1e+06 
+  3132 nc3[2,4,1]                 -9                       1e+06 
+  3133 nc3[2,4,2]                 -9                       1e+06 
+  3134 nc3[2,4,3]                 -9                       1e+06 
+  3135 nc3[2,4,5]                 -9                       1e+06 
+  3136 nc3[2,4,6]                 -9                       1e+06 
+  3137 nc3[2,4,7]                 -9                       1e+06 
+  3138 nc3[2,4,8]                 -9                       1e+06 
+  3139 nc3[2,4,9]                 -9                       1e+06 
+  3140 nc3[2,4,10]                -9                       1e+06 
+  3141 nc3[2,4,11]                -9                       1e+06 
+  3142 nc3[2,4,12]                -9                       1e+06 
+  3143 nc3[2,4,13]                -9                       1e+06 
+  3144 nc3[2,4,14]                -9                       1e+06 
+  3145 nc3[2,4,15]                -9                       1e+06 
+  3146 nc3[2,4,16]                -9                       1e+06 
+  3147 nc3[2,4,17]                -9                       1e+06 
+  3148 nc3[2,4,18]                -9                       1e+06 
+  3149 nc3[2,4,19]                -9                       1e+06 
+  3150 nc3[2,4,20]                -9                       1e+06 
+  3151 nc3[2,5,1]                 -9                       1e+06 
+  3152 nc3[2,5,2]                 -9                       1e+06 
+  3153 nc3[2,5,3]                 -9                       1e+06 
+  3154 nc3[2,5,4]                 -9                       1e+06 
+  3155 nc3[2,5,6]                 -9                       1e+06 
+  3156 nc3[2,5,7]              1e+06                       1e+06 
+  3157 nc3[2,5,8]                 -9                       1e+06 
+  3158 nc3[2,5,9]                 -9                       1e+06 
+  3159 nc3[2,5,10]                -9                       1e+06 
+  3160 nc3[2,5,11]                -9                       1e+06 
+  3161 nc3[2,5,12]                -9                       1e+06 
+  3162 nc3[2,5,13]                -9                       1e+06 
+  3163 nc3[2,5,14]                -9                       1e+06 
+  3164 nc3[2,5,15]                -9                       1e+06 
+  3165 nc3[2,5,16]                -9                       1e+06 
+  3166 nc3[2,5,17]                -9                       1e+06 
+  3167 nc3[2,5,18]                -9                       1e+06 
+  3168 nc3[2,5,19]                -9                       1e+06 
+  3169 nc3[2,5,20]                -9                       1e+06 
+  3170 nc3[2,6,1]                 -9                       1e+06 
+  3171 nc3[2,6,2]                 -9                       1e+06 
+  3172 nc3[2,6,3]                 -9                       1e+06 
+  3173 nc3[2,6,4]                 -9                       1e+06 
+  3174 nc3[2,6,5]                 -9                       1e+06 
+  3175 nc3[2,6,7]                 -9                       1e+06 
+  3176 nc3[2,6,8]                 -9                       1e+06 
+  3177 nc3[2,6,9]                 -9                       1e+06 
+  3178 nc3[2,6,10]                -9                       1e+06 
+  3179 nc3[2,6,11]                -9                       1e+06 
+  3180 nc3[2,6,12]                -9                       1e+06 
+  3181 nc3[2,6,13]                -9                       1e+06 
+  3182 nc3[2,6,14]                -9                       1e+06 
+  3183 nc3[2,6,15]                -9                       1e+06 
+  3184 nc3[2,6,16]                -9                       1e+06 
+  3185 nc3[2,6,17]                -9                       1e+06 
+  3186 nc3[2,6,18]                -9                       1e+06 
+  3187 nc3[2,6,19]                -9                       1e+06 
+  3188 nc3[2,6,20]                -9                       1e+06 
+  3189 nc3[2,7,1]                 -9                       1e+06 
+  3190 nc3[2,7,2]                 -9                       1e+06 
+  3191 nc3[2,7,3]                 -9                       1e+06 
+  3192 nc3[2,7,4]                 -9                       1e+06 
+  3193 nc3[2,7,5]                 -9                       1e+06 
+  3194 nc3[2,7,6]                 -9                       1e+06 
+  3195 nc3[2,7,8]              1e+06                       1e+06 
+  3196 nc3[2,7,9]                 -9                       1e+06 
+  3197 nc3[2,7,10]                -9                       1e+06 
+  3198 nc3[2,7,11]                -9                       1e+06 
+  3199 nc3[2,7,12]                -9                       1e+06 
+  3200 nc3[2,7,13]                -9                       1e+06 
+  3201 nc3[2,7,14]                -9                       1e+06 
+  3202 nc3[2,7,15]                -9                       1e+06 
+  3203 nc3[2,7,16]                -9                       1e+06 
+  3204 nc3[2,7,17]                -9                       1e+06 
+  3205 nc3[2,7,18]                -9                       1e+06 
+  3206 nc3[2,7,19]                -9                       1e+06 
+  3207 nc3[2,7,20]                -9                       1e+06 
+  3208 nc3[2,8,1]                 -9                       1e+06 
+  3209 nc3[2,8,2]                 -9                       1e+06 
+  3210 nc3[2,8,3]                 -9                       1e+06 
+  3211 nc3[2,8,4]                 -9                       1e+06 
+  3212 nc3[2,8,5]                 -9                       1e+06 
+  3213 nc3[2,8,6]                 -9                       1e+06 
+  3214 nc3[2,8,7]                 -9                       1e+06 
+  3215 nc3[2,8,9]                 -9                       1e+06 
+  3216 nc3[2,8,10]                -9                       1e+06 
+  3217 nc3[2,8,11]                -9                       1e+06 
+  3218 nc3[2,8,12]             1e+06                       1e+06 
+  3219 nc3[2,8,13]                -9                       1e+06 
+  3220 nc3[2,8,14]                -9                       1e+06 
+  3221 nc3[2,8,15]                -9                       1e+06 
+  3222 nc3[2,8,16]                -9                       1e+06 
+  3223 nc3[2,8,17]                -9                       1e+06 
+  3224 nc3[2,8,18]                -9                       1e+06 
+  3225 nc3[2,8,19]                -9                       1e+06 
+  3226 nc3[2,8,20]                -9                       1e+06 
+  3227 nc3[2,9,1]                 -9                       1e+06 
+  3228 nc3[2,9,2]                 -9                       1e+06 
+  3229 nc3[2,9,3]                 -9                       1e+06 
+  3230 nc3[2,9,4]                 -9                       1e+06 
+  3231 nc3[2,9,5]                 -9                       1e+06 
+  3232 nc3[2,9,6]                 -9                       1e+06 
+  3233 nc3[2,9,7]                 -9                       1e+06 
+  3234 nc3[2,9,8]                 -9                       1e+06 
+  3235 nc3[2,9,10]             1e+06                       1e+06 
+  3236 nc3[2,9,11]                -9                       1e+06 
+  3237 nc3[2,9,12]                -9                       1e+06 
+  3238 nc3[2,9,13]                -9                       1e+06 
+  3239 nc3[2,9,14]                -9                       1e+06 
+  3240 nc3[2,9,15]                -9                       1e+06 
+  3241 nc3[2,9,16]                -9                       1e+06 
+  3242 nc3[2,9,17]                -9                       1e+06 
+  3243 nc3[2,9,18]                -9                       1e+06 
+  3244 nc3[2,9,19]                -9                       1e+06 
+  3245 nc3[2,9,20]                -9                       1e+06 
+  3246 nc3[2,10,1]                -9                       1e+06 
+  3247 nc3[2,10,2]                -9                       1e+06 
+  3248 nc3[2,10,3]                -9                       1e+06 
+  3249 nc3[2,10,4]                -9                       1e+06 
+  3250 nc3[2,10,5]                -9                       1e+06 
+  3251 nc3[2,10,6]                -9                       1e+06 
+  3252 nc3[2,10,7]                -9                       1e+06 
+  3253 nc3[2,10,8]                -9                       1e+06 
+  3254 nc3[2,10,9]                -9                       1e+06 
+  3255 nc3[2,10,11]               -9                       1e+06 
+  3256 nc3[2,10,12]               -9                       1e+06 
+  3257 nc3[2,10,13]               -9                       1e+06 
+  3258 nc3[2,10,14]            1e+06                       1e+06 
+  3259 nc3[2,10,15]               -9                       1e+06 
+  3260 nc3[2,10,16]               -9                       1e+06 
+  3261 nc3[2,10,17]               -9                       1e+06 
+  3262 nc3[2,10,18]               -9                       1e+06 
+  3263 nc3[2,10,19]               -9                       1e+06 
+  3264 nc3[2,10,20]               -9                       1e+06 
+  3265 nc3[2,11,1]                -9                       1e+06 
+  3266 nc3[2,11,2]                -9                       1e+06 
+  3267 nc3[2,11,3]                -9                       1e+06 
+  3268 nc3[2,11,4]                -9                       1e+06 
+  3269 nc3[2,11,5]                -9                       1e+06 
+  3270 nc3[2,11,6]                -9                       1e+06 
+  3271 nc3[2,11,7]                -9                       1e+06 
+  3272 nc3[2,11,8]                -9                       1e+06 
+  3273 nc3[2,11,9]                -9                       1e+06 
+  3274 nc3[2,11,10]               -9                       1e+06 
+  3275 nc3[2,11,12]               -9                       1e+06 
+  3276 nc3[2,11,13]               -9                       1e+06 
+  3277 nc3[2,11,14]               -9                       1e+06 
+  3278 nc3[2,11,15]               -9                       1e+06 
+  3279 nc3[2,11,16]               -9                       1e+06 
+  3280 nc3[2,11,17]               -9                       1e+06 
+  3281 nc3[2,11,18]               -9                       1e+06 
+  3282 nc3[2,11,19]               -9                       1e+06 
+  3283 nc3[2,11,20]               -9                       1e+06 
+  3284 nc3[2,12,1]                -9                       1e+06 
+  3285 nc3[2,12,2]                -9                       1e+06 
+  3286 nc3[2,12,3]                -9                       1e+06 
+  3287 nc3[2,12,4]                -9                       1e+06 
+  3288 nc3[2,12,5]                -9                       1e+06 
+  3289 nc3[2,12,6]                -9                       1e+06 
+  3290 nc3[2,12,7]                -9                       1e+06 
+  3291 nc3[2,12,8]                -9                       1e+06 
+  3292 nc3[2,12,9]             1e+06                       1e+06 
+  3293 nc3[2,12,10]               -9                       1e+06 
+  3294 nc3[2,12,11]               -9                       1e+06 
+  3295 nc3[2,12,13]               -9                       1e+06 
+  3296 nc3[2,12,14]               -9                       1e+06 
+  3297 nc3[2,12,15]               -9                       1e+06 
+  3298 nc3[2,12,16]               -9                       1e+06 
+  3299 nc3[2,12,17]               -9                       1e+06 
+  3300 nc3[2,12,18]               -9                       1e+06 
+  3301 nc3[2,12,19]               -9                       1e+06 
+  3302 nc3[2,12,20]               -9                       1e+06 
+  3303 nc3[2,13,1]                -9                       1e+06 
+  3304 nc3[2,13,2]                -9                       1e+06 
+  3305 nc3[2,13,3]                -9                       1e+06 
+  3306 nc3[2,13,4]                -9                       1e+06 
+  3307 nc3[2,13,5]                -9                       1e+06 
+  3308 nc3[2,13,6]                -9                       1e+06 
+  3309 nc3[2,13,7]                -9                       1e+06 
+  3310 nc3[2,13,8]                -9                       1e+06 
+  3311 nc3[2,13,9]                -9                       1e+06 
+  3312 nc3[2,13,10]               -9                       1e+06 
+  3313 nc3[2,13,11]               -9                       1e+06 
+  3314 nc3[2,13,12]               -9                       1e+06 
+  3315 nc3[2,13,14]               -9                       1e+06 
+  3316 nc3[2,13,15]               -9                       1e+06 
+  3317 nc3[2,13,16]               -9                       1e+06 
+  3318 nc3[2,13,17]               -9                       1e+06 
+  3319 nc3[2,13,18]               -9                       1e+06 
+  3320 nc3[2,13,19]               -9                       1e+06 
+  3321 nc3[2,13,20]               -9                       1e+06 
+  3322 nc3[2,14,1]                -9                       1e+06 
+  3323 nc3[2,14,2]                -9                       1e+06 
+  3324 nc3[2,14,3]                -9                       1e+06 
+  3325 nc3[2,14,4]                -9                       1e+06 
+  3326 nc3[2,14,5]                -9                       1e+06 
+  3327 nc3[2,14,6]                -9                       1e+06 
+  3328 nc3[2,14,7]                -9                       1e+06 
+  3329 nc3[2,14,8]                -9                       1e+06 
+  3330 nc3[2,14,9]                -9                       1e+06 
+  3331 nc3[2,14,10]               -9                       1e+06 
+  3332 nc3[2,14,11]               -9                       1e+06 
+  3333 nc3[2,14,12]               -9                       1e+06 
+  3334 nc3[2,14,13]               -9                       1e+06 
+  3335 nc3[2,14,15]               -9                       1e+06 
+  3336 nc3[2,14,16]               -9                       1e+06 
+  3337 nc3[2,14,17]            1e+06                       1e+06 
+  3338 nc3[2,14,18]               -9                       1e+06 
+  3339 nc3[2,14,19]               -9                       1e+06 
+  3340 nc3[2,14,20]               -9                       1e+06 
+  3341 nc3[2,15,1]                -9                       1e+06 
+  3342 nc3[2,15,2]                -9                       1e+06 
+  3343 nc3[2,15,3]                -9                       1e+06 
+  3344 nc3[2,15,4]                -9                       1e+06 
+  3345 nc3[2,15,5]                -9                       1e+06 
+  3346 nc3[2,15,6]                -9                       1e+06 
+  3347 nc3[2,15,7]                -9                       1e+06 
+  3348 nc3[2,15,8]                -9                       1e+06 
+  3349 nc3[2,15,9]                -9                       1e+06 
+  3350 nc3[2,15,10]               -9                       1e+06 
+  3351 nc3[2,15,11]               -9                       1e+06 
+  3352 nc3[2,15,12]               -9                       1e+06 
+  3353 nc3[2,15,13]               -9                       1e+06 
+  3354 nc3[2,15,14]               -9                       1e+06 
+  3355 nc3[2,15,16]               -9                       1e+06 
+  3356 nc3[2,15,17]               -9                       1e+06 
+  3357 nc3[2,15,18]               -9                       1e+06 
+  3358 nc3[2,15,19]               -9                       1e+06 
+  3359 nc3[2,15,20]               -9                       1e+06 
+  3360 nc3[2,16,1]                -9                       1e+06 
+  3361 nc3[2,16,2]                -9                       1e+06 
+  3362 nc3[2,16,3]                -9                       1e+06 
+  3363 nc3[2,16,4]                -9                       1e+06 
+  3364 nc3[2,16,5]                -9                       1e+06 
+  3365 nc3[2,16,6]                -9                       1e+06 
+  3366 nc3[2,16,7]                -9                       1e+06 
+  3367 nc3[2,16,8]                -9                       1e+06 
+  3368 nc3[2,16,9]                -9                       1e+06 
+  3369 nc3[2,16,10]               -9                       1e+06 
+  3370 nc3[2,16,11]               -9                       1e+06 
+  3371 nc3[2,16,12]               -9                       1e+06 
+  3372 nc3[2,16,13]               -9                       1e+06 
+  3373 nc3[2,16,14]               -9                       1e+06 
+  3374 nc3[2,16,15]               -9                       1e+06 
+  3375 nc3[2,16,17]               -9                       1e+06 
+  3376 nc3[2,16,18]               -9                       1e+06 
+  3377 nc3[2,16,19]               -9                       1e+06 
+  3378 nc3[2,16,20]               -9                       1e+06 
+  3379 nc3[2,17,1]                -9                       1e+06 
+  3380 nc3[2,17,2]                -9                       1e+06 
+  3381 nc3[2,17,3]                -9                       1e+06 
+  3382 nc3[2,17,4]                -9                       1e+06 
+  3383 nc3[2,17,5]                -9                       1e+06 
+  3384 nc3[2,17,6]                -9                       1e+06 
+  3385 nc3[2,17,7]                -9                       1e+06 
+  3386 nc3[2,17,8]                -9                       1e+06 
+  3387 nc3[2,17,9]                -9                       1e+06 
+  3388 nc3[2,17,10]               -9                       1e+06 
+  3389 nc3[2,17,11]               -9                       1e+06 
+  3390 nc3[2,17,12]               -9                       1e+06 
+  3391 nc3[2,17,13]               -9                       1e+06 
+  3392 nc3[2,17,14]               -9                       1e+06 
+  3393 nc3[2,17,15]               -9                       1e+06 
+  3394 nc3[2,17,16]               -9                       1e+06 
+  3395 nc3[2,17,18]               -9                       1e+06 
+  3396 nc3[2,17,19]               -9                       1e+06 
+  3397 nc3[2,17,20]               -9                       1e+06 
+  3398 nc3[2,18,1]                -9                       1e+06 
+  3399 nc3[2,18,2]                -9                       1e+06 
+  3400 nc3[2,18,3]                -9                       1e+06 
+  3401 nc3[2,18,4]                -9                       1e+06 
+  3402 nc3[2,18,5]                -9                       1e+06 
+  3403 nc3[2,18,6]                -9                       1e+06 
+  3404 nc3[2,18,7]                -9                       1e+06 
+  3405 nc3[2,18,8]                -9                       1e+06 
+  3406 nc3[2,18,9]                -9                       1e+06 
+  3407 nc3[2,18,10]               -9                       1e+06 
+  3408 nc3[2,18,11]               -9                       1e+06 
+  3409 nc3[2,18,12]               -9                       1e+06 
+  3410 nc3[2,18,13]               -9                       1e+06 
+  3411 nc3[2,18,14]               -9                       1e+06 
+  3412 nc3[2,18,15]               -9                       1e+06 
+  3413 nc3[2,18,16]               -9                       1e+06 
+  3414 nc3[2,18,17]               -9                       1e+06 
+  3415 nc3[2,18,19]               -9                       1e+06 
+  3416 nc3[2,18,20]               -9                       1e+06 
+  3417 nc3[2,19,1]                -9                       1e+06 
+  3418 nc3[2,19,2]                -9                       1e+06 
+  3419 nc3[2,19,3]                -9                       1e+06 
+  3420 nc3[2,19,4]                -9                       1e+06 
+  3421 nc3[2,19,5]                -9                       1e+06 
+  3422 nc3[2,19,6]                -9                       1e+06 
+  3423 nc3[2,19,7]                -9                       1e+06 
+  3424 nc3[2,19,8]                -9                       1e+06 
+  3425 nc3[2,19,9]                -9                       1e+06 
+  3426 nc3[2,19,10]               -9                       1e+06 
+  3427 nc3[2,19,11]               -9                       1e+06 
+  3428 nc3[2,19,12]               -9                       1e+06 
+  3429 nc3[2,19,13]               -9                       1e+06 
+  3430 nc3[2,19,14]               -9                       1e+06 
+  3431 nc3[2,19,15]               -9                       1e+06 
+  3432 nc3[2,19,16]               -9                       1e+06 
+  3433 nc3[2,19,17]               -9                       1e+06 
+  3434 nc3[2,19,18]               -9                       1e+06 
+  3435 nc3[2,19,20]               -9                       1e+06 
+  3436 nc3[2,20,1]                -9                       1e+06 
+  3437 nc3[2,20,2]                -9                       1e+06 
+  3438 nc3[2,20,3]                -9                       1e+06 
+  3439 nc3[2,20,4]                -9                       1e+06 
+  3440 nc3[2,20,5]                -9                       1e+06 
+  3441 nc3[2,20,6]                -9                       1e+06 
+  3442 nc3[2,20,7]                -9                       1e+06 
+  3443 nc3[2,20,8]                -9                       1e+06 
+  3444 nc3[2,20,9]                -9                       1e+06 
+  3445 nc3[2,20,10]               -9                       1e+06 
+  3446 nc3[2,20,11]               -9                       1e+06 
+  3447 nc3[2,20,12]               -9                       1e+06 
+  3448 nc3[2,20,13]               -9                       1e+06 
+  3449 nc3[2,20,14]               -9                       1e+06 
+  3450 nc3[2,20,15]               -9                       1e+06 
+  3451 nc3[2,20,16]               -9                       1e+06 
+  3452 nc3[2,20,17]               -9                       1e+06 
+  3453 nc3[2,20,18]               -9                       1e+06 
+  3454 nc3[2,20,19]               -9                       1e+06 
+  3455 nc3[3,1,2]                 -4                       1e+06 
+  3456 nc3[3,1,3]                 -4                       1e+06 
+  3457 nc3[3,1,4]                 -4                       1e+06 
+  3458 nc3[3,1,5]                 -4                       1e+06 
+  3459 nc3[3,1,6]                 -4                       1e+06 
+  3460 nc3[3,1,7]                 -4                       1e+06 
+  3461 nc3[3,1,8]                 -4                       1e+06 
+  3462 nc3[3,1,9]                 -4                       1e+06 
+  3463 nc3[3,1,10]                -4                       1e+06 
+  3464 nc3[3,1,11]                -4                       1e+06 
+  3465 nc3[3,1,12]                -4                       1e+06 
+  3466 nc3[3,1,13]                -4                       1e+06 
+  3467 nc3[3,1,14]                -4                       1e+06 
+  3468 nc3[3,1,15]                -4                       1e+06 
+  3469 nc3[3,1,16]                -4                       1e+06 
+  3470 nc3[3,1,17]                -4                       1e+06 
+  3471 nc3[3,1,18]                -4                       1e+06 
+  3472 nc3[3,1,19]                -4                       1e+06 
+  3473 nc3[3,1,20]                -4                       1e+06 
+  3474 nc3[3,2,1]                 -4                       1e+06 
+  3475 nc3[3,2,3]              1e+06                       1e+06 
+  3476 nc3[3,2,4]                 -4                       1e+06 
+  3477 nc3[3,2,5]                 -4                       1e+06 
+  3478 nc3[3,2,6]                 -4                       1e+06 
+  3479 nc3[3,2,7]                 -4                       1e+06 
+  3480 nc3[3,2,8]                 -4                       1e+06 
+  3481 nc3[3,2,9]                 -4                       1e+06 
+  3482 nc3[3,2,10]                -4                       1e+06 
+  3483 nc3[3,2,11]                -4                       1e+06 
+  3484 nc3[3,2,12]                -4                       1e+06 
+  3485 nc3[3,2,13]                -4                       1e+06 
+  3486 nc3[3,2,14]                -4                       1e+06 
+  3487 nc3[3,2,15]                -4                       1e+06 
+  3488 nc3[3,2,16]                -4                       1e+06 
+  3489 nc3[3,2,17]                -4                       1e+06 
+  3490 nc3[3,2,18]                -4                       1e+06 
+  3491 nc3[3,2,19]                -4                       1e+06 
+  3492 nc3[3,2,20]                -4                       1e+06 
+  3493 nc3[3,3,1]                 -4                       1e+06 
+  3494 nc3[3,3,2]                 -4                       1e+06 
+  3495 nc3[3,3,4]              1e+06                       1e+06 
+  3496 nc3[3,3,5]                 -4                       1e+06 
+  3497 nc3[3,3,6]                 -4                       1e+06 
+  3498 nc3[3,3,7]                 -4                       1e+06 
+  3499 nc3[3,3,8]                 -4                       1e+06 
+  3500 nc3[3,3,9]                 -4                       1e+06 
+  3501 nc3[3,3,10]                -4                       1e+06 
+  3502 nc3[3,3,11]                -4                       1e+06 
+  3503 nc3[3,3,12]                -4                       1e+06 
+  3504 nc3[3,3,13]                -4                       1e+06 
+  3505 nc3[3,3,14]                -4                       1e+06 
+  3506 nc3[3,3,15]                -4                       1e+06 
+  3507 nc3[3,3,16]                -4                       1e+06 
+  3508 nc3[3,3,17]                -4                       1e+06 
+  3509 nc3[3,3,18]                -4                       1e+06 
+  3510 nc3[3,3,19]                -4                       1e+06 
+  3511 nc3[3,3,20]                -4                       1e+06 
+  3512 nc3[3,4,1]                 -4                       1e+06 
+  3513 nc3[3,4,2]                 -4                       1e+06 
+  3514 nc3[3,4,3]                 -4                       1e+06 
+  3515 nc3[3,4,5]                 -4                       1e+06 
+  3516 nc3[3,4,6]              1e+06                       1e+06 
+  3517 nc3[3,4,7]                 -4                       1e+06 
+  3518 nc3[3,4,8]                 -4                       1e+06 
+  3519 nc3[3,4,9]                 -4                       1e+06 
+  3520 nc3[3,4,10]                -4                       1e+06 
+  3521 nc3[3,4,11]                -4                       1e+06 
+  3522 nc3[3,4,12]                -4                       1e+06 
+  3523 nc3[3,4,13]                -4                       1e+06 
+  3524 nc3[3,4,14]                -4                       1e+06 
+  3525 nc3[3,4,15]                -4                       1e+06 
+  3526 nc3[3,4,16]                -4                       1e+06 
+  3527 nc3[3,4,17]                -4                       1e+06 
+  3528 nc3[3,4,18]                -4                       1e+06 
+  3529 nc3[3,4,19]                -4                       1e+06 
+  3530 nc3[3,4,20]                -4                       1e+06 
+  3531 nc3[3,5,1]                 -4                       1e+06 
+  3532 nc3[3,5,2]                 -4                       1e+06 
+  3533 nc3[3,5,3]                 -4                       1e+06 
+  3534 nc3[3,5,4]                 -4                       1e+06 
+  3535 nc3[3,5,6]                 -4                       1e+06 
+  3536 nc3[3,5,7]                 -4                       1e+06 
+  3537 nc3[3,5,8]                 -4                       1e+06 
+  3538 nc3[3,5,9]                 -4                       1e+06 
+  3539 nc3[3,5,10]                -4                       1e+06 
+  3540 nc3[3,5,11]                -4                       1e+06 
+  3541 nc3[3,5,12]                -4                       1e+06 
+  3542 nc3[3,5,13]                -4                       1e+06 
+  3543 nc3[3,5,14]                -4                       1e+06 
+  3544 nc3[3,5,15]                -4                       1e+06 
+  3545 nc3[3,5,16]                -4                       1e+06 
+  3546 nc3[3,5,17]                -4                       1e+06 
+  3547 nc3[3,5,18]                -4                       1e+06 
+  3548 nc3[3,5,19]                -4                       1e+06 
+  3549 nc3[3,5,20]                -4                       1e+06 
+  3550 nc3[3,6,1]                 -4                       1e+06 
+  3551 nc3[3,6,2]                 -4                       1e+06 
+  3552 nc3[3,6,3]                 -4                       1e+06 
+  3553 nc3[3,6,4]                 -4                       1e+06 
+  3554 nc3[3,6,5]                 -4                       1e+06 
+  3555 nc3[3,6,7]                 -4                       1e+06 
+  3556 nc3[3,6,8]                 -4                       1e+06 
+  3557 nc3[3,6,9]                 -4                       1e+06 
+  3558 nc3[3,6,10]                -4                       1e+06 
+  3559 nc3[3,6,11]                -4                       1e+06 
+  3560 nc3[3,6,12]                -4                       1e+06 
+  3561 nc3[3,6,13]                -4                       1e+06 
+  3562 nc3[3,6,14]                -4                       1e+06 
+  3563 nc3[3,6,15]                -4                       1e+06 
+  3564 nc3[3,6,16]                -4                       1e+06 
+  3565 nc3[3,6,17]                -4                       1e+06 
+  3566 nc3[3,6,18]                -4                       1e+06 
+  3567 nc3[3,6,19]                -4                       1e+06 
+  3568 nc3[3,6,20]                -4                       1e+06 
+  3569 nc3[3,7,1]                 -4                       1e+06 
+  3570 nc3[3,7,2]                 -4                       1e+06 
+  3571 nc3[3,7,3]                 -4                       1e+06 
+  3572 nc3[3,7,4]                 -4                       1e+06 
+  3573 nc3[3,7,5]                 -4                       1e+06 
+  3574 nc3[3,7,6]                 -4                       1e+06 
+  3575 nc3[3,7,8]                 -4                       1e+06 
+  3576 nc3[3,7,9]                 -4                       1e+06 
+  3577 nc3[3,7,10]                -4                       1e+06 
+  3578 nc3[3,7,11]                -4                       1e+06 
+  3579 nc3[3,7,12]                -4                       1e+06 
+  3580 nc3[3,7,13]                -4                       1e+06 
+  3581 nc3[3,7,14]                -4                       1e+06 
+  3582 nc3[3,7,15]                -4                       1e+06 
+  3583 nc3[3,7,16]                -4                       1e+06 
+  3584 nc3[3,7,17]                -4                       1e+06 
+  3585 nc3[3,7,18]                -4                       1e+06 
+  3586 nc3[3,7,19]                -4                       1e+06 
+  3587 nc3[3,7,20]                -4                       1e+06 
+  3588 nc3[3,8,1]                 -4                       1e+06 
+  3589 nc3[3,8,2]                 -4                       1e+06 
+  3590 nc3[3,8,3]                 -4                       1e+06 
+  3591 nc3[3,8,4]                 -4                       1e+06 
+  3592 nc3[3,8,5]                 -4                       1e+06 
+  3593 nc3[3,8,6]                 -4                       1e+06 
+  3594 nc3[3,8,7]                 -4                       1e+06 
+  3595 nc3[3,8,9]                 -4                       1e+06 
+  3596 nc3[3,8,10]                -4                       1e+06 
+  3597 nc3[3,8,11]                -4                       1e+06 
+  3598 nc3[3,8,12]                -4                       1e+06 
+  3599 nc3[3,8,13]                -4                       1e+06 
+  3600 nc3[3,8,14]                -4                       1e+06 
+  3601 nc3[3,8,15]                -4                       1e+06 
+  3602 nc3[3,8,16]                -4                       1e+06 
+  3603 nc3[3,8,17]                -4                       1e+06 
+  3604 nc3[3,8,18]                -4                       1e+06 
+  3605 nc3[3,8,19]                -4                       1e+06 
+  3606 nc3[3,8,20]                -4                       1e+06 
+  3607 nc3[3,9,1]                 -4                       1e+06 
+  3608 nc3[3,9,2]                 -4                       1e+06 
+  3609 nc3[3,9,3]                 -4                       1e+06 
+  3610 nc3[3,9,4]                 -4                       1e+06 
+  3611 nc3[3,9,5]                 -4                       1e+06 
+  3612 nc3[3,9,6]                 -4                       1e+06 
+  3613 nc3[3,9,7]                 -4                       1e+06 
+  3614 nc3[3,9,8]                 -4                       1e+06 
+  3615 nc3[3,9,10]                -4                       1e+06 
+  3616 nc3[3,9,11]                -4                       1e+06 
+  3617 nc3[3,9,12]                -4                       1e+06 
+  3618 nc3[3,9,13]                -4                       1e+06 
+  3619 nc3[3,9,14]                -4                       1e+06 
+  3620 nc3[3,9,15]                -4                       1e+06 
+  3621 nc3[3,9,16]                -4                       1e+06 
+  3622 nc3[3,9,17]                -4                       1e+06 
+  3623 nc3[3,9,18]                -4                       1e+06 
+  3624 nc3[3,9,19]                -4                       1e+06 
+  3625 nc3[3,9,20]                -4                       1e+06 
+  3626 nc3[3,10,1]                -4                       1e+06 
+  3627 nc3[3,10,2]                -4                       1e+06 
+  3628 nc3[3,10,3]                -4                       1e+06 
+  3629 nc3[3,10,4]                -4                       1e+06 
+  3630 nc3[3,10,5]                -4                       1e+06 
+  3631 nc3[3,10,6]                -4                       1e+06 
+  3632 nc3[3,10,7]                -4                       1e+06 
+  3633 nc3[3,10,8]                -4                       1e+06 
+  3634 nc3[3,10,9]                -4                       1e+06 
+  3635 nc3[3,10,11]               -4                       1e+06 
+  3636 nc3[3,10,12]               -4                       1e+06 
+  3637 nc3[3,10,13]               -4                       1e+06 
+  3638 nc3[3,10,14]               -4                       1e+06 
+  3639 nc3[3,10,15]               -4                       1e+06 
+  3640 nc3[3,10,16]               -4                       1e+06 
+  3641 nc3[3,10,17]               -4                       1e+06 
+  3642 nc3[3,10,18]               -4                       1e+06 
+  3643 nc3[3,10,19]               -4                       1e+06 
+  3644 nc3[3,10,20]               -4                       1e+06 
+  3645 nc3[3,11,1]                -4                       1e+06 
+  3646 nc3[3,11,2]                -4                       1e+06 
+  3647 nc3[3,11,3]                -4                       1e+06 
+  3648 nc3[3,11,4]                -4                       1e+06 
+  3649 nc3[3,11,5]                -4                       1e+06 
+  3650 nc3[3,11,6]                -4                       1e+06 
+  3651 nc3[3,11,7]                -4                       1e+06 
+  3652 nc3[3,11,8]                -4                       1e+06 
+  3653 nc3[3,11,9]                -4                       1e+06 
+  3654 nc3[3,11,10]               -4                       1e+06 
+  3655 nc3[3,11,12]               -4                       1e+06 
+  3656 nc3[3,11,13]               -4                       1e+06 
+  3657 nc3[3,11,14]               -4                       1e+06 
+  3658 nc3[3,11,15]               -4                       1e+06 
+  3659 nc3[3,11,16]               -4                       1e+06 
+  3660 nc3[3,11,17]               -4                       1e+06 
+  3661 nc3[3,11,18]               -4                       1e+06 
+  3662 nc3[3,11,19]               -4                       1e+06 
+  3663 nc3[3,11,20]               -4                       1e+06 
+  3664 nc3[3,12,1]                -4                       1e+06 
+  3665 nc3[3,12,2]                -4                       1e+06 
+  3666 nc3[3,12,3]                -4                       1e+06 
+  3667 nc3[3,12,4]                -4                       1e+06 
+  3668 nc3[3,12,5]                -4                       1e+06 
+  3669 nc3[3,12,6]                -4                       1e+06 
+  3670 nc3[3,12,7]                -4                       1e+06 
+  3671 nc3[3,12,8]                -4                       1e+06 
+  3672 nc3[3,12,9]                -4                       1e+06 
+  3673 nc3[3,12,10]               -4                       1e+06 
+  3674 nc3[3,12,11]               -4                       1e+06 
+  3675 nc3[3,12,13]               -4                       1e+06 
+  3676 nc3[3,12,14]               -4                       1e+06 
+  3677 nc3[3,12,15]               -4                       1e+06 
+  3678 nc3[3,12,16]               -4                       1e+06 
+  3679 nc3[3,12,17]               -4                       1e+06 
+  3680 nc3[3,12,18]               -4                       1e+06 
+  3681 nc3[3,12,19]               -4                       1e+06 
+  3682 nc3[3,12,20]               -4                       1e+06 
+  3683 nc3[3,13,1]                -4                       1e+06 
+  3684 nc3[3,13,2]                -4                       1e+06 
+  3685 nc3[3,13,3]                -4                       1e+06 
+  3686 nc3[3,13,4]                -4                       1e+06 
+  3687 nc3[3,13,5]                -4                       1e+06 
+  3688 nc3[3,13,6]                -4                       1e+06 
+  3689 nc3[3,13,7]                -4                       1e+06 
+  3690 nc3[3,13,8]                -4                       1e+06 
+  3691 nc3[3,13,9]                -4                       1e+06 
+  3692 nc3[3,13,10]               -4                       1e+06 
+  3693 nc3[3,13,11]               -4                       1e+06 
+  3694 nc3[3,13,12]               -4                       1e+06 
+  3695 nc3[3,13,14]               -4                       1e+06 
+  3696 nc3[3,13,15]               -4                       1e+06 
+  3697 nc3[3,13,16]               -4                       1e+06 
+  3698 nc3[3,13,17]               -4                       1e+06 
+  3699 nc3[3,13,18]               -4                       1e+06 
+  3700 nc3[3,13,19]               -4                       1e+06 
+  3701 nc3[3,13,20]               -4                       1e+06 
+  3702 nc3[3,14,1]                -4                       1e+06 
+  3703 nc3[3,14,2]                -4                       1e+06 
+  3704 nc3[3,14,3]                -4                       1e+06 
+  3705 nc3[3,14,4]                -4                       1e+06 
+  3706 nc3[3,14,5]                -4                       1e+06 
+  3707 nc3[3,14,6]                -4                       1e+06 
+  3708 nc3[3,14,7]                -4                       1e+06 
+  3709 nc3[3,14,8]                -4                       1e+06 
+  3710 nc3[3,14,9]                -4                       1e+06 
+  3711 nc3[3,14,10]               -4                       1e+06 
+  3712 nc3[3,14,11]               -4                       1e+06 
+  3713 nc3[3,14,12]               -4                       1e+06 
+  3714 nc3[3,14,13]               -4                       1e+06 
+  3715 nc3[3,14,15]               -4                       1e+06 
+  3716 nc3[3,14,16]               -4                       1e+06 
+  3717 nc3[3,14,17]               -4                       1e+06 
+  3718 nc3[3,14,18]               -4                       1e+06 
+  3719 nc3[3,14,19]               -4                       1e+06 
+  3720 nc3[3,14,20]               -4                       1e+06 
+  3721 nc3[3,15,1]                -4                       1e+06 
+  3722 nc3[3,15,2]                -4                       1e+06 
+  3723 nc3[3,15,3]                -4                       1e+06 
+  3724 nc3[3,15,4]                -4                       1e+06 
+  3725 nc3[3,15,5]                -4                       1e+06 
+  3726 nc3[3,15,6]                -4                       1e+06 
+  3727 nc3[3,15,7]                -4                       1e+06 
+  3728 nc3[3,15,8]                -4                       1e+06 
+  3729 nc3[3,15,9]                -4                       1e+06 
+  3730 nc3[3,15,10]               -4                       1e+06 
+  3731 nc3[3,15,11]               -4                       1e+06 
+  3732 nc3[3,15,12]               -4                       1e+06 
+  3733 nc3[3,15,13]               -4                       1e+06 
+  3734 nc3[3,15,14]               -4                       1e+06 
+  3735 nc3[3,15,16]               -4                       1e+06 
+  3736 nc3[3,15,17]               -4                       1e+06 
+  3737 nc3[3,15,18]               -4                       1e+06 
+  3738 nc3[3,15,19]               -4                       1e+06 
+  3739 nc3[3,15,20]               -4                       1e+06 
+  3740 nc3[3,16,1]                -4                       1e+06 
+  3741 nc3[3,16,2]                -4                       1e+06 
+  3742 nc3[3,16,3]                -4                       1e+06 
+  3743 nc3[3,16,4]                -4                       1e+06 
+  3744 nc3[3,16,5]                -4                       1e+06 
+  3745 nc3[3,16,6]                -4                       1e+06 
+  3746 nc3[3,16,7]                -4                       1e+06 
+  3747 nc3[3,16,8]                -4                       1e+06 
+  3748 nc3[3,16,9]                -4                       1e+06 
+  3749 nc3[3,16,10]               -4                       1e+06 
+  3750 nc3[3,16,11]               -4                       1e+06 
+  3751 nc3[3,16,12]               -4                       1e+06 
+  3752 nc3[3,16,13]               -4                       1e+06 
+  3753 nc3[3,16,14]               -4                       1e+06 
+  3754 nc3[3,16,15]               -4                       1e+06 
+  3755 nc3[3,16,17]               -4                       1e+06 
+  3756 nc3[3,16,18]               -4                       1e+06 
+  3757 nc3[3,16,19]               -4                       1e+06 
+  3758 nc3[3,16,20]               -4                       1e+06 
+  3759 nc3[3,17,1]                -4                       1e+06 
+  3760 nc3[3,17,2]                -4                       1e+06 
+  3761 nc3[3,17,3]                -4                       1e+06 
+  3762 nc3[3,17,4]                -4                       1e+06 
+  3763 nc3[3,17,5]                -4                       1e+06 
+  3764 nc3[3,17,6]                -4                       1e+06 
+  3765 nc3[3,17,7]                -4                       1e+06 
+  3766 nc3[3,17,8]                -4                       1e+06 
+  3767 nc3[3,17,9]                -4                       1e+06 
+  3768 nc3[3,17,10]               -4                       1e+06 
+  3769 nc3[3,17,11]               -4                       1e+06 
+  3770 nc3[3,17,12]               -4                       1e+06 
+  3771 nc3[3,17,13]               -4                       1e+06 
+  3772 nc3[3,17,14]               -4                       1e+06 
+  3773 nc3[3,17,15]               -4                       1e+06 
+  3774 nc3[3,17,16]               -4                       1e+06 
+  3775 nc3[3,17,18]               -4                       1e+06 
+  3776 nc3[3,17,19]               -4                       1e+06 
+  3777 nc3[3,17,20]               -4                       1e+06 
+  3778 nc3[3,18,1]                -4                       1e+06 
+  3779 nc3[3,18,2]                -4                       1e+06 
+  3780 nc3[3,18,3]                -4                       1e+06 
+  3781 nc3[3,18,4]                -4                       1e+06 
+  3782 nc3[3,18,5]                -4                       1e+06 
+  3783 nc3[3,18,6]                -4                       1e+06 
+  3784 nc3[3,18,7]                -4                       1e+06 
+  3785 nc3[3,18,8]                -4                       1e+06 
+  3786 nc3[3,18,9]                -4                       1e+06 
+  3787 nc3[3,18,10]               -4                       1e+06 
+  3788 nc3[3,18,11]               -4                       1e+06 
+  3789 nc3[3,18,12]               -4                       1e+06 
+  3790 nc3[3,18,13]               -4                       1e+06 
+  3791 nc3[3,18,14]               -4                       1e+06 
+  3792 nc3[3,18,15]               -4                       1e+06 
+  3793 nc3[3,18,16]               -4                       1e+06 
+  3794 nc3[3,18,17]               -4                       1e+06 
+  3795 nc3[3,18,19]               -4                       1e+06 
+  3796 nc3[3,18,20]               -4                       1e+06 
+  3797 nc3[3,19,1]                -4                       1e+06 
+  3798 nc3[3,19,2]                -4                       1e+06 
+  3799 nc3[3,19,3]                -4                       1e+06 
+  3800 nc3[3,19,4]                -4                       1e+06 
+  3801 nc3[3,19,5]                -4                       1e+06 
+  3802 nc3[3,19,6]                -4                       1e+06 
+  3803 nc3[3,19,7]                -4                       1e+06 
+  3804 nc3[3,19,8]                -4                       1e+06 
+  3805 nc3[3,19,9]                -4                       1e+06 
+  3806 nc3[3,19,10]               -4                       1e+06 
+  3807 nc3[3,19,11]               -4                       1e+06 
+  3808 nc3[3,19,12]               -4                       1e+06 
+  3809 nc3[3,19,13]               -4                       1e+06 
+  3810 nc3[3,19,14]               -4                       1e+06 
+  3811 nc3[3,19,15]               -4                       1e+06 
+  3812 nc3[3,19,16]               -4                       1e+06 
+  3813 nc3[3,19,17]               -4                       1e+06 
+  3814 nc3[3,19,18]               -4                       1e+06 
+  3815 nc3[3,19,20]               -4                       1e+06 
+  3816 nc3[3,20,1]                -4                       1e+06 
+  3817 nc3[3,20,2]                -4                       1e+06 
+  3818 nc3[3,20,3]                -4                       1e+06 
+  3819 nc3[3,20,4]                -4                       1e+06 
+  3820 nc3[3,20,5]                -4                       1e+06 
+  3821 nc3[3,20,6]                -4                       1e+06 
+  3822 nc3[3,20,7]                -4                       1e+06 
+  3823 nc3[3,20,8]                -4                       1e+06 
+  3824 nc3[3,20,9]                -4                       1e+06 
+  3825 nc3[3,20,10]               -4                       1e+06 
+  3826 nc3[3,20,11]               -4                       1e+06 
+  3827 nc3[3,20,12]               -4                       1e+06 
+  3828 nc3[3,20,13]               -4                       1e+06 
+  3829 nc3[3,20,14]               -4                       1e+06 
+  3830 nc3[3,20,15]               -4                       1e+06 
+  3831 nc3[3,20,16]               -4                       1e+06 
+  3832 nc3[3,20,17]               -4                       1e+06 
+  3833 nc3[3,20,18]               -4                       1e+06 
+  3834 nc3[3,20,19]               -4                       1e+06 
   3835 ordenSiEnCombi[1,1]
                                    0                          -0 
   3836 ordenSiEnCombi[1,2]
-                              -1e+06                          -0 
+                                   0                          -0 
   3837 ordenSiEnCombi[1,3]
-                             -999999                          -0 
+                                   0                          -0 
   3838 ordenSiEnCombi[1,4]
-                             -999998                          -0 
+                                   0                          -0 
   3839 ordenSiEnCombi[1,5]
                                    0                          -0 
   3840 ordenSiEnCombi[1,6]
-                             -999997                          -0 
+                                   0                          -0 
   3841 ordenSiEnCombi[1,7]
                                    0                          -0 
   3842 ordenSiEnCombi[1,8]
@@ -4269,27 +4269,27 @@ Objective:  z = 3600 (MINimum)
   3844 ordenSiEnCombi[1,10]
                                    0                          -0 
   3845 ordenSiEnCombi[1,11]
-                                   0                          -0 
+                              -1e+06                          -0 
   3846 ordenSiEnCombi[1,12]
                                    0                          -0 
   3847 ordenSiEnCombi[1,13]
-                                   0                          -0 
+                             -999999                          -0 
   3848 ordenSiEnCombi[1,14]
                                    0                          -0 
   3849 ordenSiEnCombi[1,15]
-                                   0                          -0 
+                             -999996                          -0 
   3850 ordenSiEnCombi[1,16]
-                                   0                          -0 
+                             -999995                          -0 
   3851 ordenSiEnCombi[1,17]
                                    0                          -0 
   3852 ordenSiEnCombi[1,18]
-                                   0                          -0 
+                             -999997                          -0 
   3853 ordenSiEnCombi[1,19]
-                                   0                          -0 
+                             -999994                          -0 
   3854 ordenSiEnCombi[1,20]
-                                   0                          -0 
+                             -999998                          -0 
   3855 ordenSiEnCombi[2,1]
-                                   0                          -0 
+                              -1e+06                          -0 
   3856 ordenSiEnCombi[2,2]
                                    0                          -0 
   3857 ordenSiEnCombi[2,3]
@@ -4297,71 +4297,71 @@ Objective:  z = 3600 (MINimum)
   3858 ordenSiEnCombi[2,4]
                                    0                          -0 
   3859 ordenSiEnCombi[2,5]
-                                   0                          -0 
+                             -999999                          -0 
   3860 ordenSiEnCombi[2,6]
                                    0                          -0 
   3861 ordenSiEnCombi[2,7]
-                                   0                          -0 
+                             -999998                          -0 
   3862 ordenSiEnCombi[2,8]
-                                   0                          -0 
+                             -999997                          -0 
   3863 ordenSiEnCombi[2,9]
-                                   0                          -0 
+                             -999995                          -0 
   3864 ordenSiEnCombi[2,10]
-                                   0                          -0 
+                             -999994                          -0 
   3865 ordenSiEnCombi[2,11]
-                              -1e+06                          -0 
+                                   0                          -0 
   3866 ordenSiEnCombi[2,12]
-                                   0                          -0 
-  3867 ordenSiEnCombi[2,13]
-                             -999999                          -0 
-  3868 ordenSiEnCombi[2,14]
-                                   0                          -0 
-  3869 ordenSiEnCombi[2,15]
                              -999996                          -0 
+  3867 ordenSiEnCombi[2,13]
+                                   0                          -0 
+  3868 ordenSiEnCombi[2,14]
+                             -999993                          -0 
+  3869 ordenSiEnCombi[2,15]
+                                   0                          -0 
   3870 ordenSiEnCombi[2,16]
-                             -999995                          -0 
+                                   0                          -0 
   3871 ordenSiEnCombi[2,17]
-                                   0                          -0 
+                             -999992                          -0 
   3872 ordenSiEnCombi[2,18]
-                             -999997                          -0 
+                                   0                          -0 
   3873 ordenSiEnCombi[2,19]
-                             -999994                          -0 
+                                   0                          -0 
   3874 ordenSiEnCombi[2,20]
-                             -999998                          -0 
+                                   0                          -0 
   3875 ordenSiEnCombi[3,1]
-                              -1e+06                          -0 
+                                   0                          -0 
   3876 ordenSiEnCombi[3,2]
-                                   0                          -0 
+                              -1e+06                          -0 
   3877 ordenSiEnCombi[3,3]
-                                   0                          -0 
-  3878 ordenSiEnCombi[3,4]
-                                   0                          -0 
-  3879 ordenSiEnCombi[3,5]
                              -999999                          -0 
-  3880 ordenSiEnCombi[3,6]
-                                   0                          -0 
-  3881 ordenSiEnCombi[3,7]
+  3878 ordenSiEnCombi[3,4]
                              -999998                          -0 
-  3882 ordenSiEnCombi[3,8]
+  3879 ordenSiEnCombi[3,5]
+                                   0                          -0 
+  3880 ordenSiEnCombi[3,6]
                              -999997                          -0 
+  3881 ordenSiEnCombi[3,7]
+                                   0                          -0 
+  3882 ordenSiEnCombi[3,8]
+                                   0                          -0 
   3883 ordenSiEnCombi[3,9]
-                             -999995                          -0 
+                                   0                          -0 
   3884 ordenSiEnCombi[3,10]
-                             -999994                          -0 
+                                   0                          -0 
   3885 ordenSiEnCombi[3,11]
                                    0                          -0 
   3886 ordenSiEnCombi[3,12]
-                             -999996                          -0 
+                                   0                          -0 
   3887 ordenSiEnCombi[3,13]
                                    0                          -0 
   3888 ordenSiEnCombi[3,14]
-                             -999993                          -0 
+                                   0                          -0 
   3889 ordenSiEnCombi[3,15]
                                    0                          -0 
   3890 ordenSiEnCombi[3,16]
                                    0                          -0 
   3891 ordenSiEnCombi[3,17]
-                             -999992                          -0 
+                                   0                          -0 
   3892 ordenSiEnCombi[3,18]
                                    0                          -0 
   3893 ordenSiEnCombi[3,19]
@@ -4369,663 +4369,663 @@ Objective:  z = 3600 (MINimum)
   3894 ordenSiEnCombi[3,20]
                                    0                          -0 
   3895 ordenes[1,1,2]
-                                  -4                          -1 
+                                  -7                          -1 
   3896 ordenes[1,1,3]
-                                  -5                          -1 
+                                  -7                          -1 
   3897 ordenes[1,1,4]
-                                  -6                          -1 
+                                  -7                          -1 
   3898 ordenes[1,1,5]
-                                  -4                          -1 
+                                  -7                          -1 
   3899 ordenes[1,1,6]
                                   -7                          -1 
   3900 ordenes[1,1,7]
-                                  -4                          -1 
+                                  -7                          -1 
   3901 ordenes[1,1,8]
-                                  -4                          -1 
+                                  -7                          -1 
   3902 ordenes[1,1,9]
-                                  -4                          -1 
+                                  -7                          -1 
   3903 ordenes[1,1,10]
-                                  -4                          -1 
+                                  -7                          -1 
   3904 ordenes[1,1,11]
-                                  -4                          -1 
+                                  -7                          -1 
   3905 ordenes[1,1,12]
-                                  -4                          -1 
+                                  -7                          -1 
   3906 ordenes[1,1,13]
-                                  -4                          -1 
+                                  -8                          -1 
   3907 ordenes[1,1,14]
-                                  -4                          -1 
+                                  -7                          -1 
   3908 ordenes[1,1,15]
-                                  -4                          -1 
+                                 -11                          -1 
   3909 ordenes[1,1,16]
-                                  -4                          -1 
+                                 -12                          -1 
   3910 ordenes[1,1,17]
-                                  -4                          -1 
+                                  -7                          -1 
   3911 ordenes[1,1,18]
-                                  -4                          -1 
+                                 -10                          -1 
   3912 ordenes[1,1,19]
-                                  -4                          -1 
+                                 -13                          -1 
   3913 ordenes[1,1,20]
-                                  -4                          -1 
+                                  -9                          -1 
   3914 ordenes[1,2,1]
-                                  -4                          -1 
+                                  -7                          -1 
   3915 ordenes[1,2,3]
-                                  -1                          -1 
+                                  -7                          -1 
   3916 ordenes[1,2,4]
-                                  -6                          -1 
+                                  -7                          -1 
   3917 ordenes[1,2,5]
-                                  -4                          -1 
+                                  -7                          -1 
   3918 ordenes[1,2,6]
                                   -7                          -1 
   3919 ordenes[1,2,7]
-                                  -4                          -1 
+                                  -7                          -1 
   3920 ordenes[1,2,8]
-                                  -4                          -1 
+                                  -7                          -1 
   3921 ordenes[1,2,9]
-                                  -4                          -1 
+                                  -7                          -1 
   3922 ordenes[1,2,10]
-                                  -4                          -1 
+                                  -7                          -1 
   3923 ordenes[1,2,11]
-                                  -4                          -1 
+                                  -7                          -1 
   3924 ordenes[1,2,12]
-                                  -4                          -1 
+                                  -7                          -1 
   3925 ordenes[1,2,13]
-                                  -4                          -1 
+                                  -8                          -1 
   3926 ordenes[1,2,14]
-                                  -4                          -1 
+                                  -7                          -1 
   3927 ordenes[1,2,15]
-                                  -4                          -1 
+                                 -11                          -1 
   3928 ordenes[1,2,16]
-                                  -4                          -1 
+                                 -12                          -1 
   3929 ordenes[1,2,17]
-                                  -4                          -1 
+                                  -7                          -1 
   3930 ordenes[1,2,18]
-                                  -4                          -1 
+                                 -10                          -1 
   3931 ordenes[1,2,19]
-                                  -4                          -1 
+                                 -13                          -1 
   3932 ordenes[1,2,20]
-                                  -4                          -1 
+                                  -9                          -1 
   3933 ordenes[1,3,1]
-                                  -3                          -1 
+                                  -7                          -1 
   3934 ordenes[1,3,2]
-                                  -3                          -1 
+                                  -7                          -1 
   3935 ordenes[1,3,4]
-                                  -1                          -1 
+                                  -7                          -1 
   3936 ordenes[1,3,5]
-                                  -3                          -1 
+                                  -7                          -1 
   3937 ordenes[1,3,6]
-                                  -6                          -1 
+                                  -7                          -1 
   3938 ordenes[1,3,7]
-                                  -3                          -1 
+                                  -7                          -1 
   3939 ordenes[1,3,8]
-                                  -3                          -1 
+                                  -7                          -1 
   3940 ordenes[1,3,9]
-                                  -3                          -1 
+                                  -7                          -1 
   3941 ordenes[1,3,10]
-                                  -3                          -1 
+                                  -7                          -1 
   3942 ordenes[1,3,11]
-                                  -3                          -1 
+                                  -7                          -1 
   3943 ordenes[1,3,12]
-                                  -3                          -1 
+                                  -7                          -1 
   3944 ordenes[1,3,13]
-                                  -3                          -1 
+                                  -8                          -1 
   3945 ordenes[1,3,14]
-                                  -3                          -1 
+                                  -7                          -1 
   3946 ordenes[1,3,15]
-                                  -3                          -1 
+                                 -11                          -1 
   3947 ordenes[1,3,16]
-                                  -3                          -1 
+                                 -12                          -1 
   3948 ordenes[1,3,17]
-                                  -3                          -1 
+                                  -7                          -1 
   3949 ordenes[1,3,18]
-                                  -3                          -1 
+                                 -10                          -1 
   3950 ordenes[1,3,19]
-                                  -3                          -1 
+                                 -13                          -1 
   3951 ordenes[1,3,20]
-                                  -3                          -1 
+                                  -9                          -1 
   3952 ordenes[1,4,1]
-                                  -2                          -1 
+                                  -7                          -1 
   3953 ordenes[1,4,2]
-                                  -2                          -1 
+                                  -7                          -1 
   3954 ordenes[1,4,3]
-                                  -3                          -1 
+                                  -7                          -1 
   3955 ordenes[1,4,5]
-                                  -2                          -1 
+                                  -7                          -1 
   3956 ordenes[1,4,6]
-                                  -1                          -1 
+                                  -7                          -1 
   3957 ordenes[1,4,7]
-                                  -2                          -1 
+                                  -7                          -1 
   3958 ordenes[1,4,8]
-                                  -2                          -1 
+                                  -7                          -1 
   3959 ordenes[1,4,9]
-                                  -2                          -1 
+                                  -7                          -1 
   3960 ordenes[1,4,10]
-                                  -2                          -1 
+                                  -7                          -1 
   3961 ordenes[1,4,11]
-                                  -2                          -1 
+                                  -7                          -1 
   3962 ordenes[1,4,12]
-                                  -2                          -1 
+                                  -7                          -1 
   3963 ordenes[1,4,13]
-                                  -2                          -1 
+                                  -8                          -1 
   3964 ordenes[1,4,14]
-                                  -2                          -1 
+                                  -7                          -1 
   3965 ordenes[1,4,15]
-                                  -2                          -1 
+                                 -11                          -1 
   3966 ordenes[1,4,16]
-                                  -2                          -1 
+                                 -12                          -1 
   3967 ordenes[1,4,17]
-                                  -2                          -1 
+                                  -7                          -1 
   3968 ordenes[1,4,18]
-                                  -2                          -1 
+                                 -10                          -1 
   3969 ordenes[1,4,19]
-                                  -2                          -1 
+                                 -13                          -1 
   3970 ordenes[1,4,20]
-                                  -2                          -1 
+                                  -9                          -1 
   3971 ordenes[1,5,1]
-                                  -4                          -1 
+                                  -7                          -1 
   3972 ordenes[1,5,2]
-                                  -4                          -1 
+                                  -7                          -1 
   3973 ordenes[1,5,3]
-                                  -5                          -1 
+                                  -7                          -1 
   3974 ordenes[1,5,4]
-                                  -6                          -1 
+                                  -7                          -1 
   3975 ordenes[1,5,6]
                                   -7                          -1 
   3976 ordenes[1,5,7]
-                                  -4                          -1 
+                                  -7                          -1 
   3977 ordenes[1,5,8]
-                                  -4                          -1 
+                                  -7                          -1 
   3978 ordenes[1,5,9]
-                                  -4                          -1 
+                                  -7                          -1 
   3979 ordenes[1,5,10]
-                                  -4                          -1 
+                                  -7                          -1 
   3980 ordenes[1,5,11]
-                                  -4                          -1 
+                                  -7                          -1 
   3981 ordenes[1,5,12]
-                                  -4                          -1 
+                                  -7                          -1 
   3982 ordenes[1,5,13]
-                                  -4                          -1 
+                                  -8                          -1 
   3983 ordenes[1,5,14]
-                                  -4                          -1 
+                                  -7                          -1 
   3984 ordenes[1,5,15]
-                                  -4                          -1 
+                                 -11                          -1 
   3985 ordenes[1,5,16]
-                                  -4                          -1 
+                                 -12                          -1 
   3986 ordenes[1,5,17]
-                                  -4                          -1 
+                                  -7                          -1 
   3987 ordenes[1,5,18]
-                                  -4                          -1 
+                                 -10                          -1 
   3988 ordenes[1,5,19]
-                                  -4                          -1 
+                                 -13                          -1 
   3989 ordenes[1,5,20]
-                                  -4                          -1 
+                                  -9                          -1 
   3990 ordenes[1,6,1]
-                                  -1                          -1 
+                                  -7                          -1 
   3991 ordenes[1,6,2]
-                                  -1                          -1 
+                                  -7                          -1 
   3992 ordenes[1,6,3]
-                                  -2                          -1 
+                                  -7                          -1 
   3993 ordenes[1,6,4]
-                                  -3                          -1 
+                                  -7                          -1 
   3994 ordenes[1,6,5]
-                                  -1                          -1 
+                                  -7                          -1 
   3995 ordenes[1,6,7]
-                                  -1                          -1 
+                                  -7                          -1 
   3996 ordenes[1,6,8]
-                                  -1                          -1 
+                                  -7                          -1 
   3997 ordenes[1,6,9]
-                                  -1                          -1 
+                                  -7                          -1 
   3998 ordenes[1,6,10]
-                                  -1                          -1 
+                                  -7                          -1 
   3999 ordenes[1,6,11]
-                                  -1                          -1 
+                                  -7                          -1 
   4000 ordenes[1,6,12]
-                                  -1                          -1 
+                                  -7                          -1 
   4001 ordenes[1,6,13]
-                                  -1                          -1 
+                                  -8                          -1 
   4002 ordenes[1,6,14]
-                                  -1                          -1 
+                                  -7                          -1 
   4003 ordenes[1,6,15]
-                                  -1                          -1 
+                                 -11                          -1 
   4004 ordenes[1,6,16]
-                                  -1                          -1 
+                                 -12                          -1 
   4005 ordenes[1,6,17]
-                                  -1                          -1 
+                                  -7                          -1 
   4006 ordenes[1,6,18]
-                                  -1                          -1 
+                                 -10                          -1 
   4007 ordenes[1,6,19]
-                                  -1                          -1 
+                                 -13                          -1 
   4008 ordenes[1,6,20]
-                                  -1                          -1 
+                                  -9                          -1 
   4009 ordenes[1,7,1]
-                                  -4                          -1 
+                                  -7                          -1 
   4010 ordenes[1,7,2]
-                                  -4                          -1 
+                                  -7                          -1 
   4011 ordenes[1,7,3]
-                                  -5                          -1 
+                                  -7                          -1 
   4012 ordenes[1,7,4]
-                                  -6                          -1 
+                                  -7                          -1 
   4013 ordenes[1,7,5]
-                                  -4                          -1 
+                                  -7                          -1 
   4014 ordenes[1,7,6]
                                   -7                          -1 
   4015 ordenes[1,7,8]
-                                  -4                          -1 
+                                  -7                          -1 
   4016 ordenes[1,7,9]
-                                  -4                          -1 
+                                  -7                          -1 
   4017 ordenes[1,7,10]
-                                  -4                          -1 
+                                  -7                          -1 
   4018 ordenes[1,7,11]
-                                  -4                          -1 
+                                  -7                          -1 
   4019 ordenes[1,7,12]
-                                  -4                          -1 
+                                  -7                          -1 
   4020 ordenes[1,7,13]
-                                  -4                          -1 
+                                  -8                          -1 
   4021 ordenes[1,7,14]
-                                  -4                          -1 
+                                  -7                          -1 
   4022 ordenes[1,7,15]
-                                  -4                          -1 
+                                 -11                          -1 
   4023 ordenes[1,7,16]
-                                  -4                          -1 
+                                 -12                          -1 
   4024 ordenes[1,7,17]
-                                  -4                          -1 
+                                  -7                          -1 
   4025 ordenes[1,7,18]
-                                  -4                          -1 
+                                 -10                          -1 
   4026 ordenes[1,7,19]
-                                  -4                          -1 
+                                 -13                          -1 
   4027 ordenes[1,7,20]
-                                  -4                          -1 
+                                  -9                          -1 
   4028 ordenes[1,8,1]
-                                  -4                          -1 
+                                  -7                          -1 
   4029 ordenes[1,8,2]
-                                  -4                          -1 
+                                  -7                          -1 
   4030 ordenes[1,8,3]
-                                  -5                          -1 
+                                  -7                          -1 
   4031 ordenes[1,8,4]
-                                  -6                          -1 
+                                  -7                          -1 
   4032 ordenes[1,8,5]
-                                  -4                          -1 
+                                  -7                          -1 
   4033 ordenes[1,8,6]
                                   -7                          -1 
   4034 ordenes[1,8,7]
-                                  -4                          -1 
+                                  -7                          -1 
   4035 ordenes[1,8,9]
-                                  -4                          -1 
+                                  -7                          -1 
   4036 ordenes[1,8,10]
-                                  -4                          -1 
+                                  -7                          -1 
   4037 ordenes[1,8,11]
-                                  -4                          -1 
+                                  -7                          -1 
   4038 ordenes[1,8,12]
-                                  -4                          -1 
+                                  -7                          -1 
   4039 ordenes[1,8,13]
-                                  -4                          -1 
+                                  -8                          -1 
   4040 ordenes[1,8,14]
-                                  -4                          -1 
+                                  -7                          -1 
   4041 ordenes[1,8,15]
-                                  -4                          -1 
+                                 -11                          -1 
   4042 ordenes[1,8,16]
-                                  -4                          -1 
+                                 -12                          -1 
   4043 ordenes[1,8,17]
-                                  -4                          -1 
+                                  -7                          -1 
   4044 ordenes[1,8,18]
-                                  -4                          -1 
+                                 -10                          -1 
   4045 ordenes[1,8,19]
-                                  -4                          -1 
+                                 -13                          -1 
   4046 ordenes[1,8,20]
-                                  -4                          -1 
+                                  -9                          -1 
   4047 ordenes[1,9,1]
-                                  -4                          -1 
+                                  -7                          -1 
   4048 ordenes[1,9,2]
-                                  -4                          -1 
+                                  -7                          -1 
   4049 ordenes[1,9,3]
-                                  -5                          -1 
+                                  -7                          -1 
   4050 ordenes[1,9,4]
-                                  -6                          -1 
+                                  -7                          -1 
   4051 ordenes[1,9,5]
-                                  -4                          -1 
+                                  -7                          -1 
   4052 ordenes[1,9,6]
                                   -7                          -1 
   4053 ordenes[1,9,7]
-                                  -4                          -1 
+                                  -7                          -1 
   4054 ordenes[1,9,8]
-                                  -4                          -1 
+                                  -7                          -1 
   4055 ordenes[1,9,10]
-                                  -4                          -1 
+                                  -7                          -1 
   4056 ordenes[1,9,11]
-                                  -4                          -1 
+                                  -7                          -1 
   4057 ordenes[1,9,12]
-                                  -4                          -1 
+                                  -7                          -1 
   4058 ordenes[1,9,13]
-                                  -4                          -1 
+                                  -8                          -1 
   4059 ordenes[1,9,14]
-                                  -4                          -1 
+                                  -7                          -1 
   4060 ordenes[1,9,15]
-                                  -4                          -1 
+                                 -11                          -1 
   4061 ordenes[1,9,16]
-                                  -4                          -1 
+                                 -12                          -1 
   4062 ordenes[1,9,17]
-                                  -4                          -1 
+                                  -7                          -1 
   4063 ordenes[1,9,18]
-                                  -4                          -1 
+                                 -10                          -1 
   4064 ordenes[1,9,19]
-                                  -4                          -1 
+                                 -13                          -1 
   4065 ordenes[1,9,20]
-                                  -4                          -1 
+                                  -9                          -1 
   4066 ordenes[1,10,1]
-                                  -4                          -1 
+                                  -7                          -1 
   4067 ordenes[1,10,2]
-                                  -4                          -1 
+                                  -7                          -1 
   4068 ordenes[1,10,3]
-                                  -5                          -1 
+                                  -7                          -1 
   4069 ordenes[1,10,4]
-                                  -6                          -1 
+                                  -7                          -1 
   4070 ordenes[1,10,5]
-                                  -4                          -1 
+                                  -7                          -1 
   4071 ordenes[1,10,6]
                                   -7                          -1 
   4072 ordenes[1,10,7]
-                                  -4                          -1 
+                                  -7                          -1 
   4073 ordenes[1,10,8]
-                                  -4                          -1 
+                                  -7                          -1 
   4074 ordenes[1,10,9]
-                                  -4                          -1 
+                                  -7                          -1 
   4075 ordenes[1,10,11]
-                                  -4                          -1 
+                                  -7                          -1 
   4076 ordenes[1,10,12]
-                                  -4                          -1 
+                                  -7                          -1 
   4077 ordenes[1,10,13]
-                                  -4                          -1 
+                                  -8                          -1 
   4078 ordenes[1,10,14]
-                                  -4                          -1 
+                                  -7                          -1 
   4079 ordenes[1,10,15]
-                                  -4                          -1 
+                                 -11                          -1 
   4080 ordenes[1,10,16]
-                                  -4                          -1 
+                                 -12                          -1 
   4081 ordenes[1,10,17]
-                                  -4                          -1 
+                                  -7                          -1 
   4082 ordenes[1,10,18]
-                                  -4                          -1 
+                                 -10                          -1 
   4083 ordenes[1,10,19]
-                                  -4                          -1 
+                                 -13                          -1 
   4084 ordenes[1,10,20]
-                                  -4                          -1 
+                                  -9                          -1 
   4085 ordenes[1,11,1]
-                                  -4                          -1 
+                                  -7                          -1 
   4086 ordenes[1,11,2]
-                                  -4                          -1 
+                                  -7                          -1 
   4087 ordenes[1,11,3]
-                                  -5                          -1 
+                                  -7                          -1 
   4088 ordenes[1,11,4]
-                                  -6                          -1 
+                                  -7                          -1 
   4089 ordenes[1,11,5]
-                                  -4                          -1 
+                                  -7                          -1 
   4090 ordenes[1,11,6]
                                   -7                          -1 
   4091 ordenes[1,11,7]
-                                  -4                          -1 
+                                  -7                          -1 
   4092 ordenes[1,11,8]
-                                  -4                          -1 
+                                  -7                          -1 
   4093 ordenes[1,11,9]
-                                  -4                          -1 
+                                  -7                          -1 
   4094 ordenes[1,11,10]
-                                  -4                          -1 
+                                  -7                          -1 
   4095 ordenes[1,11,12]
-                                  -4                          -1 
+                                  -7                          -1 
   4096 ordenes[1,11,13]
-                                  -4                          -1 
+                                  -1                          -1 
   4097 ordenes[1,11,14]
-                                  -4                          -1 
+                                  -7                          -1 
   4098 ordenes[1,11,15]
-                                  -4                          -1 
+                                 -11                          -1 
   4099 ordenes[1,11,16]
-                                  -4                          -1 
+                                 -12                          -1 
   4100 ordenes[1,11,17]
-                                  -4                          -1 
+                                  -7                          -1 
   4101 ordenes[1,11,18]
-                                  -4                          -1 
+                                 -10                          -1 
   4102 ordenes[1,11,19]
-                                  -4                          -1 
+                                 -13                          -1 
   4103 ordenes[1,11,20]
-                                  -4                          -1 
+                                  -9                          -1 
   4104 ordenes[1,12,1]
-                                  -4                          -1 
+                                  -7                          -1 
   4105 ordenes[1,12,2]
-                                  -4                          -1 
+                                  -7                          -1 
   4106 ordenes[1,12,3]
-                                  -5                          -1 
+                                  -7                          -1 
   4107 ordenes[1,12,4]
-                                  -6                          -1 
+                                  -7                          -1 
   4108 ordenes[1,12,5]
-                                  -4                          -1 
+                                  -7                          -1 
   4109 ordenes[1,12,6]
                                   -7                          -1 
   4110 ordenes[1,12,7]
-                                  -4                          -1 
+                                  -7                          -1 
   4111 ordenes[1,12,8]
-                                  -4                          -1 
+                                  -7                          -1 
   4112 ordenes[1,12,9]
-                                  -4                          -1 
+                                  -7                          -1 
   4113 ordenes[1,12,10]
-                                  -4                          -1 
+                                  -7                          -1 
   4114 ordenes[1,12,11]
-                                  -4                          -1 
+                                  -7                          -1 
   4115 ordenes[1,12,13]
-                                  -4                          -1 
+                                  -8                          -1 
   4116 ordenes[1,12,14]
-                                  -4                          -1 
+                                  -7                          -1 
   4117 ordenes[1,12,15]
-                                  -4                          -1 
+                                 -11                          -1 
   4118 ordenes[1,12,16]
-                                  -4                          -1 
+                                 -12                          -1 
   4119 ordenes[1,12,17]
-                                  -4                          -1 
+                                  -7                          -1 
   4120 ordenes[1,12,18]
-                                  -4                          -1 
+                                 -10                          -1 
   4121 ordenes[1,12,19]
-                                  -4                          -1 
+                                 -13                          -1 
   4122 ordenes[1,12,20]
-                                  -4                          -1 
+                                  -9                          -1 
   4123 ordenes[1,13,1]
-                                  -4                          -1 
+                                  -6                          -1 
   4124 ordenes[1,13,2]
-                                  -4                          -1 
+                                  -6                          -1 
   4125 ordenes[1,13,3]
-                                  -5                          -1 
+                                  -6                          -1 
   4126 ordenes[1,13,4]
                                   -6                          -1 
   4127 ordenes[1,13,5]
-                                  -4                          -1 
-  4128 ordenes[1,13,6]
-                                  -7                          -1 
-  4129 ordenes[1,13,7]
-                                  -4                          -1 
-  4130 ordenes[1,13,8]
-                                  -4                          -1 
-  4131 ordenes[1,13,9]
-                                  -4                          -1 
-  4132 ordenes[1,13,10]
-                                  -4                          -1 
-  4133 ordenes[1,13,11]
-                                  -4                          -1 
-  4134 ordenes[1,13,12]
-                                  -4                          -1 
-  4135 ordenes[1,13,14]
-                                  -4                          -1 
-  4136 ordenes[1,13,15]
-                                  -4                          -1 
-  4137 ordenes[1,13,16]
-                                  -4                          -1 
-  4138 ordenes[1,13,17]
-                                  -4                          -1 
-  4139 ordenes[1,13,18]
-                                  -4                          -1 
-  4140 ordenes[1,13,19]
-                                  -4                          -1 
-  4141 ordenes[1,13,20]
-                                  -4                          -1 
-  4142 ordenes[1,14,1]
-                                  -4                          -1 
-  4143 ordenes[1,14,2]
-                                  -4                          -1 
-  4144 ordenes[1,14,3]
-                                  -5                          -1 
-  4145 ordenes[1,14,4]
                                   -6                          -1 
+  4128 ordenes[1,13,6]
+                                  -6                          -1 
+  4129 ordenes[1,13,7]
+                                  -6                          -1 
+  4130 ordenes[1,13,8]
+                                  -6                          -1 
+  4131 ordenes[1,13,9]
+                                  -6                          -1 
+  4132 ordenes[1,13,10]
+                                  -6                          -1 
+  4133 ordenes[1,13,11]
+                                  -6                          -1 
+  4134 ordenes[1,13,12]
+                                  -6                          -1 
+  4135 ordenes[1,13,14]
+                                  -6                          -1 
+  4136 ordenes[1,13,15]
+                                 -10                          -1 
+  4137 ordenes[1,13,16]
+                                 -11                          -1 
+  4138 ordenes[1,13,17]
+                                  -6                          -1 
+  4139 ordenes[1,13,18]
+                                  -9                          -1 
+  4140 ordenes[1,13,19]
+                                 -12                          -1 
+  4141 ordenes[1,13,20]
+                                  -1                          -1 
+  4142 ordenes[1,14,1]
+                                  -7                          -1 
+  4143 ordenes[1,14,2]
+                                  -7                          -1 
+  4144 ordenes[1,14,3]
+                                  -7                          -1 
+  4145 ordenes[1,14,4]
+                                  -7                          -1 
   4146 ordenes[1,14,5]
-                                  -4                          -1 
+                                  -7                          -1 
   4147 ordenes[1,14,6]
                                   -7                          -1 
   4148 ordenes[1,14,7]
-                                  -4                          -1 
-  4149 ordenes[1,14,8]
-                                  -4                          -1 
-  4150 ordenes[1,14,9]
-                                  -4                          -1 
-  4151 ordenes[1,14,10]
-                                  -4                          -1 
-  4152 ordenes[1,14,11]
-                                  -4                          -1 
-  4153 ordenes[1,14,12]
-                                  -4                          -1 
-  4154 ordenes[1,14,13]
-                                  -4                          -1 
-  4155 ordenes[1,14,15]
-                                  -4                          -1 
-  4156 ordenes[1,14,16]
-                                  -4                          -1 
-  4157 ordenes[1,14,17]
-                                  -4                          -1 
-  4158 ordenes[1,14,18]
-                                  -4                          -1 
-  4159 ordenes[1,14,19]
-                                  -4                          -1 
-  4160 ordenes[1,14,20]
-                                  -4                          -1 
-  4161 ordenes[1,15,1]
-                                  -4                          -1 
-  4162 ordenes[1,15,2]
-                                  -4                          -1 
-  4163 ordenes[1,15,3]
-                                  -5                          -1 
-  4164 ordenes[1,15,4]
-                                  -6                          -1 
-  4165 ordenes[1,15,5]
-                                  -4                          -1 
-  4166 ordenes[1,15,6]
                                   -7                          -1 
+  4149 ordenes[1,14,8]
+                                  -7                          -1 
+  4150 ordenes[1,14,9]
+                                  -7                          -1 
+  4151 ordenes[1,14,10]
+                                  -7                          -1 
+  4152 ordenes[1,14,11]
+                                  -7                          -1 
+  4153 ordenes[1,14,12]
+                                  -7                          -1 
+  4154 ordenes[1,14,13]
+                                  -8                          -1 
+  4155 ordenes[1,14,15]
+                                 -11                          -1 
+  4156 ordenes[1,14,16]
+                                 -12                          -1 
+  4157 ordenes[1,14,17]
+                                  -7                          -1 
+  4158 ordenes[1,14,18]
+                                 -10                          -1 
+  4159 ordenes[1,14,19]
+                                 -13                          -1 
+  4160 ordenes[1,14,20]
+                                  -9                          -1 
+  4161 ordenes[1,15,1]
+                                  -3                          -1 
+  4162 ordenes[1,15,2]
+                                  -3                          -1 
+  4163 ordenes[1,15,3]
+                                  -3                          -1 
+  4164 ordenes[1,15,4]
+                                  -3                          -1 
+  4165 ordenes[1,15,5]
+                                  -3                          -1 
+  4166 ordenes[1,15,6]
+                                  -3                          -1 
   4167 ordenes[1,15,7]
-                                  -4                          -1 
+                                  -3                          -1 
   4168 ordenes[1,15,8]
-                                  -4                          -1 
+                                  -3                          -1 
   4169 ordenes[1,15,9]
-                                  -4                          -1 
+                                  -3                          -1 
   4170 ordenes[1,15,10]
-                                  -4                          -1 
+                                  -3                          -1 
   4171 ordenes[1,15,11]
-                                  -4                          -1 
+                                  -3                          -1 
   4172 ordenes[1,15,12]
-                                  -4                          -1 
+                                  -3                          -1 
   4173 ordenes[1,15,13]
                                   -4                          -1 
   4174 ordenes[1,15,14]
-                                  -4                          -1 
+                                  -3                          -1 
   4175 ordenes[1,15,16]
-                                  -4                          -1 
+                                  -1                          -1 
   4176 ordenes[1,15,17]
-                                  -4                          -1 
+                                  -3                          -1 
   4177 ordenes[1,15,18]
-                                  -4                          -1 
-  4178 ordenes[1,15,19]
-                                  -4                          -1 
-  4179 ordenes[1,15,20]
-                                  -4                          -1 
-  4180 ordenes[1,16,1]
-                                  -4                          -1 
-  4181 ordenes[1,16,2]
-                                  -4                          -1 
-  4182 ordenes[1,16,3]
-                                  -5                          -1 
-  4183 ordenes[1,16,4]
                                   -6                          -1 
+  4178 ordenes[1,15,19]
+                                  -9                          -1 
+  4179 ordenes[1,15,20]
+                                  -5                          -1 
+  4180 ordenes[1,16,1]
+                                  -2                          -1 
+  4181 ordenes[1,16,2]
+                                  -2                          -1 
+  4182 ordenes[1,16,3]
+                                  -2                          -1 
+  4183 ordenes[1,16,4]
+                                  -2                          -1 
   4184 ordenes[1,16,5]
-                                  -4                          -1 
+                                  -2                          -1 
   4185 ordenes[1,16,6]
-                                  -7                          -1 
+                                  -2                          -1 
   4186 ordenes[1,16,7]
-                                  -4                          -1 
+                                  -2                          -1 
   4187 ordenes[1,16,8]
-                                  -4                          -1 
+                                  -2                          -1 
   4188 ordenes[1,16,9]
-                                  -4                          -1 
+                                  -2                          -1 
   4189 ordenes[1,16,10]
-                                  -4                          -1 
+                                  -2                          -1 
   4190 ordenes[1,16,11]
-                                  -4                          -1 
+                                  -2                          -1 
   4191 ordenes[1,16,12]
-                                  -4                          -1 
+                                  -2                          -1 
   4192 ordenes[1,16,13]
-                                  -4                          -1 
+                                  -3                          -1 
   4193 ordenes[1,16,14]
-                                  -4                          -1 
+                                  -2                          -1 
   4194 ordenes[1,16,15]
-                                  -4                          -1 
+                                  -6                          -1 
   4195 ordenes[1,16,17]
-                                  -4                          -1 
+                                  -2                          -1 
   4196 ordenes[1,16,18]
-                                  -4                          -1 
+                                  -5                          -1 
   4197 ordenes[1,16,19]
-                                  -4                          -1 
+                                  -1                          -1 
   4198 ordenes[1,16,20]
                                   -4                          -1 
   4199 ordenes[1,17,1]
-                                  -4                          -1 
+                                  -7                          -1 
   4200 ordenes[1,17,2]
-                                  -4                          -1 
+                                  -7                          -1 
   4201 ordenes[1,17,3]
-                                  -5                          -1 
+                                  -7                          -1 
   4202 ordenes[1,17,4]
-                                  -6                          -1 
+                                  -7                          -1 
   4203 ordenes[1,17,5]
-                                  -4                          -1 
+                                  -7                          -1 
   4204 ordenes[1,17,6]
                                   -7                          -1 
   4205 ordenes[1,17,7]
-                                  -4                          -1 
+                                  -7                          -1 
   4206 ordenes[1,17,8]
-                                  -4                          -1 
+                                  -7                          -1 
   4207 ordenes[1,17,9]
-                                  -4                          -1 
+                                  -7                          -1 
   4208 ordenes[1,17,10]
-                                  -4                          -1 
+                                  -7                          -1 
   4209 ordenes[1,17,11]
-                                  -4                          -1 
+                                  -7                          -1 
   4210 ordenes[1,17,12]
-                                  -4                          -1 
+                                  -7                          -1 
   4211 ordenes[1,17,13]
-                                  -4                          -1 
+                                  -8                          -1 
   4212 ordenes[1,17,14]
-                                  -4                          -1 
+                                  -7                          -1 
   4213 ordenes[1,17,15]
-                                  -4                          -1 
+                                 -11                          -1 
   4214 ordenes[1,17,16]
-                                  -4                          -1 
+                                 -12                          -1 
   4215 ordenes[1,17,18]
-                                  -4                          -1 
+                                 -10                          -1 
   4216 ordenes[1,17,19]
-                                  -4                          -1 
+                                 -13                          -1 
   4217 ordenes[1,17,20]
-                                  -4                          -1 
+                                  -9                          -1 
   4218 ordenes[1,18,1]
                                   -4                          -1 
   4219 ordenes[1,18,2]
                                   -4                          -1 
   4220 ordenes[1,18,3]
-                                  -5                          -1 
+                                  -4                          -1 
   4221 ordenes[1,18,4]
-                                  -6                          -1 
+                                  -4                          -1 
   4222 ordenes[1,18,5]
                                   -4                          -1 
   4223 ordenes[1,18,6]
-                                  -7                          -1 
+                                  -4                          -1 
   4224 ordenes[1,18,7]
                                   -4                          -1 
   4225 ordenes[1,18,8]
@@ -5039,321 +5039,321 @@ Objective:  z = 3600 (MINimum)
   4229 ordenes[1,18,12]
                                   -4                          -1 
   4230 ordenes[1,18,13]
-                                  -4                          -1 
+                                  -5                          -1 
   4231 ordenes[1,18,14]
                                   -4                          -1 
   4232 ordenes[1,18,15]
-                                  -4                          -1 
+                                  -1                          -1 
   4233 ordenes[1,18,16]
-                                  -4                          -1 
+                                  -9                          -1 
   4234 ordenes[1,18,17]
                                   -4                          -1 
   4235 ordenes[1,18,19]
-                                  -4                          -1 
+                                 -10                          -1 
   4236 ordenes[1,18,20]
-                                  -4                          -1 
-  4237 ordenes[1,19,1]
-                                  -4                          -1 
-  4238 ordenes[1,19,2]
-                                  -4                          -1 
-  4239 ordenes[1,19,3]
-                                  -5                          -1 
-  4240 ordenes[1,19,4]
                                   -6                          -1 
+  4237 ordenes[1,19,1]
+                                  -1                          -1 
+  4238 ordenes[1,19,2]
+                                  -1                          -1 
+  4239 ordenes[1,19,3]
+                                  -1                          -1 
+  4240 ordenes[1,19,4]
+                                  -1                          -1 
   4241 ordenes[1,19,5]
-                                  -4                          -1 
+                                  -1                          -1 
   4242 ordenes[1,19,6]
-                                  -7                          -1 
+                                  -1                          -1 
   4243 ordenes[1,19,7]
-                                  -4                          -1 
+                                  -1                          -1 
   4244 ordenes[1,19,8]
-                                  -4                          -1 
+                                  -1                          -1 
   4245 ordenes[1,19,9]
-                                  -4                          -1 
+                                  -1                          -1 
   4246 ordenes[1,19,10]
-                                  -4                          -1 
+                                  -1                          -1 
   4247 ordenes[1,19,11]
-                                  -4                          -1 
+                                  -1                          -1 
   4248 ordenes[1,19,12]
-                                  -4                          -1 
+                                  -1                          -1 
   4249 ordenes[1,19,13]
-                                  -4                          -1 
+                                  -2                          -1 
   4250 ordenes[1,19,14]
-                                  -4                          -1 
+                                  -1                          -1 
   4251 ordenes[1,19,15]
-                                  -4                          -1 
+                                  -5                          -1 
   4252 ordenes[1,19,16]
-                                  -4                          -1 
+                                  -6                          -1 
   4253 ordenes[1,19,17]
-                                  -4                          -1 
+                                  -1                          -1 
   4254 ordenes[1,19,18]
                                   -4                          -1 
   4255 ordenes[1,19,20]
-                                  -4                          -1 
+                                  -3                          -1 
   4256 ordenes[1,20,1]
-                                  -4                          -1 
+                                  -5                          -1 
   4257 ordenes[1,20,2]
-                                  -4                          -1 
+                                  -5                          -1 
   4258 ordenes[1,20,3]
                                   -5                          -1 
   4259 ordenes[1,20,4]
-                                  -6                          -1 
+                                  -5                          -1 
   4260 ordenes[1,20,5]
-                                  -4                          -1 
+                                  -5                          -1 
   4261 ordenes[1,20,6]
-                                  -7                          -1 
+                                  -5                          -1 
   4262 ordenes[1,20,7]
-                                  -4                          -1 
+                                  -5                          -1 
   4263 ordenes[1,20,8]
-                                  -4                          -1 
+                                  -5                          -1 
   4264 ordenes[1,20,9]
-                                  -4                          -1 
+                                  -5                          -1 
   4265 ordenes[1,20,10]
-                                  -4                          -1 
+                                  -5                          -1 
   4266 ordenes[1,20,11]
-                                  -4                          -1 
+                                  -5                          -1 
   4267 ordenes[1,20,12]
-                                  -4                          -1 
+                                  -5                          -1 
   4268 ordenes[1,20,13]
-                                  -4                          -1 
+                                  -6                          -1 
   4269 ordenes[1,20,14]
-                                  -4                          -1 
+                                  -5                          -1 
   4270 ordenes[1,20,15]
-                                  -4                          -1 
+                                  -9                          -1 
   4271 ordenes[1,20,16]
-                                  -4                          -1 
-  4272 ordenes[1,20,17]
-                                  -4                          -1 
-  4273 ordenes[1,20,18]
-                                  -4                          -1 
-  4274 ordenes[1,20,19]
-                                  -4                          -1 
-  4275 ordenes[2,1,2]
-                                  -7                          -1 
-  4276 ordenes[2,1,3]
-                                  -7                          -1 
-  4277 ordenes[2,1,4]
-                                  -7                          -1 
-  4278 ordenes[2,1,5]
-                                  -7                          -1 
-  4279 ordenes[2,1,6]
-                                  -7                          -1 
-  4280 ordenes[2,1,7]
-                                  -7                          -1 
-  4281 ordenes[2,1,8]
-                                  -7                          -1 
-  4282 ordenes[2,1,9]
-                                  -7                          -1 
-  4283 ordenes[2,1,10]
-                                  -7                          -1 
-  4284 ordenes[2,1,11]
-                                  -7                          -1 
-  4285 ordenes[2,1,12]
-                                  -7                          -1 
-  4286 ordenes[2,1,13]
-                                  -8                          -1 
-  4287 ordenes[2,1,14]
-                                  -7                          -1 
-  4288 ordenes[2,1,15]
-                                 -11                          -1 
-  4289 ordenes[2,1,16]
-                                 -12                          -1 
-  4290 ordenes[2,1,17]
-                                  -7                          -1 
-  4291 ordenes[2,1,18]
                                  -10                          -1 
-  4292 ordenes[2,1,19]
+  4272 ordenes[1,20,17]
+                                  -5                          -1 
+  4273 ordenes[1,20,18]
+                                  -1                          -1 
+  4274 ordenes[1,20,19]
+                                 -11                          -1 
+  4275 ordenes[2,1,2]
+                                  -9                          -1 
+  4276 ordenes[2,1,3]
+                                  -9                          -1 
+  4277 ordenes[2,1,4]
+                                  -9                          -1 
+  4278 ordenes[2,1,5]
+                                  -1                          -1 
+  4279 ordenes[2,1,6]
+                                  -9                          -1 
+  4280 ordenes[2,1,7]
+                                 -11                          -1 
+  4281 ordenes[2,1,8]
+                                 -12                          -1 
+  4282 ordenes[2,1,9]
+                                 -14                          -1 
+  4283 ordenes[2,1,10]
+                                 -15                          -1 
+  4284 ordenes[2,1,11]
+                                  -9                          -1 
+  4285 ordenes[2,1,12]
                                  -13                          -1 
+  4286 ordenes[2,1,13]
+                                  -9                          -1 
+  4287 ordenes[2,1,14]
+                                 -16                          -1 
+  4288 ordenes[2,1,15]
+                                  -9                          -1 
+  4289 ordenes[2,1,16]
+                                  -9                          -1 
+  4290 ordenes[2,1,17]
+                                 -17                          -1 
+  4291 ordenes[2,1,18]
+                                  -9                          -1 
+  4292 ordenes[2,1,19]
+                                  -9                          -1 
   4293 ordenes[2,1,20]
                                   -9                          -1 
   4294 ordenes[2,2,1]
-                                  -7                          -1 
+                                  -9                          -1 
   4295 ordenes[2,2,3]
-                                  -7                          -1 
+                                  -9                          -1 
   4296 ordenes[2,2,4]
-                                  -7                          -1 
+                                  -9                          -1 
   4297 ordenes[2,2,5]
-                                  -7                          -1 
-  4298 ordenes[2,2,6]
-                                  -7                          -1 
-  4299 ordenes[2,2,7]
-                                  -7                          -1 
-  4300 ordenes[2,2,8]
-                                  -7                          -1 
-  4301 ordenes[2,2,9]
-                                  -7                          -1 
-  4302 ordenes[2,2,10]
-                                  -7                          -1 
-  4303 ordenes[2,2,11]
-                                  -7                          -1 
-  4304 ordenes[2,2,12]
-                                  -7                          -1 
-  4305 ordenes[2,2,13]
-                                  -8                          -1 
-  4306 ordenes[2,2,14]
-                                  -7                          -1 
-  4307 ordenes[2,2,15]
-                                 -11                          -1 
-  4308 ordenes[2,2,16]
-                                 -12                          -1 
-  4309 ordenes[2,2,17]
-                                  -7                          -1 
-  4310 ordenes[2,2,18]
                                  -10                          -1 
-  4311 ordenes[2,2,19]
+  4298 ordenes[2,2,6]
+                                  -9                          -1 
+  4299 ordenes[2,2,7]
+                                 -11                          -1 
+  4300 ordenes[2,2,8]
+                                 -12                          -1 
+  4301 ordenes[2,2,9]
+                                 -14                          -1 
+  4302 ordenes[2,2,10]
+                                 -15                          -1 
+  4303 ordenes[2,2,11]
+                                  -9                          -1 
+  4304 ordenes[2,2,12]
                                  -13                          -1 
+  4305 ordenes[2,2,13]
+                                  -9                          -1 
+  4306 ordenes[2,2,14]
+                                 -16                          -1 
+  4307 ordenes[2,2,15]
+                                  -9                          -1 
+  4308 ordenes[2,2,16]
+                                  -9                          -1 
+  4309 ordenes[2,2,17]
+                                 -17                          -1 
+  4310 ordenes[2,2,18]
+                                  -9                          -1 
+  4311 ordenes[2,2,19]
+                                  -9                          -1 
   4312 ordenes[2,2,20]
                                   -9                          -1 
   4313 ordenes[2,3,1]
-                                  -7                          -1 
+                                  -9                          -1 
   4314 ordenes[2,3,2]
-                                  -7                          -1 
+                                  -9                          -1 
   4315 ordenes[2,3,4]
-                                  -7                          -1 
+                                  -9                          -1 
   4316 ordenes[2,3,5]
-                                  -7                          -1 
-  4317 ordenes[2,3,6]
-                                  -7                          -1 
-  4318 ordenes[2,3,7]
-                                  -7                          -1 
-  4319 ordenes[2,3,8]
-                                  -7                          -1 
-  4320 ordenes[2,3,9]
-                                  -7                          -1 
-  4321 ordenes[2,3,10]
-                                  -7                          -1 
-  4322 ordenes[2,3,11]
-                                  -7                          -1 
-  4323 ordenes[2,3,12]
-                                  -7                          -1 
-  4324 ordenes[2,3,13]
-                                  -8                          -1 
-  4325 ordenes[2,3,14]
-                                  -7                          -1 
-  4326 ordenes[2,3,15]
-                                 -11                          -1 
-  4327 ordenes[2,3,16]
-                                 -12                          -1 
-  4328 ordenes[2,3,17]
-                                  -7                          -1 
-  4329 ordenes[2,3,18]
                                  -10                          -1 
-  4330 ordenes[2,3,19]
+  4317 ordenes[2,3,6]
+                                  -9                          -1 
+  4318 ordenes[2,3,7]
+                                 -11                          -1 
+  4319 ordenes[2,3,8]
+                                 -12                          -1 
+  4320 ordenes[2,3,9]
+                                 -14                          -1 
+  4321 ordenes[2,3,10]
+                                 -15                          -1 
+  4322 ordenes[2,3,11]
+                                  -9                          -1 
+  4323 ordenes[2,3,12]
                                  -13                          -1 
+  4324 ordenes[2,3,13]
+                                  -9                          -1 
+  4325 ordenes[2,3,14]
+                                 -16                          -1 
+  4326 ordenes[2,3,15]
+                                  -9                          -1 
+  4327 ordenes[2,3,16]
+                                  -9                          -1 
+  4328 ordenes[2,3,17]
+                                 -17                          -1 
+  4329 ordenes[2,3,18]
+                                  -9                          -1 
+  4330 ordenes[2,3,19]
+                                  -9                          -1 
   4331 ordenes[2,3,20]
                                   -9                          -1 
   4332 ordenes[2,4,1]
-                                  -7                          -1 
+                                  -9                          -1 
   4333 ordenes[2,4,2]
-                                  -7                          -1 
+                                  -9                          -1 
   4334 ordenes[2,4,3]
-                                  -7                          -1 
+                                  -9                          -1 
   4335 ordenes[2,4,5]
-                                  -7                          -1 
-  4336 ordenes[2,4,6]
-                                  -7                          -1 
-  4337 ordenes[2,4,7]
-                                  -7                          -1 
-  4338 ordenes[2,4,8]
-                                  -7                          -1 
-  4339 ordenes[2,4,9]
-                                  -7                          -1 
-  4340 ordenes[2,4,10]
-                                  -7                          -1 
-  4341 ordenes[2,4,11]
-                                  -7                          -1 
-  4342 ordenes[2,4,12]
-                                  -7                          -1 
-  4343 ordenes[2,4,13]
-                                  -8                          -1 
-  4344 ordenes[2,4,14]
-                                  -7                          -1 
-  4345 ordenes[2,4,15]
-                                 -11                          -1 
-  4346 ordenes[2,4,16]
-                                 -12                          -1 
-  4347 ordenes[2,4,17]
-                                  -7                          -1 
-  4348 ordenes[2,4,18]
                                  -10                          -1 
-  4349 ordenes[2,4,19]
+  4336 ordenes[2,4,6]
+                                  -9                          -1 
+  4337 ordenes[2,4,7]
+                                 -11                          -1 
+  4338 ordenes[2,4,8]
+                                 -12                          -1 
+  4339 ordenes[2,4,9]
+                                 -14                          -1 
+  4340 ordenes[2,4,10]
+                                 -15                          -1 
+  4341 ordenes[2,4,11]
+                                  -9                          -1 
+  4342 ordenes[2,4,12]
                                  -13                          -1 
+  4343 ordenes[2,4,13]
+                                  -9                          -1 
+  4344 ordenes[2,4,14]
+                                 -16                          -1 
+  4345 ordenes[2,4,15]
+                                  -9                          -1 
+  4346 ordenes[2,4,16]
+                                  -9                          -1 
+  4347 ordenes[2,4,17]
+                                 -17                          -1 
+  4348 ordenes[2,4,18]
+                                  -9                          -1 
+  4349 ordenes[2,4,19]
+                                  -9                          -1 
   4350 ordenes[2,4,20]
                                   -9                          -1 
   4351 ordenes[2,5,1]
-                                  -7                          -1 
+                                  -8                          -1 
   4352 ordenes[2,5,2]
-                                  -7                          -1 
+                                  -8                          -1 
   4353 ordenes[2,5,3]
-                                  -7                          -1 
+                                  -8                          -1 
   4354 ordenes[2,5,4]
-                                  -7                          -1 
+                                  -8                          -1 
   4355 ordenes[2,5,6]
-                                  -7                          -1 
+                                  -8                          -1 
   4356 ordenes[2,5,7]
-                                  -7                          -1 
+                                  -1                          -1 
   4357 ordenes[2,5,8]
-                                  -7                          -1 
+                                 -11                          -1 
   4358 ordenes[2,5,9]
-                                  -7                          -1 
+                                 -13                          -1 
   4359 ordenes[2,5,10]
-                                  -7                          -1 
+                                 -14                          -1 
   4360 ordenes[2,5,11]
-                                  -7                          -1 
+                                  -8                          -1 
   4361 ordenes[2,5,12]
-                                  -7                          -1 
+                                 -12                          -1 
   4362 ordenes[2,5,13]
                                   -8                          -1 
   4363 ordenes[2,5,14]
-                                  -7                          -1 
+                                 -15                          -1 
   4364 ordenes[2,5,15]
-                                 -11                          -1 
-  4365 ordenes[2,5,16]
-                                 -12                          -1 
-  4366 ordenes[2,5,17]
-                                  -7                          -1 
-  4367 ordenes[2,5,18]
-                                 -10                          -1 
-  4368 ordenes[2,5,19]
-                                 -13                          -1 
-  4369 ordenes[2,5,20]
-                                  -9                          -1 
-  4370 ordenes[2,6,1]
-                                  -7                          -1 
-  4371 ordenes[2,6,2]
-                                  -7                          -1 
-  4372 ordenes[2,6,3]
-                                  -7                          -1 
-  4373 ordenes[2,6,4]
-                                  -7                          -1 
-  4374 ordenes[2,6,5]
-                                  -7                          -1 
-  4375 ordenes[2,6,7]
-                                  -7                          -1 
-  4376 ordenes[2,6,8]
-                                  -7                          -1 
-  4377 ordenes[2,6,9]
-                                  -7                          -1 
-  4378 ordenes[2,6,10]
-                                  -7                          -1 
-  4379 ordenes[2,6,11]
-                                  -7                          -1 
-  4380 ordenes[2,6,12]
-                                  -7                          -1 
-  4381 ordenes[2,6,13]
                                   -8                          -1 
-  4382 ordenes[2,6,14]
-                                  -7                          -1 
-  4383 ordenes[2,6,15]
-                                 -11                          -1 
-  4384 ordenes[2,6,16]
-                                 -12                          -1 
-  4385 ordenes[2,6,17]
-                                  -7                          -1 
-  4386 ordenes[2,6,18]
+  4365 ordenes[2,5,16]
+                                  -8                          -1 
+  4366 ordenes[2,5,17]
+                                 -16                          -1 
+  4367 ordenes[2,5,18]
+                                  -8                          -1 
+  4368 ordenes[2,5,19]
+                                  -8                          -1 
+  4369 ordenes[2,5,20]
+                                  -8                          -1 
+  4370 ordenes[2,6,1]
+                                  -9                          -1 
+  4371 ordenes[2,6,2]
+                                  -9                          -1 
+  4372 ordenes[2,6,3]
+                                  -9                          -1 
+  4373 ordenes[2,6,4]
+                                  -9                          -1 
+  4374 ordenes[2,6,5]
                                  -10                          -1 
-  4387 ordenes[2,6,19]
+  4375 ordenes[2,6,7]
+                                 -11                          -1 
+  4376 ordenes[2,6,8]
+                                 -12                          -1 
+  4377 ordenes[2,6,9]
+                                 -14                          -1 
+  4378 ordenes[2,6,10]
+                                 -15                          -1 
+  4379 ordenes[2,6,11]
+                                  -9                          -1 
+  4380 ordenes[2,6,12]
                                  -13                          -1 
+  4381 ordenes[2,6,13]
+                                  -9                          -1 
+  4382 ordenes[2,6,14]
+                                 -16                          -1 
+  4383 ordenes[2,6,15]
+                                  -9                          -1 
+  4384 ordenes[2,6,16]
+                                  -9                          -1 
+  4385 ordenes[2,6,17]
+                                 -17                          -1 
+  4386 ordenes[2,6,18]
+                                  -9                          -1 
+  4387 ordenes[2,6,19]
+                                  -9                          -1 
   4388 ordenes[2,6,20]
                                   -9                          -1 
   4389 ordenes[2,7,1]
@@ -5365,865 +5365,865 @@ Objective:  z = 3600 (MINimum)
   4392 ordenes[2,7,4]
                                   -7                          -1 
   4393 ordenes[2,7,5]
-                                  -7                          -1 
+                                  -8                          -1 
   4394 ordenes[2,7,6]
                                   -7                          -1 
   4395 ordenes[2,7,8]
-                                  -7                          -1 
+                                  -1                          -1 
   4396 ordenes[2,7,9]
-                                  -7                          -1 
+                                 -12                          -1 
   4397 ordenes[2,7,10]
-                                  -7                          -1 
+                                 -13                          -1 
   4398 ordenes[2,7,11]
                                   -7                          -1 
   4399 ordenes[2,7,12]
-                                  -7                          -1 
-  4400 ordenes[2,7,13]
-                                  -8                          -1 
-  4401 ordenes[2,7,14]
-                                  -7                          -1 
-  4402 ordenes[2,7,15]
                                  -11                          -1 
+  4400 ordenes[2,7,13]
+                                  -7                          -1 
+  4401 ordenes[2,7,14]
+                                 -14                          -1 
+  4402 ordenes[2,7,15]
+                                  -7                          -1 
   4403 ordenes[2,7,16]
-                                 -12                          -1 
+                                  -7                          -1 
   4404 ordenes[2,7,17]
-                                  -7                          -1 
+                                 -15                          -1 
   4405 ordenes[2,7,18]
-                                 -10                          -1 
+                                  -7                          -1 
   4406 ordenes[2,7,19]
-                                 -13                          -1 
+                                  -7                          -1 
   4407 ordenes[2,7,20]
-                                  -9                          -1 
+                                  -7                          -1 
   4408 ordenes[2,8,1]
-                                  -7                          -1 
+                                  -6                          -1 
   4409 ordenes[2,8,2]
-                                  -7                          -1 
+                                  -6                          -1 
   4410 ordenes[2,8,3]
-                                  -7                          -1 
+                                  -6                          -1 
   4411 ordenes[2,8,4]
-                                  -7                          -1 
+                                  -6                          -1 
   4412 ordenes[2,8,5]
                                   -7                          -1 
   4413 ordenes[2,8,6]
-                                  -7                          -1 
+                                  -6                          -1 
   4414 ordenes[2,8,7]
-                                  -7                          -1 
-  4415 ordenes[2,8,9]
-                                  -7                          -1 
-  4416 ordenes[2,8,10]
-                                  -7                          -1 
-  4417 ordenes[2,8,11]
-                                  -7                          -1 
-  4418 ordenes[2,8,12]
-                                  -7                          -1 
-  4419 ordenes[2,8,13]
                                   -8                          -1 
-  4420 ordenes[2,8,14]
-                                  -7                          -1 
-  4421 ordenes[2,8,15]
+  4415 ordenes[2,8,9]
                                  -11                          -1 
-  4422 ordenes[2,8,16]
+  4416 ordenes[2,8,10]
                                  -12                          -1 
-  4423 ordenes[2,8,17]
-                                  -7                          -1 
-  4424 ordenes[2,8,18]
-                                 -10                          -1 
-  4425 ordenes[2,8,19]
+  4417 ordenes[2,8,11]
+                                  -6                          -1 
+  4418 ordenes[2,8,12]
+                                  -1                          -1 
+  4419 ordenes[2,8,13]
+                                  -6                          -1 
+  4420 ordenes[2,8,14]
                                  -13                          -1 
+  4421 ordenes[2,8,15]
+                                  -6                          -1 
+  4422 ordenes[2,8,16]
+                                  -6                          -1 
+  4423 ordenes[2,8,17]
+                                 -14                          -1 
+  4424 ordenes[2,8,18]
+                                  -6                          -1 
+  4425 ordenes[2,8,19]
+                                  -6                          -1 
   4426 ordenes[2,8,20]
-                                  -9                          -1 
+                                  -6                          -1 
   4427 ordenes[2,9,1]
-                                  -7                          -1 
+                                  -4                          -1 
   4428 ordenes[2,9,2]
-                                  -7                          -1 
+                                  -4                          -1 
   4429 ordenes[2,9,3]
-                                  -7                          -1 
+                                  -4                          -1 
   4430 ordenes[2,9,4]
-                                  -7                          -1 
+                                  -4                          -1 
   4431 ordenes[2,9,5]
-                                  -7                          -1 
+                                  -5                          -1 
   4432 ordenes[2,9,6]
-                                  -7                          -1 
+                                  -4                          -1 
   4433 ordenes[2,9,7]
-                                  -7                          -1 
+                                  -6                          -1 
   4434 ordenes[2,9,8]
                                   -7                          -1 
   4435 ordenes[2,9,10]
-                                  -7                          -1 
+                                  -1                          -1 
   4436 ordenes[2,9,11]
-                                  -7                          -1 
+                                  -4                          -1 
   4437 ordenes[2,9,12]
-                                  -7                          -1 
-  4438 ordenes[2,9,13]
                                   -8                          -1 
+  4438 ordenes[2,9,13]
+                                  -4                          -1 
   4439 ordenes[2,9,14]
-                                  -7                          -1 
-  4440 ordenes[2,9,15]
                                  -11                          -1 
+  4440 ordenes[2,9,15]
+                                  -4                          -1 
   4441 ordenes[2,9,16]
-                                 -12                          -1 
+                                  -4                          -1 
   4442 ordenes[2,9,17]
-                                  -7                          -1 
+                                 -12                          -1 
   4443 ordenes[2,9,18]
-                                 -10                          -1 
+                                  -4                          -1 
   4444 ordenes[2,9,19]
-                                 -13                          -1 
+                                  -4                          -1 
   4445 ordenes[2,9,20]
-                                  -9                          -1 
+                                  -4                          -1 
   4446 ordenes[2,10,1]
-                                  -7                          -1 
+                                  -3                          -1 
   4447 ordenes[2,10,2]
-                                  -7                          -1 
+                                  -3                          -1 
   4448 ordenes[2,10,3]
-                                  -7                          -1 
+                                  -3                          -1 
   4449 ordenes[2,10,4]
-                                  -7                          -1 
+                                  -3                          -1 
   4450 ordenes[2,10,5]
-                                  -7                          -1 
+                                  -4                          -1 
   4451 ordenes[2,10,6]
-                                  -7                          -1 
+                                  -3                          -1 
   4452 ordenes[2,10,7]
-                                  -7                          -1 
+                                  -5                          -1 
   4453 ordenes[2,10,8]
-                                  -7                          -1 
+                                  -6                          -1 
   4454 ordenes[2,10,9]
-                                  -7                          -1 
+                                  -8                          -1 
   4455 ordenes[2,10,11]
-                                  -7                          -1 
+                                  -3                          -1 
   4456 ordenes[2,10,12]
                                   -7                          -1 
   4457 ordenes[2,10,13]
-                                  -8                          -1 
+                                  -3                          -1 
   4458 ordenes[2,10,14]
-                                  -7                          -1 
-  4459 ordenes[2,10,15]
-                                 -11                          -1 
-  4460 ordenes[2,10,16]
-                                 -12                          -1 
-  4461 ordenes[2,10,17]
-                                  -7                          -1 
-  4462 ordenes[2,10,18]
-                                 -10                          -1 
-  4463 ordenes[2,10,19]
-                                 -13                          -1 
-  4464 ordenes[2,10,20]
-                                  -9                          -1 
-  4465 ordenes[2,11,1]
-                                  -7                          -1 
-  4466 ordenes[2,11,2]
-                                  -7                          -1 
-  4467 ordenes[2,11,3]
-                                  -7                          -1 
-  4468 ordenes[2,11,4]
-                                  -7                          -1 
-  4469 ordenes[2,11,5]
-                                  -7                          -1 
-  4470 ordenes[2,11,6]
-                                  -7                          -1 
-  4471 ordenes[2,11,7]
-                                  -7                          -1 
-  4472 ordenes[2,11,8]
-                                  -7                          -1 
-  4473 ordenes[2,11,9]
-                                  -7                          -1 
-  4474 ordenes[2,11,10]
-                                  -7                          -1 
-  4475 ordenes[2,11,12]
-                                  -7                          -1 
-  4476 ordenes[2,11,13]
                                   -1                          -1 
-  4477 ordenes[2,11,14]
-                                  -7                          -1 
-  4478 ordenes[2,11,15]
+  4459 ordenes[2,10,15]
+                                  -3                          -1 
+  4460 ordenes[2,10,16]
+                                  -3                          -1 
+  4461 ordenes[2,10,17]
                                  -11                          -1 
-  4479 ordenes[2,11,16]
-                                 -12                          -1 
-  4480 ordenes[2,11,17]
-                                  -7                          -1 
-  4481 ordenes[2,11,18]
+  4462 ordenes[2,10,18]
+                                  -3                          -1 
+  4463 ordenes[2,10,19]
+                                  -3                          -1 
+  4464 ordenes[2,10,20]
+                                  -3                          -1 
+  4465 ordenes[2,11,1]
+                                  -9                          -1 
+  4466 ordenes[2,11,2]
+                                  -9                          -1 
+  4467 ordenes[2,11,3]
+                                  -9                          -1 
+  4468 ordenes[2,11,4]
+                                  -9                          -1 
+  4469 ordenes[2,11,5]
                                  -10                          -1 
-  4482 ordenes[2,11,19]
+  4470 ordenes[2,11,6]
+                                  -9                          -1 
+  4471 ordenes[2,11,7]
+                                 -11                          -1 
+  4472 ordenes[2,11,8]
+                                 -12                          -1 
+  4473 ordenes[2,11,9]
+                                 -14                          -1 
+  4474 ordenes[2,11,10]
+                                 -15                          -1 
+  4475 ordenes[2,11,12]
                                  -13                          -1 
+  4476 ordenes[2,11,13]
+                                  -9                          -1 
+  4477 ordenes[2,11,14]
+                                 -16                          -1 
+  4478 ordenes[2,11,15]
+                                  -9                          -1 
+  4479 ordenes[2,11,16]
+                                  -9                          -1 
+  4480 ordenes[2,11,17]
+                                 -17                          -1 
+  4481 ordenes[2,11,18]
+                                  -9                          -1 
+  4482 ordenes[2,11,19]
+                                  -9                          -1 
   4483 ordenes[2,11,20]
                                   -9                          -1 
   4484 ordenes[2,12,1]
-                                  -7                          -1 
+                                  -5                          -1 
   4485 ordenes[2,12,2]
-                                  -7                          -1 
+                                  -5                          -1 
   4486 ordenes[2,12,3]
-                                  -7                          -1 
+                                  -5                          -1 
   4487 ordenes[2,12,4]
-                                  -7                          -1 
+                                  -5                          -1 
   4488 ordenes[2,12,5]
-                                  -7                          -1 
+                                  -6                          -1 
   4489 ordenes[2,12,6]
-                                  -7                          -1 
+                                  -5                          -1 
   4490 ordenes[2,12,7]
                                   -7                          -1 
   4491 ordenes[2,12,8]
-                                  -7                          -1 
-  4492 ordenes[2,12,9]
-                                  -7                          -1 
-  4493 ordenes[2,12,10]
-                                  -7                          -1 
-  4494 ordenes[2,12,11]
-                                  -7                          -1 
-  4495 ordenes[2,12,13]
                                   -8                          -1 
+  4492 ordenes[2,12,9]
+                                  -1                          -1 
+  4493 ordenes[2,12,10]
+                                 -11                          -1 
+  4494 ordenes[2,12,11]
+                                  -5                          -1 
+  4495 ordenes[2,12,13]
+                                  -5                          -1 
   4496 ordenes[2,12,14]
-                                  -7                          -1 
-  4497 ordenes[2,12,15]
-                                 -11                          -1 
-  4498 ordenes[2,12,16]
                                  -12                          -1 
+  4497 ordenes[2,12,15]
+                                  -5                          -1 
+  4498 ordenes[2,12,16]
+                                  -5                          -1 
   4499 ordenes[2,12,17]
-                                  -7                          -1 
-  4500 ordenes[2,12,18]
-                                 -10                          -1 
-  4501 ordenes[2,12,19]
                                  -13                          -1 
+  4500 ordenes[2,12,18]
+                                  -5                          -1 
+  4501 ordenes[2,12,19]
+                                  -5                          -1 
   4502 ordenes[2,12,20]
-                                  -9                          -1 
+                                  -5                          -1 
   4503 ordenes[2,13,1]
-                                  -6                          -1 
+                                  -9                          -1 
   4504 ordenes[2,13,2]
-                                  -6                          -1 
+                                  -9                          -1 
   4505 ordenes[2,13,3]
-                                  -6                          -1 
+                                  -9                          -1 
   4506 ordenes[2,13,4]
-                                  -6                          -1 
+                                  -9                          -1 
   4507 ordenes[2,13,5]
-                                  -6                          -1 
-  4508 ordenes[2,13,6]
-                                  -6                          -1 
-  4509 ordenes[2,13,7]
-                                  -6                          -1 
-  4510 ordenes[2,13,8]
-                                  -6                          -1 
-  4511 ordenes[2,13,9]
-                                  -6                          -1 
-  4512 ordenes[2,13,10]
-                                  -6                          -1 
-  4513 ordenes[2,13,11]
-                                  -6                          -1 
-  4514 ordenes[2,13,12]
-                                  -6                          -1 
-  4515 ordenes[2,13,14]
-                                  -6                          -1 
-  4516 ordenes[2,13,15]
                                  -10                          -1 
-  4517 ordenes[2,13,16]
+  4508 ordenes[2,13,6]
+                                  -9                          -1 
+  4509 ordenes[2,13,7]
                                  -11                          -1 
+  4510 ordenes[2,13,8]
+                                 -12                          -1 
+  4511 ordenes[2,13,9]
+                                 -14                          -1 
+  4512 ordenes[2,13,10]
+                                 -15                          -1 
+  4513 ordenes[2,13,11]
+                                  -9                          -1 
+  4514 ordenes[2,13,12]
+                                 -13                          -1 
+  4515 ordenes[2,13,14]
+                                 -16                          -1 
+  4516 ordenes[2,13,15]
+                                  -9                          -1 
+  4517 ordenes[2,13,16]
+                                  -9                          -1 
   4518 ordenes[2,13,17]
-                                  -6                          -1 
+                                 -17                          -1 
   4519 ordenes[2,13,18]
                                   -9                          -1 
   4520 ordenes[2,13,19]
-                                 -12                          -1 
+                                  -9                          -1 
   4521 ordenes[2,13,20]
-                                  -1                          -1 
+                                  -9                          -1 
   4522 ordenes[2,14,1]
-                                  -7                          -1 
+                                  -2                          -1 
   4523 ordenes[2,14,2]
-                                  -7                          -1 
+                                  -2                          -1 
   4524 ordenes[2,14,3]
-                                  -7                          -1 
+                                  -2                          -1 
   4525 ordenes[2,14,4]
-                                  -7                          -1 
+                                  -2                          -1 
   4526 ordenes[2,14,5]
-                                  -7                          -1 
+                                  -3                          -1 
   4527 ordenes[2,14,6]
-                                  -7                          -1 
+                                  -2                          -1 
   4528 ordenes[2,14,7]
-                                  -7                          -1 
+                                  -4                          -1 
   4529 ordenes[2,14,8]
-                                  -7                          -1 
+                                  -5                          -1 
   4530 ordenes[2,14,9]
                                   -7                          -1 
   4531 ordenes[2,14,10]
-                                  -7                          -1 
-  4532 ordenes[2,14,11]
-                                  -7                          -1 
-  4533 ordenes[2,14,12]
-                                  -7                          -1 
-  4534 ordenes[2,14,13]
                                   -8                          -1 
-  4535 ordenes[2,14,15]
-                                 -11                          -1 
-  4536 ordenes[2,14,16]
-                                 -12                          -1 
-  4537 ordenes[2,14,17]
-                                  -7                          -1 
-  4538 ordenes[2,14,18]
-                                 -10                          -1 
-  4539 ordenes[2,14,19]
-                                 -13                          -1 
-  4540 ordenes[2,14,20]
-                                  -9                          -1 
-  4541 ordenes[2,15,1]
-                                  -3                          -1 
-  4542 ordenes[2,15,2]
-                                  -3                          -1 
-  4543 ordenes[2,15,3]
-                                  -3                          -1 
-  4544 ordenes[2,15,4]
-                                  -3                          -1 
-  4545 ordenes[2,15,5]
-                                  -3                          -1 
-  4546 ordenes[2,15,6]
-                                  -3                          -1 
-  4547 ordenes[2,15,7]
-                                  -3                          -1 
-  4548 ordenes[2,15,8]
-                                  -3                          -1 
-  4549 ordenes[2,15,9]
-                                  -3                          -1 
-  4550 ordenes[2,15,10]
-                                  -3                          -1 
-  4551 ordenes[2,15,11]
-                                  -3                          -1 
-  4552 ordenes[2,15,12]
-                                  -3                          -1 
-  4553 ordenes[2,15,13]
-                                  -4                          -1 
-  4554 ordenes[2,15,14]
-                                  -3                          -1 
-  4555 ordenes[2,15,16]
-                                  -1                          -1 
-  4556 ordenes[2,15,17]
-                                  -3                          -1 
-  4557 ordenes[2,15,18]
+  4532 ordenes[2,14,11]
+                                  -2                          -1 
+  4533 ordenes[2,14,12]
                                   -6                          -1 
+  4534 ordenes[2,14,13]
+                                  -2                          -1 
+  4535 ordenes[2,14,15]
+                                  -2                          -1 
+  4536 ordenes[2,14,16]
+                                  -2                          -1 
+  4537 ordenes[2,14,17]
+                                  -1                          -1 
+  4538 ordenes[2,14,18]
+                                  -2                          -1 
+  4539 ordenes[2,14,19]
+                                  -2                          -1 
+  4540 ordenes[2,14,20]
+                                  -2                          -1 
+  4541 ordenes[2,15,1]
+                                  -9                          -1 
+  4542 ordenes[2,15,2]
+                                  -9                          -1 
+  4543 ordenes[2,15,3]
+                                  -9                          -1 
+  4544 ordenes[2,15,4]
+                                  -9                          -1 
+  4545 ordenes[2,15,5]
+                                 -10                          -1 
+  4546 ordenes[2,15,6]
+                                  -9                          -1 
+  4547 ordenes[2,15,7]
+                                 -11                          -1 
+  4548 ordenes[2,15,8]
+                                 -12                          -1 
+  4549 ordenes[2,15,9]
+                                 -14                          -1 
+  4550 ordenes[2,15,10]
+                                 -15                          -1 
+  4551 ordenes[2,15,11]
+                                  -9                          -1 
+  4552 ordenes[2,15,12]
+                                 -13                          -1 
+  4553 ordenes[2,15,13]
+                                  -9                          -1 
+  4554 ordenes[2,15,14]
+                                 -16                          -1 
+  4555 ordenes[2,15,16]
+                                  -9                          -1 
+  4556 ordenes[2,15,17]
+                                 -17                          -1 
+  4557 ordenes[2,15,18]
+                                  -9                          -1 
   4558 ordenes[2,15,19]
                                   -9                          -1 
   4559 ordenes[2,15,20]
-                                  -5                          -1 
+                                  -9                          -1 
   4560 ordenes[2,16,1]
-                                  -2                          -1 
+                                  -9                          -1 
   4561 ordenes[2,16,2]
-                                  -2                          -1 
+                                  -9                          -1 
   4562 ordenes[2,16,3]
-                                  -2                          -1 
+                                  -9                          -1 
   4563 ordenes[2,16,4]
-                                  -2                          -1 
+                                  -9                          -1 
   4564 ordenes[2,16,5]
-                                  -2                          -1 
+                                 -10                          -1 
   4565 ordenes[2,16,6]
-                                  -2                          -1 
+                                  -9                          -1 
   4566 ordenes[2,16,7]
-                                  -2                          -1 
+                                 -11                          -1 
   4567 ordenes[2,16,8]
-                                  -2                          -1 
+                                 -12                          -1 
   4568 ordenes[2,16,9]
-                                  -2                          -1 
+                                 -14                          -1 
   4569 ordenes[2,16,10]
-                                  -2                          -1 
+                                 -15                          -1 
   4570 ordenes[2,16,11]
-                                  -2                          -1 
+                                  -9                          -1 
   4571 ordenes[2,16,12]
-                                  -2                          -1 
+                                 -13                          -1 
   4572 ordenes[2,16,13]
-                                  -3                          -1 
+                                  -9                          -1 
   4573 ordenes[2,16,14]
-                                  -2                          -1 
+                                 -16                          -1 
   4574 ordenes[2,16,15]
-                                  -6                          -1 
+                                  -9                          -1 
   4575 ordenes[2,16,17]
-                                  -2                          -1 
+                                 -17                          -1 
   4576 ordenes[2,16,18]
-                                  -5                          -1 
+                                  -9                          -1 
   4577 ordenes[2,16,19]
-                                  -1                          -1 
+                                  -9                          -1 
   4578 ordenes[2,16,20]
-                                  -4                          -1 
+                                  -9                          -1 
   4579 ordenes[2,17,1]
-                                  -7                          -1 
+                                  -1                          -1 
   4580 ordenes[2,17,2]
-                                  -7                          -1 
+                                  -1                          -1 
   4581 ordenes[2,17,3]
-                                  -7                          -1 
+                                  -1                          -1 
   4582 ordenes[2,17,4]
-                                  -7                          -1 
+                                  -1                          -1 
   4583 ordenes[2,17,5]
-                                  -7                          -1 
+                                  -2                          -1 
   4584 ordenes[2,17,6]
-                                  -7                          -1 
+                                  -1                          -1 
   4585 ordenes[2,17,7]
-                                  -7                          -1 
+                                  -3                          -1 
   4586 ordenes[2,17,8]
-                                  -7                          -1 
+                                  -4                          -1 
   4587 ordenes[2,17,9]
-                                  -7                          -1 
+                                  -6                          -1 
   4588 ordenes[2,17,10]
                                   -7                          -1 
   4589 ordenes[2,17,11]
-                                  -7                          -1 
-  4590 ordenes[2,17,12]
-                                  -7                          -1 
-  4591 ordenes[2,17,13]
-                                  -8                          -1 
-  4592 ordenes[2,17,14]
-                                  -7                          -1 
-  4593 ordenes[2,17,15]
-                                 -11                          -1 
-  4594 ordenes[2,17,16]
-                                 -12                          -1 
-  4595 ordenes[2,17,18]
-                                 -10                          -1 
-  4596 ordenes[2,17,19]
-                                 -13                          -1 
-  4597 ordenes[2,17,20]
-                                  -9                          -1 
-  4598 ordenes[2,18,1]
-                                  -4                          -1 
-  4599 ordenes[2,18,2]
-                                  -4                          -1 
-  4600 ordenes[2,18,3]
-                                  -4                          -1 
-  4601 ordenes[2,18,4]
-                                  -4                          -1 
-  4602 ordenes[2,18,5]
-                                  -4                          -1 
-  4603 ordenes[2,18,6]
-                                  -4                          -1 
-  4604 ordenes[2,18,7]
-                                  -4                          -1 
-  4605 ordenes[2,18,8]
-                                  -4                          -1 
-  4606 ordenes[2,18,9]
-                                  -4                          -1 
-  4607 ordenes[2,18,10]
-                                  -4                          -1 
-  4608 ordenes[2,18,11]
-                                  -4                          -1 
-  4609 ordenes[2,18,12]
-                                  -4                          -1 
-  4610 ordenes[2,18,13]
-                                  -5                          -1 
-  4611 ordenes[2,18,14]
-                                  -4                          -1 
-  4612 ordenes[2,18,15]
                                   -1                          -1 
+  4590 ordenes[2,17,12]
+                                  -5                          -1 
+  4591 ordenes[2,17,13]
+                                  -1                          -1 
+  4592 ordenes[2,17,14]
+                                  -8                          -1 
+  4593 ordenes[2,17,15]
+                                  -1                          -1 
+  4594 ordenes[2,17,16]
+                                  -1                          -1 
+  4595 ordenes[2,17,18]
+                                  -1                          -1 
+  4596 ordenes[2,17,19]
+                                  -1                          -1 
+  4597 ordenes[2,17,20]
+                                  -1                          -1 
+  4598 ordenes[2,18,1]
+                                  -9                          -1 
+  4599 ordenes[2,18,2]
+                                  -9                          -1 
+  4600 ordenes[2,18,3]
+                                  -9                          -1 
+  4601 ordenes[2,18,4]
+                                  -9                          -1 
+  4602 ordenes[2,18,5]
+                                 -10                          -1 
+  4603 ordenes[2,18,6]
+                                  -9                          -1 
+  4604 ordenes[2,18,7]
+                                 -11                          -1 
+  4605 ordenes[2,18,8]
+                                 -12                          -1 
+  4606 ordenes[2,18,9]
+                                 -14                          -1 
+  4607 ordenes[2,18,10]
+                                 -15                          -1 
+  4608 ordenes[2,18,11]
+                                  -9                          -1 
+  4609 ordenes[2,18,12]
+                                 -13                          -1 
+  4610 ordenes[2,18,13]
+                                  -9                          -1 
+  4611 ordenes[2,18,14]
+                                 -16                          -1 
+  4612 ordenes[2,18,15]
+                                  -9                          -1 
   4613 ordenes[2,18,16]
                                   -9                          -1 
   4614 ordenes[2,18,17]
-                                  -4                          -1 
+                                 -17                          -1 
   4615 ordenes[2,18,19]
-                                 -10                          -1 
+                                  -9                          -1 
   4616 ordenes[2,18,20]
-                                  -6                          -1 
+                                  -9                          -1 
   4617 ordenes[2,19,1]
-                                  -1                          -1 
+                                  -9                          -1 
   4618 ordenes[2,19,2]
-                                  -1                          -1 
+                                  -9                          -1 
   4619 ordenes[2,19,3]
-                                  -1                          -1 
+                                  -9                          -1 
   4620 ordenes[2,19,4]
-                                  -1                          -1 
+                                  -9                          -1 
   4621 ordenes[2,19,5]
-                                  -1                          -1 
+                                 -10                          -1 
   4622 ordenes[2,19,6]
-                                  -1                          -1 
+                                  -9                          -1 
   4623 ordenes[2,19,7]
-                                  -1                          -1 
+                                 -11                          -1 
   4624 ordenes[2,19,8]
-                                  -1                          -1 
+                                 -12                          -1 
   4625 ordenes[2,19,9]
-                                  -1                          -1 
+                                 -14                          -1 
   4626 ordenes[2,19,10]
-                                  -1                          -1 
+                                 -15                          -1 
   4627 ordenes[2,19,11]
-                                  -1                          -1 
+                                  -9                          -1 
   4628 ordenes[2,19,12]
-                                  -1                          -1 
+                                 -13                          -1 
   4629 ordenes[2,19,13]
-                                  -2                          -1 
+                                  -9                          -1 
   4630 ordenes[2,19,14]
-                                  -1                          -1 
+                                 -16                          -1 
   4631 ordenes[2,19,15]
-                                  -5                          -1 
+                                  -9                          -1 
   4632 ordenes[2,19,16]
-                                  -6                          -1 
+                                  -9                          -1 
   4633 ordenes[2,19,17]
-                                  -1                          -1 
+                                 -17                          -1 
   4634 ordenes[2,19,18]
-                                  -4                          -1 
+                                  -9                          -1 
   4635 ordenes[2,19,20]
-                                  -3                          -1 
+                                  -9                          -1 
   4636 ordenes[2,20,1]
-                                  -5                          -1 
+                                  -9                          -1 
   4637 ordenes[2,20,2]
-                                  -5                          -1 
+                                  -9                          -1 
   4638 ordenes[2,20,3]
-                                  -5                          -1 
+                                  -9                          -1 
   4639 ordenes[2,20,4]
-                                  -5                          -1 
+                                  -9                          -1 
   4640 ordenes[2,20,5]
-                                  -5                          -1 
+                                 -10                          -1 
   4641 ordenes[2,20,6]
-                                  -5                          -1 
+                                  -9                          -1 
   4642 ordenes[2,20,7]
-                                  -5                          -1 
+                                 -11                          -1 
   4643 ordenes[2,20,8]
-                                  -5                          -1 
+                                 -12                          -1 
   4644 ordenes[2,20,9]
-                                  -5                          -1 
+                                 -14                          -1 
   4645 ordenes[2,20,10]
-                                  -5                          -1 
+                                 -15                          -1 
   4646 ordenes[2,20,11]
-                                  -5                          -1 
+                                  -9                          -1 
   4647 ordenes[2,20,12]
-                                  -5                          -1 
+                                 -13                          -1 
   4648 ordenes[2,20,13]
-                                  -6                          -1 
+                                  -9                          -1 
   4649 ordenes[2,20,14]
-                                  -5                          -1 
+                                 -16                          -1 
   4650 ordenes[2,20,15]
                                   -9                          -1 
   4651 ordenes[2,20,16]
-                                 -10                          -1 
+                                  -9                          -1 
   4652 ordenes[2,20,17]
-                                  -5                          -1 
+                                 -17                          -1 
   4653 ordenes[2,20,18]
-                                  -1                          -1 
+                                  -9                          -1 
   4654 ordenes[2,20,19]
-                                 -11                          -1 
+                                  -9                          -1 
   4655 ordenes[3,1,2]
-                                  -9                          -1 
+                                  -4                          -1 
   4656 ordenes[3,1,3]
-                                  -9                          -1 
+                                  -5                          -1 
   4657 ordenes[3,1,4]
-                                  -9                          -1 
+                                  -6                          -1 
   4658 ordenes[3,1,5]
-                                  -1                          -1 
+                                  -4                          -1 
   4659 ordenes[3,1,6]
-                                  -9                          -1 
+                                  -7                          -1 
   4660 ordenes[3,1,7]
-                                 -11                          -1 
+                                  -4                          -1 
   4661 ordenes[3,1,8]
-                                 -12                          -1 
+                                  -4                          -1 
   4662 ordenes[3,1,9]
-                                 -14                          -1 
+                                  -4                          -1 
   4663 ordenes[3,1,10]
-                                 -15                          -1 
+                                  -4                          -1 
   4664 ordenes[3,1,11]
-                                  -9                          -1 
+                                  -4                          -1 
   4665 ordenes[3,1,12]
-                                 -13                          -1 
+                                  -4                          -1 
   4666 ordenes[3,1,13]
-                                  -9                          -1 
+                                  -4                          -1 
   4667 ordenes[3,1,14]
-                                 -16                          -1 
+                                  -4                          -1 
   4668 ordenes[3,1,15]
-                                  -9                          -1 
+                                  -4                          -1 
   4669 ordenes[3,1,16]
-                                  -9                          -1 
+                                  -4                          -1 
   4670 ordenes[3,1,17]
-                                 -17                          -1 
+                                  -4                          -1 
   4671 ordenes[3,1,18]
-                                  -9                          -1 
+                                  -4                          -1 
   4672 ordenes[3,1,19]
-                                  -9                          -1 
+                                  -4                          -1 
   4673 ordenes[3,1,20]
-                                  -9                          -1 
+                                  -4                          -1 
   4674 ordenes[3,2,1]
-                                  -9                          -1 
+                                  -4                          -1 
   4675 ordenes[3,2,3]
-                                  -9                          -1 
-  4676 ordenes[3,2,4]
-                                  -9                          -1 
-  4677 ordenes[3,2,5]
-                                 -10                          -1 
-  4678 ordenes[3,2,6]
-                                  -9                          -1 
-  4679 ordenes[3,2,7]
-                                 -11                          -1 
-  4680 ordenes[3,2,8]
-                                 -12                          -1 
-  4681 ordenes[3,2,9]
-                                 -14                          -1 
-  4682 ordenes[3,2,10]
-                                 -15                          -1 
-  4683 ordenes[3,2,11]
-                                  -9                          -1 
-  4684 ordenes[3,2,12]
-                                 -13                          -1 
-  4685 ordenes[3,2,13]
-                                  -9                          -1 
-  4686 ordenes[3,2,14]
-                                 -16                          -1 
-  4687 ordenes[3,2,15]
-                                  -9                          -1 
-  4688 ordenes[3,2,16]
-                                  -9                          -1 
-  4689 ordenes[3,2,17]
-                                 -17                          -1 
-  4690 ordenes[3,2,18]
-                                  -9                          -1 
-  4691 ordenes[3,2,19]
-                                  -9                          -1 
-  4692 ordenes[3,2,20]
-                                  -9                          -1 
-  4693 ordenes[3,3,1]
-                                  -9                          -1 
-  4694 ordenes[3,3,2]
-                                  -9                          -1 
-  4695 ordenes[3,3,4]
-                                  -9                          -1 
-  4696 ordenes[3,3,5]
-                                 -10                          -1 
-  4697 ordenes[3,3,6]
-                                  -9                          -1 
-  4698 ordenes[3,3,7]
-                                 -11                          -1 
-  4699 ordenes[3,3,8]
-                                 -12                          -1 
-  4700 ordenes[3,3,9]
-                                 -14                          -1 
-  4701 ordenes[3,3,10]
-                                 -15                          -1 
-  4702 ordenes[3,3,11]
-                                  -9                          -1 
-  4703 ordenes[3,3,12]
-                                 -13                          -1 
-  4704 ordenes[3,3,13]
-                                  -9                          -1 
-  4705 ordenes[3,3,14]
-                                 -16                          -1 
-  4706 ordenes[3,3,15]
-                                  -9                          -1 
-  4707 ordenes[3,3,16]
-                                  -9                          -1 
-  4708 ordenes[3,3,17]
-                                 -17                          -1 
-  4709 ordenes[3,3,18]
-                                  -9                          -1 
-  4710 ordenes[3,3,19]
-                                  -9                          -1 
-  4711 ordenes[3,3,20]
-                                  -9                          -1 
-  4712 ordenes[3,4,1]
-                                  -9                          -1 
-  4713 ordenes[3,4,2]
-                                  -9                          -1 
-  4714 ordenes[3,4,3]
-                                  -9                          -1 
-  4715 ordenes[3,4,5]
-                                 -10                          -1 
-  4716 ordenes[3,4,6]
-                                  -9                          -1 
-  4717 ordenes[3,4,7]
-                                 -11                          -1 
-  4718 ordenes[3,4,8]
-                                 -12                          -1 
-  4719 ordenes[3,4,9]
-                                 -14                          -1 
-  4720 ordenes[3,4,10]
-                                 -15                          -1 
-  4721 ordenes[3,4,11]
-                                  -9                          -1 
-  4722 ordenes[3,4,12]
-                                 -13                          -1 
-  4723 ordenes[3,4,13]
-                                  -9                          -1 
-  4724 ordenes[3,4,14]
-                                 -16                          -1 
-  4725 ordenes[3,4,15]
-                                  -9                          -1 
-  4726 ordenes[3,4,16]
-                                  -9                          -1 
-  4727 ordenes[3,4,17]
-                                 -17                          -1 
-  4728 ordenes[3,4,18]
-                                  -9                          -1 
-  4729 ordenes[3,4,19]
-                                  -9                          -1 
-  4730 ordenes[3,4,20]
-                                  -9                          -1 
-  4731 ordenes[3,5,1]
-                                  -8                          -1 
-  4732 ordenes[3,5,2]
-                                  -8                          -1 
-  4733 ordenes[3,5,3]
-                                  -8                          -1 
-  4734 ordenes[3,5,4]
-                                  -8                          -1 
-  4735 ordenes[3,5,6]
-                                  -8                          -1 
-  4736 ordenes[3,5,7]
                                   -1                          -1 
+  4676 ordenes[3,2,4]
+                                  -6                          -1 
+  4677 ordenes[3,2,5]
+                                  -4                          -1 
+  4678 ordenes[3,2,6]
+                                  -7                          -1 
+  4679 ordenes[3,2,7]
+                                  -4                          -1 
+  4680 ordenes[3,2,8]
+                                  -4                          -1 
+  4681 ordenes[3,2,9]
+                                  -4                          -1 
+  4682 ordenes[3,2,10]
+                                  -4                          -1 
+  4683 ordenes[3,2,11]
+                                  -4                          -1 
+  4684 ordenes[3,2,12]
+                                  -4                          -1 
+  4685 ordenes[3,2,13]
+                                  -4                          -1 
+  4686 ordenes[3,2,14]
+                                  -4                          -1 
+  4687 ordenes[3,2,15]
+                                  -4                          -1 
+  4688 ordenes[3,2,16]
+                                  -4                          -1 
+  4689 ordenes[3,2,17]
+                                  -4                          -1 
+  4690 ordenes[3,2,18]
+                                  -4                          -1 
+  4691 ordenes[3,2,19]
+                                  -4                          -1 
+  4692 ordenes[3,2,20]
+                                  -4                          -1 
+  4693 ordenes[3,3,1]
+                                  -3                          -1 
+  4694 ordenes[3,3,2]
+                                  -3                          -1 
+  4695 ordenes[3,3,4]
+                                  -1                          -1 
+  4696 ordenes[3,3,5]
+                                  -3                          -1 
+  4697 ordenes[3,3,6]
+                                  -6                          -1 
+  4698 ordenes[3,3,7]
+                                  -3                          -1 
+  4699 ordenes[3,3,8]
+                                  -3                          -1 
+  4700 ordenes[3,3,9]
+                                  -3                          -1 
+  4701 ordenes[3,3,10]
+                                  -3                          -1 
+  4702 ordenes[3,3,11]
+                                  -3                          -1 
+  4703 ordenes[3,3,12]
+                                  -3                          -1 
+  4704 ordenes[3,3,13]
+                                  -3                          -1 
+  4705 ordenes[3,3,14]
+                                  -3                          -1 
+  4706 ordenes[3,3,15]
+                                  -3                          -1 
+  4707 ordenes[3,3,16]
+                                  -3                          -1 
+  4708 ordenes[3,3,17]
+                                  -3                          -1 
+  4709 ordenes[3,3,18]
+                                  -3                          -1 
+  4710 ordenes[3,3,19]
+                                  -3                          -1 
+  4711 ordenes[3,3,20]
+                                  -3                          -1 
+  4712 ordenes[3,4,1]
+                                  -2                          -1 
+  4713 ordenes[3,4,2]
+                                  -2                          -1 
+  4714 ordenes[3,4,3]
+                                  -3                          -1 
+  4715 ordenes[3,4,5]
+                                  -2                          -1 
+  4716 ordenes[3,4,6]
+                                  -1                          -1 
+  4717 ordenes[3,4,7]
+                                  -2                          -1 
+  4718 ordenes[3,4,8]
+                                  -2                          -1 
+  4719 ordenes[3,4,9]
+                                  -2                          -1 
+  4720 ordenes[3,4,10]
+                                  -2                          -1 
+  4721 ordenes[3,4,11]
+                                  -2                          -1 
+  4722 ordenes[3,4,12]
+                                  -2                          -1 
+  4723 ordenes[3,4,13]
+                                  -2                          -1 
+  4724 ordenes[3,4,14]
+                                  -2                          -1 
+  4725 ordenes[3,4,15]
+                                  -2                          -1 
+  4726 ordenes[3,4,16]
+                                  -2                          -1 
+  4727 ordenes[3,4,17]
+                                  -2                          -1 
+  4728 ordenes[3,4,18]
+                                  -2                          -1 
+  4729 ordenes[3,4,19]
+                                  -2                          -1 
+  4730 ordenes[3,4,20]
+                                  -2                          -1 
+  4731 ordenes[3,5,1]
+                                  -4                          -1 
+  4732 ordenes[3,5,2]
+                                  -4                          -1 
+  4733 ordenes[3,5,3]
+                                  -5                          -1 
+  4734 ordenes[3,5,4]
+                                  -6                          -1 
+  4735 ordenes[3,5,6]
+                                  -7                          -1 
+  4736 ordenes[3,5,7]
+                                  -4                          -1 
   4737 ordenes[3,5,8]
-                                 -11                          -1 
+                                  -4                          -1 
   4738 ordenes[3,5,9]
-                                 -13                          -1 
+                                  -4                          -1 
   4739 ordenes[3,5,10]
-                                 -14                          -1 
+                                  -4                          -1 
   4740 ordenes[3,5,11]
-                                  -8                          -1 
+                                  -4                          -1 
   4741 ordenes[3,5,12]
-                                 -12                          -1 
+                                  -4                          -1 
   4742 ordenes[3,5,13]
-                                  -8                          -1 
+                                  -4                          -1 
   4743 ordenes[3,5,14]
-                                 -15                          -1 
+                                  -4                          -1 
   4744 ordenes[3,5,15]
-                                  -8                          -1 
+                                  -4                          -1 
   4745 ordenes[3,5,16]
-                                  -8                          -1 
+                                  -4                          -1 
   4746 ordenes[3,5,17]
-                                 -16                          -1 
+                                  -4                          -1 
   4747 ordenes[3,5,18]
-                                  -8                          -1 
+                                  -4                          -1 
   4748 ordenes[3,5,19]
-                                  -8                          -1 
+                                  -4                          -1 
   4749 ordenes[3,5,20]
-                                  -8                          -1 
+                                  -4                          -1 
   4750 ordenes[3,6,1]
-                                  -9                          -1 
+                                  -1                          -1 
   4751 ordenes[3,6,2]
-                                  -9                          -1 
+                                  -1                          -1 
   4752 ordenes[3,6,3]
-                                  -9                          -1 
+                                  -2                          -1 
   4753 ordenes[3,6,4]
-                                  -9                          -1 
+                                  -3                          -1 
   4754 ordenes[3,6,5]
-                                 -10                          -1 
+                                  -1                          -1 
   4755 ordenes[3,6,7]
-                                 -11                          -1 
+                                  -1                          -1 
   4756 ordenes[3,6,8]
-                                 -12                          -1 
+                                  -1                          -1 
   4757 ordenes[3,6,9]
-                                 -14                          -1 
+                                  -1                          -1 
   4758 ordenes[3,6,10]
-                                 -15                          -1 
+                                  -1                          -1 
   4759 ordenes[3,6,11]
-                                  -9                          -1 
+                                  -1                          -1 
   4760 ordenes[3,6,12]
-                                 -13                          -1 
+                                  -1                          -1 
   4761 ordenes[3,6,13]
-                                  -9                          -1 
+                                  -1                          -1 
   4762 ordenes[3,6,14]
-                                 -16                          -1 
+                                  -1                          -1 
   4763 ordenes[3,6,15]
-                                  -9                          -1 
+                                  -1                          -1 
   4764 ordenes[3,6,16]
-                                  -9                          -1 
+                                  -1                          -1 
   4765 ordenes[3,6,17]
-                                 -17                          -1 
+                                  -1                          -1 
   4766 ordenes[3,6,18]
-                                  -9                          -1 
+                                  -1                          -1 
   4767 ordenes[3,6,19]
-                                  -9                          -1 
+                                  -1                          -1 
   4768 ordenes[3,6,20]
-                                  -9                          -1 
+                                  -1                          -1 
   4769 ordenes[3,7,1]
-                                  -7                          -1 
+                                  -4                          -1 
   4770 ordenes[3,7,2]
-                                  -7                          -1 
+                                  -4                          -1 
   4771 ordenes[3,7,3]
-                                  -7                          -1 
+                                  -5                          -1 
   4772 ordenes[3,7,4]
-                                  -7                          -1 
+                                  -6                          -1 
   4773 ordenes[3,7,5]
-                                  -8                          -1 
+                                  -4                          -1 
   4774 ordenes[3,7,6]
                                   -7                          -1 
   4775 ordenes[3,7,8]
-                                  -1                          -1 
+                                  -4                          -1 
   4776 ordenes[3,7,9]
-                                 -12                          -1 
+                                  -4                          -1 
   4777 ordenes[3,7,10]
-                                 -13                          -1 
+                                  -4                          -1 
   4778 ordenes[3,7,11]
-                                  -7                          -1 
+                                  -4                          -1 
   4779 ordenes[3,7,12]
-                                 -11                          -1 
+                                  -4                          -1 
   4780 ordenes[3,7,13]
-                                  -7                          -1 
+                                  -4                          -1 
   4781 ordenes[3,7,14]
-                                 -14                          -1 
+                                  -4                          -1 
   4782 ordenes[3,7,15]
-                                  -7                          -1 
+                                  -4                          -1 
   4783 ordenes[3,7,16]
-                                  -7                          -1 
+                                  -4                          -1 
   4784 ordenes[3,7,17]
-                                 -15                          -1 
+                                  -4                          -1 
   4785 ordenes[3,7,18]
-                                  -7                          -1 
+                                  -4                          -1 
   4786 ordenes[3,7,19]
-                                  -7                          -1 
+                                  -4                          -1 
   4787 ordenes[3,7,20]
-                                  -7                          -1 
+                                  -4                          -1 
   4788 ordenes[3,8,1]
-                                  -6                          -1 
+                                  -4                          -1 
   4789 ordenes[3,8,2]
-                                  -6                          -1 
+                                  -4                          -1 
   4790 ordenes[3,8,3]
-                                  -6                          -1 
+                                  -5                          -1 
   4791 ordenes[3,8,4]
                                   -6                          -1 
   4792 ordenes[3,8,5]
-                                  -7                          -1 
+                                  -4                          -1 
   4793 ordenes[3,8,6]
-                                  -6                          -1 
+                                  -7                          -1 
   4794 ordenes[3,8,7]
-                                  -8                          -1 
+                                  -4                          -1 
   4795 ordenes[3,8,9]
-                                 -11                          -1 
+                                  -4                          -1 
   4796 ordenes[3,8,10]
-                                 -12                          -1 
+                                  -4                          -1 
   4797 ordenes[3,8,11]
-                                  -6                          -1 
+                                  -4                          -1 
   4798 ordenes[3,8,12]
-                                  -1                          -1 
+                                  -4                          -1 
   4799 ordenes[3,8,13]
-                                  -6                          -1 
+                                  -4                          -1 
   4800 ordenes[3,8,14]
-                                 -13                          -1 
+                                  -4                          -1 
   4801 ordenes[3,8,15]
-                                  -6                          -1 
+                                  -4                          -1 
   4802 ordenes[3,8,16]
-                                  -6                          -1 
+                                  -4                          -1 
   4803 ordenes[3,8,17]
-                                 -14                          -1 
+                                  -4                          -1 
   4804 ordenes[3,8,18]
-                                  -6                          -1 
+                                  -4                          -1 
   4805 ordenes[3,8,19]
-                                  -6                          -1 
+                                  -4                          -1 
   4806 ordenes[3,8,20]
-                                  -6                          -1 
+                                  -4                          -1 
   4807 ordenes[3,9,1]
                                   -4                          -1 
   4808 ordenes[3,9,2]
                                   -4                          -1 
   4809 ordenes[3,9,3]
-                                  -4                          -1 
-  4810 ordenes[3,9,4]
-                                  -4                          -1 
-  4811 ordenes[3,9,5]
                                   -5                          -1 
-  4812 ordenes[3,9,6]
-                                  -4                          -1 
-  4813 ordenes[3,9,7]
+  4810 ordenes[3,9,4]
                                   -6                          -1 
-  4814 ordenes[3,9,8]
+  4811 ordenes[3,9,5]
+                                  -4                          -1 
+  4812 ordenes[3,9,6]
                                   -7                          -1 
+  4813 ordenes[3,9,7]
+                                  -4                          -1 
+  4814 ordenes[3,9,8]
+                                  -4                          -1 
   4815 ordenes[3,9,10]
-                                  -1                          -1 
+                                  -4                          -1 
   4816 ordenes[3,9,11]
                                   -4                          -1 
   4817 ordenes[3,9,12]
-                                  -8                          -1 
+                                  -4                          -1 
   4818 ordenes[3,9,13]
                                   -4                          -1 
   4819 ordenes[3,9,14]
-                                 -11                          -1 
+                                  -4                          -1 
   4820 ordenes[3,9,15]
                                   -4                          -1 
   4821 ordenes[3,9,16]
                                   -4                          -1 
   4822 ordenes[3,9,17]
-                                 -12                          -1 
+                                  -4                          -1 
   4823 ordenes[3,9,18]
                                   -4                          -1 
   4824 ordenes[3,9,19]
@@ -6231,560 +6231,560 @@ Objective:  z = 3600 (MINimum)
   4825 ordenes[3,9,20]
                                   -4                          -1 
   4826 ordenes[3,10,1]
-                                  -3                          -1 
+                                  -4                          -1 
   4827 ordenes[3,10,2]
-                                  -3                          -1 
+                                  -4                          -1 
   4828 ordenes[3,10,3]
-                                  -3                          -1 
+                                  -5                          -1 
   4829 ordenes[3,10,4]
-                                  -3                          -1 
+                                  -6                          -1 
   4830 ordenes[3,10,5]
                                   -4                          -1 
   4831 ordenes[3,10,6]
-                                  -3                          -1 
-  4832 ordenes[3,10,7]
-                                  -5                          -1 
-  4833 ordenes[3,10,8]
-                                  -6                          -1 
-  4834 ordenes[3,10,9]
-                                  -8                          -1 
-  4835 ordenes[3,10,11]
-                                  -3                          -1 
-  4836 ordenes[3,10,12]
                                   -7                          -1 
+  4832 ordenes[3,10,7]
+                                  -4                          -1 
+  4833 ordenes[3,10,8]
+                                  -4                          -1 
+  4834 ordenes[3,10,9]
+                                  -4                          -1 
+  4835 ordenes[3,10,11]
+                                  -4                          -1 
+  4836 ordenes[3,10,12]
+                                  -4                          -1 
   4837 ordenes[3,10,13]
-                                  -3                          -1 
+                                  -4                          -1 
   4838 ordenes[3,10,14]
-                                  -1                          -1 
+                                  -4                          -1 
   4839 ordenes[3,10,15]
-                                  -3                          -1 
+                                  -4                          -1 
   4840 ordenes[3,10,16]
-                                  -3                          -1 
+                                  -4                          -1 
   4841 ordenes[3,10,17]
-                                 -11                          -1 
+                                  -4                          -1 
   4842 ordenes[3,10,18]
-                                  -3                          -1 
+                                  -4                          -1 
   4843 ordenes[3,10,19]
-                                  -3                          -1 
+                                  -4                          -1 
   4844 ordenes[3,10,20]
-                                  -3                          -1 
+                                  -4                          -1 
   4845 ordenes[3,11,1]
-                                  -9                          -1 
+                                  -4                          -1 
   4846 ordenes[3,11,2]
-                                  -9                          -1 
+                                  -4                          -1 
   4847 ordenes[3,11,3]
-                                  -9                          -1 
+                                  -5                          -1 
   4848 ordenes[3,11,4]
-                                  -9                          -1 
+                                  -6                          -1 
   4849 ordenes[3,11,5]
-                                 -10                          -1 
+                                  -4                          -1 
   4850 ordenes[3,11,6]
-                                  -9                          -1 
+                                  -7                          -1 
   4851 ordenes[3,11,7]
-                                 -11                          -1 
+                                  -4                          -1 
   4852 ordenes[3,11,8]
-                                 -12                          -1 
+                                  -4                          -1 
   4853 ordenes[3,11,9]
-                                 -14                          -1 
+                                  -4                          -1 
   4854 ordenes[3,11,10]
-                                 -15                          -1 
+                                  -4                          -1 
   4855 ordenes[3,11,12]
-                                 -13                          -1 
+                                  -4                          -1 
   4856 ordenes[3,11,13]
-                                  -9                          -1 
+                                  -4                          -1 
   4857 ordenes[3,11,14]
-                                 -16                          -1 
+                                  -4                          -1 
   4858 ordenes[3,11,15]
-                                  -9                          -1 
+                                  -4                          -1 
   4859 ordenes[3,11,16]
-                                  -9                          -1 
+                                  -4                          -1 
   4860 ordenes[3,11,17]
-                                 -17                          -1 
+                                  -4                          -1 
   4861 ordenes[3,11,18]
-                                  -9                          -1 
+                                  -4                          -1 
   4862 ordenes[3,11,19]
-                                  -9                          -1 
+                                  -4                          -1 
   4863 ordenes[3,11,20]
-                                  -9                          -1 
+                                  -4                          -1 
   4864 ordenes[3,12,1]
-                                  -5                          -1 
+                                  -4                          -1 
   4865 ordenes[3,12,2]
-                                  -5                          -1 
+                                  -4                          -1 
   4866 ordenes[3,12,3]
                                   -5                          -1 
   4867 ordenes[3,12,4]
-                                  -5                          -1 
-  4868 ordenes[3,12,5]
                                   -6                          -1 
+  4868 ordenes[3,12,5]
+                                  -4                          -1 
   4869 ordenes[3,12,6]
-                                  -5                          -1 
-  4870 ordenes[3,12,7]
                                   -7                          -1 
+  4870 ordenes[3,12,7]
+                                  -4                          -1 
   4871 ordenes[3,12,8]
-                                  -8                          -1 
+                                  -4                          -1 
   4872 ordenes[3,12,9]
-                                  -1                          -1 
+                                  -4                          -1 
   4873 ordenes[3,12,10]
-                                 -11                          -1 
+                                  -4                          -1 
   4874 ordenes[3,12,11]
-                                  -5                          -1 
+                                  -4                          -1 
   4875 ordenes[3,12,13]
-                                  -5                          -1 
+                                  -4                          -1 
   4876 ordenes[3,12,14]
-                                 -12                          -1 
+                                  -4                          -1 
   4877 ordenes[3,12,15]
-                                  -5                          -1 
+                                  -4                          -1 
   4878 ordenes[3,12,16]
-                                  -5                          -1 
+                                  -4                          -1 
   4879 ordenes[3,12,17]
-                                 -13                          -1 
+                                  -4                          -1 
   4880 ordenes[3,12,18]
-                                  -5                          -1 
+                                  -4                          -1 
   4881 ordenes[3,12,19]
-                                  -5                          -1 
+                                  -4                          -1 
   4882 ordenes[3,12,20]
-                                  -5                          -1 
+                                  -4                          -1 
   4883 ordenes[3,13,1]
-                                  -9                          -1 
+                                  -4                          -1 
   4884 ordenes[3,13,2]
-                                  -9                          -1 
+                                  -4                          -1 
   4885 ordenes[3,13,3]
-                                  -9                          -1 
+                                  -5                          -1 
   4886 ordenes[3,13,4]
-                                  -9                          -1 
+                                  -6                          -1 
   4887 ordenes[3,13,5]
-                                 -10                          -1 
+                                  -4                          -1 
   4888 ordenes[3,13,6]
-                                  -9                          -1 
+                                  -7                          -1 
   4889 ordenes[3,13,7]
-                                 -11                          -1 
+                                  -4                          -1 
   4890 ordenes[3,13,8]
-                                 -12                          -1 
+                                  -4                          -1 
   4891 ordenes[3,13,9]
-                                 -14                          -1 
+                                  -4                          -1 
   4892 ordenes[3,13,10]
-                                 -15                          -1 
+                                  -4                          -1 
   4893 ordenes[3,13,11]
-                                  -9                          -1 
+                                  -4                          -1 
   4894 ordenes[3,13,12]
-                                 -13                          -1 
+                                  -4                          -1 
   4895 ordenes[3,13,14]
-                                 -16                          -1 
+                                  -4                          -1 
   4896 ordenes[3,13,15]
-                                  -9                          -1 
+                                  -4                          -1 
   4897 ordenes[3,13,16]
-                                  -9                          -1 
+                                  -4                          -1 
   4898 ordenes[3,13,17]
-                                 -17                          -1 
+                                  -4                          -1 
   4899 ordenes[3,13,18]
-                                  -9                          -1 
+                                  -4                          -1 
   4900 ordenes[3,13,19]
-                                  -9                          -1 
+                                  -4                          -1 
   4901 ordenes[3,13,20]
-                                  -9                          -1 
+                                  -4                          -1 
   4902 ordenes[3,14,1]
-                                  -2                          -1 
+                                  -4                          -1 
   4903 ordenes[3,14,2]
-                                  -2                          -1 
+                                  -4                          -1 
   4904 ordenes[3,14,3]
-                                  -2                          -1 
+                                  -5                          -1 
   4905 ordenes[3,14,4]
-                                  -2                          -1 
+                                  -6                          -1 
   4906 ordenes[3,14,5]
-                                  -3                          -1 
+                                  -4                          -1 
   4907 ordenes[3,14,6]
-                                  -2                          -1 
+                                  -7                          -1 
   4908 ordenes[3,14,7]
                                   -4                          -1 
   4909 ordenes[3,14,8]
-                                  -5                          -1 
+                                  -4                          -1 
   4910 ordenes[3,14,9]
-                                  -7                          -1 
+                                  -4                          -1 
   4911 ordenes[3,14,10]
-                                  -8                          -1 
+                                  -4                          -1 
   4912 ordenes[3,14,11]
-                                  -2                          -1 
+                                  -4                          -1 
   4913 ordenes[3,14,12]
-                                  -6                          -1 
+                                  -4                          -1 
   4914 ordenes[3,14,13]
-                                  -2                          -1 
+                                  -4                          -1 
   4915 ordenes[3,14,15]
-                                  -2                          -1 
+                                  -4                          -1 
   4916 ordenes[3,14,16]
-                                  -2                          -1 
+                                  -4                          -1 
   4917 ordenes[3,14,17]
-                                  -1                          -1 
+                                  -4                          -1 
   4918 ordenes[3,14,18]
-                                  -2                          -1 
+                                  -4                          -1 
   4919 ordenes[3,14,19]
-                                  -2                          -1 
+                                  -4                          -1 
   4920 ordenes[3,14,20]
-                                  -2                          -1 
+                                  -4                          -1 
   4921 ordenes[3,15,1]
-                                  -9                          -1 
+                                  -4                          -1 
   4922 ordenes[3,15,2]
-                                  -9                          -1 
+                                  -4                          -1 
   4923 ordenes[3,15,3]
-                                  -9                          -1 
+                                  -5                          -1 
   4924 ordenes[3,15,4]
-                                  -9                          -1 
+                                  -6                          -1 
   4925 ordenes[3,15,5]
-                                 -10                          -1 
+                                  -4                          -1 
   4926 ordenes[3,15,6]
-                                  -9                          -1 
+                                  -7                          -1 
   4927 ordenes[3,15,7]
-                                 -11                          -1 
+                                  -4                          -1 
   4928 ordenes[3,15,8]
-                                 -12                          -1 
+                                  -4                          -1 
   4929 ordenes[3,15,9]
-                                 -14                          -1 
+                                  -4                          -1 
   4930 ordenes[3,15,10]
-                                 -15                          -1 
+                                  -4                          -1 
   4931 ordenes[3,15,11]
-                                  -9                          -1 
+                                  -4                          -1 
   4932 ordenes[3,15,12]
-                                 -13                          -1 
+                                  -4                          -1 
   4933 ordenes[3,15,13]
-                                  -9                          -1 
+                                  -4                          -1 
   4934 ordenes[3,15,14]
-                                 -16                          -1 
+                                  -4                          -1 
   4935 ordenes[3,15,16]
-                                  -9                          -1 
+                                  -4                          -1 
   4936 ordenes[3,15,17]
-                                 -17                          -1 
+                                  -4                          -1 
   4937 ordenes[3,15,18]
-                                  -9                          -1 
+                                  -4                          -1 
   4938 ordenes[3,15,19]
-                                  -9                          -1 
+                                  -4                          -1 
   4939 ordenes[3,15,20]
-                                  -9                          -1 
+                                  -4                          -1 
   4940 ordenes[3,16,1]
-                                  -9                          -1 
+                                  -4                          -1 
   4941 ordenes[3,16,2]
-                                  -9                          -1 
+                                  -4                          -1 
   4942 ordenes[3,16,3]
-                                  -9                          -1 
+                                  -5                          -1 
   4943 ordenes[3,16,4]
-                                  -9                          -1 
+                                  -6                          -1 
   4944 ordenes[3,16,5]
-                                 -10                          -1 
+                                  -4                          -1 
   4945 ordenes[3,16,6]
-                                  -9                          -1 
+                                  -7                          -1 
   4946 ordenes[3,16,7]
-                                 -11                          -1 
+                                  -4                          -1 
   4947 ordenes[3,16,8]
-                                 -12                          -1 
+                                  -4                          -1 
   4948 ordenes[3,16,9]
-                                 -14                          -1 
+                                  -4                          -1 
   4949 ordenes[3,16,10]
-                                 -15                          -1 
+                                  -4                          -1 
   4950 ordenes[3,16,11]
-                                  -9                          -1 
+                                  -4                          -1 
   4951 ordenes[3,16,12]
-                                 -13                          -1 
+                                  -4                          -1 
   4952 ordenes[3,16,13]
-                                  -9                          -1 
+                                  -4                          -1 
   4953 ordenes[3,16,14]
-                                 -16                          -1 
+                                  -4                          -1 
   4954 ordenes[3,16,15]
-                                  -9                          -1 
+                                  -4                          -1 
   4955 ordenes[3,16,17]
-                                 -17                          -1 
+                                  -4                          -1 
   4956 ordenes[3,16,18]
-                                  -9                          -1 
+                                  -4                          -1 
   4957 ordenes[3,16,19]
-                                  -9                          -1 
+                                  -4                          -1 
   4958 ordenes[3,16,20]
-                                  -9                          -1 
+                                  -4                          -1 
   4959 ordenes[3,17,1]
-                                  -1                          -1 
+                                  -4                          -1 
   4960 ordenes[3,17,2]
-                                  -1                          -1 
+                                  -4                          -1 
   4961 ordenes[3,17,3]
-                                  -1                          -1 
+                                  -5                          -1 
   4962 ordenes[3,17,4]
-                                  -1                          -1 
+                                  -6                          -1 
   4963 ordenes[3,17,5]
-                                  -2                          -1 
+                                  -4                          -1 
   4964 ordenes[3,17,6]
-                                  -1                          -1 
+                                  -7                          -1 
   4965 ordenes[3,17,7]
-                                  -3                          -1 
+                                  -4                          -1 
   4966 ordenes[3,17,8]
                                   -4                          -1 
   4967 ordenes[3,17,9]
-                                  -6                          -1 
+                                  -4                          -1 
   4968 ordenes[3,17,10]
-                                  -7                          -1 
+                                  -4                          -1 
   4969 ordenes[3,17,11]
-                                  -1                          -1 
+                                  -4                          -1 
   4970 ordenes[3,17,12]
-                                  -5                          -1 
+                                  -4                          -1 
   4971 ordenes[3,17,13]
-                                  -1                          -1 
+                                  -4                          -1 
   4972 ordenes[3,17,14]
-                                  -8                          -1 
+                                  -4                          -1 
   4973 ordenes[3,17,15]
-                                  -1                          -1 
+                                  -4                          -1 
   4974 ordenes[3,17,16]
-                                  -1                          -1 
+                                  -4                          -1 
   4975 ordenes[3,17,18]
-                                  -1                          -1 
+                                  -4                          -1 
   4976 ordenes[3,17,19]
-                                  -1                          -1 
+                                  -4                          -1 
   4977 ordenes[3,17,20]
-                                  -1                          -1 
+                                  -4                          -1 
   4978 ordenes[3,18,1]
-                                  -9                          -1 
+                                  -4                          -1 
   4979 ordenes[3,18,2]
-                                  -9                          -1 
+                                  -4                          -1 
   4980 ordenes[3,18,3]
-                                  -9                          -1 
+                                  -5                          -1 
   4981 ordenes[3,18,4]
-                                  -9                          -1 
+                                  -6                          -1 
   4982 ordenes[3,18,5]
-                                 -10                          -1 
+                                  -4                          -1 
   4983 ordenes[3,18,6]
-                                  -9                          -1 
+                                  -7                          -1 
   4984 ordenes[3,18,7]
-                                 -11                          -1 
+                                  -4                          -1 
   4985 ordenes[3,18,8]
-                                 -12                          -1 
+                                  -4                          -1 
   4986 ordenes[3,18,9]
-                                 -14                          -1 
+                                  -4                          -1 
   4987 ordenes[3,18,10]
-                                 -15                          -1 
+                                  -4                          -1 
   4988 ordenes[3,18,11]
-                                  -9                          -1 
+                                  -4                          -1 
   4989 ordenes[3,18,12]
-                                 -13                          -1 
+                                  -4                          -1 
   4990 ordenes[3,18,13]
-                                  -9                          -1 
+                                  -4                          -1 
   4991 ordenes[3,18,14]
-                                 -16                          -1 
+                                  -4                          -1 
   4992 ordenes[3,18,15]
-                                  -9                          -1 
+                                  -4                          -1 
   4993 ordenes[3,18,16]
-                                  -9                          -1 
+                                  -4                          -1 
   4994 ordenes[3,18,17]
-                                 -17                          -1 
+                                  -4                          -1 
   4995 ordenes[3,18,19]
-                                  -9                          -1 
+                                  -4                          -1 
   4996 ordenes[3,18,20]
-                                  -9                          -1 
+                                  -4                          -1 
   4997 ordenes[3,19,1]
-                                  -9                          -1 
+                                  -4                          -1 
   4998 ordenes[3,19,2]
-                                  -9                          -1 
+                                  -4                          -1 
   4999 ordenes[3,19,3]
-                                  -9                          -1 
+                                  -5                          -1 
   5000 ordenes[3,19,4]
-                                  -9                          -1 
+                                  -6                          -1 
   5001 ordenes[3,19,5]
-                                 -10                          -1 
+                                  -4                          -1 
   5002 ordenes[3,19,6]
-                                  -9                          -1 
+                                  -7                          -1 
   5003 ordenes[3,19,7]
-                                 -11                          -1 
+                                  -4                          -1 
   5004 ordenes[3,19,8]
-                                 -12                          -1 
+                                  -4                          -1 
   5005 ordenes[3,19,9]
-                                 -14                          -1 
+                                  -4                          -1 
   5006 ordenes[3,19,10]
-                                 -15                          -1 
+                                  -4                          -1 
   5007 ordenes[3,19,11]
-                                  -9                          -1 
+                                  -4                          -1 
   5008 ordenes[3,19,12]
-                                 -13                          -1 
+                                  -4                          -1 
   5009 ordenes[3,19,13]
-                                  -9                          -1 
+                                  -4                          -1 
   5010 ordenes[3,19,14]
-                                 -16                          -1 
+                                  -4                          -1 
   5011 ordenes[3,19,15]
-                                  -9                          -1 
+                                  -4                          -1 
   5012 ordenes[3,19,16]
-                                  -9                          -1 
+                                  -4                          -1 
   5013 ordenes[3,19,17]
-                                 -17                          -1 
+                                  -4                          -1 
   5014 ordenes[3,19,18]
-                                  -9                          -1 
+                                  -4                          -1 
   5015 ordenes[3,19,20]
-                                  -9                          -1 
+                                  -4                          -1 
   5016 ordenes[3,20,1]
-                                  -9                          -1 
+                                  -4                          -1 
   5017 ordenes[3,20,2]
-                                  -9                          -1 
+                                  -4                          -1 
   5018 ordenes[3,20,3]
-                                  -9                          -1 
+                                  -5                          -1 
   5019 ordenes[3,20,4]
-                                  -9                          -1 
+                                  -6                          -1 
   5020 ordenes[3,20,5]
-                                 -10                          -1 
+                                  -4                          -1 
   5021 ordenes[3,20,6]
-                                  -9                          -1 
+                                  -7                          -1 
   5022 ordenes[3,20,7]
-                                 -11                          -1 
+                                  -4                          -1 
   5023 ordenes[3,20,8]
-                                 -12                          -1 
+                                  -4                          -1 
   5024 ordenes[3,20,9]
-                                 -14                          -1 
+                                  -4                          -1 
   5025 ordenes[3,20,10]
-                                 -15                          -1 
+                                  -4                          -1 
   5026 ordenes[3,20,11]
-                                  -9                          -1 
+                                  -4                          -1 
   5027 ordenes[3,20,12]
-                                 -13                          -1 
+                                  -4                          -1 
   5028 ordenes[3,20,13]
-                                  -9                          -1 
+                                  -4                          -1 
   5029 ordenes[3,20,14]
-                                 -16                          -1 
+                                  -4                          -1 
   5030 ordenes[3,20,15]
-                                  -9                          -1 
+                                  -4                          -1 
   5031 ordenes[3,20,16]
-                                  -9                          -1 
+                                  -4                          -1 
   5032 ordenes[3,20,17]
-                                 -17                          -1 
+                                  -4                          -1 
   5033 ordenes[3,20,18]
-                                  -9                          -1 
+                                  -4                          -1 
   5034 ordenes[3,20,19]
-                                  -9                          -1 
+                                  -4                          -1 
   5035 fabricaFinal[1,1]
-                                  -4                          -1 
+                                  -7                          -1 
   5036 fabricaFinal[1,2]
-                                  -4                          -1 
+                                  -7                          -1 
   5037 fabricaFinal[1,3]
-                                  -3                          -1 
+                                  -7                          -1 
   5038 fabricaFinal[1,4]
-                                  -2                          -1 
+                                  -7                          -1 
   5039 fabricaFinal[1,5]
-                                  -4                          -1 
+                                  -7                          -1 
   5040 fabricaFinal[1,6]
-                                  -1                          -1 
+                                  -7                          -1 
   5041 fabricaFinal[1,7]
-                                  -4                          -1 
+                                  -7                          -1 
   5042 fabricaFinal[1,8]
-                                  -4                          -1 
+                                  -7                          -1 
   5043 fabricaFinal[1,9]
-                                  -4                          -1 
+                                  -7                          -1 
   5044 fabricaFinal[1,10]
-                                  -4                          -1 
+                                  -7                          -1 
   5045 fabricaFinal[1,11]
-                                  -4                          -1 
+                                  -7                          -1 
   5046 fabricaFinal[1,12]
-                                  -4                          -1 
+                                  -7                          -1 
   5047 fabricaFinal[1,13]
-                                  -4                          -1 
+                                  -6                          -1 
   5048 fabricaFinal[1,14]
-                                  -4                          -1 
+                                  -7                          -1 
   5049 fabricaFinal[1,15]
-                                  -4                          -1 
+                                  -3                          -1 
   5050 fabricaFinal[1,16]
-                                  -4                          -1 
+                                  -2                          -1 
   5051 fabricaFinal[1,17]
-                                  -4                          -1 
+                                  -7                          -1 
   5052 fabricaFinal[1,18]
                                   -4                          -1 
   5053 fabricaFinal[1,19]
-                                  -4                          -1 
+                                  -1                          -1 
   5054 fabricaFinal[1,20]
-                                  -4                          -1 
+                                  -5                          -1 
   5055 fabricaFinal[2,1]
-                                  -7                          -1 
+                                  -9                          -1 
   5056 fabricaFinal[2,2]
-                                  -7                          -1 
+                                  -9                          -1 
   5057 fabricaFinal[2,3]
-                                  -7                          -1 
+                                  -9                          -1 
   5058 fabricaFinal[2,4]
-                                  -7                          -1 
+                                  -9                          -1 
   5059 fabricaFinal[2,5]
-                                  -7                          -1 
+                                  -8                          -1 
   5060 fabricaFinal[2,6]
-                                  -7                          -1 
+                                  -9                          -1 
   5061 fabricaFinal[2,7]
                                   -7                          -1 
   5062 fabricaFinal[2,8]
-                                  -7                          -1 
+                                  -6                          -1 
   5063 fabricaFinal[2,9]
-                                  -7                          -1 
-  5064 fabricaFinal[2,10]
-                                  -7                          -1 
-  5065 fabricaFinal[2,11]
-                                  -7                          -1 
-  5066 fabricaFinal[2,12]
-                                  -7                          -1 
-  5067 fabricaFinal[2,13]
-                                  -6                          -1 
-  5068 fabricaFinal[2,14]
-                                  -7                          -1 
-  5069 fabricaFinal[2,15]
-                                  -3                          -1 
-  5070 fabricaFinal[2,16]
-                                  -2                          -1 
-  5071 fabricaFinal[2,17]
-                                  -7                          -1 
-  5072 fabricaFinal[2,18]
                                   -4                          -1 
-  5073 fabricaFinal[2,19]
-                                  -1                          -1 
-  5074 fabricaFinal[2,20]
+  5064 fabricaFinal[2,10]
+                                  -3                          -1 
+  5065 fabricaFinal[2,11]
+                                  -9                          -1 
+  5066 fabricaFinal[2,12]
                                   -5                          -1 
+  5067 fabricaFinal[2,13]
+                                  -9                          -1 
+  5068 fabricaFinal[2,14]
+                                  -2                          -1 
+  5069 fabricaFinal[2,15]
+                                  -9                          -1 
+  5070 fabricaFinal[2,16]
+                                  -9                          -1 
+  5071 fabricaFinal[2,17]
+                                  -1                          -1 
+  5072 fabricaFinal[2,18]
+                                  -9                          -1 
+  5073 fabricaFinal[2,19]
+                                  -9                          -1 
+  5074 fabricaFinal[2,20]
+                                  -9                          -1 
   5075 fabricaFinal[3,1]
-                                  -9                          -1 
+                                  -4                          -1 
   5076 fabricaFinal[3,2]
-                                  -9                          -1 
+                                  -4                          -1 
   5077 fabricaFinal[3,3]
-                                  -9                          -1 
+                                  -3                          -1 
   5078 fabricaFinal[3,4]
-                                  -9                          -1 
+                                  -2                          -1 
   5079 fabricaFinal[3,5]
-                                  -8                          -1 
+                                  -4                          -1 
   5080 fabricaFinal[3,6]
-                                  -9                          -1 
+                                  -1                          -1 
   5081 fabricaFinal[3,7]
-                                  -7                          -1 
+                                  -4                          -1 
   5082 fabricaFinal[3,8]
-                                  -6                          -1 
+                                  -4                          -1 
   5083 fabricaFinal[3,9]
                                   -4                          -1 
   5084 fabricaFinal[3,10]
-                                  -3                          -1 
+                                  -4                          -1 
   5085 fabricaFinal[3,11]
-                                  -9                          -1 
+                                  -4                          -1 
   5086 fabricaFinal[3,12]
-                                  -5                          -1 
+                                  -4                          -1 
   5087 fabricaFinal[3,13]
-                                  -9                          -1 
+                                  -4                          -1 
   5088 fabricaFinal[3,14]
-                                  -2                          -1 
+                                  -4                          -1 
   5089 fabricaFinal[3,15]
-                                  -9                          -1 
+                                  -4                          -1 
   5090 fabricaFinal[3,16]
-                                  -9                          -1 
+                                  -4                          -1 
   5091 fabricaFinal[3,17]
-                                  -1                          -1 
+                                  -4                          -1 
   5092 fabricaFinal[3,18]
-                                  -9                          -1 
+                                  -4                          -1 
   5093 fabricaFinal[3,19]
-                                  -9                          -1 
+                                  -4                          -1 
   5094 fabricaFinal[3,20]
-                                  -9                          -1 
+                                  -4                          -1 
   5095 kmCombi[1]                  0            -0             = 
   5096 kmCombi[2]                  0            -0             = 
   5097 kmCombi[3]                  0            -0             = 
   5098 cantCombis                  0            -0             = 
   5099 maxCombis                   3                           3 
   5100 usoCombiCotaMin[1]
-                                  -3                          -0 
-  5101 usoCombiCotaMin[2]
                                   -6                          -0 
-  5102 usoCombiCotaMin[3]
+  5101 usoCombiCotaMin[2]
                                   -8                          -0 
+  5102 usoCombiCotaMin[3]
+                                  -3                          -0 
   5103 usoCombiCotaMax[1]
-                             -999996                          -0 
-  5104 usoCombiCotaMax[2]
                              -999993                          -0 
-  5105 usoCombiCotaMax[3]
+  5104 usoCombiCotaMax[2]
                              -999991                          -0 
+  5105 usoCombiCotaMax[3]
+                             -999996                          -0 
   5106 calculoDuracion[1]
                                    0            -0             = 
   5107 calculoDuracion[2]
@@ -6792,71 +6792,71 @@ Objective:  z = 3600 (MINimum)
   5108 calculoDuracion[3]
                                    0            -0             = 
   5109 maxDuracion[1]
-                                  27                         120 
-  5110 maxDuracion[2]
                                   35                         120 
-  5111 maxDuracion[3]
+  5110 maxDuracion[2]
                                   30                         120 
+  5111 maxDuracion[3]
+                                  27                         120 
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 YP[1,1]      *              0             0             1 
-     2 YP[1,2]      *              1             0             1 
-     3 YP[1,3]      *              1             0             1 
-     4 YP[1,4]      *              1             0             1 
+     2 YP[1,2]      *              0             0             1 
+     3 YP[1,3]      *              0             0             1 
+     4 YP[1,4]      *              0             0             1 
      5 YP[1,5]      *              0             0             1 
-     6 YP[1,6]      *              1             0             1 
+     6 YP[1,6]      *              0             0             1 
      7 YP[1,7]      *              0             0             1 
      8 YP[1,8]      *              0             0             1 
      9 YP[1,9]      *              0             0             1 
     10 YP[1,10]     *              0             0             1 
-    11 YP[1,11]     *              0             0             1 
+    11 YP[1,11]     *              1             0             1 
     12 YP[1,12]     *              0             0             1 
-    13 YP[1,13]     *              0             0             1 
+    13 YP[1,13]     *              1             0             1 
     14 YP[1,14]     *              0             0             1 
-    15 YP[1,15]     *              0             0             1 
-    16 YP[1,16]     *              0             0             1 
+    15 YP[1,15]     *              1             0             1 
+    16 YP[1,16]     *              1             0             1 
     17 YP[1,17]     *              0             0             1 
-    18 YP[1,18]     *              0             0             1 
-    19 YP[1,19]     *              0             0             1 
-    20 YP[1,20]     *              0             0             1 
-    21 YP[2,1]      *              0             0             1 
+    18 YP[1,18]     *              1             0             1 
+    19 YP[1,19]     *              1             0             1 
+    20 YP[1,20]     *              1             0             1 
+    21 YP[2,1]      *              1             0             1 
     22 YP[2,2]      *              0             0             1 
     23 YP[2,3]      *              0             0             1 
     24 YP[2,4]      *              0             0             1 
-    25 YP[2,5]      *              0             0             1 
+    25 YP[2,5]      *              1             0             1 
     26 YP[2,6]      *              0             0             1 
-    27 YP[2,7]      *              0             0             1 
-    28 YP[2,8]      *              0             0             1 
-    29 YP[2,9]      *              0             0             1 
-    30 YP[2,10]     *              0             0             1 
-    31 YP[2,11]     *              1             0             1 
-    32 YP[2,12]     *              0             0             1 
-    33 YP[2,13]     *              1             0             1 
-    34 YP[2,14]     *              0             0             1 
-    35 YP[2,15]     *              1             0             1 
-    36 YP[2,16]     *              1             0             1 
-    37 YP[2,17]     *              0             0             1 
-    38 YP[2,18]     *              1             0             1 
-    39 YP[2,19]     *              1             0             1 
-    40 YP[2,20]     *              1             0             1 
-    41 YP[3,1]      *              1             0             1 
-    42 YP[3,2]      *              0             0             1 
-    43 YP[3,3]      *              0             0             1 
-    44 YP[3,4]      *              0             0             1 
-    45 YP[3,5]      *              1             0             1 
-    46 YP[3,6]      *              0             0             1 
-    47 YP[3,7]      *              1             0             1 
-    48 YP[3,8]      *              1             0             1 
-    49 YP[3,9]      *              1             0             1 
-    50 YP[3,10]     *              1             0             1 
+    27 YP[2,7]      *              1             0             1 
+    28 YP[2,8]      *              1             0             1 
+    29 YP[2,9]      *              1             0             1 
+    30 YP[2,10]     *              1             0             1 
+    31 YP[2,11]     *              0             0             1 
+    32 YP[2,12]     *              1             0             1 
+    33 YP[2,13]     *              0             0             1 
+    34 YP[2,14]     *              1             0             1 
+    35 YP[2,15]     *              0             0             1 
+    36 YP[2,16]     *              0             0             1 
+    37 YP[2,17]     *              1             0             1 
+    38 YP[2,18]     *              0             0             1 
+    39 YP[2,19]     *              0             0             1 
+    40 YP[2,20]     *              0             0             1 
+    41 YP[3,1]      *              0             0             1 
+    42 YP[3,2]      *              1             0             1 
+    43 YP[3,3]      *              1             0             1 
+    44 YP[3,4]      *              1             0             1 
+    45 YP[3,5]      *              0             0             1 
+    46 YP[3,6]      *              1             0             1 
+    47 YP[3,7]      *              0             0             1 
+    48 YP[3,8]      *              0             0             1 
+    49 YP[3,9]      *              0             0             1 
+    50 YP[3,10]     *              0             0             1 
     51 YP[3,11]     *              0             0             1 
-    52 YP[3,12]     *              1             0             1 
+    52 YP[3,12]     *              0             0             1 
     53 YP[3,13]     *              0             0             1 
-    54 YP[3,14]     *              1             0             1 
+    54 YP[3,14]     *              0             0             1 
     55 YP[3,15]     *              0             0             1 
     56 YP[3,16]     *              0             0             1 
-    57 YP[3,17]     *              1             0             1 
+    57 YP[3,17]     *              0             0             1 
     58 YP[3,18]     *              0             0             1 
     59 YP[3,19]     *              0             0             1 
     60 YP[3,20]     *              0             0             1 
@@ -6899,7 +6899,7 @@ Objective:  z = 3600 (MINimum)
     97 YR[1,20,1]   *              0             0             1 
     98 YR[1,1,20]   *              0             0             1 
     99 YR[1,3,2]    *              0             0             1 
-   100 YR[1,2,3]    *              1             0             1 
+   100 YR[1,2,3]    *              0             0             1 
    101 YR[1,4,2]    *              0             0             1 
    102 YR[1,2,4]    *              0             0             1 
    103 YR[1,5,2]    *              0             0             1 
@@ -6935,7 +6935,7 @@ Objective:  z = 3600 (MINimum)
    133 YR[1,20,2]   *              0             0             1 
    134 YR[1,2,20]   *              0             0             1 
    135 YR[1,4,3]    *              0             0             1 
-   136 YR[1,3,4]    *              1             0             1 
+   136 YR[1,3,4]    *              0             0             1 
    137 YR[1,5,3]    *              0             0             1 
    138 YR[1,3,5]    *              0             0             1 
    139 YR[1,6,3]    *              0             0             1 
@@ -6971,7 +6971,7 @@ Objective:  z = 3600 (MINimum)
    169 YR[1,5,4]    *              0             0             1 
    170 YR[1,4,5]    *              0             0             1 
    171 YR[1,6,4]    *              0             0             1 
-   172 YR[1,4,6]    *              1             0             1 
+   172 YR[1,4,6]    *              0             0             1 
    173 YR[1,7,4]    *              0             0             1 
    174 YR[1,4,7]    *              0             0             1 
    175 YR[1,8,4]    *              0             0             1 
@@ -7153,7 +7153,7 @@ Objective:  z = 3600 (MINimum)
    351 YR[1,12,11]  *              0             0             1 
    352 YR[1,11,12]  *              0             0             1 
    353 YR[1,13,11]  *              0             0             1 
-   354 YR[1,11,13]  *              0             0             1 
+   354 YR[1,11,13]  *              1             0             1 
    355 YR[1,14,11]  *              0             0             1 
    356 YR[1,11,14]  *              0             0             1 
    357 YR[1,15,11]  *              0             0             1 
@@ -7197,7 +7197,7 @@ Objective:  z = 3600 (MINimum)
    395 YR[1,19,13]  *              0             0             1 
    396 YR[1,13,19]  *              0             0             1 
    397 YR[1,20,13]  *              0             0             1 
-   398 YR[1,13,20]  *              0             0             1 
+   398 YR[1,13,20]  *              1             0             1 
    399 YR[1,15,14]  *              0             0             1 
    400 YR[1,14,15]  *              0             0             1 
    401 YR[1,16,14]  *              0             0             1 
@@ -7211,10 +7211,10 @@ Objective:  z = 3600 (MINimum)
    409 YR[1,20,14]  *              0             0             1 
    410 YR[1,14,20]  *              0             0             1 
    411 YR[1,16,15]  *              0             0             1 
-   412 YR[1,15,16]  *              0             0             1 
+   412 YR[1,15,16]  *              1             0             1 
    413 YR[1,17,15]  *              0             0             1 
    414 YR[1,15,17]  *              0             0             1 
-   415 YR[1,18,15]  *              0             0             1 
+   415 YR[1,18,15]  *              1             0             1 
    416 YR[1,15,18]  *              0             0             1 
    417 YR[1,19,15]  *              0             0             1 
    418 YR[1,15,19]  *              0             0             1 
@@ -7225,7 +7225,7 @@ Objective:  z = 3600 (MINimum)
    423 YR[1,18,16]  *              0             0             1 
    424 YR[1,16,18]  *              0             0             1 
    425 YR[1,19,16]  *              0             0             1 
-   426 YR[1,16,19]  *              0             0             1 
+   426 YR[1,16,19]  *              1             0             1 
    427 YR[1,20,16]  *              0             0             1 
    428 YR[1,16,20]  *              0             0             1 
    429 YR[1,18,17]  *              0             0             1 
@@ -7236,7 +7236,7 @@ Objective:  z = 3600 (MINimum)
    434 YR[1,17,20]  *              0             0             1 
    435 YR[1,19,18]  *              0             0             1 
    436 YR[1,18,19]  *              0             0             1 
-   437 YR[1,20,18]  *              0             0             1 
+   437 YR[1,20,18]  *              1             0             1 
    438 YR[1,18,20]  *              0             0             1 
    439 YR[1,20,19]  *              0             0             1 
    440 YR[1,19,20]  *              0             0             1 
@@ -7247,7 +7247,7 @@ Objective:  z = 3600 (MINimum)
    445 YR[2,4,1]    *              0             0             1 
    446 YR[2,1,4]    *              0             0             1 
    447 YR[2,5,1]    *              0             0             1 
-   448 YR[2,1,5]    *              0             0             1 
+   448 YR[2,1,5]    *              1             0             1 
    449 YR[2,6,1]    *              0             0             1 
    450 YR[2,1,6]    *              0             0             1 
    451 YR[2,7,1]    *              0             0             1 
@@ -7383,7 +7383,7 @@ Objective:  z = 3600 (MINimum)
    581 YR[2,6,5]    *              0             0             1 
    582 YR[2,5,6]    *              0             0             1 
    583 YR[2,7,5]    *              0             0             1 
-   584 YR[2,5,7]    *              0             0             1 
+   584 YR[2,5,7]    *              1             0             1 
    585 YR[2,8,5]    *              0             0             1 
    586 YR[2,5,8]    *              0             0             1 
    587 YR[2,9,5]    *              0             0             1 
@@ -7439,7 +7439,7 @@ Objective:  z = 3600 (MINimum)
    637 YR[2,20,6]   *              0             0             1 
    638 YR[2,6,20]   *              0             0             1 
    639 YR[2,8,7]    *              0             0             1 
-   640 YR[2,7,8]    *              0             0             1 
+   640 YR[2,7,8]    *              1             0             1 
    641 YR[2,9,7]    *              0             0             1 
    642 YR[2,7,9]    *              0             0             1 
    643 YR[2,10,7]   *              0             0             1 
@@ -7471,7 +7471,7 @@ Objective:  z = 3600 (MINimum)
    669 YR[2,11,8]   *              0             0             1 
    670 YR[2,8,11]   *              0             0             1 
    671 YR[2,12,8]   *              0             0             1 
-   672 YR[2,8,12]   *              0             0             1 
+   672 YR[2,8,12]   *              1             0             1 
    673 YR[2,13,8]   *              0             0             1 
    674 YR[2,8,13]   *              0             0             1 
    675 YR[2,14,8]   *              0             0             1 
@@ -7489,10 +7489,10 @@ Objective:  z = 3600 (MINimum)
    687 YR[2,20,8]   *              0             0             1 
    688 YR[2,8,20]   *              0             0             1 
    689 YR[2,10,9]   *              0             0             1 
-   690 YR[2,9,10]   *              0             0             1 
+   690 YR[2,9,10]   *              1             0             1 
    691 YR[2,11,9]   *              0             0             1 
    692 YR[2,9,11]   *              0             0             1 
-   693 YR[2,12,9]   *              0             0             1 
+   693 YR[2,12,9]   *              1             0             1 
    694 YR[2,9,12]   *              0             0             1 
    695 YR[2,13,9]   *              0             0             1 
    696 YR[2,9,13]   *              0             0             1 
@@ -7517,7 +7517,7 @@ Objective:  z = 3600 (MINimum)
    715 YR[2,13,10]  *              0             0             1 
    716 YR[2,10,13]  *              0             0             1 
    717 YR[2,14,10]  *              0             0             1 
-   718 YR[2,10,14]  *              0             0             1 
+   718 YR[2,10,14]  *              1             0             1 
    719 YR[2,15,10]  *              0             0             1 
    720 YR[2,10,15]  *              0             0             1 
    721 YR[2,16,10]  *              0             0             1 
@@ -7533,7 +7533,7 @@ Objective:  z = 3600 (MINimum)
    731 YR[2,12,11]  *              0             0             1 
    732 YR[2,11,12]  *              0             0             1 
    733 YR[2,13,11]  *              0             0             1 
-   734 YR[2,11,13]  *              1             0             1 
+   734 YR[2,11,13]  *              0             0             1 
    735 YR[2,14,11]  *              0             0             1 
    736 YR[2,11,14]  *              0             0             1 
    737 YR[2,15,11]  *              0             0             1 
@@ -7577,13 +7577,13 @@ Objective:  z = 3600 (MINimum)
    775 YR[2,19,13]  *              0             0             1 
    776 YR[2,13,19]  *              0             0             1 
    777 YR[2,20,13]  *              0             0             1 
-   778 YR[2,13,20]  *              1             0             1 
+   778 YR[2,13,20]  *              0             0             1 
    779 YR[2,15,14]  *              0             0             1 
    780 YR[2,14,15]  *              0             0             1 
    781 YR[2,16,14]  *              0             0             1 
    782 YR[2,14,16]  *              0             0             1 
    783 YR[2,17,14]  *              0             0             1 
-   784 YR[2,14,17]  *              0             0             1 
+   784 YR[2,14,17]  *              1             0             1 
    785 YR[2,18,14]  *              0             0             1 
    786 YR[2,14,18]  *              0             0             1 
    787 YR[2,19,14]  *              0             0             1 
@@ -7591,10 +7591,10 @@ Objective:  z = 3600 (MINimum)
    789 YR[2,20,14]  *              0             0             1 
    790 YR[2,14,20]  *              0             0             1 
    791 YR[2,16,15]  *              0             0             1 
-   792 YR[2,15,16]  *              1             0             1 
+   792 YR[2,15,16]  *              0             0             1 
    793 YR[2,17,15]  *              0             0             1 
    794 YR[2,15,17]  *              0             0             1 
-   795 YR[2,18,15]  *              1             0             1 
+   795 YR[2,18,15]  *              0             0             1 
    796 YR[2,15,18]  *              0             0             1 
    797 YR[2,19,15]  *              0             0             1 
    798 YR[2,15,19]  *              0             0             1 
@@ -7605,7 +7605,7 @@ Objective:  z = 3600 (MINimum)
    803 YR[2,18,16]  *              0             0             1 
    804 YR[2,16,18]  *              0             0             1 
    805 YR[2,19,16]  *              0             0             1 
-   806 YR[2,16,19]  *              1             0             1 
+   806 YR[2,16,19]  *              0             0             1 
    807 YR[2,20,16]  *              0             0             1 
    808 YR[2,16,20]  *              0             0             1 
    809 YR[2,18,17]  *              0             0             1 
@@ -7616,7 +7616,7 @@ Objective:  z = 3600 (MINimum)
    814 YR[2,17,20]  *              0             0             1 
    815 YR[2,19,18]  *              0             0             1 
    816 YR[2,18,19]  *              0             0             1 
-   817 YR[2,20,18]  *              1             0             1 
+   817 YR[2,20,18]  *              0             0             1 
    818 YR[2,18,20]  *              0             0             1 
    819 YR[2,20,19]  *              0             0             1 
    820 YR[2,19,20]  *              0             0             1 
@@ -7627,7 +7627,7 @@ Objective:  z = 3600 (MINimum)
    825 YR[3,4,1]    *              0             0             1 
    826 YR[3,1,4]    *              0             0             1 
    827 YR[3,5,1]    *              0             0             1 
-   828 YR[3,1,5]    *              1             0             1 
+   828 YR[3,1,5]    *              0             0             1 
    829 YR[3,6,1]    *              0             0             1 
    830 YR[3,1,6]    *              0             0             1 
    831 YR[3,7,1]    *              0             0             1 
@@ -7659,7 +7659,7 @@ Objective:  z = 3600 (MINimum)
    857 YR[3,20,1]   *              0             0             1 
    858 YR[3,1,20]   *              0             0             1 
    859 YR[3,3,2]    *              0             0             1 
-   860 YR[3,2,3]    *              0             0             1 
+   860 YR[3,2,3]    *              1             0             1 
    861 YR[3,4,2]    *              0             0             1 
    862 YR[3,2,4]    *              0             0             1 
    863 YR[3,5,2]    *              0             0             1 
@@ -7695,7 +7695,7 @@ Objective:  z = 3600 (MINimum)
    893 YR[3,20,2]   *              0             0             1 
    894 YR[3,2,20]   *              0             0             1 
    895 YR[3,4,3]    *              0             0             1 
-   896 YR[3,3,4]    *              0             0             1 
+   896 YR[3,3,4]    *              1             0             1 
    897 YR[3,5,3]    *              0             0             1 
    898 YR[3,3,5]    *              0             0             1 
    899 YR[3,6,3]    *              0             0             1 
@@ -7731,7 +7731,7 @@ Objective:  z = 3600 (MINimum)
    929 YR[3,5,4]    *              0             0             1 
    930 YR[3,4,5]    *              0             0             1 
    931 YR[3,6,4]    *              0             0             1 
-   932 YR[3,4,6]    *              0             0             1 
+   932 YR[3,4,6]    *              1             0             1 
    933 YR[3,7,4]    *              0             0             1 
    934 YR[3,4,7]    *              0             0             1 
    935 YR[3,8,4]    *              0             0             1 
@@ -7763,7 +7763,7 @@ Objective:  z = 3600 (MINimum)
    961 YR[3,6,5]    *              0             0             1 
    962 YR[3,5,6]    *              0             0             1 
    963 YR[3,7,5]    *              0             0             1 
-   964 YR[3,5,7]    *              1             0             1 
+   964 YR[3,5,7]    *              0             0             1 
    965 YR[3,8,5]    *              0             0             1 
    966 YR[3,5,8]    *              0             0             1 
    967 YR[3,9,5]    *              0             0             1 
@@ -7819,7 +7819,7 @@ Objective:  z = 3600 (MINimum)
   1017 YR[3,20,6]   *              0             0             1 
   1018 YR[3,6,20]   *              0             0             1 
   1019 YR[3,8,7]    *              0             0             1 
-  1020 YR[3,7,8]    *              1             0             1 
+  1020 YR[3,7,8]    *              0             0             1 
   1021 YR[3,9,7]    *              0             0             1 
   1022 YR[3,7,9]    *              0             0             1 
   1023 YR[3,10,7]   *              0             0             1 
@@ -7851,7 +7851,7 @@ Objective:  z = 3600 (MINimum)
   1049 YR[3,11,8]   *              0             0             1 
   1050 YR[3,8,11]   *              0             0             1 
   1051 YR[3,12,8]   *              0             0             1 
-  1052 YR[3,8,12]   *              1             0             1 
+  1052 YR[3,8,12]   *              0             0             1 
   1053 YR[3,13,8]   *              0             0             1 
   1054 YR[3,8,13]   *              0             0             1 
   1055 YR[3,14,8]   *              0             0             1 
@@ -7869,10 +7869,10 @@ Objective:  z = 3600 (MINimum)
   1067 YR[3,20,8]   *              0             0             1 
   1068 YR[3,8,20]   *              0             0             1 
   1069 YR[3,10,9]   *              0             0             1 
-  1070 YR[3,9,10]   *              1             0             1 
+  1070 YR[3,9,10]   *              0             0             1 
   1071 YR[3,11,9]   *              0             0             1 
   1072 YR[3,9,11]   *              0             0             1 
-  1073 YR[3,12,9]   *              1             0             1 
+  1073 YR[3,12,9]   *              0             0             1 
   1074 YR[3,9,12]   *              0             0             1 
   1075 YR[3,13,9]   *              0             0             1 
   1076 YR[3,9,13]   *              0             0             1 
@@ -7897,7 +7897,7 @@ Objective:  z = 3600 (MINimum)
   1095 YR[3,13,10]  *              0             0             1 
   1096 YR[3,10,13]  *              0             0             1 
   1097 YR[3,14,10]  *              0             0             1 
-  1098 YR[3,10,14]  *              1             0             1 
+  1098 YR[3,10,14]  *              0             0             1 
   1099 YR[3,15,10]  *              0             0             1 
   1100 YR[3,10,15]  *              0             0             1 
   1101 YR[3,16,10]  *              0             0             1 
@@ -7963,7 +7963,7 @@ Objective:  z = 3600 (MINimum)
   1161 YR[3,16,14]  *              0             0             1 
   1162 YR[3,14,16]  *              0             0             1 
   1163 YR[3,17,14]  *              0             0             1 
-  1164 YR[3,14,17]  *              1             0             1 
+  1164 YR[3,14,17]  *              0             0             1 
   1165 YR[3,18,14]  *              0             0             1 
   1166 YR[3,14,18]  *              0             0             1 
   1167 YR[3,19,14]  *              0             0             1 
@@ -8001,7 +8001,7 @@ Objective:  z = 3600 (MINimum)
   1199 YR[3,20,19]  *              0             0             1 
   1200 YR[3,19,20]  *              0             0             1 
   1201 YR[1,0,1]    *              0             0             1 
-  1202 YR[1,0,2]    *              1             0             1 
+  1202 YR[1,0,2]    *              0             0             1 
   1203 YR[1,0,3]    *              0             0             1 
   1204 YR[1,0,4]    *              0             0             1 
   1205 YR[1,0,5]    *              0             0             1 
@@ -8010,7 +8010,7 @@ Objective:  z = 3600 (MINimum)
   1208 YR[1,0,8]    *              0             0             1 
   1209 YR[1,0,9]    *              0             0             1 
   1210 YR[1,0,10]   *              0             0             1 
-  1211 YR[1,0,11]   *              0             0             1 
+  1211 YR[1,0,11]   *              1             0             1 
   1212 YR[1,0,12]   *              0             0             1 
   1213 YR[1,0,13]   *              0             0             1 
   1214 YR[1,0,14]   *              0             0             1 
@@ -8020,7 +8020,7 @@ Objective:  z = 3600 (MINimum)
   1218 YR[1,0,18]   *              0             0             1 
   1219 YR[1,0,19]   *              0             0             1 
   1220 YR[1,0,20]   *              0             0             1 
-  1221 YR[2,0,1]    *              0             0             1 
+  1221 YR[2,0,1]    *              1             0             1 
   1222 YR[2,0,2]    *              0             0             1 
   1223 YR[2,0,3]    *              0             0             1 
   1224 YR[2,0,4]    *              0             0             1 
@@ -8030,7 +8030,7 @@ Objective:  z = 3600 (MINimum)
   1228 YR[2,0,8]    *              0             0             1 
   1229 YR[2,0,9]    *              0             0             1 
   1230 YR[2,0,10]   *              0             0             1 
-  1231 YR[2,0,11]   *              1             0             1 
+  1231 YR[2,0,11]   *              0             0             1 
   1232 YR[2,0,12]   *              0             0             1 
   1233 YR[2,0,13]   *              0             0             1 
   1234 YR[2,0,14]   *              0             0             1 
@@ -8040,8 +8040,8 @@ Objective:  z = 3600 (MINimum)
   1238 YR[2,0,18]   *              0             0             1 
   1239 YR[2,0,19]   *              0             0             1 
   1240 YR[2,0,20]   *              0             0             1 
-  1241 YR[3,0,1]    *              1             0             1 
-  1242 YR[3,0,2]    *              0             0             1 
+  1241 YR[3,0,1]    *              0             0             1 
+  1242 YR[3,0,2]    *              1             0             1 
   1243 YR[3,0,3]    *              0             0             1 
   1244 YR[3,0,4]    *              0             0             1 
   1245 YR[3,0,5]    *              0             0             1 
@@ -8065,7 +8065,7 @@ Objective:  z = 3600 (MINimum)
   1263 YR[1,3,21]   *              0             0             1 
   1264 YR[1,4,21]   *              0             0             1 
   1265 YR[1,5,21]   *              0             0             1 
-  1266 YR[1,6,21]   *              1             0             1 
+  1266 YR[1,6,21]   *              0             0             1 
   1267 YR[1,7,21]   *              0             0             1 
   1268 YR[1,8,21]   *              0             0             1 
   1269 YR[1,9,21]   *              0             0             1 
@@ -8078,7 +8078,7 @@ Objective:  z = 3600 (MINimum)
   1276 YR[1,16,21]  *              0             0             1 
   1277 YR[1,17,21]  *              0             0             1 
   1278 YR[1,18,21]  *              0             0             1 
-  1279 YR[1,19,21]  *              0             0             1 
+  1279 YR[1,19,21]  *              1             0             1 
   1280 YR[1,20,21]  *              0             0             1 
   1281 YR[2,1,21]   *              0             0             1 
   1282 YR[2,2,21]   *              0             0             1 
@@ -8096,16 +8096,16 @@ Objective:  z = 3600 (MINimum)
   1294 YR[2,14,21]  *              0             0             1 
   1295 YR[2,15,21]  *              0             0             1 
   1296 YR[2,16,21]  *              0             0             1 
-  1297 YR[2,17,21]  *              0             0             1 
+  1297 YR[2,17,21]  *              1             0             1 
   1298 YR[2,18,21]  *              0             0             1 
-  1299 YR[2,19,21]  *              1             0             1 
+  1299 YR[2,19,21]  *              0             0             1 
   1300 YR[2,20,21]  *              0             0             1 
   1301 YR[3,1,21]   *              0             0             1 
   1302 YR[3,2,21]   *              0             0             1 
   1303 YR[3,3,21]   *              0             0             1 
   1304 YR[3,4,21]   *              0             0             1 
   1305 YR[3,5,21]   *              0             0             1 
-  1306 YR[3,6,21]   *              0             0             1 
+  1306 YR[3,6,21]   *              1             0             1 
   1307 YR[3,7,21]   *              0             0             1 
   1308 YR[3,8,21]   *              0             0             1 
   1309 YR[3,9,21]   *              0             0             1 
@@ -8116,7 +8116,7 @@ Objective:  z = 3600 (MINimum)
   1314 YR[3,14,21]  *              0             0             1 
   1315 YR[3,15,21]  *              0             0             1 
   1316 YR[3,16,21]  *              0             0             1 
-  1317 YR[3,17,21]  *              1             0             1 
+  1317 YR[3,17,21]  *              0             0             1 
   1318 YR[3,18,21]  *              0             0             1 
   1319 YR[3,19,21]  *              0             0             1 
   1320 YR[3,20,21]  *              0             0             1 
@@ -8248,70 +8248,70 @@ Objective:  z = 3600 (MINimum)
   1446 YR[3,0,21]   *              0             0             1 
   1447 U[1,1]                      0             0               
   1448 U[1,2]                      0             0               
-  1449 U[1,3]                      1             0               
-  1450 U[1,4]                      2             0               
+  1449 U[1,3]                      0             0               
+  1450 U[1,4]                      0             0               
   1451 U[1,5]                      0             0               
-  1452 U[1,6]                      3             0               
+  1452 U[1,6]                      0             0               
   1453 U[1,7]                      0             0               
   1454 U[1,8]                      0             0               
   1455 U[1,9]                      0             0               
   1456 U[1,10]                     0             0               
   1457 U[1,11]                     0             0               
   1458 U[1,12]                     0             0               
-  1459 U[1,13]                     0             0               
+  1459 U[1,13]                     1             0               
   1460 U[1,14]                     0             0               
-  1461 U[1,15]                     0             0               
-  1462 U[1,16]                     0             0               
+  1461 U[1,15]                     4             0               
+  1462 U[1,16]                     5             0               
   1463 U[1,17]                     0             0               
-  1464 U[1,18]                     0             0               
-  1465 U[1,19]                     0             0               
-  1466 U[1,20]                     0             0               
+  1464 U[1,18]                     3             0               
+  1465 U[1,19]                     6             0               
+  1466 U[1,20]                     2             0               
   1467 U[2,1]                      0             0               
   1468 U[2,2]                      0             0               
   1469 U[2,3]                      0             0               
   1470 U[2,4]                      0             0               
-  1471 U[2,5]                      0             0               
+  1471 U[2,5]                      1             0               
   1472 U[2,6]                      0             0               
-  1473 U[2,7]                      0             0               
-  1474 U[2,8]                      0             0               
-  1475 U[2,9]                      0             0               
-  1476 U[2,10]                     0             0               
+  1473 U[2,7]                      2             0               
+  1474 U[2,8]                      3             0               
+  1475 U[2,9]                      5             0               
+  1476 U[2,10]                     6             0               
   1477 U[2,11]                     0             0               
-  1478 U[2,12]                     0             0               
-  1479 U[2,13]                     1             0               
-  1480 U[2,14]                     0             0               
-  1481 U[2,15]                     4             0               
-  1482 U[2,16]                     5             0               
-  1483 U[2,17]                     0             0               
-  1484 U[2,18]                     3             0               
-  1485 U[2,19]                     6             0               
-  1486 U[2,20]                     2             0               
+  1478 U[2,12]                     4             0               
+  1479 U[2,13]                     0             0               
+  1480 U[2,14]                     7             0               
+  1481 U[2,15]                     0             0               
+  1482 U[2,16]                     0             0               
+  1483 U[2,17]                     8             0               
+  1484 U[2,18]                     0             0               
+  1485 U[2,19]                     0             0               
+  1486 U[2,20]                     0             0               
   1487 U[3,1]                      0             0               
   1488 U[3,2]                      0             0               
-  1489 U[3,3]                      0             0               
-  1490 U[3,4]                      0             0               
-  1491 U[3,5]                      1             0               
-  1492 U[3,6]                      0             0               
-  1493 U[3,7]                      2             0               
-  1494 U[3,8]                      3             0               
-  1495 U[3,9]                      5             0               
-  1496 U[3,10]                     6             0               
+  1489 U[3,3]                      1             0               
+  1490 U[3,4]                      2             0               
+  1491 U[3,5]                      0             0               
+  1492 U[3,6]                      3             0               
+  1493 U[3,7]                      0             0               
+  1494 U[3,8]                      0             0               
+  1495 U[3,9]                      0             0               
+  1496 U[3,10]                     0             0               
   1497 U[3,11]                     0             0               
-  1498 U[3,12]                     4             0               
+  1498 U[3,12]                     0             0               
   1499 U[3,13]                     0             0               
-  1500 U[3,14]                     7             0               
+  1500 U[3,14]                     0             0               
   1501 U[3,15]                     0             0               
   1502 U[3,16]                     0             0               
-  1503 U[3,17]                     8             0               
+  1503 U[3,17]                     0             0               
   1504 U[3,18]                     0             0               
   1505 U[3,19]                     0             0               
   1506 U[3,20]                     0             0               
-  1507 U[1,21]                     4             0               
-  1508 U[2,21]                     7             0               
-  1509 U[3,21]                     9             0               
-  1510 NC[1]                       4             0               
-  1511 NC[2]                       7             0               
-  1512 NC[3]                       9             0               
+  1507 U[1,21]                     7             0               
+  1508 U[2,21]                     9             0               
+  1509 U[3,21]                     4             0               
+  1510 NC[1]                       7             0               
+  1511 NC[2]                       9             0               
+  1512 NC[3]                       4             0               
   1513 N[1,1,2]                    0             0               
   1514 N[1,1,3]                    0             0               
   1515 N[1,1,4]                    0             0               
@@ -8332,7 +8332,7 @@ Objective:  z = 3600 (MINimum)
   1530 N[1,1,19]                   0             0               
   1531 N[1,1,20]                   0             0               
   1532 N[1,2,1]                    0             0               
-  1533 N[1,2,3]                    4             0               
+  1533 N[1,2,3]                    0             0               
   1534 N[1,2,4]                    0             0               
   1535 N[1,2,5]                    0             0               
   1536 N[1,2,6]                    0             0               
@@ -8352,7 +8352,7 @@ Objective:  z = 3600 (MINimum)
   1550 N[1,2,20]                   0             0               
   1551 N[1,3,1]                    0             0               
   1552 N[1,3,2]                    0             0               
-  1553 N[1,3,4]                    4             0               
+  1553 N[1,3,4]                    0             0               
   1554 N[1,3,5]                    0             0               
   1555 N[1,3,6]                    0             0               
   1556 N[1,3,7]                    0             0               
@@ -8373,7 +8373,7 @@ Objective:  z = 3600 (MINimum)
   1571 N[1,4,2]                    0             0               
   1572 N[1,4,3]                    0             0               
   1573 N[1,4,5]                    0             0               
-  1574 N[1,4,6]                    4             0               
+  1574 N[1,4,6]                    0             0               
   1575 N[1,4,7]                    0             0               
   1576 N[1,4,8]                    0             0               
   1577 N[1,4,9]                    0             0               
@@ -8513,7 +8513,7 @@ Objective:  z = 3600 (MINimum)
   1711 N[1,11,9]                   0             0               
   1712 N[1,11,10]                  0             0               
   1713 N[1,11,12]                  0             0               
-  1714 N[1,11,13]                  0             0               
+  1714 N[1,11,13]                  7             0               
   1715 N[1,11,14]                  0             0               
   1716 N[1,11,15]                  0             0               
   1717 N[1,11,16]                  0             0               
@@ -8558,7 +8558,7 @@ Objective:  z = 3600 (MINimum)
   1756 N[1,13,17]                  0             0               
   1757 N[1,13,18]                  0             0               
   1758 N[1,13,19]                  0             0               
-  1759 N[1,13,20]                  0             0               
+  1759 N[1,13,20]                  7             0               
   1760 N[1,14,1]                   0             0               
   1761 N[1,14,2]                   0             0               
   1762 N[1,14,3]                   0             0               
@@ -8592,7 +8592,7 @@ Objective:  z = 3600 (MINimum)
   1790 N[1,15,12]                  0             0               
   1791 N[1,15,13]                  0             0               
   1792 N[1,15,14]                  0             0               
-  1793 N[1,15,16]                  0             0               
+  1793 N[1,15,16]                  7             0               
   1794 N[1,15,17]                  0             0               
   1795 N[1,15,18]                  0             0               
   1796 N[1,15,19]                  0             0               
@@ -8614,7 +8614,7 @@ Objective:  z = 3600 (MINimum)
   1812 N[1,16,15]                  0             0               
   1813 N[1,16,17]                  0             0               
   1814 N[1,16,18]                  0             0               
-  1815 N[1,16,19]                  0             0               
+  1815 N[1,16,19]                  7             0               
   1816 N[1,16,20]                  0             0               
   1817 N[1,17,1]                   0             0               
   1818 N[1,17,2]                   0             0               
@@ -8649,7 +8649,7 @@ Objective:  z = 3600 (MINimum)
   1847 N[1,18,12]                  0             0               
   1848 N[1,18,13]                  0             0               
   1849 N[1,18,14]                  0             0               
-  1850 N[1,18,15]                  0             0               
+  1850 N[1,18,15]                  7             0               
   1851 N[1,18,16]                  0             0               
   1852 N[1,18,17]                  0             0               
   1853 N[1,18,19]                  0             0               
@@ -8690,12 +8690,12 @@ Objective:  z = 3600 (MINimum)
   1888 N[1,20,15]                  0             0               
   1889 N[1,20,16]                  0             0               
   1890 N[1,20,17]                  0             0               
-  1891 N[1,20,18]                  0             0               
+  1891 N[1,20,18]                  7             0               
   1892 N[1,20,19]                  0             0               
   1893 N[2,1,2]                    0             0               
   1894 N[2,1,3]                    0             0               
   1895 N[2,1,4]                    0             0               
-  1896 N[2,1,5]                    0             0               
+  1896 N[2,1,5]                    9             0               
   1897 N[2,1,6]                    0             0               
   1898 N[2,1,7]                    0             0               
   1899 N[2,1,8]                    0             0               
@@ -8773,7 +8773,7 @@ Objective:  z = 3600 (MINimum)
   1971 N[2,5,3]                    0             0               
   1972 N[2,5,4]                    0             0               
   1973 N[2,5,6]                    0             0               
-  1974 N[2,5,7]                    0             0               
+  1974 N[2,5,7]                    9             0               
   1975 N[2,5,8]                    0             0               
   1976 N[2,5,9]                    0             0               
   1977 N[2,5,10]                   0             0               
@@ -8812,7 +8812,7 @@ Objective:  z = 3600 (MINimum)
   2010 N[2,7,4]                    0             0               
   2011 N[2,7,5]                    0             0               
   2012 N[2,7,6]                    0             0               
-  2013 N[2,7,8]                    0             0               
+  2013 N[2,7,8]                    9             0               
   2014 N[2,7,9]                    0             0               
   2015 N[2,7,10]                   0             0               
   2016 N[2,7,11]                   0             0               
@@ -8835,7 +8835,7 @@ Objective:  z = 3600 (MINimum)
   2033 N[2,8,9]                    0             0               
   2034 N[2,8,10]                   0             0               
   2035 N[2,8,11]                   0             0               
-  2036 N[2,8,12]                   0             0               
+  2036 N[2,8,12]                   9             0               
   2037 N[2,8,13]                   0             0               
   2038 N[2,8,14]                   0             0               
   2039 N[2,8,15]                   0             0               
@@ -8852,7 +8852,7 @@ Objective:  z = 3600 (MINimum)
   2050 N[2,9,6]                    0             0               
   2051 N[2,9,7]                    0             0               
   2052 N[2,9,8]                    0             0               
-  2053 N[2,9,10]                   0             0               
+  2053 N[2,9,10]                   9             0               
   2054 N[2,9,11]                   0             0               
   2055 N[2,9,12]                   0             0               
   2056 N[2,9,13]                   0             0               
@@ -8875,7 +8875,7 @@ Objective:  z = 3600 (MINimum)
   2073 N[2,10,11]                  0             0               
   2074 N[2,10,12]                  0             0               
   2075 N[2,10,13]                  0             0               
-  2076 N[2,10,14]                  0             0               
+  2076 N[2,10,14]                  9             0               
   2077 N[2,10,15]                  0             0               
   2078 N[2,10,16]                  0             0               
   2079 N[2,10,17]                  0             0               
@@ -8893,7 +8893,7 @@ Objective:  z = 3600 (MINimum)
   2091 N[2,11,9]                   0             0               
   2092 N[2,11,10]                  0             0               
   2093 N[2,11,12]                  0             0               
-  2094 N[2,11,13]                  7             0               
+  2094 N[2,11,13]                  0             0               
   2095 N[2,11,14]                  0             0               
   2096 N[2,11,15]                  0             0               
   2097 N[2,11,16]                  0             0               
@@ -8909,7 +8909,7 @@ Objective:  z = 3600 (MINimum)
   2107 N[2,12,6]                   0             0               
   2108 N[2,12,7]                   0             0               
   2109 N[2,12,8]                   0             0               
-  2110 N[2,12,9]                   0             0               
+  2110 N[2,12,9]                   9             0               
   2111 N[2,12,10]                  0             0               
   2112 N[2,12,11]                  0             0               
   2113 N[2,12,13]                  0             0               
@@ -8938,7 +8938,7 @@ Objective:  z = 3600 (MINimum)
   2136 N[2,13,17]                  0             0               
   2137 N[2,13,18]                  0             0               
   2138 N[2,13,19]                  0             0               
-  2139 N[2,13,20]                  7             0               
+  2139 N[2,13,20]                  0             0               
   2140 N[2,14,1]                   0             0               
   2141 N[2,14,2]                   0             0               
   2142 N[2,14,3]                   0             0               
@@ -8954,7 +8954,7 @@ Objective:  z = 3600 (MINimum)
   2152 N[2,14,13]                  0             0               
   2153 N[2,14,15]                  0             0               
   2154 N[2,14,16]                  0             0               
-  2155 N[2,14,17]                  0             0               
+  2155 N[2,14,17]                  9             0               
   2156 N[2,14,18]                  0             0               
   2157 N[2,14,19]                  0             0               
   2158 N[2,14,20]                  0             0               
@@ -8972,7 +8972,7 @@ Objective:  z = 3600 (MINimum)
   2170 N[2,15,12]                  0             0               
   2171 N[2,15,13]                  0             0               
   2172 N[2,15,14]                  0             0               
-  2173 N[2,15,16]                  7             0               
+  2173 N[2,15,16]                  0             0               
   2174 N[2,15,17]                  0             0               
   2175 N[2,15,18]                  0             0               
   2176 N[2,15,19]                  0             0               
@@ -8994,7 +8994,7 @@ Objective:  z = 3600 (MINimum)
   2192 N[2,16,15]                  0             0               
   2193 N[2,16,17]                  0             0               
   2194 N[2,16,18]                  0             0               
-  2195 N[2,16,19]                  7             0               
+  2195 N[2,16,19]                  0             0               
   2196 N[2,16,20]                  0             0               
   2197 N[2,17,1]                   0             0               
   2198 N[2,17,2]                   0             0               
@@ -9029,7 +9029,7 @@ Objective:  z = 3600 (MINimum)
   2227 N[2,18,12]                  0             0               
   2228 N[2,18,13]                  0             0               
   2229 N[2,18,14]                  0             0               
-  2230 N[2,18,15]                  7             0               
+  2230 N[2,18,15]                  0             0               
   2231 N[2,18,16]                  0             0               
   2232 N[2,18,17]                  0             0               
   2233 N[2,18,19]                  0             0               
@@ -9070,12 +9070,12 @@ Objective:  z = 3600 (MINimum)
   2268 N[2,20,15]                  0             0               
   2269 N[2,20,16]                  0             0               
   2270 N[2,20,17]                  0             0               
-  2271 N[2,20,18]                  7             0               
+  2271 N[2,20,18]                  0             0               
   2272 N[2,20,19]                  0             0               
   2273 N[3,1,2]                    0             0               
   2274 N[3,1,3]                    0             0               
   2275 N[3,1,4]                    0             0               
-  2276 N[3,1,5]                    9             0               
+  2276 N[3,1,5]                    0             0               
   2277 N[3,1,6]                    0             0               
   2278 N[3,1,7]                    0             0               
   2279 N[3,1,8]                    0             0               
@@ -9092,7 +9092,7 @@ Objective:  z = 3600 (MINimum)
   2290 N[3,1,19]                   0             0               
   2291 N[3,1,20]                   0             0               
   2292 N[3,2,1]                    0             0               
-  2293 N[3,2,3]                    0             0               
+  2293 N[3,2,3]                    4             0               
   2294 N[3,2,4]                    0             0               
   2295 N[3,2,5]                    0             0               
   2296 N[3,2,6]                    0             0               
@@ -9112,7 +9112,7 @@ Objective:  z = 3600 (MINimum)
   2310 N[3,2,20]                   0             0               
   2311 N[3,3,1]                    0             0               
   2312 N[3,3,2]                    0             0               
-  2313 N[3,3,4]                    0             0               
+  2313 N[3,3,4]                    4             0               
   2314 N[3,3,5]                    0             0               
   2315 N[3,3,6]                    0             0               
   2316 N[3,3,7]                    0             0               
@@ -9133,7 +9133,7 @@ Objective:  z = 3600 (MINimum)
   2331 N[3,4,2]                    0             0               
   2332 N[3,4,3]                    0             0               
   2333 N[3,4,5]                    0             0               
-  2334 N[3,4,6]                    0             0               
+  2334 N[3,4,6]                    4             0               
   2335 N[3,4,7]                    0             0               
   2336 N[3,4,8]                    0             0               
   2337 N[3,4,9]                    0             0               
@@ -9153,7 +9153,7 @@ Objective:  z = 3600 (MINimum)
   2351 N[3,5,3]                    0             0               
   2352 N[3,5,4]                    0             0               
   2353 N[3,5,6]                    0             0               
-  2354 N[3,5,7]                    9             0               
+  2354 N[3,5,7]                    0             0               
   2355 N[3,5,8]                    0             0               
   2356 N[3,5,9]                    0             0               
   2357 N[3,5,10]                   0             0               
@@ -9192,7 +9192,7 @@ Objective:  z = 3600 (MINimum)
   2390 N[3,7,4]                    0             0               
   2391 N[3,7,5]                    0             0               
   2392 N[3,7,6]                    0             0               
-  2393 N[3,7,8]                    9             0               
+  2393 N[3,7,8]                    0             0               
   2394 N[3,7,9]                    0             0               
   2395 N[3,7,10]                   0             0               
   2396 N[3,7,11]                   0             0               
@@ -9215,7 +9215,7 @@ Objective:  z = 3600 (MINimum)
   2413 N[3,8,9]                    0             0               
   2414 N[3,8,10]                   0             0               
   2415 N[3,8,11]                   0             0               
-  2416 N[3,8,12]                   9             0               
+  2416 N[3,8,12]                   0             0               
   2417 N[3,8,13]                   0             0               
   2418 N[3,8,14]                   0             0               
   2419 N[3,8,15]                   0             0               
@@ -9232,7 +9232,7 @@ Objective:  z = 3600 (MINimum)
   2430 N[3,9,6]                    0             0               
   2431 N[3,9,7]                    0             0               
   2432 N[3,9,8]                    0             0               
-  2433 N[3,9,10]                   9             0               
+  2433 N[3,9,10]                   0             0               
   2434 N[3,9,11]                   0             0               
   2435 N[3,9,12]                   0             0               
   2436 N[3,9,13]                   0             0               
@@ -9255,7 +9255,7 @@ Objective:  z = 3600 (MINimum)
   2453 N[3,10,11]                  0             0               
   2454 N[3,10,12]                  0             0               
   2455 N[3,10,13]                  0             0               
-  2456 N[3,10,14]                  9             0               
+  2456 N[3,10,14]                  0             0               
   2457 N[3,10,15]                  0             0               
   2458 N[3,10,16]                  0             0               
   2459 N[3,10,17]                  0             0               
@@ -9289,7 +9289,7 @@ Objective:  z = 3600 (MINimum)
   2487 N[3,12,6]                   0             0               
   2488 N[3,12,7]                   0             0               
   2489 N[3,12,8]                   0             0               
-  2490 N[3,12,9]                   9             0               
+  2490 N[3,12,9]                   0             0               
   2491 N[3,12,10]                  0             0               
   2492 N[3,12,11]                  0             0               
   2493 N[3,12,13]                  0             0               
@@ -9334,7 +9334,7 @@ Objective:  z = 3600 (MINimum)
   2532 N[3,14,13]                  0             0               
   2533 N[3,14,15]                  0             0               
   2534 N[3,14,16]                  0             0               
-  2535 N[3,14,17]                  9             0               
+  2535 N[3,14,17]                  0             0               
   2536 N[3,14,18]                  0             0               
   2537 N[3,14,19]                  0             0               
   2538 N[3,14,20]                  0             0               
@@ -9456,12 +9456,12 @@ Objective:  z = 3600 (MINimum)
   2654 YC[1]        *              1             0             1 
   2655 YC[2]        *              1             0             1 
   2656 YC[3]        *              1             0             1 
-  2657 KC[1]                      18             0               
-  2658 KC[2]                      22             0               
-  2659 KC[3]                      20             0               
-  2660 TC[1]                      27             0               
-  2661 TC[2]                      35             0               
-  2662 TC[3]                      30             0               
+  2657 KC[1]                      22             0               
+  2658 KC[2]                      20             0               
+  2659 KC[3]                      18             0               
+  2660 TC[1]                      35             0               
+  2661 TC[2]                      30             0               
+  2662 TC[3]                      27             0               
 
 Integer feasibility conditions:
 
@@ -9469,8 +9469,8 @@ KKT.PE: max.abs.err = 0.00e+00 on row 0
         max.rel.err = 0.00e+00 on row 0
         High quality
 
-KKT.PB: max.abs.err = 0.00e+00 on row 0
-        max.rel.err = 0.00e+00 on row 0
+KKT.PB: max.abs.err = 3.89e-15 on column 1854
+        max.rel.err = 3.89e-15 on column 1854
         High quality
 
 End of output
